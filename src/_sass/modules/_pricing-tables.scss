@@ -1,0 +1,139 @@
+.pricing-table {
+	@include outer-container;
+	@include pad($section-pad $outer-pad);
+
+	@include media($mobile) {
+		@include pad($section-pad/2 $outer-pad);
+	}
+
+	&-plan {
+		@include span-columns(3);
+		@include omega(4n);
+		background: $white;
+
+		@include media(max-width 1140px, 12) {
+			@include span-columns(6);
+			@include omega(2n);
+			margin-bottom: rem(20);
+		}
+
+		@include media($tablet) {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+
+		@include media($mobile) {
+			@include span-columns(12);
+			@include omega(1n);
+		}
+
+		border: 1px solid $base-border-color;
+		border-radius: $base-border-radius;
+		padding: rem(30);
+		text-align: center;
+	}
+
+	&-plan.featured {
+		border-color: $primary-color;
+		@include media($desktop-hd) {
+			padding: rem(50) rem(30);
+			@include transform(translateY(rem(-20)));
+		}
+	}
+
+	&-label {
+		@include heading-context;
+	}
+
+	&-cost {
+		font-size: rem(50);
+		color: $primary-color;
+	}
+
+	&-cost:before {
+		content: '$';
+		vertical-align: super;
+		font-size: rem(24);
+	}
+
+	&-cost:after {
+		content: '/mo';
+		font-size: rem(18);
+	}
+
+	&-quota {
+		font-size: rem(18);
+		padding: rem(20) 0 rem(40);
+	}
+
+	&-quota:before {
+		background: url('#{$assets}/icons/icon-person-circle.svg') no-repeat;
+		content: '';
+		display: inline-block;
+		@include size(rem(22));
+		@include position(relative, 4px null null);
+		margin-right: 7px;
+	}
+
+	&-icon {
+		fill: $primary-color;
+		margin: 0 auto;
+		margin-top: rem(11);
+		@include size(rem(56) rem(63));
+	}
+
+	a {
+		margin-bottom: 0;
+	}
+}
+
+.pricing-features {
+	@include outer-container;
+	@include pad(0 $outer-pad rem(60));
+
+	h2 {
+		text-align: center;
+		margin-bottom: rem(40);
+	}
+
+	&-set {
+		@include span-columns(3);
+		@include omega(4n);
+		margin-bottom: rem(20);
+
+		@include media(max-width 1140px, 12) {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+
+		@include media($tablet) {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+
+		@include media($mobile) {
+			@include span-columns(12);
+			@include omega(1n);
+		}
+	}
+
+	ul li {
+		list-style: none;
+		margin-bottom: 0;
+	}
+
+	ul li:before {
+		background: url('#{$assets}/icons/icon-tick.svg') no-repeat;
+		content: '';
+		display: inline-block;
+		@include size(rem(32));
+		@include position(relative, 9px null null);
+		margin-right: 7px;
+	}
+
+	h4 {
+		@include heading-context;
+		color: #929497;
+		margin-bottom: rem(6);
+	}
+}

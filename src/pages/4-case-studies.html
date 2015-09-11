@@ -1,0 +1,41 @@
+---
+layout: default
+title: Case Studies
+group: "navigation"
+permalink: /case-studies/
+refID: case-studies
+---
+
+{% for study in site.case-studies %}
+{% if study.featured %}
+<section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ study.feature-banner }}') no-repeat center / cover">
+	<div class="hero-wrapper">
+		<div class="hero-content">
+			<h1>{{ study.title }}</h1>
+			<p>{{ study.content | strip_html | truncatewords:28}}</p>
+			<a class="button button-primary" href="{{ study.url }}">View Case Study</a>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+<section class="cards">
+	{% for study in site.case-studies %}
+	{% if study.featured == false %}
+	<a class="card card-hidden {{ study.category }}" href="{{ study.url }}">
+		<div class="card-thumbnail" style="background-image: url({{ study.thumbnail }})">
+			<div class="study-info">
+				<span class="category">{{ study.category }}</span>
+				<h4 class="study-title">{{ study.title }}</h4>
+			</div>
+		</div>
+		<div class="card-text">
+			<img class="avatar" src="{{ study.avatar }}" alt="{{ study.author }}">
+			<h5 class="author">{{ study.author }}</h5>
+			<p class="author-role">{{ study.role }}</p>
+			<p>{{ study.content | strip_html | truncatewords:17}}</p>
+		</div>
+	</a>
+	{% endif %}
+	{% endfor %}
+</section>

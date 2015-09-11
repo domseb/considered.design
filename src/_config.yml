@@ -1,0 +1,11 @@
+# Site settings
+title: Smart Sparrow
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  case-studies:
+    output: true
+    permalink: /case-studies/:path/

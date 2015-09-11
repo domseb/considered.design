@@ -1,0 +1,12 @@
+# Site settings
+title: Smart Sparrow
+baseurl: "https://wwwv3.uat.smartsparrow.com"
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  case-studies:
+    output: true
+    permalink: /case-studies/:path/

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="basic-page">
+
+	<section class="service-header">
+		<div class="service-header-content">
+			<a href="{{ site.baseUrl }}/services/">Services</a>
+			<h1>{{ page.title }}</h1>
+			<h3>{{ page.subheading }}</h3>
+		</div>
+	</section>
+
+	<article class="basic-page-content">
+		<section class="text-section">
+			{% if page.intro %}
+			<div class="text-section-content divider">
+				<p>{{ page.intro }}</p>
+			</div>
+			{% endif %}
+			<div class="text-section-content">
+				{{ content }}
+			</div>
+		</section>
+	</article>
+
+</div>

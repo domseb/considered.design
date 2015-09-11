@@ -1,0 +1,31 @@
+---
+layout: default
+refID: home
+---
+
+<section id="hero-section" class="hero">
+	<div class="hero-wrapper">
+		<div class="hero-content">
+			<h1>A learning design platform for next-generation courseware</h1>
+
+			<div class="video-modal">
+				<label for="video-spr">
+					<span class="video-modal-trigger"><span class="play"></span>Watch the video</span>
+				</label>
+				<input class="video-modal-state" id="video-spr" data-Video="https://www.youtube.com/embed/A1oLmPAFcA4?rel=0&amp;controls=0&amp;showinfo=0" type="checkbox" />
+				<div class="video-modal-fade-screen">
+					<div class="video-modal-close"></div>
+					<div class="video-modal-inner">
+						<div class="video-wrapper"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<img src="{{ site.baseurl }}/assets/figures/home-hero.png" alt="adaptive courseware">
+	</div>
+</section>
+
+<a href="#" class="scroll-prompt">Learn more about it</a>
+
+{% include home_body.html %}

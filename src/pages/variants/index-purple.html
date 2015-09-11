@@ -1,0 +1,32 @@
+---
+layout: default-p_delete-if-purple-killed
+refID: index-purple
+permalink: /index-purple/
+---
+
+<section class="hero">
+  <div class="hero-wrapper">
+    <div class="hero-content">
+      <h1>A learning design platform for next-generation courseware</h1>
+
+      <div class="video-modal">
+        <label for="video-spr">
+          <div class="video-modal-trigger"><span class="play"></span>Watch the video</div>
+        </label>
+        <input class="video-modal-state" id="video-spr" data-Video="https://www.youtube.com/embed/A1oLmPAFcA4?rel=0&amp;controls=0&amp;showinfo=0" type="checkbox" />
+        <div class="video-modal-fade-screen">
+          <div class="video-modal-close" for="video-spr"></div>
+          <div class="video-modal-inner">
+            <div class="video-wrapper">
+              <iframe src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <img src="{{ site.baseurl }}/assets/figures/hero-image.png" alt="adaptive courseware">
+  </div>
+</section>
+
+{% include home_body.html %}

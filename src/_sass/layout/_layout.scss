@@ -1,0 +1,55 @@
+@import
+	"header",
+	"footer",
+	"case-study",
+	"blog",
+	"page",
+	"post"
+;
+
+/* General Styles and utilities */
+
+body {
+	background: $background-color;
+}
+
+a {
+	@include transition(
+		color 0.3s ease,
+		background 0.3s ease,
+		border 0.3s ease
+	);
+
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+
+	&:hover {
+		border-bottom: 1px solid $primary-color;
+	}
+}
+
+hr {
+	margin: 0;
+}
+
+main {
+	margin-top: $navbar-height;
+}
+
+// Classes
+.nofill {
+	fill: none;
+}
+
+.display-none {
+	display: none;
+}
+
+.divider {
+	border-bottom: 1px solid $base-border-color;
+}
+
+%outside-bullets {
+	list-style-position: outside;
+	margin-left: 1em;
+}
