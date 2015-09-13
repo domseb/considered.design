@@ -1,0 +1,35 @@
+
+<header class="navbar">
+	<div class="logo">
+		<a href="{{ site.baseurl }}/">
+			{% include svg/spr-logo.svg %}
+		</a>
+	</div>
+	<nav class="nav">
+		<ul>
+			<li>
+				<div id="menu-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<button class="menu-toggle">Menu</button>
+			</li>
+			<li class="nav-links">
+				<ul>
+					{% assign nav_list = site.pages %}
+					{% assign group = 'navigation' %}
+					{% include modules/nav_list.html %}
+					<li><a class="login-link" href="https://aelp.smartsparrow.com/login/">Log In</a></li>
+					<li><a class="signup-link" href="{{ site.baseUrl }}/signup">Sign Up Free</a></li>
+				</ul>
+			</li>
+			<li class="login-buttons">
+				<ul>
+					<li><a class="login button" href="https://aelp.smartsparrow.com/login/">Log In</a></li>
+					<li><a class="signup button" href="{{ site.baseUrl }}/signup">Sign Up Free</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>

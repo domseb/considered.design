@@ -1,0 +1,136 @@
+/* Video Modals */
+// Based on code by Kasper Mikiewicz
+
+.video-modal {
+	$light-gray: #666 !default;
+	$video-modal-close-color: $light-gray;
+
+	label {
+		cursor: pointer;
+		margin-bottom: 0;
+	}
+
+	.video-modal-trigger {
+		&:hover .play { background: $primary-color-dark }
+	}
+
+	.play {
+		@include transition(all 0.3s ease);
+		background: $primary-color;
+		border-radius: 50%;
+		margin-right: rem(10);
+		@include size(rem(33));
+		display: inline-block;
+		vertical-align: rem(2);
+	}
+
+	.play:before {
+		@include triangle(16px 12px, white, right);
+		content: "";
+		display: inline-block;
+		position: relative;
+		margin-left: rem(4);
+		vertical-align: rem(-3);
+
+		// Fix triangle aliasing in FF
+		-moz-transform: scale(.9999);
+	}
+
+	.video-modal-state {
+		display: none;
+	}
+
+	.video-modal-trigger {
+		@include transition(all 0.3s ease);
+		color: $primary-color;
+		font-size: rem(18);
+		font-weight: 400;
+		padding: rem(20) 0;
+		display: block;
+
+		&:hover {
+			color: $primary-color-dark;
+		}
+	}
+
+	.video-modal-fade-screen { // overlay
+		@include transition(opacity 0.25s ease);
+		@include position(fixed, 0px 0px 0px 0px);
+		background: rgba(0,0,0, 1);
+		opacity: 0;
+		text-align: left;
+		visibility: hidden;
+		height: 0;
+		z-index: 999999;
+		top: -200%;
+
+		.video-modal-bg {
+			@include position(absolute, 0px 0px 0px 0px);
+			cursor: pointer;
+		}
+	}
+
+	.video-modal-close {
+		@include position(absolute, rem(20) rem(20) null null);
+		@include size(1.5em);
+		cursor: pointer;
+		z-index: 999999;
+		padding: rem(20);
+
+		&:after,
+		&:before {
+			@include position(absolute, 11px 3px 0 50%);
+			@include transform(rotate(45deg));
+			@include size(0.15em 1.5em);
+			background: $video-modal-close-color;
+			content: '';
+			display: block;
+			margin: -3px 0 0 -1px;
+			@include transition(border-color 2.5s ease);
+		}
+
+		&:hover:after,
+		&:hover:before {
+			background: darken($video-modal-close-color, 10%);
+		}
+
+		&:before {
+			@include transform(rotate(-45deg));
+		}
+	}
+
+	.video-modal-inner {
+		@include transition(opacity 0.25s ease);
+		margin-top: 0;
+		margin: auto;
+		position: relative;
+		top: 50%;
+		@include transform(translateY(-50%));
+	}
+
+	.video-modal-state:checked + .video-modal-fade-screen {
+		opacity: 1;
+		visibility: visible;
+		height: 100%;
+		top: 0;
+	}
+}
+
+.video-modal-open {
+	overflow: hidden;
+}
+
+/* Responsive Videos */
+.video-wrapper {
+	height: 0;
+	overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+	embed,
+	object,
+	iframe {
+		@include position(absolute, 0px null null 0px);
+		@include size(100%);
+	}
+}

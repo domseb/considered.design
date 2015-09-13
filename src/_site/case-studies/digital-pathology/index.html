@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Digital Pathology</title>
+    <meta name="description" content="">
+
+    <link href="/assets/icons/favicon.ico" rel="shortcut icon">
+    <link href="/assets/icons/touch.png" rel="apple-touch-icon-precomposed">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="/case-studies/digital-pathology/">
+    <link rel="alternate" type="application/rss+xml" title="Smart Sparrow" href="/feed.xml" />
+
+    <script>
+        void function typekitInit(d) {
+          var kit = 'tqn6hqy'
+          var key = 'typekit_url_cache'
+          var sel = 'link[href*="use.typekit.net"]'
+          function cacheUrl () {
+            if ('sessionStorage' in window)
+              sessionStorage.setItem(key, d.querySelector(sel).href)
+          }
+          function makeScript () {
+            var js = d.createElement('script')
+            js.src = '//use.typekit.net/' + kit + '.js'
+            js.onload = function(){ Typekit.load({active: cacheUrl}) }
+            d.head.appendChild(js)
+          }
+          function makeLink () {
+            var css = d.createElement('link')
+            css.rel = 'stylesheet'
+            css.href = sessionStorage.getItem(key)
+            css.onerror = makeScript
+            d.head.appendChild(css)
+          }
+          if ('sessionStorage' in window && sessionStorage.getItem(key)) {
+            makeLink()
+          } else {
+            makeScript()
+          }
+        }(document)
+    </script>
+    <script async src="/js/scripts.js"></script>
+
+    
+</head>
+
+
+  <body class="case-study">
+
+    
+<header class="navbar">
+	<div class="logo">
+		<a href="/">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" viewBox="104.2 138.1 1072 523.8" xml:space="preserve" enable-background="new 104.2 138.1 1072 523.8"><g class="text"><path d="M416.4 488.9v25.4c9.2 3.5 27.6 5.4 35.3 5.4 24.8 0 40.3-12.4 40.3-33 0-18.4-13.3-25.1-25.4-28.3l-16.2-4.1c-9.5-2.5-16.2-5.4-16.2-14.6 0-7.9 6.4-15.2 21.9-15.2 7.9 0 13.3 1.6 15.9 2.5v12.7h15.9v-23.2c-7.9-2.2-18.1-5.1-31.8-5.1 -21.9 0-39.7 10.2-39.7 30.8 0 16.8 10.8 23.8 22.9 27.3L458 475c11.1 3.2 16.2 6.4 16.2 14.9 0 11.1-8.9 17.2-22.2 17.2 -8.3 0-15.9-2.2-19.1-3.8v-14h-16.5V488.9z"/><path d="M649.2 466.4h-27.6l11.4-29.5c1.9-4.8 2.5-7.6 2.9-9.5h0.3c0.3 2.2 1 5.1 2.5 9.5L649.2 466.4zM691.5 517.8v-12.4h-9.2L647 412.7h-18.7l-38.1 92.7h-8.9v12.4h36.5v-12.4H607l9.8-26h36.8l8.9 26H653v12.4H691.5z"/><path d="M566.6 444.1c0 11.4-5.7 20-21 20h-11.8l0.3-38.7h9.2c7.9 0 13 0.6 17.5 4.4C564.1 432.7 566.6 438.1 566.6 444.1M584.4 443.5c0-11.4-5.4-21-13.3-25.7 -5.4-3.2-10.8-4.8-25.1-4.8h-39.7v12.4h11.1l-0.6 80.4H506v12.4h40.3v-12.4h-12.7l0.3-29.5h15.6c8.9 0 14-1.3 20.3-5.1C578.4 466.4 584.4 455.3 584.4 443.5"/><path d="M987.8 464.8c0 14.3-4.8 41-32.4 41 -21.9 0-32.1-18.7-32.1-39.1 0-29.2 15.9-41.3 33.3-41.3C981.4 425.4 987.8 446.1 987.8 464.8M1006.2 463.8c0-32.4-18.4-52.4-48.6-52.4 -32.4 0-53 23.2-53 55.9 0 32.1 19.4 52.4 49.9 52.4C990 519.7 1006.2 491.5 1006.2 463.8"/><path d="M848.4 460h-13l0.3-34.9h14c12.1 0 18.7 6.4 18.7 17.2C868.4 454 860.1 460 848.4 460M898.9 517.8v-12.4H895c-3.5 0-6.4-1.3-9.2-6.4L874.4 480c-3.5-6-7.6-10.8-13.3-11.4v-0.3c13.3-1.3 25.1-9.5 25.1-27.6 0-15.2-10.2-27.6-31.8-27.6h-46.7v12.4h10.8l-0.6 80.4h-10.5v12.4h39.4v-12.4h-12.1l0.3-32.4h8.9c5.1 0 7.3 1.6 11.4 9.2l14.3 24.5c6 10.2 10.2 11.1 19.1 11.1h10.2V517.8z"/><path d="M744.5 460h-13l0.3-34.9h14c12.1 0 18.7 6.4 18.7 17.2C764.8 454 756.6 460 744.5 460M795.3 517.8v-12.4h-3.8c-3.5 0-6.4-1.3-9.2-6.4L770.9 480c-3.5-6-7.6-10.8-13.3-11.4v-0.3c13.3-1.3 25.1-9.5 25.1-27.6 0-15.2-10.2-27.6-31.8-27.6h-46.7v12.4H715l-0.6 80.4h-10.5v12.4h39.4v-12.4h-12.1l0.3-32.4h8.9c5.1 0 7.3 1.6 11.4 9.2l14.3 24.5c6 10.2 10.2 11.1 19.1 11.1h10.2V517.8z"/><path d="M1011.6 425.4h9.2l34.3 92.7h18.7l21-55.6h0.3l18.1 55.6h18.7l34.9-92.7h9.2V413h-37.5v12.4h11.4l-22.9 66.4c-1.3 4.1-2.2 8.3-3.5 12.4h-0.3c-1-4.1-1.6-8.3-2.9-12.4l-20.6-66.4h10.5V413H1072v12.4h10.2l5.7 16.8 -18.4 50.8c-1.3 3.5-1.9 7.3-2.9 10.8h-0.3c-1-3.5-1.9-7.3-2.9-10.8l-22.6-67.7h10.5V413h-39.4v12.4H1011.6z"/><path d="M416.4 357.4v25.4c9.2 3.5 27.6 5.4 35.3 5.4 24.8 0 40.3-12.4 40.3-33 0-18.4-13.3-25.1-25.4-28.3l-16.2-4.1c-9.5-2.5-16.2-5.4-16.2-14.6 0-7.9 6.4-15.2 21.9-15.2 7.9 0 13.3 1.6 15.9 2.5v12.7h15.9V285c-7.9-2.2-18.1-5.1-31.8-5.1 -21.9 0-39.7 10.2-39.7 30.8 0 16.8 10.8 23.8 22.9 27.3l18.7 5.4c11.1 3.2 16.2 6.4 16.2 14.9 0 11.1-8.9 17.2-22.2 17.2 -8.3 0-15.9-2.2-19.1-3.8v-14h-16.5V357.4z"/><path d="M506.9 386.3h36.5V374h-11.8l0.6-70.5h0.3c1.6 5.4 2.5 10.8 4.8 15.9l26.4 66.7h16.8l26.7-69.6c1.9-4.4 2.5-9.2 4.1-14l0.3 0.3 -0.6 70.8h-10.5V386h38.1v-12.4h-11.4l-0.6-80h12.1v-12.4H606l-29.9 78.1c-1 2.5-1.6 5.7-2.5 8.6h-0.3c-0.6-2.9-1.3-5.7-2.5-8.6l-30.2-78.1h-34.3v12.4H518l-0.6 80.4h-10.8v12.4H506.9z"/><path d="M719.4 334.9h-27.6l11.4-29.5c1.9-4.8 2.5-7.6 2.9-9.5h0.3c0.3 2.2 1 5.1 2.9 9.5L719.4 334.9zM761.3 386.3V374h-9.2l-35.3-92.7h-18.7L660 374h-8.9v12.4h36.5V374h-10.8l9.8-26h36.8l8.9 26h-9.5v12.4L761.3 386.3 761.3 386.3z"/><path d="M814.7 328.5h-13l0.3-34.9h14c12.1 0 18.7 6.4 18.7 17.2C834.7 322.2 826.4 328.5 814.7 328.5M865.2 386.3V374h-3.8c-3.5 0-6.4-1.3-9.2-6.4l-11.4-19.1c-3.5-6-7.6-10.8-13.3-11.4v-0.3c13.3-1.3 25.1-9.5 25.1-27.6 0-15.2-10.2-27.6-31.8-27.6H774v12.1h10.8l-0.6 80.4h-10.5v12.4h39.4V374H801l0.3-32.4h8.9c5.1 0 7.3 1.6 11.4 9.2l14.3 24.5c6 10.2 10.2 11.1 19.1 11.1L865.2 386.3 865.2 386.3z"/><polygon points="899.8,386.3 939.5,386.3 939.5,374 927.1,374 927.8,293.6 951.9,293.6 952.5,309.2 967.5,309.2 966.8,281.5 871.5,281.5 871.2,309.2 886.2,309.2 886.8,293.6 911.2,293.6 910.6,374 899.8,374"/></g><g id="beak"><polygon style="fill:#FF0098;" points="104.2,281.8 104.2,518.2 472,150.4"/><polygon style="fill:#0098FF;" points="104.2,518.2 472,649.6 104.2,281.8"/></g></svg>
+		</a>
+	</div>
+	<nav class="nav">
+		<ul>
+			<li>
+				<div id="menu-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<button class="menu-toggle">Menu</button>
+			</li>
+			<li class="nav-links">
+				<ul>
+					
+					
+					
+  
+
+  
+    
+      <li><a href="/adaptivity/">How it works</a></li>
+    
+  
+
+  
+    
+      <li><a href="/product/">Product</a></li>
+    
+  
+
+  
+    
+      <li><a href="/services/">Services</a></li>
+    
+  
+
+  
+    
+      <li><a href="/case-studies/">Case Studies</a></li>
+    
+  
+
+  
+    
+      <li><a href="/pricing/">Pricing</a></li>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+					<li><a class="login-link" href="https://aelp.smartsparrow.com/login/">Log In</a></li>
+					<li><a class="signup-link" href="/signup">Sign Up Free</a></li>
+				</ul>
+			</li>
+			<li class="login-buttons">
+				<ul>
+					<li><a class="login button" href="https://aelp.smartsparrow.com/login/">Log In</a></li>
+					<li><a class="signup button" href="/signup">Sign Up Free</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+
+    <main>
+      <section class="study-header">
+   <div class="study-image sciences" style="background-image: url(https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_digitalpathology_thumb21.jpg)">
+      <div class="study-header-inner">
+         <div class="study-header-details">
+            <a href="/case-studies/">Case Studies</a>
+            <h1 class="study-title">Digital Pathology</h1>
+            <p>Technology is changing what’s possible. Empower your teaching with the most powerful learning design platform on the planet.</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="study-intro">
+   <div class="study-intro-wrapper">
+      <div class="study-intro-inner">
+         <div class="study-intro-author">
+            <img src="https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_digitalpathology_prof_s.jpg" alt="Professor Catriona McLean">
+         </div>
+         <div class="study-intro-stats">
+            <h3>Professor Catriona McLean</h3>
+            <ul>
+               <li>
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="47px" height="45px" viewBox="0 0 47 45" style="enable-background:new 0 0 47 45;" xml:space="preserve">
+	<path d="M23.5,0C11.1,0,1,10.1,1,22.5S11.1,45,23.5,45S46,34.9,46,22.5S35.9,0,23.5,0z M23.5,2C34.8,2,44,11.2,44,22.5 c0,2.4-0.4,4.7-1.2,6.8c-1.2-1.2-2.6-2.2-4.2-2.8c0.3-0.7,0.5-1.4,0.7-2.3c0.2-0.9,0.3-1.8,0.2-2.6c0-0.2,0-0.5,0-0.7 c0-2.8-2.3-5.1-5.1-5.1c-1.4,0-2.7,0.6-3.6,1.5c-1-0.8-2-1.4-3.2-1.9c0.3-0.7,0.5-1.4,0.7-2.3c0.2-0.9,0.3-1.8,0.2-2.6 c0-0.2,0-0.5,0-0.7c0-2.8-2.3-5.1-5.1-5.1c-2.8,0-5.1,2.2-5.1,5.1h0c0,0.2,0,0.5,0,0.7c0,0.8,0,1.7,0.2,2.6c0.2,1,0.4,1.8,0.7,2.5 c-0.9,0.4-1.8,0.9-2.5,1.5c-0.9-0.8-2-1.3-3.3-1.3c-2.8,0-5.1,2.2-5.1,5.1h0c0,0.2,0,0.5,0,0.7c0,0.8,0,1.7,0.2,2.6 c0.2,1,0.4,1.8,0.7,2.5c-1.8,0.8-3.4,2-4.6,3.5c-1-2.4-1.5-5-1.5-7.7C3,11.2,12.2,2,23.5,2z M37.5,21.1c0,0.2,0,0.4,0,0.6l0,0l0,0 c0,0.6,0,1.3-0.2,2.1c-0.9,4-2,4-2.9,4c-1,0-2.1,0-2.9-4c-0.2-0.8-0.2-1.5-0.2-2.2c0-0.2,0-0.4,0-0.7c0-1.7,1.4-3.1,3.1-3.1 c1.7,0,3.1,1.4,3.1,3.1L37.5,21.1L37.5,21.1z M29.3,21.6c0,0.8,0,1.7,0.2,2.6c0.2,1,0.4,1.8,0.7,2.5c-2.6,1.1-4.9,3.3-6.1,6 c-1.2-2.8-3.7-5-6.6-6.2c0.3-0.7,0.5-1.4,0.7-2.3c0.2-0.9,0.3-1.8,0.2-2.6c0-0.2,0-0.5,0-0.7c0-0.8-0.2-1.6-0.6-2.3 c0.7-0.5,1.5-1,2.3-1.3c0.8,0.9,1.8,1.3,3.2,1.3c1.4,0,2.5-0.5,3.3-1.5c1.1,0.4,2.2,1,3.1,1.8c-0.2,0.6-0.4,1.3-0.4,1.9 C29.2,21.2,29.3,21.4,29.3,21.6z M16.4,21.1c0,0.2,0,0.4,0,0.6l0,0l0,0c0,0.6,0,1.3-0.2,2.1c-0.9,4-2,4-2.9,4c-1,0-2.1,0-2.9-4 c-0.2-0.8-0.2-1.5-0.2-2.2c0-0.2,0-0.4,0-0.7c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1L16.4,21.1L16.4,21.1z M26.4,10 c0,0.2,0,0.4,0,0.6l0,0l0,0c0,0.6,0,1.3-0.2,2.1c-0.9,4-2,4-2.9,4c-1,0-2.1,0-2.9-4c-0.2-0.8-0.2-1.5-0.2-2.2c0-0.2,0-0.4,0-0.7 c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1L26.4,10L26.4,10z M5.5,32.3c1.1-1.7,2.7-3.1,4.6-3.8c0.8,0.9,1.8,1.3,3.2,1.3 c1.4,0,2.5-0.5,3.3-1.5c3.7,1.3,6.5,4.6,6.5,8.7v0.5v5c0,0.1,0,0.3,0,0.5C15.4,42.8,8.9,38.5,5.5,32.3z M25,42.9v-0.4v-5 c0-4,2.7-7.7,6.2-9.1c0.8,0.9,1.8,1.3,3.2,1.3c1.4,0,2.5-0.5,3.3-1.5c1.7,0.6,3.2,1.7,4.3,3.1C38.8,37.8,32.5,42.4,25,42.9z"/>
+</svg>
+                  <span>475 Students <br>
+                  <span>Enrolled</span></span>
+               </li>
+               <li>
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="47px" height="45px" viewBox="0 0 47 45" style="enable-background:new 0 0 47 45;" xml:space="preserve">
+   <g>
+      <path d="M43,4H4C1.8,4,0,5.8,0,8v29c0,2.2,1.8,4,4,4h39c2.2,0,4-1.8,4-4V8C47,5.8,45.2,4,43,4z M45,37c0,1.1-0.9,2-2,2 H4c-1.1,0-2-0.9-2-2V8c0-1.1,0.9-2,2-2h39c1.1,0,2,0.9,2,2V37z"/>
+      <path d="M21,12H9c-2.2,0-4,1.8-4,4v12c0,2.2,1.8,4,4,4h12c2.2,0,4-1.8,4-4V16C25,13.8,23.2,12,21,12z M9,14h12 c1.1,0,2,0.9,2,2v9.5l-3.3-3.3l-3.7,3.7l-4.3-4.3L7,26.1V16C7,14.9,7.9,14,9,14z M7,28v-0.4l4.6-4.6l7,7H9C7.9,30,7,29.1,7,28z M21,30h-1l-3.4-3.4l3-3l3.3,3.3V28C23,29.1,22.1,30,21,30z"/>
+      <path d="M11.3,20.7c1.5,0,2.8-1.3,2.8-2.8s-1.3-2.8-2.8-2.8s-2.8,1.3-2.8,2.8S9.8,20.7,11.3,20.7z M11.3,16.1 c1,0,1.8,0.8,1.8,1.8s-0.8,1.8-1.8,1.8s-1.8-0.8-1.8-1.8S10.3,16.1,11.3,16.1z"/>
+      <rect x="28" y="14" width="13" height="2"/>
+      <rect x="28" y="19" width="13" height="2"/>
+      <rect x="28" y="24" width="13" height="2"/>
+      <rect x="28" y="29" width="9" height="2"/>
+   </g>
+</svg>
+                  <span>67 Lessons <br>
+                  <span>In this course</span></span></li>
+               <li>
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="47px" height="45px" viewBox="0 0 47 45" style="enable-background:new 0 0 47 45;" xml:space="preserve">
+	<path d="M42.3,1H5.7C3.6,1,2,2.6,2,4.7v23.7c0,2,1.6,3.7,3.7,3.7H18v4.2l-7,2V43h26v-4.8l-7-2V32h12.3 c2,0,3.7-1.6,3.7-3.7V4.7C46,2.6,44.4,1,42.3,1z M5.7,3h36.7C43.3,3,44,3.7,44,4.7V7H4V4.7C4,3.7,4.7,3,5.7,3z M44,8v17H4V8H44z M35,39.8V41H13v-1.2l7-2V32h8v5.8L35,39.8z M42.3,30H30H18H5.7C4.7,30,4,29.3,4,28.3V26h40v2.3C44,29.3,43.3,30,42.3,30z"/>
+</svg>
+                  <span>224 Integrated <br>
+                  <span>Thingies</span></span>
+               </li>
+            </ul>
+         </div>
+         <div class="study-intro-bio">
+            <p>In 2013, Arizona State University (ASU) astrobiologist Ariel Anbar launched the university’s now flagship “smart course” in science—Habitable Worlds. Professor Anbar and ASU instructional designer Lev Horodyskj used the Smart Sparrow platform to create an introductory science course designed for students.</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+<article class="study-content">
+   <div class="study-inner">
+      <p>Messenger bag flannel fashion axe, lomo kale chips listicle fap gluten-free food truck cold-pressed jean shorts. XOXO ennui tofu cray, viral DIY banjo Etsy semiotics art party. Gastropub cray Banksy tousled, beard chillwave butcher letterpress freegan keffiyeh normcore forage mumblecore listicle iPhone. Shabby chic quinoa Etsy food truck, bicycle rights irony 90’s tilde Intelligentsia deep v mixtape PBR&amp;B. Kickstarter put a bird on it before they sold out 3 wolf moon Tumblr hashtag fashion axe flannel. Typewriter gluten-free umami Carles, tousled migas freegan Banksy retro semiotics. Fashion axe literally Portland art party meditation.</p>
+
+<p>Irony try-hard bicycle rights semiotics, XOXO vegan locavore wolf. Mustache vegan typewriter twee, Wes Anderson art party listicle Tumblr. DIY Neutra quinoa single-origin coffee seitan taxidermy cray, fanny pack 8-bit sriracha dreamcatcher occupy authentic scenester. 8-bit forage paleo artisan pour-over cornhole, try-hard dreamcatcher next level farm-to-table Echo Park lomo kogi VHS messenger bag. Williamsburg art party dreamcatcher butcher post-ironic pour-over. Vegan photo booth fixie Godard, Blue Bottle polaroid lumbersexual forage Odd Future 90’s sartorial Banksy slow-carb. Cronut meditation VHS, gluten-free letterpress wolf Shoreditch organic food truck.</p>
+
+<p>Occupy butcher four dollar toast listicle, health goth before they sold out locavore Godard heirloom scenester flexitarian cold-pressed brunch bicycle rights American Apparel. Post-ironic four loko semiotics, single-origin coffee Williamsburg you probably haven’t heard of them food truck polaroid before they sold out meggings cliche 90’s bitters scenester mlkshk. Yr shabby chic hoodie readymade Intelligentsia messenger bag, kogi wayfarers semiotics. Farm-to-table Carles Blue Bottle locavore, vinyl Austin yr wayfarers twee. Actually whatever taxidermy twee tofu hoodie. YOLO occupy locavore 8-bit irony, freegan slow-carb readymade sustainable umami Williamsburg. Etsy plaid XOXO, asymmetrical cold-pressed aesthetic forage Truffaut crucifix art party readymade tilde Marfa bitters stumptown.</p>
+
+<p>Meggings Schlitz meh banjo. Forage artisan church-key cardigan banjo flexitarian fap American Apparel. Four dollar toast sriracha Bushwick, PBR put a bird on it literally flannel sustainable lumbersexual. Dreamcatcher forage plaid, Intelligentsia before they sold out Williamsburg messenger bag cold-pressed crucifix Pitchfork. Blog Blue Bottle fixie polaroid, next level Odd Future +1 High Life gentrify shabby chic deep v. Fanny pack migas slow-carb Helvetica, DIY Truffaut Echo Park church-key Wes Anderson YOLO gentrify four dollar toast sriracha. Crucifix gentrify church-key chillwave, four dollar toast semiotics pug trust fund organic.</p>
+
+   </div>
+</article>
+
+<section class="cards category-cards">
+   <h3>You might also be interested in:</h3>
+   <div class="cards-wrapper">
+      
+      
+      <a class="card sciences" href="/case-studies/V-Lab-Cellular-Transport/">
+         <div class="card-thumbnail" style="background-image: url(https://www.smartsparrow.com/wp-content/uploads/2014/10/CQU-thumbnail-lab.png)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Cellular Transport</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://www.smartsparrow.com/wp-content/uploads/2014/10/Rebecca_50x50.png" alt="Rebecca Vella">
+            <h5 class="author">Rebecca Vella</h5>
+            <p class="author-role">School of Medical & Applied Sciences, Central Queensland University</p>
+            <p>Main heading Marfa food truck mustache slow-carb shabby chic. Pitchfork bicycle rights quinoa, Tumblr Shoreditch listicle narwhal...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/adaptive-pathology/">
+         <div class="card-thumbnail" style="background-image: url(https://www.smartsparrow.com/wp-content/uploads/2014/10/snake_bite_thumb.png)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Adaptive Pathology</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://www.smartsparrow.com/wp-content/uploads/2014/10/50x50_shashidhar.png" alt="Dr Shashidhar Venkatesh Murthy">
+            <h5 class="author">Dr Shashidhar Venkatesh Murthy</h5>
+            <p class="author-role">Research Fellow, James Cook University Cairns Institute</p>
+            <p>Occupy art party banh mi butcher sriracha roof party. Portland church-key bicycle rights, health goth Vice keytar...</p>
+         </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a class="card sciences" href="/case-studies/habworlds/">
+         <div class="card-thumbnail" style="background-image: url(/assets/case-studies/thumbnails/thumb-habworlds.jpg)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Habitable Worlds</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="/assets/case-studies/avatars/avatar-ariel-anbar.jpg" alt="Professor Ariel Anbar">
+            <h5 class="author">Professor Ariel Anbar</h5>
+            <p class="author-role">School of Earth & Space Exploration, Arizona State University</p>
+            <p>## Main Heading McSweeney's fanny pack normcore, pop-up High Life yr cronut polaroid kale chips. Street art...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/infection-control/">
+         <div class="card-thumbnail" style="background-image: url(https://www.smartsparrow.com/wp-content/uploads/2014/10/Infectious_thumb.png)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Infection Control</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://www.smartsparrow.com/wp-content/uploads/2014/10/50x50_kim.png" alt="Kimberley Parsons">
+            <h5 class="author">Kimberley Parsons</h5>
+            <p class="author-role">Faculty of Health & Medicine, University of Newcastle</p>
+            <p>Salvia jean shorts whatever keffiyeh freegan. Meh tofu gentrify jean shorts irony dreamcatcher, vegan tousled. Wayfarers mustache...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/oxygen-electrode/">
+         <div class="card-thumbnail" style="background-image: url(https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_oxygen_electrode_thumb2.jpg)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Oxygen Electrode</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_oxygen_electrode_prof_s1.jpg" alt="Dr. Louise Lutze-Mann">
+            <h5 class="author">Dr. Louise Lutze-Mann</h5>
+            <p class="author-role">School of Biotechnology and Biomolecular Sciences, UNSW</p>
+            <p>Wayfarers butcher swag typewriter semiotics lumbersexual. Shoreditch cold-pressed street art craft beer. Cred cray irony chillwave 3...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/teaching-statistics/">
+         <div class="card-thumbnail" style="background-image: url(https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_statistics_thumb.jpg)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Teaching Statistics</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_statistics_prof_s1.jpg" alt="Judith Watson">
+            <h5 class="author">Judith Watson</h5>
+            <p class="author-role">Australian School of Business, UNSW</p>
+            <p>Drinking vinegar small batch Bushwick listicle, scenester wolf selfies lomo Kickstarter. Bespoke Godard meditation gentrify brunch literally,...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/v-lab-western-blotting/">
+         <div class="card-thumbnail" style="background-image: url(https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_westernblotting_thumb.jpg)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Western Blotting</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_westernblotting_prof_s.jpg" alt="Dr. Patsie Polly">
+            <h5 class="author">Dr. Patsie Polly</h5>
+            <p class="author-role">School of Medical Sciences, UNSW</p>
+            <p>Meggings next level cray, art party pug church-key master cleanse Neutra wayfarers Vice seitan. Plaid banh mi...</p>
+         </div>
+      </a>
+      
+      
+      
+      <a class="card sciences" href="/case-studies/virtual-microscopy/">
+         <div class="card-thumbnail" style="background-image: url(https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_virtualmicro_thumb.jpg)">
+            <div class="study-info">
+               <span class="category">sciences</span>
+               <h4 class="study-title">Virtual Microscopy</h4>
+            </div>
+         </div>
+         <div class="card-text">
+            <img class="avatar" src="https://d2csnzuypokc1t.cloudfront.net/wp-content/uploads/2013/04/case_virtualmicro_prof_s1.jpg" alt="A/Prof. Gary Velan">
+            <h5 class="author">A/Prof. Gary Velan</h5>
+            <p class="author-role">School of Medical Sciences, UNSW</p>
+            <p>Cornhole Austin sartorial, messenger bag pug vinyl irony forage swag Schlitz flexitarian sustainable. Aesthetic fap paleo beard....</p>
+         </div>
+      </a>
+      
+      
+      
+      
+   </div>
+   <div class="actions"><a class="button" href="/case-studies">All Case Studies</a></div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+	<div class="footer-wrapper">
+		<div class="footer-links">
+			<ul>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/research/">Research</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="#">Careers</a></li>
+				<li class="contact-details">
+					<ul>
+						<li><a href="/contact/">Contact</a></li>
+						<li><a href="/support/">Support</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="legal">
+			<ul>
+				<li><span>© Smart Sparrow Pty Ltd, 2015</span></li>
+				<li><a href="/terms/">Terms & Conditions</a></li>
+				<li><a href="/privacy/">Privacy Policy</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+
+  </body>
+
+</html>

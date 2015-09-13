@@ -1,0 +1,40 @@
+<svg class="services-cards-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110 113.1" style="enable-background:new 0 0 110 113.1;" xml:space="preserve">
+<style type="text/css">
+	.st33{fill:#FFFFFF;stroke:#2E9FFF;stroke-width:2;stroke-miterlimit:10;}
+	.st34{fill:none;stroke:#2E9FFF;stroke-width:2;stroke-miterlimit:10;}
+</style>
+		<rect x="40" y="23" class="st33" width="26" height="51"/>
+		<g>
+			<rect x="26" y="59" class="st33" width="27" height="25"/>
+			<line class="st33" x1="32" y1="65" x2="32" y2="69"/>
+			<line class="st33" x1="37" y1="65" x2="37" y2="69"/>
+			<line class="st33" x1="42" y1="65" x2="42" y2="69"/>
+			<line class="st33" x1="47" y1="65" x2="47" y2="69"/>
+			<line class="st33" x1="32" y1="74" x2="32" y2="78"/>
+			<line class="st33" x1="37" y1="74" x2="37" y2="78"/>
+			<line class="st33" x1="42" y1="74" x2="42" y2="78"/>
+			<line class="st33" x1="47" y1="74" x2="47" y2="78"/>
+		</g>
+		<g>
+			<rect x="53" y="41" class="st33" width="27" height="43"/>
+			<line class="st33" x1="59" y1="47" x2="59" y2="51"/>
+			<line class="st33" x1="64" y1="47" x2="64" y2="51"/>
+			<line class="st33" x1="69" y1="47" x2="69" y2="51"/>
+			<line class="st33" x1="74" y1="47" x2="74" y2="51"/>
+			<line class="st33" x1="59" y1="56" x2="59" y2="60"/>
+			<line class="st33" x1="64" y1="56" x2="64" y2="60"/>
+			<line class="st33" x1="69" y1="56" x2="69" y2="60"/>
+			<line class="st33" x1="74" y1="56" x2="74" y2="60"/>
+			<line class="st33" x1="59" y1="65" x2="59" y2="69"/>
+			<line class="st33" x1="64" y1="65" x2="64" y2="69"/>
+			<line class="st33" x1="69" y1="65" x2="69" y2="69"/>
+			<line class="st33" x1="74" y1="65" x2="74" y2="69"/>
+			<line class="st33" x1="59" y1="74" x2="59" y2="78"/>
+			<line class="st33" x1="64" y1="74" x2="64" y2="78"/>
+			<line class="st33" x1="69" y1="74" x2="69" y2="78"/>
+			<line class="st33" x1="74" y1="74" x2="74" y2="78"/>
+		</g>
+		<line class="st34" x1="47" y1="54" x2="47" y2="29"/>
+		<line class="st34" x1="53" y1="29" x2="53" y2="38"/>
+		<line class="st34" x1="59" y1="29" x2="59" y2="38"/>
+</svg>

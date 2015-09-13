@@ -1,0 +1,211 @@
+// Contact form
+$form-spacing: rem(20);
+
+select {
+	background: url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 96% 57%;
+}
+
+form .error,
+div[class$="-form-container"] .error {
+	border: 1px solid $red;
+}
+
+.error-field {
+	color: $red;
+	text-align: center;
+	margin-bottom: rem(30);
+}
+
+.contact-form, .support-form {
+	@include outer-container;
+	@include pad($section-pad $outer-pad);
+
+	@include media($mobile) {
+		@include pad($section-pad/2 $outer-pad);
+	}
+
+	input,
+	select,
+	textarea {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	&-container {
+		@include span-columns(8);
+		@include shift(2);
+
+		@include media($tablet) {
+			@include span-columns(12);
+			@include shift(0);
+		}
+	}
+
+	&-input {
+		@include span-columns(4);
+		@include omega(3n);
+		margin-bottom: $form-spacing;
+
+		@include media($mobile) {
+			@include span-columns(12);
+			@include omega(1n);
+		}
+
+		label {
+			float: left;
+		}
+
+		.optional {
+			padding-left: rem(15);
+			color: $green;
+			font-size: rem(13);
+		}
+	}
+
+	&-input-full {
+		@include span-columns(12);
+		margin-bottom: rem(8);
+
+		textarea {
+			min-height: rem(140);
+		}
+	}
+
+	.button-primary {
+		float: right;
+		display: block;
+
+		@include media($mobile) {
+			width: 100%;
+		}
+	}
+}
+
+div[class$="-form-input-file"] {
+	@include span-columns(12);
+	position: relative;
+
+	  .file-button {
+			position: absolute;
+			z-index: 1;
+	  }
+
+	  input[type=button] {
+			/* enough width to completely overlap the real hidden file control */
+			cursor: pointer;
+	  }
+
+	  input#file,
+	  input#fileChanged {
+			position: relative;
+			text-align: right;
+			opacity: 0;
+			z-index: 2;
+			cursor: pointer;
+			margin: 0;
+			padding: rem(8) 0;
+			width: rem(170);
+	  }
+
+	  .filename {
+			position: relative;
+			display: inline;
+			font-size: rem(16);
+			top: rem(-2);
+	  }
+
+	@include media($mobile) {
+		.file-button, #file, .filename {
+			display: none;
+		}
+	}
+}
+
+.services-planner {
+
+	input,
+	textarea,
+	select {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.services-form {
+		@include outer-container;
+		@include pad($section-pad $outer-pad);
+
+		&-container {
+			@include span-columns(8);
+			@include shift(2);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+
+		&-input {
+			@include span-columns(6);
+			@include omega(2n);
+			margin-bottom: $form-spacing;
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include omega();
+			}
+
+			label {
+				float: left;
+			}
+
+		}
+
+		&-input-full {
+			@include span-columns(12);
+
+			textarea {
+				min-height: rem(140);
+			}
+		}
+	}
+
+	.optional {
+		padding-left: rem(15);
+		color: $green;
+		font-size: rem(13);
+	}
+
+	.button-primary {
+		float: right;
+		display: block;
+
+		@include media($mobile) {
+			width: 100%;
+		}
+	}
+}
+
+.submission-received {
+	@include outer-container;
+	@include pad($section-pad $outer-pad);
+	height: 100vh;
+	text-align: center;
+}
+
+.signup {
+	iframe {
+		display: block;
+		margin: rem(170) auto;
+		position: relative;
+		z-index: 99;
+	}
+
+	.iframe-bg {
+		@include linear-gradient(to top, #fff, #f0f0f0);
+		height: 389px;
+		position: absolute;
+		width: 100%;
+		top: 268px;
+		z-index: 0;
+	}
+}
