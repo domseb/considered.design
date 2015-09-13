@@ -1,6 +1,6 @@
 # Site settings
 title: Smart Sparrow
-baseurl: "https://www.smartsparrow.com/"
+baseurl: "http://considered.design"
 
 # Build settings
 markdown: kramdown

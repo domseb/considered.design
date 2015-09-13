@@ -1,6 +1,6 @@
 # Site settings
 title: Smart Sparrow
-baseurl: "https://wwwv3.uat.smartsparrow.com"
+baseurl: "http://considered.design"
 
 # Build settings
 markdown: kramdown
