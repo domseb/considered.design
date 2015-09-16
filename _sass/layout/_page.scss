@@ -1,0 +1,304 @@
+// General article styling
+article {
+
+	word-wrap: break-word;
+
+	ul li, ol li {
+		@extend %outside-bullets;
+	}
+
+	figure {
+		text-align: center;
+		@include margin(rem(60) 0);
+
+		@include media($tablet) {
+			@include margin(rem(40) 0);
+		}
+	}
+
+	figure.outset-left {
+		float: left;
+		@include margin(null rem(40) null rem(-160));
+	}
+
+	figure.outset-right {
+		float: right;
+		@include margin(null rem(-160) null rem(40));
+	}
+
+	figure.outset-left,
+	figure.outset-right {
+		@include margin(rem(20) null);
+		position: relative;
+		width: 60%;
+
+		@include media(max-width 1080px) {
+			@include margin(rem(40) 0);
+			width: 100%;
+			float: none;
+		}
+	}
+
+	figcaption {
+	  text-align: center;
+	  font-style: italic;
+	  font-size: rem(14);
+	  padding: rem(10) 10% 0;
+	  color: transparentize($text-color, 0.2);
+	}
+}
+
+// General page styling & components
+.basic-page {
+
+	// General styling
+	h3:not(:first-child) {
+		margin-top: rem(45);
+	}
+
+	section.text-section h2 + h3 {
+		margin-top: 0;
+	}
+
+	.date {
+		color: transparentize($text-color, 0.2);
+	}
+
+	// Component styling
+	.hero  {
+		background: none;
+
+		.hero-content {
+			@include span-columns(8);
+			@include shift(2);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+
+			@include media($tablet) {
+				padding: 0;
+			}
+		}
+
+		h1 {
+			color: $heading-color;
+		}
+
+		p {
+			margin-bottom: 0;
+			color: $text-color;
+		}
+
+		.hero-wrapper {
+			padding-bottom: rem(70);
+
+			&:after {
+				content: '';
+				display: block;
+				border-bottom: 1px solid $primary-color;
+				height: 1px;
+				width: rem(110);
+				margin: 0 auto;
+				padding-top: rem(70);
+			}
+		}
+	}
+
+	// Headers for individual service pages
+	.service-header {
+		@include outer-container;
+		@include pad($section-pad $outer-pad $section-pad/2);
+
+		@include media($mobile) {
+			@include pad($section-pad/2 $outer-pad);
+		}
+
+		&-content {
+			@include span-columns(8);
+			@include shift(2);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+
+		a:before {
+			@include chevron;
+			margin-right: rem(12);
+			@include transform(rotate(-135deg));
+		}
+
+		h1 { margin-bottom: rem(10); }
+
+		h3 { margin: 0; }
+	}
+
+	// About page profiles
+	.profiles {
+		@include outer-container;
+		@include pad($section-pad/2 $outer-pad);
+
+		h2 {
+			@include shift(2);
+			margin-bottom: rem(20);
+
+			@include media($tablet) {
+				@include shift(0);
+			}
+		}
+
+		&-person {
+			@include span-columns(8);
+			@include shift(2);
+			@include pad($section-pad/2 0);
+			border-bottom: 1px solid $base-border-color;
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+
+		&-person-details {
+			@include clearfix;
+			margin-bottom: rem(30);
+
+			.avatar img {
+				border-radius: 50%;
+				margin-right: rem(20);
+				@include size(rem(80));
+			}
+
+			.details {
+				font-size: rem(22);
+				margin-top: rem(-10);
+			}
+
+			.name {
+				margin-bottom: rem(-3);
+				color: $heading-color;
+			}
+
+			.role {
+				font-size: rem(16);
+				color: transparentize($text-color, 0.2);
+			}
+
+			a {
+				display: block;
+				float: right;
+				margin-top: rem(23);
+
+				@include media($tablet) {
+					max-width: rem(160);
+					padding-left: rem(10);
+					padding-right: rem(10);
+					float: none;
+					margin-right: auto;
+					margin-left: auto;
+				}
+
+				&:before {
+					content: '';
+					background: url('#{$assets}/icons/icon-twitter.svg');
+					@include size(rem(20));
+					display: inline-block;
+					position: relative;
+					margin-right: rem(6);
+					top: rem(6);
+				}
+			}
+
+			.avatar, .details {
+				display: inline-block;
+				vertical-align: middle;
+
+				@include media($tablet) {
+					width: 100%;
+					text-align: center;
+
+					.name, .role { width: 100%; }
+					img { margin: 0 0 rem(20) 0; }
+				}
+			}
+		}
+
+		&-bio {
+			p:last-child { margin-bottom: 0; }
+		}
+	}
+
+	// About page investors
+	.investor-logos {
+		@include outer-container;
+
+		&-wrapper {
+			@include span-columns(8);
+			@include shift(2);
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+
+		&-item {
+			@include span-columns(4);
+			text-align: center;
+
+			img { max-width: 154px; }
+
+			@include media($mobile) {
+				img { max-width: 100%; }
+			}
+		}
+	}
+
+	// Research publications
+	.publications-list {
+		@include outer-container;
+		@include pad(0 $outer-pad $section-pad);
+
+		h2 {
+			margin-bottom: 0;
+			@include shift(2);
+
+			@include media($tablet) {
+				@include shift(0);
+			}
+		}
+
+		p {
+			margin: 0;
+		}
+
+		.publication {
+			@include span-columns(8);
+			@include shift(2);
+			@include pad(rem(40) 0);
+			border-bottom: 1px solid $base-border-color;
+
+			&:last-child { border-bottom: none; }
+
+			@include media($tablet) {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+
+		.authors {
+			margin-bottom: rem(4);
+		}
+
+		.title {
+			margin-bottom: rem(6);
+		}
+
+		.reference {
+			color: transparentize($text-color, 0.2);
+		}
+	}
+}

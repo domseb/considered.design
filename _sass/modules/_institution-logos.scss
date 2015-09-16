@@ -1,0 +1,25 @@
+.institution-logos {
+	@include outer-container;
+	@include pad(0 $outer-pad $section-pad);
+
+	@include media($mobile) {
+		@include pad($section-pad/2 $outer-pad);
+	}
+
+	&-item {
+		@include span-columns(2);
+		@include omega(6n);
+		@include pad(0 rem(10));
+		text-align: center;
+
+		@include media($mobile) {
+			@include span-columns(4);
+			@include omega(3n);
+			margin-bottom: 20px;
+		}
+	}
+
+	& + .cta-prompt {
+		padding-top: 0;
+	}
+}
