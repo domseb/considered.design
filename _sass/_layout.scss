@@ -11,11 +11,12 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 20px;
+    text-transform: uppercase;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    text-align: center;
 
     &,
     &:visited {
@@ -25,6 +26,7 @@
 
 .site-nav {
     float: right;
+    display: inline;
     line-height: 56px;
 
     .menu-icon {
@@ -101,15 +103,14 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
 
-.footer-col-wrapper {
-    font-size: 15px;
+.footer-byline {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
     color: $grey-color;
+    display: block;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
