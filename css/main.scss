@@ -5,11 +5,12 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"vendor/bourbon/bourbon";
+	"vendor/bourbon/bourbon",
+	"custom/_fonts.scss";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "NationalWeb-Book", Helvetica, Arial, sans-serif;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -28,6 +29,7 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
 
 
 
