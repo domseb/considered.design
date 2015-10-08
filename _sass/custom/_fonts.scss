@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'NationalWeb-Book';
-    src: url("../_assets/fonts/NationalWeb-Book.eot") format('eot');
-    src: url("../_assets/fonts/NationalWeb-Book.woff") format('woff');
+    font-family: "NationalWeb-Book";
+    src: url('/assets/fonts/NationalWeb-Book.eot') format('eot');
+    src: url('/assets/fonts/NationalWeb-Book.woff') format('woff');
 }
 
+@font-face {
+    font-family: "NationalWeb-BookItalic";
+    src: url('/assets/fonts/NationalWeb-BookItalic.eot') format('eot');
+    src: url('/assets/fonts/NationalWeb-BookItalic.woff') format('woff');
+}
