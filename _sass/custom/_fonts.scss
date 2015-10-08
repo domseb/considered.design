@@ -2,10 +2,14 @@
     font-family: "NationalWeb-Book";
     src: url('/assets/fonts/NationalWeb-Book.eot') format('eot');
     src: url('/assets/fonts/NationalWeb-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
     font-family: "NationalWeb-BookItalic";
     src: url('/assets/fonts/NationalWeb-BookItalic.eot') format('eot');
     src: url('/assets/fonts/NationalWeb-BookItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
 }
