@@ -54,6 +54,22 @@
 /**
  * Site Intro
  */
+
+.hero {
+    max-width: -webkit-calc(#{$content-width});
+    max-width:         calc(#{$content-width});
+    margin-right: auto;
+    margin-left: auto;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
 .site-intro {
     width: 85%;
 }
@@ -233,7 +249,19 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    max-width: -webkit-calc(#{$content-width} / 1.6);
+    max-width:         calc(#{$content-width} / 1.6);
+    margin-right: auto;
+    margin-left: auto;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
 
     h2 {
         font-size: 32px;
