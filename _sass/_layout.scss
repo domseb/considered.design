@@ -303,6 +303,7 @@
  */
 .post-header {
         background-color: $hero-background;
+        min-height: 200px;
 /*        max-width: calc(1100px / 1.6);
         margin-right: auto;
         margin-left: auto;*/
@@ -311,8 +312,8 @@
     .post-meta {
     font-family: DomaineTextWeb-LightItalic;
     letter-spacing: 1px;
-    font-size: $small-font-size;
-    color: $grey-color;
+    font-size: 18px;
+    color: $brand-secondary;
     max-width: calc(1100px / 1.6);
     margin-right: auto;
     margin-left: auto;
@@ -329,7 +330,7 @@
         margin-right: auto;
         margin-left: auto;
         padding-top: 60px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
 
         @include media-query($on-laptop) {
             font-size: 36px;
@@ -342,10 +343,11 @@
         max-width: calc(1100px / 1.6);
         margin-right: auto;
         margin-left: auto;
-        padding-bottom: 30px;  
+        padding-top: 15px;  
+        padding-bottom: 0px;
         text-align: left;
-/*        margin-bottom: 0px;
-*/
+        margin-bottom: 10px;
+
         @include media-query($on-laptop) {
             font-size: 36px;
         }
