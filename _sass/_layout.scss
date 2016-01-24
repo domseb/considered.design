@@ -2,53 +2,66 @@
  * Site header
  */
 .navbar {
-    border-bottom: 1px solid $grey-color-light;
-/*    min-height: 56px;*/
+    background-color: $brand-primary;
+    min-height: 60px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.logo {
-    float: left;
+.site-nav {
     padding: 0;
     margin: 0;
-    line-height: 85px;
-    margin-left: 12%;
+    max-width: calc(1100px / 1.6);
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+
+    .logo {
+    float: left;
+    padding: 0;
+    line-height: 75px;
+
+    svg {
+        @include size(rem(27) rem(27));
+    }
+}
+
+    .page-link {
+        float: left;
+        padding-left: 25px;
+        width: auto;
+        height: 50px;
+        margin-top: 10px;
+
+        line-height: 40px;
+        color: rgba( $white-color, .7 );
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $white-color;
+            text-decoration: none;
+        }
+    
+    }
+
+    .twitter {
+    float: right;
+    padding: 0;
+    line-height: 75px;
 
     svg {
         @include size(rem(30) rem(30));
     }
 }
 
-
-.site-nav {
-    padding: 0;
-    margin: 0;
-    margin-right: 11%;
-    list-style: none;
-
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-flex-flow: row wrap;
-    justify-content: flex-end;
 }
-    .page-link {
-        padding-left: 25px;
-        width: auto;
-        height: 50px;
-        margin-top: 10px;
 
-        line-height: 70px;
-        color: $grey-color;
-        font-size: 12px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-}
+
+
+
 
 
 /**
@@ -56,10 +69,11 @@
  */
 
 .hero {
-    max-width: -webkit-calc(#{$content-width});
-    max-width:         calc(#{$content-width});
-    margin-right: auto;
-    margin-left: auto;
+    background-color: $hero-background;
+/*    max-width: -webkit-calc(#{$content-width});
+    max-width:         calc(#{$content-width});*/
+/*    margin-right: auto;
+    margin-left: auto;*/
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -71,20 +85,51 @@
 }
 
 .site-intro {
-    width: 85%;
+/*    max-width: calc(1100px / 1.6);
+    margin-right: auto;
+    margin-left: auto;*/
 }
-
 .site-intro-title {
-    font-size:28px;
-    line-height: 1.1;
+    font-family: $base-font-family;
+    color: $brand-secondary;
+    font-size: 26px;
+    letter-spacing: 3px;
+    line-height: 1.3;
     text-align: left;
-    margin-top: $spacing-unit * 3;
-    margin-bottom: $spacing-unit * 4;
+    max-width: calc(1100px / 1.6);
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;  
+    /*    margin-top: $spacing-unit * 3;
+    margin-bottom: $spacing-unit * 4;*/
 
-    @include media-query($on-laptop) {
+/*    @include media-query($on-laptop) {
         font-size: 36px;
-    }
+    }*/
 }
+
+.subtle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: $base-font-family;
+    font-size: 14px;
+    text-align: left;
+    margin-top: $spacing-unit * 2;
+    color: $brand-primary;
+    margin-bottom: 8px;
+}
+
+.follower {
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: $spacing-unit;
+    color: $brand-primary;
+}
+
+
+
 
 
 /**
@@ -194,38 +239,61 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
+
+.listings {
+    max-width: calc(1100px / 1.6);
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.page-content {
+/*    padding: $spacing-unit 0;
+*/}
 
 .page-heading {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+    list-style-type: decimal-leading-zero;
+    font-family: DomaineTextWeb-Light;
+    color: $grey-color-light;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: $spacing-unit;
+    border-top: 1px solid $grey-color-light;
 
     > li {
-        margin-bottom: $spacing-unit;
+        flex: 0 0 auto;
+        font-family: $base-font-family;
+        margin-bottom: $spacing-unit / 3;
+        margin-top: $spacing-unit / 3;
         border-bottom: 1px solid $grey-color-light;
     }
-}
 
-.post-meta {
+    .post-meta {
+    font-family: $base-font-family;
+    letter-spacing: 1px;
     font-size: $small-font-size;
     color: $grey-color;
     float: right;
     display: inline;
+    }
 }
+
+
+
 
 .post-link {
     display: block;
-    font-size: 24px;
+    color: $grey-color-dark;
+    font-size: 19px;
 }
 
 
@@ -234,19 +302,57 @@
  * Posts
  */
 .post-header {
-    margin-top: $spacing-unit * 3;
-    margin-bottom: $spacing-unit * 3;
-}
+        background-color: $hero-background;
+/*        max-width: calc(1100px / 1.6);
+        margin-right: auto;
+        margin-left: auto;*/
 
-.post-title {
-    font-size: 60px;
-    line-height: 1;
-    text-align: center;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
+    .post-meta {
+    font-family: DomaineTextWeb-LightItalic;
+    letter-spacing: 1px;
+    font-size: $small-font-size;
+    color: $grey-color;
+    max-width: calc(1100px / 1.6);
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
     }
+
+    .context-title {
+        color: $brand-secondary;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 3px;
+        text-align: left;
+        max-width: calc(1100px / 1.6);
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 60px;
+        margin-bottom: 0px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+
+    .post-title {
+        line-height: 1.3;
+        text-align: left;
+        max-width: calc(1100px / 1.6);
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;  
+        text-align: left;
+        margin-bottom: 0px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+
 }
+
 
 .post-content {
     max-width: -webkit-calc(#{$content-width} / 1.6);

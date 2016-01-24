@@ -1,10 +1,8 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+title: A Swing and a Miss
+permalink: /swing-and-a-miss/
 ---
-
-Originally a graduate in Industrial Design, Dominic worked as a designer across a variety of disciplines ranging from the manufacturing of specialist medical equipment, to location-based mobile apps (that helps users to find their nearest art experience). Dominic is passionate about mapping opportunity spaces within products and services, and is a huge advocate of having a proper design process to maximise impact. Prior to Smart Sparrow, Dominic was working in Rio de Janeiro, redesigning the UX strategy for small publishers; prior to that, he was Head of Design for Augmented Reality specialists Digicave, London.
 
 I’ve been designing various digital services for the past few years, and my strengths are being able to distill a client’s intentions, and make them visually digestible to users. Making time at the start of a project to define these intentions helps shift focus to meeting user’s needs, so we can deliver something with actual benefits, not just fad features.
 
