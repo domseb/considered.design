@@ -52,10 +52,11 @@
     padding: 0;
     line-height: 75px;
 
-    svg {
-        @include size(rem(30) rem(30));
+        svg {
+            @include size(rem(30) rem(30));
+        }
+        svg:hover { fill:#FFFFFF; }
     }
-}
 
 }
 
@@ -359,6 +360,7 @@
 .post-content {
     max-width: -webkit-calc(#{$content-width} / 1.6);
     max-width:         calc(#{$content-width} / 1.6);
+    margin-top: 35px;
     margin-right: auto;
     margin-left: auto;
     @extend %clearfix;
