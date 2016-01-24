@@ -91,11 +91,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-secondary;
     text-decoration: none;
-
+/*
     &:hover {
         color: $brand-secondary;
         text-decoration: underline;
-    }
+        border-bottom: 1px solid $brand-secondary;
+    }*/
 }
 
 

@@ -1,15 +1,12 @@
 ---
 layout: page
 title: About
+context: "profile"
 permalink: /about/
 ---
 
-Originally a graduate in Industrial Design, Dominic worked as a designer across a variety of disciplines ranging from the manufacturing of specialist medical equipment, to location-based mobile apps (that helps users to find their nearest art experience). Dominic is passionate about mapping opportunity spaces within products and services, and is a huge advocate of having a proper design process to maximise impact. Prior to Smart Sparrow, Dominic was working in Rio de Janeiro, redesigning the UX strategy for small publishers; prior to that, he was Head of Design for Augmented Reality specialists Digicave, London.
+My name is Dominic, and I’m a designer obsessed with how my creative process can lead to more considered outcomes.
 
-I’ve been designing various digital services for the past few years, and my strengths are being able to distill a client’s intentions, and make them visually digestible to users. Making time at the start of a project to define these intentions helps shift focus to meeting user’s needs, so we can deliver something with actual benefits, not just fad features.
+I’m currently working in Sydney for Smart Sparrow, leading design on our product and across marketing, whilst building a design culture within the company. Before Smart Sparrow, I was working in Rio de Janeiro on a UX strategy for a local publishers,and before that I was Head of Design for Augmented Reality specialists Digicave, London.
 
-Having a robust creative process enables me to define strong design intentions, which act as pillars for each step of the project to defer back to – from wireframes to final delivery.
-
-If you have an interesting project you need help with, or are keen to collaborate, please get in touch via any of my networks below. I’d love to hear from you.
-
-Get in touch at [dominic@considered.design](mailto:dominic@considered.design)
+Outside of Smart Sparrow, film and cinematography are my main passions, and are something I’d love to get more involved with this year. If you have a interesting project in mind and want to collaborate, [email me](mailto:dominic@considered.design) or follow me on [Twitter](https://twitter.com/dominosebastian).
