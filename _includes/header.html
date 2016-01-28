@@ -5,14 +5,14 @@
         <a href="{{ site.baseurl }}/">
           {% include svg/cd-logo.svg %}
         </a>
-      </div>
+      </div> 
       <div class="nav-links">
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-      </div>
+      </div>   
         <a class="twitter" href="https://twitter.com/dominosebastian">
           {% include svg/Twitter.svg %}
         </a>
