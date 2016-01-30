@@ -10,7 +10,7 @@ Moving away from a traditional portfolio, below are process write ups on some of
   <div class="listings">
        <h1 class="page-heading">featured projects</h1>
        <ul class="post-list">
-         {% for post in site.posts %}
+         {% for post in site.posts reversed %}
          {% for tag in post.tags %}
          {% if tag == 'project' %}
            <li>
