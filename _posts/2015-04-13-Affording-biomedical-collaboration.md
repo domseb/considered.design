@@ -19,16 +19,16 @@ When you first landed in the tool however, there was a common friction point in 
 
 {% include modules/article_image.html
   url="/assets/projects/Slice-Master-01.jpg"
-  title="Virtual lab agar plate setup"
-  description="Slice interface before, with no empty state and prompt in the bottom right"
+  title="Slice interface before, with no empty state and prompt in the bottom right"
+  description=""
 type="default" %}
 
 We realised one of the main causes of user frustration at this point was actually the hidden error notification for when they weren’t logged in, but were trying to interact with the slide, and having no helpful way to inform new users what to do next if they were logged in. All three were solved by reducing parts of the interface they didn't need to see at this stage (like slide metadata) and putting in a clear empty state, removing the need for the error message altogether.
 
 {% include modules/article_image.html
   url="/assets/projects/Slice-Master-02.jpg"
-  title="Virtual lab agar plate setup"
-  description="Slice interface now, with empty state"
+  title="Slice interface now, with empty state"
+  description=""
 type="default" %}
 
 #### DESIGNING FOR FOCUS
@@ -36,8 +36,8 @@ After an observation session at a partnering university in Sydney, it was clear 
 
 {% include modules/article_image.html
   url="/assets/projects/Slice-Master-03.jpg"
-  title="Virtual lab agar plate setup"
-  description="Listed annotations with associated student profiles, focus, and visible states"
+  title="Teach option, highlighting the different teaching contexts"
+  description=""
 type="default" %}
 
 #### UNDERSTANDING TEACHING CONTEXTS
@@ -45,8 +45,8 @@ Collaborative annotations was one of the most popular feature launches for Slice
 
 {% include modules/article_image.html
   url="/assets/projects/Slice-Master-04.jpg"
-  title="Virtual lab agar plate setup"
-  description="Teach option, highlighting the different teaching contexts"
+  title="Teach option, highlighting the different teaching contexts"
+  description=""
 type="default" %}
 
 #### STILL TO COME
