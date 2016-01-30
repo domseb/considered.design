@@ -2,7 +2,7 @@
 layout: post
 title: Onboarding and Lessons in Microlearning
 permalink: /Onboarding-and-lessons-in-Microlearning/
-tag: work
+tag: project
 ---
 
 When I was hired by Smart Sparrow as their Senior UX Designer, my intended focus was to help reduce the steep learning curve of the product, and to create an onboarding process that could expedite the journey for new users to become power users. 
@@ -26,6 +26,6 @@ We’re now using a service that allows us send
 I’ve always treated onboarding as an item on a checklist. Like building a presence for Smart Sparrow online, it’s never something that’s finished, or ends. 
 
 #### NEXT STEPS
-I’ve always treated onboarding as an item on a checklist. Like building a presence for Smart Sparrow online, it’s never something that’s finished, or ends. 
+I’ve always treated onboarding as an item on a checklist. Like building a presence for Smart Sparrow online, it’s never something that’s finished, or ends. You can learn more about Smart Sparrow by [visiting their website](https://www.smartsparrow.com/).
 
 Have a project you'd me to work on? [Send me an email](mailto:dominic@considered.design).

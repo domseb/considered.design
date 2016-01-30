@@ -1,6 +1,5 @@
 ---
 layout: page
-tag: boobs
 title: Work
 permalink: /work/
 ---
@@ -13,7 +12,7 @@ Moving away from a traditional portfolio, below are process write ups on some of
        <ul class="post-list">
          {% for post in site.posts %}
          {% for tag in post.tags %}
-         {% if tag == 'work' %}
+         {% if tag == 'project' %}
            <li>
              <span class="post-meta">{{ post.date | date_to_long_string }}</span>
    
