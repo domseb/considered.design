@@ -309,10 +309,11 @@
  */
 .post-header {
 /*        background-color: $hero-background;
-*/        min-height: 130px;
+*/       /* min-height: 130px;*/
 /*        max-width: calc(1100px / 1.6);
         margin-right: auto;
         margin-left: auto;*/
+        padding-top: 80px;
 
 
     .post-meta {
@@ -335,7 +336,6 @@
         max-width: calc(1100px / 1.6);
         margin-right: auto;
         margin-left: auto;
-        padding-top: 60px;
         margin-bottom: 10px;
 
         @include media-query($on-laptop) {
@@ -349,7 +349,6 @@
         max-width: calc(1100px / 1.6);
         margin-right: auto;
         margin-left: auto;
-        padding-top: 65px;  
         padding-bottom: 0px;
         text-align: left;
         margin-bottom: 10px;
