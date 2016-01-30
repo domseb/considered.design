@@ -2,7 +2,7 @@
 layout: post
 title: Onboarding and Lessons in Microlearning
 permalink: /Onboarding-and-lessons-in-Microlearning/
-tag: work
+tag: project
 ---
 
 When I was hired by Smart Sparrow as their Senior UX Designer, my intended focus was to help reduce the steep learning curve of the product, and to create an onboarding process that could expedite the journey for new users to become power users. 
