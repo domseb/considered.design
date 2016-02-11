@@ -1,42 +1,44 @@
 /**
  * Site header
  */
+// .navbar {
+//     background-color: $white-color;
+//     // min-height: 60px;
+//     //
+//     // // Positioning context for the mobile navigation icon
+//     // position: relative;
+// }
+
 .navbar {
-    background-color: $white-color;
-    min-height: 60px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-nav {
-    padding: 0;
-    margin: 0;
-    max-width: calc(1100px / 1.6);
-    margin-right: auto;
-    margin-left: auto;
-    list-style: none;
+    // padding: 0;
+    // margin: 0;
+    // max-width: calc(1100px / 1.6);
+    padding: 50px;
+    padding-top: 35px;
+    margin-bottom: 0 !important;
+    background-color: #333333;
+    // list-style: none;
 
     .logo {
-    float: left;
-    padding: 0;
-    line-height: 75px;
+    // float: left;
+    // padding: 0;
+    // line-height: 75px;
 
     svg {
         @include size(rem(27) rem(27));
-        fill:rgba($brand-primary,1);
+        fill:rgba($brand-secondary,1);
 
     }
 }
 
     .page-link {
-        float: left;
-        padding-left: 25px;
-        width: auto;
-        height: 50px;
-        margin-top: 10px;
+        // float: left;
+        padding-right: 20px;
+        // width: auto;
+        // height: 50px;
+        // margin-top: 10px;
 
-        line-height: 40px;
+        // line-height: 40px;
         color: rgba( $brand-primary, .7 );
         font-size: 16px;
         letter-spacing: 2px;
@@ -46,16 +48,17 @@
             color: $brand-primary;
             text-decoration: none;
         }
-    
+
     }
 
     .twitter {
-    float: right;
-    padding: 0;
-    line-height: 75px;
-    fill:rgba($brand-primary,.7);
+    // float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    // line-height: 75px;
+    fill:rgba($white-color,.5);
 
-    &:hover { fill:rgba($brand-primary,1); }
+    &:hover { fill:rgba($white-color,1); }
 
         svg {
             @include size(rem(30) rem(30));
@@ -94,19 +97,25 @@
 /*    max-width: calc(1100px / 1.6);
     margin-right: auto;
     margin-left: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 250px);
+    background-color: #333333;
 }
 .site-intro-title {
     font-family: $base-font-family;
-    color: $brand-primary;
-    font-size:30px;
+    color: $brand-secondary;
+    font-size:60px;
     letter-spacing: 1px;
     line-height: 1.3;
     text-align: left;
-    max-width: calc(1100px / 1.6);
+    max-width: calc(1100px / 1);
     margin-right: auto;
     margin-left: auto;
     padding-top: 60px;
-    padding-bottom: 30px;  
+    padding-bottom: 30px;
+    background-color: #333333;
     /*    margin-top: $spacing-unit * 3;
     margin-bottom: $spacing-unit * 4;*/
 
@@ -128,11 +137,11 @@
 
 .follower {
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 35px;
     text-align: left;
     font-family: DomaineTextWeb-LightItalic;
     margin-bottom: $spacing-unit;
-    color: $brand-primary;
+    color: rgba( $brand-secondary, .5 );
 }
 
 
@@ -143,27 +152,18 @@
  * Site footer
  */
 .site-footer {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+    padding: 50px;
+    padding-bottom: 35px;
+    background-color: #333333;
 }
 
 .footer-name {
-    padding: 5px;
-    width: auto;
-    height: 150px;
-    margin-top: 10px;
+    // padding: 5px;
+    // width: auto;
+    // height: 150px;
+    // margin-top: 10px;
 
-    line-height: 150px;
+    // line-height: 150px;
     color: $grey-color;
     font-size: 12px;
     letter-spacing: 2px;
@@ -172,12 +172,12 @@
 }
 
 .footer-social {
-    padding: 5px;
-    width: auto;
-    height: 150px;
-    margin-top: 10px;
+    // padding: 5px;
+    // width: auto;
+    // height: 150px;
+    // margin-top: 10px;
 
-    line-height: 150px;
+    // line-height: 150px;
     color: $grey-color;
     font-size: 12px;
     letter-spacing: 2px;
@@ -186,12 +186,12 @@
 }
 
 .footer-copyright {
-    padding: 5px;
-    width: auto;
-    height: 150px;
-    margin-top: 10px;
+    // padding: 5px;
+    // width: auto;
+    // height: 150px;
+    // margin-top: 10px;
 
-    line-height: 150px;
+    // line-height: 150px;
     color: $grey-color;
     font-size: 12px;
     letter-spacing: 2px;

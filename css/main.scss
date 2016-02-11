@@ -6,6 +6,13 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"vendor/bourbon/bourbon",
+	"vendor/bulma/utilities/utilities",
+	"vendor/bulma/config/variables",
+	"vendor/bulma/config/generated-variables",
+	"vendor/bulma/base/base",
+	"vendor/bulma/elements/elements",
+	"vendor/bulma/components/components",
+	"vendor/bulma/layout/layout",
 	"custom/_fonts.scss";
 
 // Our variables

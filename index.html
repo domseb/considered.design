@@ -12,7 +12,7 @@ layout: default
 	       {% for post in site.posts reversed limit:3 %}
 	         <li>
 	           <span class="post-meta">{{ post.date | date_to_long_string }}</span>
-	 
+
 	           <h2>
 	             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	           </h2>
