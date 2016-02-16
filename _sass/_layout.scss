@@ -19,10 +19,6 @@
     background-color: #333333;
     // list-style: none;
 
-    @include media-query($on-palm) {
-        padding-bottom: 20px;
-    }
-
     .logo {
     // float: left;
     // padding: 0;
@@ -135,6 +131,10 @@
         padding-top: 5px;
         font-size: 36px;
     }
+
+    @include media-query($on-palm) {
+        margin-top: 20px;
+    }
 }
 
 .subtle {
@@ -152,7 +152,7 @@
     letter-spacing: 2px;
     font-size: 35px;
     text-align: left;
-    font-family: $base-font-family-italic;
+    font-family: DomaineTextWeb-LightItalic;
     margin-bottom: $spacing-unit;
     color: rgba( $brand-secondary, .5 );
 
@@ -172,7 +172,7 @@
     padding: 50px;
     padding-bottom: 35px;
     background-color: #333333;
-    height: 113px;
+    height: 105px;
 
     @include media-query($on-palm) {
         padding-bottom: 100px;
