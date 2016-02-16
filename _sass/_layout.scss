@@ -152,7 +152,7 @@
     letter-spacing: 2px;
     font-size: 35px;
     text-align: left;
-    font-family: DomaineTextWeb-LightItalic;
+    font-family: $base-font-family-italic;
     margin-bottom: $spacing-unit;
     color: rgba( $brand-secondary, .5 );
 
@@ -172,7 +172,11 @@
     padding: 50px;
     padding-bottom: 35px;
     background-color: #333333;
-    height: 105px;
+    height: 113px;
+
+    @include media-query($on-laptop) {
+        padding-bottom: 66px;
+    }
 
     @include media-query($on-palm) {
         padding-bottom: 100px;
