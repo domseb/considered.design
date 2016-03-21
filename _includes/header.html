@@ -1,20 +1,18 @@
 <nav class="navbar">
-      <!-- Left side -->
-        <div class="logo">
-          <a href="{{ site.baseurl }}/">
-            {% include svg/cd-logo.svg %}
-          </a>
-        </div>
+  <!-- Left side -->
+  <div class="logo">
+    <a href="{{ site.baseurl }}/">
+      {% include svg/cd-logo.svg %}
+    </a>
+  </div>
 
-      <!-- Right side -->
-      <div class="twitter">
-        <div class="nav-links">
-          {% for page in site.pages %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-        <a class="twitter" href="https://twitter.com/dominosebastian">{% include svg/Twitter.svg %}</a>
-      </div>
+  <!-- Right side -->
+  <div class="nav-links">
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+    <a class="twitter" href="https://twitter.com/dominosebastian">{% include svg/Twitter.svg %}</a>
+  </div>
 </nav>
