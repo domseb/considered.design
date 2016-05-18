@@ -1,0 +1,51 @@
+---
+layout: default
+refID: work
+---
+
+<div class="wide">
+  <header class="post-header">
+    <div class="details">
+      <!-- <p class="context-title">{{ page.tag }}</p> -->
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </div>
+    <div class="test">
+      <h1 class="title">{{ page.title }}</h1>
+      <a class="button right button-icon" href="#">{% include svg/icon-link-live.svg %} Live Link</a>
+    </div>
+    <div class="page-intro">
+      <div class="copy">
+        <div class="project-icon">{% include svg/icon-engagement-bad.svg %}</div>
+        <div class="project-outcome">
+          <h4 class="project-solution">Problem</h4>
+          <h4 class="project-type">{{ page.type }}</h4>
+        </div>
+        <p class="project-description">{{ page.description }}</p>
+      </div>
+      <div class="pair">
+        <div>
+          <div class="project-icon">{% include svg/icon-engagement-good.svg %}</div>
+          <div class="project-outcome">
+            <h4 class="project-solution">Solution</h4>
+            <h4 class="project-type">{{ page.type }}</h4>
+          </div>
+          <ul class="project-stats">
+            <li>
+              <span class="stat-name">Conversion rate </span><span class="stat-value">Increased by {{ project.stat1 }}</span>
+            </li>
+            <li>
+              <span class="stat-name">Time on site </span><span class="stat-value">Increased by {{ project.stat2 }}</span>
+            <li>
+              <span class="stat-name">Other statistics </span><span class="stat-value">Increased by {{ project.stat3 }}</span>
+            </li>
+          </ul>
+        </div>      </div>
+    </div>
+  </header>
+</div>
+
+<div class="post">
+  <article class="post-content">
+    {{ content }}
+  </article>
+</div>

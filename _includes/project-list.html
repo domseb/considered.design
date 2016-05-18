@@ -1,0 +1,9 @@
+<div class="listings">
+     <ul class="post-list">
+       {% for project in site.projects %}
+            <li>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+       {% endfor %}
+     </ul>
+</div>
