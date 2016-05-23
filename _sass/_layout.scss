@@ -1,9 +1,32 @@
 // SITE HEADER
 
+.line {
+  border-bottom: 2px solid rgba($brand-primary,0.5);
+  text-decoration: none;
+
+    &:hover {
+        // background-color: $brand-primary;
+        border-bottom: 2px solid rgba($brand-primary,1);
+        text-decoration: none;
+
+        @include transition(
+          color 0.3s ease,
+          background 0.3s ease,
+          border 0.3s ease
+        );
+    }
+}
+
 .navbar {
   padding: 50px 35px 50px 35px;
   padding-top: 35px;
   margin-bottom: 0 !important;
+
+  @include transition(
+    color 0.3s ease,
+    background 0.3s ease,
+    border 0.3s ease
+  );
 
   .logo {
   display: inline-flex;
@@ -27,6 +50,12 @@
       &:hover {
           color: rgba(#828282,1);
           text-decoration: none;
+
+          @include transition(
+            color 0.3s ease,
+            background 0.3s ease,
+            border 0.3s ease
+          );
       }
   }
 
@@ -51,7 +80,31 @@
 }
 
   .dark {
-    background-color: $brand-secondary;
+    background-color: slategrey;
+
+    .page-link {
+        color: rgba(white,.5);
+        &:hover {
+            color: rgba(white,1);
+            text-decoration: none;
+        }
+    }
+
+    .twitter {
+        fill: rgba(white,.5);
+        &:hover { fill:rgba(white,1); }
+            svg {
+                @include size(rem(30) rem(30));
+            }
+        }
+
+    .footer-name {
+      color: rgba(white,0.5);
+    }
+
+    .footer-mission {
+      color: rgba(white,0.5);
+    }
   }
 
 .sticks {
@@ -78,15 +131,20 @@
   // background-color: $brand-secondary;
 
   @include media-query($on-laptop) {
-      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      // max-width:         calc(#{$content-width} - (#{$spacing-unit}));
       // padding-right: $spacing-unit / 2;
       // padding-left: $spacing-unit / 2;
   }
 }
 .welcome {
   @include span-columns(7);
-  @include shift(0);
+  @include shift(1);
+
+      @include media-query($on-laptop) {
+      @include span-columns(10);
+      @include shift(1);
+    }
 }
 .intro {
   font-family: $base-font-bold;
@@ -98,6 +156,9 @@
   margin-top: 30px;
   margin-bottom: 40px;
 
+    @include media-query($on-laptop) {
+    font-size: 80px;
+  }
 }
 .conrad {
     font-family: $base-font-bold;
@@ -118,6 +179,9 @@
   line-height: 1.3;
   margin-bottom: 50px;
 
+    @include media-query($on-laptop) {
+    font-size: 25px;
+  }
 }
 
   //
@@ -156,13 +220,14 @@
   }
   .project-title {
     font-family: $base-font-bold;
+    color: slategrey;
     font-size: 22px;
     padding-bottom: 15px;
     border-bottom: 1px solid $brand-primary;
   }
 
   .project-description {
-    font-size: 26px;
+    font-size: 22px;
     color: #4A4A4A;
   }
 
@@ -275,7 +340,8 @@
   font-family: $base-font;
   letter-spacing: 1px;
   font-size: $small-font-size;
-  color: $grey-color;
+  color: slategrey;
+  opacity: 0.85;
   float: right;
   display: inline;
   text-transform: uppercase;
@@ -314,6 +380,7 @@
     @include shift(1);
     line-height: 1.3;
     font-size: 65px;
+    color: slategrey;
     font-family: $base-font-bold;
     font-feature-settings: 'lnum';
     -moz-font-feature-settings: 'lnum=1';
@@ -340,7 +407,8 @@
   }
 
   .post-meta {
-    color: $grey-color;
+    color: slategrey;
+    opacity: 0.85;
     display: inline;
   }
 
@@ -474,9 +542,10 @@
     // @include span-columns(8);
     // @include shift(1);
     display: inline-block;
+    color: slategrey;
     line-height: 1.3;
     font-family: $base-font-bold;
-    font-size: 65px;
+    font-size: 100px;
 
       @include media-query($on-laptop) {
         padding-left: 25px;
@@ -522,7 +591,7 @@
     @include span-columns(5 of 12);
     // @include shift(7);
     // margin: 0px;
-    padding: 15px 25px 0px 25px;
+    padding: 15px 0px 0px 25px;
     float: right;
     // height: auto;
     // height: 160px;
@@ -535,6 +604,9 @@
     .CTA {
       display: inline-block;
       margin-bottom: 16px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 600;
       color: $brand-primary;
 
     }

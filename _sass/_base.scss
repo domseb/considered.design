@@ -173,6 +173,7 @@ pre {
 
 .button {
   // display: flex;
+  float: right;
   display: inline-block;
   border-radius: 3px;
   height: 55px;
@@ -194,6 +195,11 @@ pre {
   box-sizing: border-box;
   // line-height: 3.2;
 
+  &:hover, &:focus {
+    color: $brand-primary;
+    background-color: rgba($brand-primary,0.3);
+  }
+
   @include transition(
     color 0.3s ease,
     background 0.3s ease,
@@ -201,9 +207,12 @@ pre {
   );
 }
 
-.right {
-  float: right;
-  margin-top: 25px;
+.top {
+  margin-top: 55px;
+}
+
+.left {
+  float: left;
 }
 
 //
