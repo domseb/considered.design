@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-secondary;
+    color: $text-color;
     text-decoration: none;
 /*
     &:hover {
@@ -175,9 +175,9 @@ pre {
   // display: flex;
   float: right;
   display: inline-block;
-  border-radius: 3px;
-  height: 55px;
-  padding: 9px 25px;
+  // border-radius: 3px;
+  height: 45px;
+  // padding: 9px 25px;
   color: $brand-primary;
   // float: right;
   text-align: center;
@@ -188,12 +188,13 @@ pre {
   // text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: rgba($brand-primary,0.2);
+  // background-color: rgba($brand-primary,0.2);
   // border-radius: 4px;
   // border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
   // line-height: 3.2;
+  border-bottom: 2px solid;
 
   &:hover, &:focus {
     color: $brand-primary;
@@ -208,7 +209,7 @@ pre {
 }
 
 .top {
-  margin-top: 55px;
+  margin-top: 5px;
 }
 
 .left {
