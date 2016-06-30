@@ -8,9 +8,9 @@ description: Moving away from a traditional portfolio, below are process write u
 <div class="wide">
   <header class="post-header">
     <div class="test">
-    <h1 class="title">{{ page.title }}</h1>
+    <h1 class="title">Selected projects.</h1>
     </div>
-  	<div class="page-intro">
+    <!-- <div class="page-intro">
       <div class="copy">
         <p>{{ page.description }}</p>
       </div>
@@ -19,31 +19,23 @@ description: Moving away from a traditional portfolio, below are process write u
         <a class="button button-primary" href="#">Email me -></a>
         <p>If you have a project, design work ot If you ot If you have a project, design work ot, or reach out on twitter.</p>
       </div>
-    </div>
+    </div> -->
   </header>
 
-  <section class="project-cards">
+  <div class="project-tiles">
     {% for project in site.projects %}
-    <a class="card" href="{{ project.url }}">
+    <!-- <a class="carp" href="{{ project.url }}"> -->
+    <a class="carp" href="{{ project.url }}">
       <div class="project-content">
         <div class="project-info">
+          <p class="context">{{ project.context }}</p>
           <h3 class="project-title">{{ project.title }}</h3>
-          <p class="project-excerpt">{{ project.description | strip_html | truncatewords:14}}</p>
         </div>
-      </div>
-      <div>
-        <ul class="project-stats">
-          <li>
-            <span class="stat-name">Conversion rate </span><span class="stat-value">Increased by {{ project.stat1 }}</span>
-          </li>
-          <li>
-            <span class="stat-name">Time on site </span><span class="stat-value">Increased by {{ project.stat2 }}</span>
-          <li>
-            <span class="stat-name">Other statistics </span><span class="stat-value">Increased by {{ project.stat3 }}</span>
-          </li>
-        </ul>
+        <p class="tag">{{ project.tag }}</p>
+        <p class="linkx">View -></p>
       </div>
     </a>
+    <!-- </a> -->
     {% endfor %}
-  </section>
+  </div>
 </div>

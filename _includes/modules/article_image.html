@@ -3,7 +3,7 @@
 {% elsif include.type == "outset-right" %}
 <figure class="outset-right">
 {% else %}
-<figure>
+<figure class="wide-image">
 {% endif %}
   <img src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
   {% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}

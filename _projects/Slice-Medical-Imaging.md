@@ -8,34 +8,37 @@ type: New Website
 stat1: 475
 stat2: 67
 stat3: 224
+context: reuters
+tag: this is a conversion rate
 ---
 
-As part of a business requirement to how per user licensing was handled, I lead the redesign of Smart Sparrow’s core product flows to make cohort management, and understanding how it affected their license, a streamlined process.
+Over the past 6 months, I lead the design of a major update to the BEST Network's flagship product, [Slice](https://www.best.edu.au/slice/), to better integrate it into our academic's workflow and teaching. It involved rethinking parts of our taxonomy, core flows, and designing new UI to encourage collaboration amongst students and academics.
 
-### About Smart Sparrow
-Smart Sparrow is a learning design platform that enables anyone to create rich, interactive and adaptive elearning courseware. After raising $10m in 2014 and expanding to San Francisco, they’ve worked with over 500 institutions globally, and won numerous awards. Their latest project is next-generation science courseware, funded by a grant from the Bill and Melinda Gates Foundation, to help educate 250,000 community college across the United States.
 
-### Consolidating processes
-In broad strokes, Smart Sparrow has two main products – one to create courseware (the Author), and one to manage the courseware and distribute it to students (the Workspace). The Workspace for a long time has been centred around individual lessons, meaning all global actions you can make to a lesson (enrolling students to take the lesson, sharing the lesson, adding collaborators etc) were all done on that lessons page. This meant that to teach two different lessons to the same group of students, you’d have to enrol them in one lesson, and repeat the process for the same lesson, a tedious process for all users.
+### Some background
+Slice is a tool that lets academics and institutions upload scanned medical images, to annotate them as an interactive virtual slides for their peers and students to learn from. What this means for academics, is liberating the glass slides they otherwise would be storing on shelves in the lab, to share and build upon with a global network, online. What this means for students, is an online replacement to multiheader microscopes in labs, allowing them interact with the content in way not previously thought possible.
 
-We needed to design a place to centralise all these actions in one place, giving teachers complete control of their students and content they are teaching them. After months of requirements gathering, user stories, brainstorming, prototyping and testing, we finally had a design that we were happy with, and could move into engineering.
 
-{% include modules/article_image.html url="/assets/projects/Classes-03.jpg" description="The new consolidated Classes tab view" %}
+### Correcting the first step
+I first saw Slice early into 2014, and instantly saw the value it could provide as a tool for learning. Borrowing from Google Maps, it used a familiar mental model in how you interact with a virtual slide, had a seeming abundance of slides and contributors to learn from, and the quality of the scans were remarkable. Microscopic scans at 40x zoom look more like art than anything else.
 
-### Making the right information visible
-Another problem we were designing to solve, was liberating all the important information the user needed out of modals. Anything we felt was core information necessary to manage the class, was stripped out of a modal, and given a new home in the Classes tab. This allowed teachers to have a much better overview of their students, and lesson status, all in one area.
+When you first landed in the tool however, there was a common friction point in getting users to the next stage, the first hurdle in any UX project - guiding them on what they should do next. These users had an account, they had a clear goal to annotate their virtual slide, but had no idea where to action this, or why they couldn’t move forward.
 
-{% include modules/article_image.html url="/assets/projects/Classes-02.png" description="Pulling cohort list out of a modal, and giving it a new home" %}
+{% include modules/article_image.html url="/assets/projects/Slice-Master-01.jpg" description="Slice interface before, with no empty state, and the prompt hidden in the bottom right" %}
 
-### Reducing modal steps
-For some actions, we still had to have them behind modals, but we wanted to streamline the design of these as well. Through a small feature audit, we were able to consolidate options the user needed to take, made their descriptions much more concise and remove some options entirely. What would previously take up to 10 steps before to enrol students and deploy lessons to them, now only took 3.
+We realised one of the main causes of user frustration at this point was actually the hidden error notification for when they weren’t logged in, but were trying to interact with the slide, and having no helpful way to inform new users what to do next if they were logged in. All three were solved by reducing parts of the interface they didn't need to see at this stage (like slide metadata) and putting in a clear empty state, removing the need for the error message altogether.
 
-{% include modules/article_image.html url="/assets/projects/Classes-01.png" description="A redesigned modal, which collapsed 3 screens into 1" %}
+{% include modules/article_image.html url="/assets/projects/Slice-Master-02.jpg" description="Slice interface now, with clear empty state" %}
 
-### Highlighting license restrictions
-Now we had one area for users to manage their students, we also needed to make them aware of how that affected their license usage. Although for new users this would easier to elaborate on, for existing users we needed a clear, visual UI marker to help indicate the higher boundaries of their license, to make sure they didn’t go over their quota. After a series of experiments, we created the quota wheel below, using animation and colour to highlight the limits of the license.
+### Designing for focus
+After an observation session at a partnering university in Sydney, it was clear we needed a way to allow let teachers switch between student annotations (to present misconceptions in class discussions), and for these to be made optionally anonymous (to avoid highlighting an individual student's misconception to their classmates). The resulting design was to include "Toggle focus" within the student list, and for extra options to be added to the sharing settings, to allow anonymity.
 
-{% include modules/article_image.html url="/assets/projects/Classes-04.gif" description="One of the animation prototypes for the quota wheel, to highlight the user is reaching their limit" %}
+{% include modules/article_image.html url="/assets/projects/Slice-Master-03.jpg" description="Student annotation list on the left with focus and visibility toggles" %}
+
+### Understanding teaching contexts
+Collaborative annotations was one of the most popular feature launches for Slice to date, but the remaining work surrounded how teachers and academics could make the most of the feature in their teaching. The result of the ongoing user interviews and observation sessions was to divide the feature into three seperate contexts, for the 3 main groups of use cases we observed - present in class, share as a resource, and creating an activity.
+
+{% include modules/article_image.html url="/assets/projects/Slice-Master-04.jpg" description="Teaching options for a virtual slide image, in class, in presentation, and as an activity" %}
 
 ### Still to come
 There’s still some features and changes related to Classes that haven’t quite made it to production, and some more still we want to change in the coming months relating to student analytics. You can learn more about Smart Sparrow by [visiting their website](https://www.smartsparrow.com/).

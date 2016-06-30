@@ -2,36 +2,87 @@
 layout: post
 title: 2015 – A year in review
 permalink: /year-in-review/
+description: As part of a business requirement to how per user licensing was handled, I lead the redesign of Smart Sparrow’s core product flows to make cohort management, and understanding how it affected their license, a streamlined process.
+featured: true
 ---
 
-As part of a business requirement to how per user licensing was handled, I lead the redesign of Smart Sparrow’s core product flows to make cohort management, and understanding how it affected their license, a streamlined process.
+# Goals
+save x amount in 2015
+buy my first property
 
-### About Smart Sparrow
-Smart Sparrow is a learning design platform that enables anyone to create rich, interactive and adaptive elearning courseware. After raising $10m in 2014 and expanding to San Francisco, they’ve worked with over 500 institutions globally, and won numerous awards. Their latest project is next-generation science courseware, funded by a grant from the Bill and Melinda Gates Foundation, to help educate 250,000 community college across the United States.
+cardio 3 times a week
+do 1 long bike ride a week
 
-### Consolidating processes
-In broad strokes, Smart Sparrow has two main products – one to create courseware (the Author), and one to manage the courseware and distribute it to students (the Workspace). The Workspace for a long time has been centred around individual lessons, meaning all global actions you can make to a lesson (enrolling students to take the lesson, sharing the lesson, adding collaborators etc) were all done on that lessons page. This meant that to teach two different lessons to the same group of students, you’d have to enrol them in one lesson, and repeat the process for the same lesson, a tedious process for all users.
+health and wellbeing
+meditate every day
+cook more adventurous food
+travel more
+propose
 
-We needed to design a place to centralise all these actions in one place, giving teachers complete control of their students and content they are teaching them. After months of requirements gathering, user stories, brainstorming, prototyping and testing, we finally had a design that we were happy with, and could move into engineering.
+Favourite new place I’ve been
+Best Blog post I read
+Best Book I read
+Career or work highlight
+Out of work highlight
+Accomplishments, goals met from last year
+Best new experience
+Most interesting talk
+Most interesting change
+Things I’m more conscious of (give it 5 minutes)
 
-{% include modules/article_image.html url="/assets/projects/Classes-03.jpg" description="The new consolidated Classes tab view" %}
+Things I want to leave in 2015
+Discussions around toolsets
+At family christmas MIL quoted my numerology outlook for 2016 and said “you must be weary of making plans, and only plans, and losing sight of the vision”. Comparisons around prototyping tools. Just new ways of doing the same things. Sketch. Jia. Worrying about workflow.
 
-### Making the right information visible
-Another problem we were designing to solve, was liberating all the important information the user needed out of modals. Anything we felt was core information necessary to manage the class, was stripped out of a modal, and given a new home in the Classes tab. This allowed teachers to have a much better overview of their students, and lesson status, all in one area.
+Things I’ve looking forward to. humility. Making time for reading. Growth. Health and wellbeing. Making time for learning. Meditation. Blogging. Making investments in the best things. New habits.
 
-{% include modules/article_image.html url="/assets/projects/Classes-02.png" description="Pulling cohort list out of a modal, and giving it a new home" %}
+# Favourite apps
+- iA Writer
+- Numi
+- Nuggets
+- Mailbox (RIP)
+- VCSO
+- Sublime
+- Alfred
+- Bartender
+- New Tab thing
+- Basecamp
+- Wunderlist (autocomplete)
+- Invision
+- Overcast
+- Thunderspace
+- Onetime
+- NYTVR
+- Primer
+- NYTNow
 
-### Reducing modal steps
-For some actions, we still had to have them behind modals, but we wanted to streamline the design of these as well. Through a small feature audit, we were able to consolidate options the user needed to take, made their descriptions much more concise and remove some options entirely. What would previously take up to 10 steps before to enrol students and deploy lessons to them, now only took 3.
+# Blog post ideas
+1. Cult of amateur & sketch
+2. Object orientated UX & Basecamp
+3. Conceptual debt worse than technical debt
 
-{% include modules/article_image.html url="/assets/projects/Classes-01.png" description="A redesigned modal, which collapsed 3 screens into 1" %}
+# Blog posts to launch with
+1. The rhythm of work
+2. A year in review
+3. Can I please have your attention
+4. Breaking: Attention spans / salvaging an attention span
+5. Virginia wolf - waves crashing on baltic rock - holiday
+6. Swing and a miss
 
-### Highlighting license restrictions
-Now we had one area for users to manage their students, we also needed to make them aware of how that affected their license usage. Although for new users this would easier to elaborate on, for existing users we needed a clear, visual UI marker to help indicate the higher boundaries of their license, to make sure they didn’t go over their quota. After a series of experiments, we created the quota wheel below, using animation and colour to highlight the limits of the license.
+# Ideal Morning routine
+- time to read
+- time to have good coffee
+- yoga set to soul up
+- exercise to get the body on board
+- creative task every morning
+- time for philosophy
 
-{% include modules/article_image.html url="/assets/projects/Classes-04.gif" description="One of the animation prototypes for the quota wheel, to highlight the user is reaching their limit" %}
-
-### Still to come
-There’s still some features and changes related to Classes that haven’t quite made it to production, and some more still we want to change in the coming months relating to student analytics. You can learn more about Smart Sparrow by [visiting their website](https://www.smartsparrow.com/).
-
-Have a project you'd me to work on? [Send me an email](mailto:dominic@considered.design).
+# Action items
+- write 200 words everyday
+- meditate every day
+- read 1 book every month
+- buy coffee maker
+- goal management in calendar
+- measure fitness, track progress
+- set a date to capture, and a date to review
+- create templates in iA writer

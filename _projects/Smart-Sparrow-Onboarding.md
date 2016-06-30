@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Smart Sparrow
+title: Smart Sparrow Onboarding
 description: The problem to solve was an old site with no clear information architecture was fucking confusing and ugly maaaan.
 refID: project
 problem: Low engagement
@@ -8,6 +8,8 @@ type: New Website
 stat1: 475
 stat2: 67
 stat3: 224
+context: reuters
+tag: this is a conversion rate
 ---
 
 When I was hired by Smart Sparrow as their Senior UX Designer, my intended focus was to help reduce the steep learning curve of the product, and to create an onboarding process that could expedite the journey for new users to become power users.
