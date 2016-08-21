@@ -354,7 +354,8 @@
   @include shift(1);
   font-family: $base-font;
   color: $brand-secondary;
-  margin-top: (2 * $spacing-unit);
+  margin-top: (1 * $spacing-unit);
+  margin-bottom: (5 * $spacing-unit);
 
   a {
     color: $brand-secondary;
@@ -372,13 +373,14 @@
 .projects {
   @include span-columns(10);
   @include shift(1);
-  margin-top: (3 * $spacing-unit);
-  margin-bottom: (3 * $spacing-unit);
+  margin-top: (2 * $spacing-unit);
+  // margin-bottom: (3 * $spacing-unit);
 
   .context {
     align-items: baseline;
     display: inline-flex;
     justify-content: space-between;
+    margin-bottom: $spacing-unit;
   }
 
   .card {
@@ -551,8 +553,13 @@
   }
 
   &.left {
-    @include span-columns(4 of 12);
+    @include span-columns(6 of 12);
     @include shift(1);
+  }
+
+  &.right {
+    @include span-columns(4 of 12);
+    @include shift(0);
 
     .page-intro {
       margin-left: 0px;
@@ -577,17 +584,13 @@
 
 
         &:hover {
+            color: $brand-primary;
             background-color: rgba($brand-primary,0.2);
             border-bottom: 3px solid rgba($brand-primary,0);
             @include transition( all $default-transition);
         }
       }
     }
-  }
-
-  &.right {
-    @include span-columns(6 of 12);
-    @include shift(0);
   }
 
   a {
@@ -608,12 +611,14 @@
   margin-top: 60px;
 
   .project-header {
-    @include span-columns(6);
+    @include span-columns(5);
     @include shift(1);
     @extend %clearfix;
     text-align: left;
     padding-bottom: 20px;
     margin-bottom: 30px;
+
+    &.extra {  @include span-columns(6); }
 
     @include media-query($on-laptop) {
       @include span-columns(10);
@@ -631,7 +636,6 @@
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: -50px;
     margin-bottom: 60px;
 
     .numero {
@@ -675,7 +679,6 @@
 }
 
 .profile {
-  margin-bottom: 50px;
   margin-top: 10px;
 
   // @include media-query($on-laptop) {
@@ -745,8 +748,4 @@
   @include shift(1);
   border-top: 1px solid rgba(#81A2B2,1);
   padding-top: 50px;
-}
-
-.profile {
-  margin-bottom: 15px;
 }
