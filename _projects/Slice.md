@@ -7,10 +7,10 @@ refID: project
 type: New Website
 image: /assets/site/test.png
 featured: true
-role: Me as Design Lead, working with a team of 6. Including UI Design, Product Manager.
-team: Me as Design Lead, working with a team of 6. Including UI Design, Product Manager.
+role: Something about what I did on the project, and what this briefly meant for the project.
+team: The context of my role on the project, who I worked with, how many of us there were etc.
 link1url: https://www.google.com
-link1name: Google Home
+link1name: Live Product
 numero: 05
 ---
 

@@ -4,6 +4,10 @@ context: art director
 problem: Movie production courseware
 matter: community colleges.
 refID: project
+role: Something about what I did on the project, and what this briefly meant for the project.
+team: The context of my role on the project, who I worked with, how many of us there were etc.
+link1url: https://www.google.com
+link1name: Live Product
 numero: 02
 ---
 
