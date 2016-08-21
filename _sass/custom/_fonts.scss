@@ -1,49 +1,33 @@
 @font-face {
-    font-family: "NationalWeb-Book";
-    src: url('/assets/fonts/NationalWeb-Book.eot') format('eot');
-    src: url('/assets/fonts/NationalWeb-Book.woff') format('woff');
-	font-weight: normal;
+    font-family: 'NationalWeb-Book';
+    src: url('../assets/fonts/NationalWeb-Book.eot') format('eot');
+    src: url('../assets/fonts/NationalWeb-Book.woff') format('woff');
+	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-    font-family: "NationalWeb-BookItalic";
-    src: url('/assets/fonts/NationalWeb-BookItalic.eot') format('eot');
-    src: url('/assets/fonts/NationalWeb-BookItalic.woff') format('woff');
-	font-weight: normal;
+    font-family: 'NationalWeb-BookItalic';
+    src: url('../assets/fonts/NationalWeb-BookItalic.eot') format('eot');
+    src: url('../assets/fonts/NationalWeb-BookItalic.woff') format('woff');
+	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
-    font-family: "NationalWeb-Medium";
-    src: url('/assets/fonts/NationalWeb-Medium.eot') format('eot');
-    src: url('/assets/fonts/NationalWeb-Medium.woff') format('woff');
-    src: url('/assets/fonts/NationalWeb-Medium.woff2') format('woff2');
-	font-weight: normal;
+    font-family: 'NationalWeb-Medium';
+    src: url('../assets/fonts/NationalWeb-Medium.eot') format('eot');
+    src: url('../assets/fonts/NationalWeb-Medium.woff') format('woff');
+    // src: url('../assets/fonts/NationalWeb-Medium.woff2') format('woff2');
+	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-    font-family: "NationalWeb-Bold";
-    src: url('/assets/fonts/NationalWeb-Bold.eot') format('eot');
-    src: url('/assets/fonts/NationalWeb-Bold.woff') format('woff');
-    src: url('/assets/fonts/NationalWeb-Bold.woff2') format('woff2');
-	font-weight: normal;
+    font-family: 'NationalWeb-Bold';
+    src: url('../assets/fonts/NationalWeb-Bold.eot') format('eot');
+    src: url('../assets/fonts/NationalWeb-Bold.woff') format('woff');
+    // src: url('../assets/fonts/NationalWeb-Bold.woff2') format('woff2');
+	font-weight: 700;
 	font-style: normal;
-}
-
-@font-face {
-    font-family: "DomaineTextWeb-Light";
-    src: url('/assets/fonts/DomaineTextWeb-LightItalic.eot') format('eot');
-    src: url('/assets/fonts/DomaineTextWeb-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "DomaineTextWeb-LightItalic";
-    src: url('/assets/fonts/DomaineTextWeb-LightItalic.eot') format('eot');
-    src: url('/assets/fonts/DomaineTextWeb-LightItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
 }

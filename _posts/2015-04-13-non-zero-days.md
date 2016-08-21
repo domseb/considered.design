@@ -1,11 +1,7 @@
 ---
-layout: project
-context: design lead
-problem: Building a design culture
-matter: a global eLearning company.
-refID: project
-type: New Website
-numero: 06
+layout: post
+title: Non-zero days in design
+permalink: /non-zero-days/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor est sed tortor fermentum finibus. Aenean vel nisl pharetra, facilisis risus nec, egestas dolor. Ut velit ipsum, vulputate nec semper sodales, ultrices nec nibh. Fusce malesuada sem vel magna accumsan, et consequat sem tincidunt. Praesent tincidunt ligula nec augue maximus commodo. Mauris id magna accumsan, auctor lorem ac, imperdiet ante. Phasellus tristique, augue a feugiat tempus, nunc lectus molestie velit, non congue massa mi in leo. Praesent in nulla congue dui malesuada tristique ut in metus. Vivamus at aliquet est. Phasellus laoreet elit diam, et placerat elit rhoncus ut. Sed fringilla accumsan convallis. Integer iaculis urna dolor, non vestibulum velit vulputate ac. Pellentesque risus nisl, cursus non accumsan condimentum, luctus eu ligula.

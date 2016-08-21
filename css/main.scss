@@ -18,15 +18,15 @@
 
 
 // Our variables
-$base-font: "NationalWeb-Book", Helvetica, Arial, sans-serif;
-$base-font-italic: "NationalWeb-BookItalic", Helvetica, Arial, sans-serif;
-$base-font-bold: "NationalWeb-Medium", Helvetica, Arial, sans-serif;
-$base-font-xbold: "NationalWeb-Bold", Helvetica, Arial, sans-serif;
+$base-font: 'NationalWeb-Book', Helvetica, Arial, sans-serif;
+$base-font-italic: 'NationalWeb-BookItalic', Helvetica, Arial, sans-serif;
+$base-font-bold: 'NationalWeb-Medium', Helvetica, Arial, sans-serif;
+$base-font-xbold: 'NationalWeb-Bold', Helvetica, Arial, sans-serif;
 $pair-font: "DomaineTextWeb-Light", Helvetica, Arial, sans-serif;
 $pair-font-italic: "DomaineTextWeb-LightItalic", Helvetica, Arial, sans-serif;
-$base-font-size:   19px;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.8;
-$base-line-height: 30px;
+$base-line-height: 1.4;
 
 $default-transition: 0.3s ease;
 
