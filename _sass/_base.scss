@@ -64,6 +64,9 @@ h1 {
   margin-bottom: 20px;
   font-size: 53px;
   letter-spacing: -1px;
+  @include media-query($on-tablet) {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -75,6 +78,9 @@ h2 {
   letter-spacing: -1px;
   padding-bottom: 0px;
   margin-bottom: 15px;
+  @include media-query($on-tablet) {
+    font-size: 25px;
+  }
 }
 
 h3 {

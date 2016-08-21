@@ -10,16 +10,18 @@ refID: work
     </div>
   <div class="hero-image"><img src="{{ site.baseUrl }}{{ page.image }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/></div>
   <div class="page-intro">
-    <div class="numero">0{{ page.numero }}</div>
-    <div class="numero2">
+    <div class="spotlight">
+      <h5 class="numero">0{{ page.numero }}</h5>
+    </div>
+    <div class="spotlight">
       <h5>Responsibility</h5>
       <p class="copy">{{ page.role }}</p>
     </div>
-    <div class="numero2">
+    <div class="spotlight">
       <h5>Team</h5>
       <p class="copy">{{ page.team }}</p>
     </div>
-    <div class="numero2">
+    <div class="spotlight">
       <h5>Links</h5>
       <p class="copy"><a href="{{ page.link1url }}">{{ page.link1name }}</a><br>
       <a href="{{ page.link2url }}">{{ page.link2name }}</a><br>

@@ -108,7 +108,7 @@ The Rhythm of Work
 5. Swiss Miss
 6. Julie Zhou - silicon valley up and down
 
-http://www.nytimes.com/2016/06/12/fashion/internet-technology-phones-introspection.html?ref=technology
+[link](http://www.nytimes.com/2016/06/12/fashion/internet-technology-phones-introspection.html?ref=technology)
 
 **worthy mentions**
 
