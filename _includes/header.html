@@ -6,15 +6,18 @@
       {% include svg/cd-logo.svg %}
     </a>
   </div>
-
   <!-- Right side -->
-  <div class="nav-links">
-    {% for page in site.pages %}
-      {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
+  <ul class="nav-links">
+    <li{% if page.url == '/work/' %} class="active"{% endif %}>
+    <a class="page-link" href="/work/">Work</a>
+    </li>
+    <li{% if page.url == '/blog/' %} class="active"{% endif %}>
+    <a class="page-link" href="/blog/">Blog</a>
+    </li>
+    <li{% if page.url == '/profile/' %} class="active"{% endif %}>
+    <a class="page-link" href="/profile/">Profile</a>
+    </li>
     <a class="twitter" href="https://twitter.com/dominosebastian">{% include svg/Twitter.svg %}</a>
-  </div>
+  </ul>
 </nav>
 </div>

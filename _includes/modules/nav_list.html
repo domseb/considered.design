@@ -1,11 +1,23 @@
-{% for node in nav_list %}
+<!-- {% for node in nav_list %}
   {% if group == null or group == node.group %}
     {% if page.url == node.url %}
-      <li><a href="{{node.url}}" class="current-page">{{node.title}}</a></li>
+      <li><a href="{{node.url}}" class="active">{{node.title}}</a></li>
     {% else %}
       <li><a href="{{node.url}}">{{node.title}}</a></li>
     {% endif %}
   {% endif %}
 {% endfor %}
 {% assign nav_list = nil %}
-{% assign group = nil %}
+{% assign group = nil %} -->
+
+<ul id="nav">
+    <li{% if page.url == '/about' %} class="active"{% endif %}>
+    <a href="/about">About</a>
+    </li>
+    <li{% if page.url == '/work' %} class="active"{% endif %}>
+    <a href="/work">Work</a>
+    </li>
+    <li{% if page.url == '/writing' %} class="active"{% endif %}>
+    <a href="/writing">Writing</a>
+    </li>
+</ul>

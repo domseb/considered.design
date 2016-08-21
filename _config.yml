@@ -19,3 +19,15 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+gems:
+  - jekyll-assets
+  - octopress-autoprefixer
+
+navigation:
+  - title: work
+    url: /work/
+  - title: about
+    url: /about/
+  - title: writing
+    url: /writing/

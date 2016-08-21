@@ -4,38 +4,22 @@ title: Work
 permalink: /work/
 description: Moving away from a traditional portfolio, below are process write ups on some of the most interesting projects I've worked on in the last few years.
 ---
-
 <div class="wide">
-  <header class="post-header">
-    <div class="test">
-    <h1 class="title">Selected projects.</h1>
-    </div>
-    <!-- <div class="page-intro">
-      <div class="copy">
-        <p>{{ page.description }}</p>
-      </div>
-      <div class="pair">
-        <h3 class="CTA">Want to work together?</h3>
-        <a class="button button-primary" href="#">Email me -></a>
-        <p>If you have a project, design work ot If you ot If you have a project, design work ot, or reach out on twitter.</p>
-      </div>
-    </div> -->
-  </header>
-
-  <div class="project-tiles">
+  <div class="project-header">
+    <h1>I like solving interesting problems <span class="joiner">for</span> things that matter.</h1>
+  </div>
+<section class="wide">
+  <div class="projects">
     {% for project in site.projects %}
-    <!-- <a class="carp" href="{{ project.url }}"> -->
-    <a class="carp" href="{{ project.url }}">
-      <div class="project-content">
-        <div class="project-info">
-          <p class="context">{{ project.context }}</p>
-          <h3 class="project-title">{{ project.title }}</h3>
-        </div>
-        <p class="tag">{{ project.tag }}</p>
-        <p class="linkx">View -></p>
+    <a class="card" href="{{ project.url }}">
+      <div class="context">
+        <h3>{{ project.context }}</h3>
+        <p class="numero">0{{ project.numero }}</p>
       </div>
+      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
+      <h4>VIEW PROJECT</h4>
     </a>
-    <!-- </a> -->
     {% endfor %}
   </div>
+</section>
 </div>

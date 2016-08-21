@@ -1,8 +1,7 @@
 ---
 layout: post
-title: How much is your attention worth?
-permalink: /year-in-review/
-description: As part of a business requirement to how per user licensing was handled, I lead the redesign of Smart Sparrow’s core product flows to make cohort management, and understanding how it affected their license, a streamlined process.
+title: How much is yours worth?
+permalink: /how-much-is-your-attention-worth/
 ---
 
 300 words a day, every day

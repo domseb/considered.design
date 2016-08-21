@@ -3,22 +3,21 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <!-- <div class="details"> -->
-      <!-- <p class="context-title">{{ page.tag }}</p> -->
+  <!-- <header class="post-header"> -->
     <div class="post-title">
-      <p class="post-metas">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    <!-- </div> -->
-      <h1 class="post-titles">{{ page.title }}</h1>
+      <h3>{{ page.date | date_to_long_string }} •
+        {% assign words = page.content | number_of_words %}
+        {% if words < 360 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by:180 }} min read
+        {% endif %}
+      </h3>
+      <h1>{{ page.title }}</h1>
+      <p class="post-description">{{ page.description }}</p>
       </div>
-  </header>
-  <div class="details">
-  	<p class="context-title">{{ page.tag }}</p>
-    <!-- <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> -->
-  </div>
-
+  <!-- </header> -->
   <article class="post-content">
     {{ content }}
   </article>
-
 </div>
