@@ -20,20 +20,26 @@
 // Our variables
 $base-font: "NationalWeb-Book", Helvetica, Arial, sans-serif;
 $base-font-italic: "NationalWeb-BookItalic", Helvetica, Arial, sans-serif;
-$base-font-bold: "NationalWeb-Bold", Helvetica, Arial, sans-serif;
+$base-font-bold: "NationalWeb-Medium", Helvetica, Arial, sans-serif;
+$base-font-xbold: "NationalWeb-Bold", Helvetica, Arial, sans-serif;
 $pair-font: "DomaineTextWeb-Light", Helvetica, Arial, sans-serif;
 $pair-font-italic: "DomaineTextWeb-LightItalic", Helvetica, Arial, sans-serif;
-$base-font-size:   20px;
+$base-font-size:   19px;
 $small-font-size:  $base-font-size * 0.8;
 $base-line-height: 30px;
 
+$default-transition: 0.3s ease;
+
 $spacing-unit:     30px;
 
-$text-color:       rgba(74,74,74,.85);
+$text-color:       #19272F;
+// $background-color: #f1f6f8;
 // $background-color: #F9FBFC;
-$background-color: #1a272f;
-$brand-primary:    #E55E46;
+$background-color: #F9F9F9;
+$brand-primary:		 #F36A67;
+// $brand-primary:		 #0071E9;
 $brand-secondary:  #82a2b1;
+$brand-black:			 #19272F;
 $brand-primary-light: lighten($brand-primary, 20%);
 $brand-primary-dark: darken($brand-primary, 10%);
 
@@ -44,7 +50,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    1100px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 

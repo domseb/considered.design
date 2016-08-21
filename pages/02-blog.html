@@ -1,0 +1,43 @@
+---
+layout: default
+refID: secondary
+title: Blog
+permalink: /blog/
+description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
+---
+
+<!-- <div class="grey">
+  <div class="project-header">
+    <h1>A little bit about me — where I’ve been, where I am and where I’m going.</h1>
+  </div>
+</div> -->
+
+<section class="grey start">
+  <div class="wide">
+    <h1 class="outro">I also like writing about design, process <span class="joiner">and</span> film.</h1>
+    <!-- <h2 class="explainer">These are the best reflection of my writing style. The rest you can find below thie section.</h2> -->
+    <div class="tiles">
+      {% for post in site.posts | limit: 6 %}
+      <div class="tile">
+        <h3>{{ post.date | date_to_long_string }} •
+          {% assign words = post.content | number_of_words %}
+          {% if words < 360 %}
+            1 min read
+          {% else %}
+            {{ words | divided_by:180 }} min read
+          {% endif %}
+        </h3>
+        <h2><a href="{{ post.url }}" >{{ post.title }}</a></h2>
+        <!-- <p class="project-excerpt">{{ post.content | strip_html | truncatewords:20}}</p> -->
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<div class="wide">
+  <div>
+  {% include post-list.html %}
+  </div>
+</div>

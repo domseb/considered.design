@@ -1,0 +1,25 @@
+---
+layout: default
+title: Work
+permalink: /work/
+description: Moving away from a traditional portfolio, below are process write ups on some of the most interesting projects I've worked on in the last few years.
+---
+<div class="wide">
+  <div class="project-header">
+    <h1>I like solving interesting problems <span class="joiner">for</span> things that matter.</h1>
+  </div>
+<section class="wide">
+  <div class="projects">
+    {% for project in site.projects %}
+    <a class="card" href="{{ project.url }}">
+      <div class="context">
+        <h3>{{ project.context }}</h3>
+        <p class="numero">0{{ project.numero }}</p>
+      </div>
+      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
+      <h4>VIEW PROJECT</h4>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+</div>
