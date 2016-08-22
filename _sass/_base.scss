@@ -18,7 +18,7 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
-    -moz-font-feature-settings: 'lnum=1', 'ss03' 1, 'ss01' 1, 'ss05' 1;
+    -moz-font-feature-settings: "lnum" 1, 'ss03' 1, 'ss01' 1, 'ss05' 1;
     -ms-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
     -webkit-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
     -o-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
