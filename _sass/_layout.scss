@@ -792,6 +792,11 @@
         margin-top: 0px;
         padding-left: 40px;
         line-height: 1;
+        font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
+        -moz-font-feature-settings: 'lnum=1', 'ss03' 1, 'ss01' 1, 'ss05' 1;
+        -ms-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
+        -webkit-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
+        -o-font-feature-settings: 'lnum', 'ss03' 1, 'ss01' 1, 'ss05' 1;
         // padding-top: 30px;
         // align-self: center;
 
