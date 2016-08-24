@@ -18,6 +18,7 @@
         border-radius: 50%;
         background-color: rgba($brand-primary,0);
         box-shadow: 0px 0px 0px 0px rgba($brand-primary,.3);
+        @include transition( all $default-transition);
 
         &:hover {
           border-radius: 50%;
@@ -87,6 +88,7 @@
         fill:rgba(white,1);
         background-color: rgba(white,0);
         box-shadow: 0px 0px 0px 0px rgba(white,.3);
+        @include transition( all $default-transition);
 
         &:hover {
           border-radius: 50%;
