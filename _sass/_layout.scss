@@ -443,12 +443,13 @@
     @include omega(3n);
     margin-bottom: 50px;
     text-align: left;
-    padding: 25px 25px 15px 25px;
+    padding: 25px;
     height: 350px;
     display: flex;
     flex-direction: column;
     background-color: rgba($white-color,1);
     box-shadow:inset 0px -3px 0px 0px rgba($brand-primary,0);
+    @include transition( all $default-transition);
 
     @include media-query($on-laptop) {
       @include omega-reset(3n);
@@ -486,10 +487,11 @@
       -ms-font-feature-settings: 'lnum';
       -webkit-font-feature-settings: 'lnum';
       -o-font-feature-settings: 'lnum';
+      @include transition( all $default-transition);
     }
 
     &:hover {
-      box-shadow:inset 0px -60px 0px 0px rgba($brand-primary,.3);
+      box-shadow:inset 0px -65px 0px 0px rgba($brand-primary,.3);
       @include transition( all $default-transition);
     }
 
@@ -500,7 +502,7 @@
     }
 
     &:active {
-      box-shadow:inset 0px -60px 0px 0px rgba($brand-primary,.5);
+      box-shadow:inset 0px -65px 0px 0px rgba($brand-primary,.5);
       text-decoration: none;
       @include transition( all $default-transition);
     }
