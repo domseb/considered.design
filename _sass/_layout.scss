@@ -165,6 +165,7 @@
   a {
     color: inherit;
     border-bottom: 3px solid rgba($brand-primary,0.4);
+    @include transition( all $default-transition);
 
     &:hover, &:focus {
       color: $brand-primary;
@@ -265,6 +266,7 @@
   a {
     color: white;
     border-bottom: 3px solid rgba(white,0.2);
+    @include transition( all $default-transition);
 
     &:hover {
         background-color: rgba(white,0.2);
@@ -326,6 +328,7 @@
     a {
       color: rgba(white,.7);
       border-bottom: 3px solid rgba(white,0.2);
+      @include transition( all $default-transition);
 
       &:hover {
           color: white;
@@ -375,6 +378,7 @@
   a {
     color: white;
     border-bottom: 3px solid rgba(white,0.2);
+    @include transition( all $default-transition);
 
     &:hover {
         background-color: rgba(white,0.2);
@@ -404,6 +408,7 @@
   a {
     color: $brand-secondary;
     border-bottom: 3px solid rgba($brand-primary,0.2);
+    @include transition( all $default-transition);
 
     &:hover {
         color: $brand-primary;
@@ -670,6 +675,7 @@
         font-family: $base-font;
         color: rgba($brand-secondary,1);
         border-bottom: 3px solid rgba($brand-primary,0.2);
+        @include transition( all $default-transition);
 
 
         &:hover {
@@ -684,6 +690,7 @@
 
   a {
     border-bottom: 3px solid rgba($brand-primary,0.2);
+    @include transition( all $default-transition);
 
     &:hover, &:focus {
       color: $brand-primary;
@@ -858,6 +865,7 @@
         a {
           color: inherit;
           border-bottom: 3px solid rgba($brand-primary,0.2);
+          @include transition( all $default-transition);
 
           &:hover {
               background-color: rgba($brand-primary,0.2);
