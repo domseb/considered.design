@@ -43,6 +43,7 @@
     color: rgba($brand-black,.5);
     font-size: 18px;
     list-style: none;
+    @include transition( all $default-transition);
 
     &:hover {
       color: rgba($brand-black,1);
@@ -54,8 +55,9 @@
   .twitter {
     fill: rgba($brand-black,.5);
     margin-top: 2px;
+    @include transition( all $default-transition);
 
-    &:hover { fill:rgba($brand-black,1); }
+    &:hover { fill:rgba($brand-black,1); @include transition( all $default-transition);}
       svg { @include size(rem(30) rem(30)); }
   }
 }
@@ -66,15 +68,19 @@
 
   .page-link {
     color: rgba(white,.5);
+    @include transition( all $default-transition);
     &:hover {
       color: rgba(white,1);
       text-decoration: none;
+      @include transition( all $default-transition);
     }
   }
 
   .twitter {
     fill: rgba(white,.5);
-    &:hover { fill:rgba(white,1); }
+    @include transition( all $default-transition);
+    &:hover { fill:rgba(white,1);
+    @include transition( all $default-transition); }
       svg { @include size(rem(30) rem(30)); }
     }
 }
