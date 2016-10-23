@@ -7,7 +7,7 @@ context: product
 problem: Enabling biomedical annotations
 matter: better online medical resources.
 
-image: /assets/projects/slice-1.jpg
+image: /assets/projects/slice/slice-1.jpg
 featured: true
 role: UX Lead, covering initial user interviews and on site testing, through to wireframes and final design.
 team: Working closely with our stakeholders, CEO, Product Manager and UI Designer for the new feature launch.

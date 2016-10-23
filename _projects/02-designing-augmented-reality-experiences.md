@@ -7,7 +7,7 @@ context: ios | android
 problem: Designing augmented reality experiences
 matter: pioneering arts projects.
 
-image: /assets/projects//digicave/htc-1.jpg
+image: /assets/projects/digicave/htc-1.jpg
 role: Designing everything from our brand, deck and pitches – to all digital products that came out of the studio.
 team: First designer at the 10 person company. I worked with the CEO, Creative Director and Sales Director.
 link1url: https://www.wired.com/2012/04/top-gear-host-narrates-museum-exhibits-as-augmented-reality-avatar/

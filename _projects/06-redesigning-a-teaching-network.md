@@ -7,7 +7,7 @@ context: product
 problem: Redesigning a teaching network
 matter: globally connected academics.
 
-image: /assets/projects/best-3.jpg
+image: /assets/projects/best/best-3.jpg
 role: Design Lead, responsible for the initial wireframes, and designing disciplines to thread through the site and event.
 team: Working closely with our stakeholders, CEO, Product Manager and UI Designer for the new feature launch.
 link1url: https://www.best.edu.au/

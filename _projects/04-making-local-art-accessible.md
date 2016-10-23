@@ -7,7 +7,7 @@ context: product
 problem: Making nearby art accessible
 matter: engaging locals with their scene.
 
-image: /assets/projects/tap-1.jpg
+image: /assets/projects/tap/tap-1.jpg
 role: Design Lead, responsible for the initial wireframes, and designing disciplines to thread through the site and event.
 team: Working closely with our stakeholders, CEO, Product Manager and UI Designer for the new feature launch.
 link1url: https://www.best.edu.au/

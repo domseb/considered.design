@@ -7,7 +7,7 @@ context: website
 problem: Defining the design direction
 matter: a global eLearning company.
 
-image: /assets/projects/aelp-1.jpg
+image: /assets/projects/aelp/aelp-1.jpg
 role: Head of Design, maturing design across our marketing, product and in house learning design studio teams.
 team: Working closely with our Heads of Studios, Product Manager, UI Designer, and around 15 Learning Designers.
 link1url: https://www.smartsparrow.com/
