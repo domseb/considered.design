@@ -1,30 +1,120 @@
 ---
 layout: post
-title: Beginners and dumb fingers
-permalink: /dumb-hands/
+title: Elegance vs Intelligence
+permalink: /elegance-vs-intelligence/
 featured: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor est sed tortor fermentum finibus. Aenean vel nisl pharetra, facilisis risus nec, egestas dolor. Ut velit ipsum, vulputate nec semper sodales, ultrices nec nibh. Fusce malesuada sem vel magna accumsan, et consequat sem tincidunt. Praesent tincidunt ligula nec augue maximus commodo. Mauris id magna accumsan, auctor lorem ac, imperdiet ante. Phasellus tristique, augue a feugiat tempus, nunc lectus molestie velit, non congue massa mi in leo. Praesent in nulla congue dui malesuada tristique ut in metus. Vivamus at aliquet est. Phasellus laoreet elit diam, et placerat elit rhoncus ut. Sed fringilla accumsan convallis. Integer iaculis urna dolor, non vestibulum velit vulputate ac. Pellentesque risus nisl, cursus non accumsan condimentum, luctus eu ligula.
+This post has spent 11 months in my drafts. It started during a fortnight break back to London after a particularly stressful time at work, and has been simmering slowly for nearly a year. Over my career, design has changed in definition and in practice, and the parts I really enjoy happen less and less. The nagging question remains - what I?
 
-Nulla at rutrum justo. Vivamus id arcu egestas eros scelerisque efficitur. Pellentesque a risus tincidunt, gravida lacus ac, consequat purus. Ut vehicula vitae ligula in lobortis. Nam ac nibh laoreet, suscipit sapien placerat, suscipit orci. Curabitur aliquet purus diam, eget eleifend enim gravida a. Cras quam odio, porttitor at tempus at, finibus nec lorem.
+I entered design with a nice clear focus on the area I wanted to be in. The bigger the design system you operate within though, and the more points of friction there are that keep you in that area. These points of friction are normally in the process.
 
-Proin convallis, metus sed lacinia dictum, risus mauris rhoncus ligula, at accumsan sem justo vitae justo. Sed sit amet mi a diam rhoncus aliquet. Praesent a porta velit, quis vehicula nunc. Phasellus convallis ex vulputate, volutpat orci non, placerat tellus. Nunc vel felis et lorem pulvinar tempor eu nec lacus. Suspendisse lacinia auctor ultricies. Vivamus porttitor, ipsum non rutrum ullamcorper, ipsum nisi vestibulum arcu, scelerisque tempor risus mauris id tortor. Vivamus feugiat velit eu lectus condimentum, vel dictum mi ullamcorper.
+I find it hard to get moments of clarity in my work day. The day is littered with distractions. I don't mean Facebook, or checking Twitter - but meetings, shoulder taps and emails. These things kill productivity. Meetings are like mail. Before you have them, they are all you want. Meetings make people feel important, that they are making decisions - but they awful time wasters.  Open offices are a convenient trend in startups - cheaper office space and you can cram in more workers under the illusion of productivity - but it's crap.
 
-Donec lectus turpis, rhoncus vitae rhoncus vitae, gravida sed tortor. Donec ut lectus sed arcu aliquam tincidunt vel nec magna. Nam tincidunt gravida ante, vel euismod neque scelerisque eget. Mauris maximus commodo luctus. Curabitur enim urna, ornare ac enim id, dignissim vulputate mauris. Phasellus eu feugiat diam, hendrerit euismod libero. Nulla in eros at orci euismod rutrum eget sed massa.
+I was strolling through a forgotten side street in East London, the afternoon sun warming the cobbled brickwork and graffiti, when I stumbled upon the nicest little bookstore. This place had a tangible mood in the air - he loved his work, and his work was fulfilling to him. I thought to myself, how have I found myself in such an abusive relationship with my own work?
 
-Nunc rhoncus malesuada arcu nec varius. Nam finibus vel sem vitae sagittis. Ut at magna et mi volutpat aliquet. Sed nec condimentum orci, sodales vestibulum mauris. Vivamus iaculis semper gravida. In hac habitasse platea dictumst. Pellentesque sodales lectus et velit tempus, ut malesuada nunc convallis. Phasellus id ipsum vel quam lobortis semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pulvinar metus, eu dictum odio molestie quis. Donec vulputate, sapien nec sollicitudin lacinia, urna eros placerat velit, et ullamcorper purus libero nec urna. Phasellus ac porta tellus. Quisque euismod ipsum lectus, vel bibendum justo dignissim sed. Nulla in metus ultrices, ultricies orci quis, tincidunt urna.
+I think everyone has their story of why they started in their industry. My favourites are. Creating something, anything really, feels great. It's deeply satisfying to have worked on something that then.
 
-Ut imperdiet fringilla imperdiet. Morbi venenatis vehicula enim mattis fringilla. Pellentesque eu enim imperdiet, aliquam purus condimentum, blandit ante. Integer rutrum porttitor metus, ut rutrum justo auctor nec. Nulla pulvinar ullamcorper sem. Sed interdum euismod enim, non suscipit augue rhoncus eget. Etiam laoreet quis risus eget luctus. Pellentesque vulputate iaculis orci tristique efficitur. Vivamus non nisi molestie, viverra nulla sed, pulvinar mauris. Nam semper egestas erat eu faucibus. Nunc quis enim tortor. Cras gravida nunc sed nisl commodo aliquam.
+I'd been working 14 hour days to get design ready for a big event for one of our flagship products, along with a few other product feature releases. It's not my first rodeo, but this was the longest sustained period of this kind of work I've done. It wasn't horrible, but it was exhausting to the point of questioning why the hell am I doing this?
 
-Aliquam luctus massa dui, ultrices sagittis ex mattis vel. Nunc molestie mattis sollicitudin. Maecenas egestas est elit, sed sollicitudin diam tincidunt interdum. Proin non dui lobortis, scelerisque eros a, tincidunt massa. Maecenas et augue nec dolor finibus convallis quis id sapien. Quisque eu fermentum mauris. Duis aliquet accumsan ante. Donec consectetur fermentum ultricies. Suspendisse quis urna sit amet erat sagittis luctus. Suspendisse nec nisl ut augue venenatis molestie. Mauris condimentum mollis odio eget sodales. Proin suscipit ante pretium ante condimentum, a aliquet nulla lobortis. Suspendisse volutpat tortor metus, sit amet rutrum tortor tincidunt vel. Donec molestie in mauris sed sodales. Donec ullamcorper egestas mauris, quis fringilla est ultrices et. Praesent sed mattis dui, a interdum felis.
+The best breaks are made of moments on serendipity like this, natural points of reflection in where I’m at in life.
 
-Praesent at mauris faucibus, varius diam sit amet, ultricies metus. Etiam tincidunt ac arcu vitae congue. Etiam ornare dui ipsum, ac euismod arcu aliquet eu. Vivamus egestas erat vel ex suscipit volutpat. Quisque leo arcu, gravida sit amet nibh et, tincidunt porta diam. Fusce pharetra tellus risus, vitae iaculis ante malesuada non. Donec risus mauris, efficitur nec pulvinar id, aliquet nec ex. In et magna sit amet tortor vehicula tincidunt ut vel metus. Morbi maximus tortor eu sem tincidunt, in convallis quam ultrices. Mauris sodales, metus in convallis eleifend, elit neque semper lorem, id vestibulum nisi magna non ex. Suspendisse eget cursus ex. Donec pharetra gravida bibendum. Sed pulvinar urna non ligula laoreet tincidunt. Suspendisse eu erat tortor.
+I listen to Thunderspace to help me focus. But if I could, I'd listen to Green Acre park on repeat.
 
-Curabitur efficitur eu sem nec viverra. Mauris ligula ante, consequat id dui nec, sollicitudin porta lacus. Maecenas lacinia justo purus, ut faucibus quam bibendum sed. Etiam ac enim risus. Nulla facilisi. Curabitur porta, tellus sagittis hendrerit pretium, turpis sapien facilisis leo, ac maximus dolor justo in lorem. Quisque eget tellus lobortis, euismod erat et, ornare diam.
 
-Etiam eu turpis placerat, interdum nisl ut, lacinia ante. Etiam imperdiet nunc sit amet sem tempus, at tincidunt libero consectetur. Sed ornare lobortis libero, eget accumsan nisl lobortis vel. Vivamus vehicula, orci ac euismod efficitur, risus diam eleifend eros, suscipit scelerisque leo mi in nibh. Praesent fermentum sapien quis hendrerit iaculis. Nulla turpis mauris, ultrices sollicitudin facilisis id, aliquet eu libero. Aliquam interdum sagittis sem vitae feugiat. Vivamus venenatis vitae mauris vitae malesuada.
+3. train of thought getting to all the side projects
+4. time to write, reading list impossibly long from pocket to fit into two weeks I was away
+5. why am I not doing these things at the moment?
+6. first read this idea of not working on going on better holidays, but work on making your life less in need of a holiday
+7. tending the spark
+8. time for dust to settle
+9. vacuum of no work — reading
+10. finding the joy of creating again
+11. noticing the oscillating focus of trying to specialise in and out of an area
 
-Sed aliquet non dolor id mattis. Nulla facilisi. Quisque sollicitudin augue molestie, egestas neque et, vehicula odio. Nulla augue erat, mollis eget eros non, vulputate iaculis nibh. Proin massa ligula, commodo in sapien vel, egestas pulvinar massa. Ut lacus tellus, tincidunt eu sapien sit amet, sodales maximus diam. Pellentesque vel turpis et tellus fringilla fermentum. Ut lacinia, est sit amet gravida bibendum, quam sem dapibus magna, ut euismod leo sapien placerat sem. Pellentesque eget diam dui. In facilisis, dolor id tristique fermentum, arcu lectus scelerisque nunc, ut ornare quam magna quis quam. Proin facilisis quis orci sed molestie. Nulla eleifend arcu vitae erat efficitur imperdiet. Donec augue mi, sollicitudin vitae semper non, tristique vitae mauris. Mauris fringilla ante eu tempor sodales.
+got a list of side projects, some really stinkers, but one has some promise. and I’m happy to say I’m going to be pursuing it. That is all
 
-Aliquam molestie, quam et ultrices eleifend, sapien leo interdum lacus, et gravida orci lectus vitae velit. Fusce vehicula ligula ac purus eleifend, vitae tincidunt dolor elementum. Donec pretium nisi nec tellus dictum facilisis. Donec vulputate pellentesque dolor, ac iaculis dolor venenatis nec. Mauris et magna sollicitudin, suscipit felis ut, ornare arcu. Curabitur at tempor leo, aliquam convallis tellus. Nulla accumsan, lorem ac tempor rutrum, enim metus placerat enim, et laoreet libero ligula in quam. Donec at condimentum lectus. Donec quis dictum mauris. Proin blandit feugiat placerat. Nulla consectetur ullamcorper sodales. Morbi non nisl id ipsum pharetra porta. Maecenas lorem leo, congue quis massa eu, malesuada bibendum sapien. Etiam vehicula venenatis tristique. Vivamus condimentum malesuada turpis, in vulputate nibh bibendum at.
+this week I’ve had breakfast at home, with coffee and fresh juice, reading something from my kindle, and left at a reasonable time - and the walls didn’t fall down.
+
+today as I write this I’ve tried yoga, and for the first time I’ve actually completed a draft of this ready to send to friends for review.
+
+the idea of cities being able to influence your outcomes
+about our obsession with work. and how it strangled your time with what you really care about
+
+
+link to the wired piece about needing to keep in the curious
+green acre park new york
+
+1. Freelancing, never worked in an established design company. This tension of having to establish processes, it’s exhausting. Why do we continue with it?
+2. Because when it works, it’s exhilarating. When everything aligns, it feels like magic.
+3. The uphill challenge.
+4. How can I get to increasing the frequency of this. Making the climb more enjoyable.
+
+**worthy mention**
+1. Seth Godin - not about finding a better holiday, but making a life you don’t need to take a holiday from
+
+1. Recently we’ve sacrificed experimentation at the beginning of projects, and ease in handover for just getting through the work. The next project will be better, we’ll improve that next time.
+2. Talk on this is a crowded room, so I won’t have anything new to add to it. But I will say there is a lot to be done. Get shit done
+3. Design sprints. And a relentless push on productivity is damaging to long term happiness in design.
+4. it’s hard to attach lasting meaning to transient moments. Improve the surroundings or get out and walk.
+
+**worthy mention**
+
+Dom goodrum - permission to daydream
+
+1. so much chatter. I don’t care about Slack vs hip chat. or sketch vs photoshop. and I especially don’t care about commentary on flat design. I care about how considered design solutions are and how you’re finding meaning in your work. how you unceremoniously are pushing product changes, with no one knowing the internal points of friction that you overcame to get there.
+2. working forward. value capture at work. How to enjoy the journey.
+3. what is the key components to be carried forward by the characters?
+		4. relationship with work
+		5. finding meaning in your work
+		6. hobby vs work
+		7. considered design and finding meaning
+8. “falling in love with the new”
+9. do what you love vs love what you do
+
+- there’s so much talk about tools at the moment, and little on the craft we are actually trying to build meaningfully
+- dawning realisation that I’ve been doing it wrong and how easy it is to fall into. and by doing it right, I’ll be more satisfied as a designer and be better at my craft as well
+- I used to think side projects were for people unhappy at work, but they are actually for keeping sane creatively.
+- don’t yield to the demanding pressure of work, it’ll burn you out, and if you want to be working like that in 20/30 years then good luck to you, but for the rest of us
+- a promise to work on the craft, and to stop mindlessly discussing the tools. take the time.
+
+
+
+
+**Worthy Mentions**
+1. 32 hour week Treehouse
+2. Designing the middle
+
+
+The Rhythm of Work
+
+- - -
+
+1. Starting out, drunk in love with the possibility of it all.
+2. Then residual tensions, the parts that need to be done for the design to happen, pull you away from the parts of the work that you love
+3. points of friction taking you away from getting their fast
+4. get in the way of the fun part of design. The challenge of it
+5. slowly. layers harden over the core reason you started
+6. residual tensions pull you away from the passion. meetings. feedback cycles. file management. handovers. reporting up
+7. energised by others making meaningful steps. like a bad relationship, after a few years you have to question, why am I still doing this?
+8. You’ve lost touch with experimentation. No dates anymore. It’s predictable and you’re not your best anymore. You’re not trying. Buy in all time low.
+9. Always felt they are out movie stars of design. Gleaming smiles in interviews, effortlessly pushing their products and companies ahead with meaningful design decisions.
+
+**Worthy Mentions**
+1. Dylan Baskind. Sickeningly good at multiple things. Too many things.
+2. David Muhr. Can’t remember why.
+3. Uncle Joe
+4. Maria Popova
+5. Swiss Miss
+6. Julie Zhou - silicon valley up and down
+
+[link](http://www.nytimes.com/2016/06/12/fashion/internet-technology-phones-introspection.html?ref=technology)
+
+**worthy mentions**
+
+Ben chestnut - love what you do
+
+Finding meaning in your work vs creating meaning.
+
+
+A lot of us are in bad, abusive relationships with our work. We give them everything, and when they don't return the favour, we promise ourselves they'll change, and when they never do, we promise ourselves some more.

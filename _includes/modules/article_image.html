@@ -1,10 +1,8 @@
-{% if include.type == "outset-left" %}
-<figure class="outset-left">
-{% elsif include.type == "outset-right" %}
-<figure class="outset-right">
-{% else %}
+{% if include.type == "wide" %}
 <figure class="wide-image">
+{% else %}
+<figure class="image">
 {% endif %}
-  <img src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
+  <img class="border" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
   {% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
 </figure>
