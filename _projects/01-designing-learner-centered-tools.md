@@ -37,8 +37,15 @@ The users feedback then being shown to that virtual student to teach the main co
 I've lead two offsite design retreats to address the problems with the product. In both we've addressed core conceptual debt, and created new ways
 
 {% include modules/article_image.html url="/assets/projects/aelp/emails-1.png" description="Email drip campaign" type="wide"%}
+{% include modules/article_image.html url="/assets/projects/aelp/Classes-01.png" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/aelp/Classes-04.gif" %}
+{% include modules/article_image.html url="/assets/projects/aelp/classes-4.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/aelp/flow-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/aelp/workspace-old-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/aelp/onboarding-4.jpg" type="wide" %}
 
 {% include modules/article_image.html url="/assets/projects/aelp/tools-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-3.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-4.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-6.jpg" type="wide" %}

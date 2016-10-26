@@ -23,8 +23,6 @@ I lead the design of a major update to Slice to better integrate it into our use
 
 Slice is a product that lets users upload and annotate hi res medical images. These virtual slides act as interactive education platform for their peers and students. For academics, this means liberating their glass slides otherwise stored on shelves. For students, this means an online replacement to multiheader microscopes in labs. For teaching, this means interacting with content in newer engaging ways.
 
-{% include modules/article_image.html url="/assets/projects/Onboarding-02.jpg" description="A prompt on one of the screens asked the user to write a piece of feedback for a virtual student" %}
-
 The main problem we had to solve was to reduce friction points after sign up. Users loved the promise of the tool, but had no guidance on what they should do next, and were hitting dead ends. We also needed to redesign the core flow of adding annotations to make it useful to teach with. Users could make annotations to a slide, but they only saved to that slides random generated url. Our goal was to centralise all a user's slides and annotations to their profile. Whilst also making annotations collaborative, we could improve the teaching experience.
 
 Designing for focus.
@@ -32,3 +30,18 @@ We started to notice a few things during observation at a university. Teachers w
 
 Understanding teaching contexts.
 Collaborative annotations was the most popular feature launches for Slice to date. The remaining work focussed on how users could make the most of the feature in their teaching. After speaking with users, we decided to divide the feature into three separate contexts. Creating them to reflect how our users were teaching in labs. Present in class, share as a resource, and creating an activity.
+
+Since the launch, there's been 21% increase in layers created, and 23% in annotations, and there's still a few months left of 2016. And 44% increase of academics using Slice as a learning activity.
+
+{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-01.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-02.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-03.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-04.jpg" type="wide" %}
+
+{% include modules/article_image.html url="/assets/projects/slice/Slice-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-2.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-3.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-4.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-5.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-6.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/Slice-7.jpg" type="wide" %}

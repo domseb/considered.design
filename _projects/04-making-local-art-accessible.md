@@ -23,3 +23,14 @@ The BEST Network is a platform for academics to collaborate on biomedical educat
 The BEST Network needed it's core content to more discoverable. With it's annual summit approaching, we felt it was a good opportunity to update the site design as well. The previous design focussed on having all courses in one large list, with no way to shortcut to an area. This also had the side effect of no real grouping of similar content, or any community around it. We redesigned the site around this new community focus. We wanted users in similar disciplines to find and collaborate with each other. To find content relevant to them faster, so they could teach with it quicker. This renewed focus on the communities within the network drove all design decisions.
 
 To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
+
+{% include modules/article_image.html url="/assets/projects/tap/tap-2.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-3.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-4.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-6.jpg" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-7.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-8.jpg" %}
+
+{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-2.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-3.jpg" type="wide" %}

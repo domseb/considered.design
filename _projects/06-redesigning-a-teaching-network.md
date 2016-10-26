@@ -23,3 +23,20 @@ The BEST Network is a platform for academics to collaborate on biomedical educat
 The BEST Network needed it's core content to more discoverable. With it's annual summit approaching, we felt it was a good opportunity to update the site design as well. The previous design focussed on having all courses in one large list, with no way to shortcut to an area. This also had the side effect of no real grouping of similar content, or any community around it. We redesigned the site around this new community focus. We wanted users in similar disciplines to find and collaborate with each other. To find content relevant to them faster, so they could teach with it quicker. This renewed focus on the communities within the network drove all design decisions.
 
 To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
+
+There's been a 28% increase in lessons being deployed to students. 
+
+
+{% include modules/article_image.html url="/assets/projects/best/best-0.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-4.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-7.jpg" type="wide" description="Email drip campaign" %}
+
+{% include modules/article_image.html url="/assets/projects/best/Summit_054.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/Summit_065.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/Summit_104.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/Summit_126.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/Summit_150.jpg" type="wide" description="Email drip campaign" %}
+
+{% include modules/article_image.html url="/assets/projects/best/best-banners.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-brochure.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/summit-1.jpg" type="wide" description="Email drip campaign" %}
