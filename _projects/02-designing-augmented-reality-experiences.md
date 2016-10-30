@@ -26,21 +26,25 @@ HTC needed a way to create a deeper product understanding of the HTC One for it'
 
 ​Hello! Magazine has a readership of reaches over [2 million adults in the UK every week](http://www.hellomagazine.com/marketing/marketing01.html). For the Queen's Diamond Jubilee, the magazine wanted something special for their readers. Gary Barlow, the signer at the centre of the celebrations, was captured for the worlds first 3D cover. A worldwide publishing first.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21PuTTbyhs4" frameborder="0" allowfullscreen></iframe>
-
-{% include modules/article_image.html url="/assets/projects/digicave/htc-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/htc-3.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/htc-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/frames-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/frames-2.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/digicave/digicave-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/hello-2.jpg" %}
 {% include modules/article_image.html url="/assets/projects/digicave/hello-3.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/digicave/htc-2.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/digicave/htc-3.jpg" type="wide" description="HTC sales rep presenting the defining features of the flagship HTC One in AR" %}
+{% include modules/article_image.html url="/assets/projects/digicave/htc-1.jpg" type="wide" description="Three core narrative defined the experience – display, entertainment, and Beats audio" %}
+{% include modules/article_image.html url="/assets/projects/digicave/frames-2.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/digicave/frames-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/digicave/pop-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/hello-3.jpg" %}
+{% include modules/article_image.html url="/assets/projects/digicave/gary-barlow-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/digicave/james-may-1.jpg" description="The world's tiniest tour guide. Photo: Ariel Zambelich/Wired"  type="wide" %}
 
+{% include modules/image-trio.html url1="/assets/projects/digicave/event-2.jpeg" url2="/assets/projects/digicave/event-3.jpeg" url3="/assets/projects/digicave/event-4.jpeg" %}
 
-{% include modules/article_image.html url="/assets/projects/digicave/museum-1.jpg" description="The world's tiniest tour guide. Photo: Ariel Zambelich/Wired" %}
+{% include modules/image-trio.html url1="/assets/projects/digicave/photo-3.jpg" url2="/assets/projects/digicave/photo-2.jpg" url3="/assets/projects/digicave/photo-1.jpg" %}
 
-https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar
-https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes
+{% include modules/image-grid.html url1="/assets/projects/digicave/printed-1.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
+
+{% include modules/image-grid.html url1="/assets/projects/digicave/rig-1.jpg" url2="/assets/projects/digicave/rig-2.jpg" url3="/assets/projects/digicave/rig-3.jpg" url4="/assets/projects/digicave/rig-4.jpg" %}
+
+[James May Science Stories](https://itunes.apple.com/pk/app/james-mays-science-stories/id517111167?mt=8)
+[HTC Specialist AR App](https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar)
+[TEDx Houses of Parliament](https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes)

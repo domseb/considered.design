@@ -24,19 +24,29 @@ The BEST Network needed it's core content to more discoverable. With it's annual
 
 To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
 
-There's been a 28% increase in lessons being deployed to students. 
+There's been a 28% increase in lessons being deployed to students.
 
 
 {% include modules/article_image.html url="/assets/projects/best/best-0.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-old-1.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-old-2.jpg" type="wide" description="Email drip campaign" %}
+
+To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
+
+{% include modules/image-grid.html url1="/assets/projects/best/wireframe-2.jpg" url2="/assets/projects/best/wireframe-2.jpg" url3="/assets/projects/best/wireframe-2.jpg" url4="/assets/projects/best/wireframe-1.jpg" %}
+
+To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
+
 {% include modules/article_image.html url="/assets/projects/best/best-4.jpg" type="wide" description="Email drip campaign" %}
 {% include modules/article_image.html url="/assets/projects/best/best-7.jpg" type="wide" description="Email drip campaign" %}
 
-{% include modules/article_image.html url="/assets/projects/best/Summit_054.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/Summit_065.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/Summit_104.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/Summit_126.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/Summit_150.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/best-8.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/cards-1.jpg" type="wide" description="Email drip campaign" %}
+
+{% include modules/image-grid.html url1="/assets/projects/best/Summit_126.jpg" url2="/assets/projects/best/Summit_065.jpg" url3="/assets/projects/best/Summit_104.jpg" url4="/assets/projects/best/Summit_054.jpg" %}
+
+{% include modules/image-grid.html url1="/assets/projects/best/flow-1.jpg" url2="/assets/projects/best/flow-2.jpg" url3="/assets/projects/best/flow-4.jpg" url4="/assets/projects/best/flow-3.jpg" %}
 
 {% include modules/article_image.html url="/assets/projects/best/best-banners.jpg" type="wide" description="Email drip campaign" %}
 {% include modules/article_image.html url="/assets/projects/best/best-brochure.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/summit-1.jpg" type="wide" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/summit-1.jpg" description="Email drip campaign" %}

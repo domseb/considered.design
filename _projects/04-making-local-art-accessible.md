@@ -24,13 +24,9 @@ The BEST Network needed it's core content to more discoverable. With it's annual
 
 To carry through the new communities, discipline name tags were given to all attendees. Grouping by discipline drove home the value of the new community driven site design. Bold colour blocks also had the nice side effect of being an easy ice breaker for attendees.
 
-{% include modules/article_image.html url="/assets/projects/tap/tap-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/tap-3.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/tap-4.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/tap-6.jpg" %}
-{% include modules/article_image.html url="/assets/projects/tap/tap-7.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/tap-8.jpg" %}
+{% include modules/image-grid.html url1="/assets/projects/tap/wireframe-3.jpg" url2="/assets/projects/tap/wireframe-3.jpg" url3="/assets/projects/tap/wireframe-3.jpg" url4="/assets/projects/tap/wireframe-3.jpg" %}
 
-{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/tap/App-Wireframes-3.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-4.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/tap/tap-3.jpg" type="wide" %}
+
+{% include modules/image-trio.html url1="/assets/projects/tap/context-1.jpg" url2="/assets/projects/tap/context-2.jpg" url3="/assets/projects/tap/context-3.jpg" %}

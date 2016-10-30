@@ -136,10 +136,67 @@
 }
 
 .wide-image {
-  width: 150%;
-  margin-left: -25%;
+  width: 170%;
+  margin-left: -35%;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.image-grid {
+  width: 200%;
+  margin-left: -300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: inline-block;
+
+  .item {
+    @include span-columns(6);
+    @include omega(2n);
+    border: 1px solid rgba($brand-secondary,.2);
+    border-radius: 5px;
+
+    &:nth-child(3) {
+      margin-top: 30px;
+    }
+    &:nth-child(4) {
+      margin-top: 30px;
+    }
+  }
+}
+
+.image-trio {
+  width: 200%;
+  margin-left: -300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: inline-block;
+
+  @include media-query($on-laptop) {
+    width: 100%;
+    margin-left: 0px;
+  }
+  @include media-query($on-palm) {
+    width: 100%;
+    margin-left: 00px;
+  }
+
+  .item {
+    @include span-columns(4);
+    @include omega(3n);
+    border: 1px solid rgba($brand-secondary,.2);
+    border-radius: 5px;
+
+    @include media-query($on-laptop) {
+      @include span-columns(12);
+      @include omega-reset(3n);
+      @include omega(1n);
+    }
+    @include media-query($on-palm) {
+      @include span-columns(12);
+      @include omega-reset(3n);
+      @include omega(1n);
+    }
+  }
 }
 
 .hero-image {

@@ -33,10 +33,12 @@ Collaborative annotations was the most popular feature launches for Slice to dat
 
 Since the launch, there's been 21% increase in layers created, and 23% in annotations, and there's still a few months left of 2016. And 44% increase of academics using Slice as a learning activity.
 
-{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-01.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-02.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/slice-old-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/onboard-1.jpg" type="wide" %}
+
 {% include modules/article_image.html url="/assets/projects/slice/Slice-Master-03.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-Master-04.jpg" type="wide" %}
+
+{% include modules/image-grid.html url1="/assets/projects/slice/prod-a.jpg" url2="/assets/projects/slice/prod-b.jpg" url3="/assets/projects/slice/prod-c.jpg" url4="/assets/projects/slice/prod-d.jpg" %}
 
 {% include modules/article_image.html url="/assets/projects/slice/Slice-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-2.jpg" type="wide" %}
@@ -45,3 +47,8 @@ Since the launch, there's been 21% increase in layers created, and 23% in annota
 {% include modules/article_image.html url="/assets/projects/slice/Slice-5.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-6.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-7.jpg" type="wide" %}
+
+https://drive.google.com/drive/u/0/folders/0Bzk9tQp1JMx-VVJ4UUFzYWxQRDA
+https://www.best.edu.au/2015/11/16/collaborative-annotations-find-multiple-features.html
+https://www.best.edu.au/2015/11/04/collaborative-annotations-in-anatomy-lectures.html
+https://www.best.edu.au/2015/11/26/collaborative-annotations-facilitating-group-work-for-histopathology-students.html

@@ -18,6 +18,10 @@ I know what you're thinking — another designer showing process with post its? 
 
 {% include modules/article_image.html url="/assets/projects/culture/team-1.jpg" type="wide" description="Email drip campaign" %}
 
-two offsites
+{% include modules/image-grid.html url1="/assets/projects/culture/guide-1.jpg" url2="/assets/projects/culture/guide-2.jpg" url3="/assets/projects/culture/guide-3.jpg" url4="/assets/projects/culture/guide-4.jpg" %}
 
-bi weekly brainstorming and feedback sessions
+{% include modules/image-grid.html url1="/assets/projects/culture/offsite-1.jpg" url2="/assets/projects/culture/offsite-2.jpg" url3="/assets/projects/culture/offsite-3.jpg" url4="/assets/projects/culture/offsite-4.jpg" %}
+
+{% include modules/image-grid.html url1="/assets/projects/culture/offsite-1.jpg" url2="/assets/projects/culture/offsite-2.jpg" url3="/assets/projects/culture/offsite-6.jpg" url4="/assets/projects/culture/offsite-5.jpg" %}
+
+two offsites with bi weekly brainstorming and feedback sessions
