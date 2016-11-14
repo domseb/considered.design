@@ -29,4 +29,6 @@ To carry through the new communities, discipline name tags were given to all att
 {% include modules/article_image.html url="/assets/projects/tap/tap-4.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/tap/tap-3.jpg" type="wide" %}
 
+{% include modules/image-grid.html url1="/assets/projects/tap/tap-11.jpg" url2="/assets/projects/tap/tap-10.jpg" url3="/assets/projects/tap/tap-9.jpg" url4="/assets/projects/tap/tap-4.jpg" %}
+
 {% include modules/image-trio.html url1="/assets/projects/tap/context-1.jpg" url2="/assets/projects/tap/context-2.jpg" url3="/assets/projects/tap/context-3.jpg" %}

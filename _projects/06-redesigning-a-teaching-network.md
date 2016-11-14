@@ -26,7 +26,6 @@ To carry through the new communities, discipline name tags were given to all att
 
 There's been a 28% increase in lessons being deployed to students.
 
-
 {% include modules/article_image.html url="/assets/projects/best/best-0.jpg" type="wide" description="Email drip campaign" %}
 {% include modules/article_image.html url="/assets/projects/best/best-old-1.jpg" type="wide" description="Email drip campaign" %}
 {% include modules/article_image.html url="/assets/projects/best/best-old-2.jpg" type="wide" description="Email drip campaign" %}
@@ -49,4 +48,4 @@ To carry through the new communities, discipline name tags were given to all att
 
 {% include modules/article_image.html url="/assets/projects/best/best-banners.jpg" type="wide" description="Email drip campaign" %}
 {% include modules/article_image.html url="/assets/projects/best/best-brochure.jpg" type="wide" description="Email drip campaign" %}
-{% include modules/article_image.html url="/assets/projects/best/summit-1.jpg" description="Email drip campaign" %}
+{% include modules/article_image.html url="/assets/projects/best/summit-1.jpg" description="Email drip campaign" type="wide" %}

@@ -25,28 +25,33 @@ Slice is a product that lets users upload and annotate hi res medical images. Th
 
 The main problem we had to solve was to reduce friction points after sign up. Users loved the promise of the tool, but had no guidance on what they should do next, and were hitting dead ends. We also needed to redesign the core flow of adding annotations to make it useful to teach with. Users could make annotations to a slide, but they only saved to that slides random generated url. Our goal was to centralise all a user's slides and annotations to their profile. Whilst also making annotations collaborative, we could improve the teaching experience.
 
-Designing for focus.
+## Designing for focus
+
 We started to notice a few things during observation at a university. Teachers would get students to make annotations as a group, so they could present them back to the class. Every annotation has the student name attached - but teachers didn't want to make an example of a student who got something wrong. To solve this we designed a "Toggle focus" within the annotations to allow anonymity.
 
-Understanding teaching contexts.
+## Understanding teaching contexts.
 Collaborative annotations was the most popular feature launches for Slice to date. The remaining work focussed on how users could make the most of the feature in their teaching. After speaking with users, we decided to divide the feature into three separate contexts. Creating them to reflect how our users were teaching in labs. Present in class, share as a resource, and creating an activity.
 
 Since the launch, there's been 21% increase in layers created, and 23% in annotations, and there's still a few months left of 2016. And 44% increase of academics using Slice as a learning activity.
 
 {% include modules/article_image.html url="/assets/projects/slice/slice-old-1.jpg" type="wide" %}
+
+## Understanding teaching contexts.
+Collaborative annotations was the most popular feature launches for Slice to date. The remaining work focussed on how users could make the most of the feature in their teaching. After speaking with users, we decided to divide the feature into three separate contexts. Creating them to reflect how our users were teaching in labs. Present in class, share as a resource, and creating an activity.
+
 {% include modules/article_image.html url="/assets/projects/slice/onboard-1.jpg" type="wide" %}
 
 {% include modules/article_image.html url="/assets/projects/slice/Slice-Master-03.jpg" type="wide" %}
 
+{% include modules/article_image.html url="/assets/projects/slice/Slice-7.jpg" type="wide" %}
+
 {% include modules/image-grid.html url1="/assets/projects/slice/prod-a.jpg" url2="/assets/projects/slice/prod-b.jpg" url3="/assets/projects/slice/prod-c.jpg" url4="/assets/projects/slice/prod-d.jpg" %}
 
-{% include modules/article_image.html url="/assets/projects/slice/Slice-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-3.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-4.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-5.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-6.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-7.jpg" type="wide" %}
+
+{% include modules/image-trio.html url1="/assets/projects/slice/sidebar-1.jpg" url2="/assets/projects/slice/sidebar-2.jpg" url3="/assets/projects/slice/sidebar-3.jpg" %}
+
 
 https://drive.google.com/drive/u/0/folders/0Bzk9tQp1JMx-VVJ4UUFzYWxQRDA
 https://www.best.edu.au/2015/11/16/collaborative-annotations-find-multiple-features.html

@@ -36,25 +36,44 @@ The users feedback then being shown to that virtual student to teach the main co
 
 I've lead two offsite design retreats to address the problems with the product. In both we've addressed core conceptual debt, and created new ways
 
-{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/workspace-old-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/emails-1.jpg" description="Email drip campaign" type="wide"%}
-{% include modules/article_image.html url="/assets/projects/aelp/Classes-01.png" type="wide" %}
+
 {% include modules/article_image.html url="/assets/projects/aelp/classes-4.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/icons-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/kb-1.jpg" type="wide" %}
 
 
 {% include modules/image-grid.html url1="/assets/projects/aelp/graph-1.jpg" url2="/assets/projects/aelp/graph-2.jpg" url3="/assets/projects/aelp/graph-3.jpg" url4="/assets/projects/aelp/graph-4.jpg" %}
+
+{% include modules/article_image.html url="/assets/projects/aelp/kb-1.jpg" type="wide" %}
+
+## Resources for users
 
 My initial focus was to reduce the steep learning curve of the product. While the promise of the product was exciting, there was too much friction to ever actually get there. We wanted to create something to get the users invested in the promise as early as possible.
 
 {% include modules/image-grid.html url1="/assets/projects/aelp/resource-5.jpg" url2="/assets/projects/aelp/resource-2.jpg" url3="/assets/projects/aelp/resource-3.jpg" url4="/assets/projects/aelp/resource-4.jpg" %}
 
+## Resources for users
+
+At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
+
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-3.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-4.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/onboarding-6.jpg" type="wide" %}
+
+## Resources for users
+
+At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
+
 {% include modules/article_image.html url="/assets/projects/aelp/reports-2.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/reports-1.jpg" type="wide" %}
+
+## Resources for users
+
+At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
+
+{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/site-new-1.jpg" type="wide" %}
+
+At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
+
 {% include modules/article_image.html url="/assets/projects/aelp/storyboard-2.jpg" type="wide" %}
