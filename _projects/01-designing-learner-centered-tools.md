@@ -4,8 +4,8 @@ refID: project
 
 numero: 01
 context: product
-problem: Designing learner centered tools
-matter: better online education.
+problem: Designing flows around students
+matter: better learning design tools.
 
 image: /assets/projects/aelp/flow-1.jpg
 role: Design Lead, responsible for designing and testing new features, and leading product offsites to explore new areas.
@@ -14,11 +14,27 @@ link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
 ---
 
-Smart Sparrow is a product for Learning Designers to create online courseware. Allowing anyone to create personalised lessons that can adapt to individual student needs. I joined after their Series B to give a dedicated focus on the user experience across their products. For the past 2 years I’ve been the design lead across all product, brand and marketing efforts.
+Smart Sparrow is a complete Learning Design platform, used by over 500 institutions globally to create high quality, personalised learning experiences. I joined after their Series B in 2014 to give a dedicated design and user experience focus across the company. For the past few years I’ve been the design lead across all product, brand and marketing projects.
 
-My initial focus was to reduce the steep learning curve of the product. While the promise of the product was exciting, there was too much friction to ever actually get there. We wanted to create something to get the users invested in the promise as early as possible.
+## The starting point
+
+I joined as their first and only UX designer, in what was an engineering lead and heavily weighted company. Design processes were non existent, and the idea of user-centred design was in it's infancy. The company's differentiator was it's tech – a powerful rule based engine that allowed teachers to create courseware that could adapt to any kind of student response. Having started in a research group, it was a rebellion against the one size fits all approach to online learning, and how poorly it engaged with students.
+
+The problem with this is that the "tech" was front and centre in every part of the company, and was focussing on features and not benefits. Here was the product page when I started.
+
+{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
+
+## Putting the student in the story
+
+The visuals that explain how an adaptive experience works is used in everything, from our website and brand to partner and proposal decks. We needed to redesign how we presented it, so we move away from leaning on just the technical features, and how focus on how it benefitted the real end user – the students.  We needed to frame the benefits in a way anyone could understand and be excited by.
+
+{% include modules/image-grid.html url1="/assets/projects/aelp/graph-1.jpg" url2="/assets/projects/aelp/graph-2.jpg" url3="/assets/projects/aelp/graph-3.jpg" url4="/assets/projects/aelp/graph-4.jpg" description="Iterations on how to explain the mental model of adaptive learning experiences, finally settling on the traffic light student solution in bottom right" %}
+
 <!--
 Realising the need for better prep before creating courseware was a big turning point in our work. What started as a 24 step tool tip marathon around the product, we cut right back to the fundamentals. We focussed on small, bite size interactive lessons to show the power of the tool. Each for different parts of the product, contextual to the stages of the users workflow. Giving them the best understanding and preparation to create something meaningful in the tool. -->
+
+My initial focus was to reduce the steep learning curve of the product. While the promise of the product was exciting, there was too much friction to ever actually get there. We wanted to create something to get the users invested in the promise as early as possible.
+
 
 The epicentre of the product are the rules that dictate what personalises to the student. These rules define actions that will happen when a student fulfills the rule's conditions. For example, a rule to show feedback when the student selects a certain answer. This is the area the user spends the most time, so we needed improve the flow and simplify the creation process. We found patterns in how users created rules, and wanted to create better groupings for speed. Better groupings also helped new users understand which situations to use rules in. To best benefit the lessons they were trying to build.
 
@@ -26,7 +42,6 @@ At this stage of the product, there was no error validation on these rules. If I
 
 After addressing the easier wins in the product, we started rethinking our approach. We didn't want to just iterate on what we had, and end up with something derivative. We wanted to try and rethink the product, see what we would do if we started over. I lead 2 product offiste retreats, to prototype and test new out new ideas with users. We tested with 50 users over 5 weeks to iterate fast and learn. We moved from a product that was focussed on screens and rules, to students and what they needed. Putting them at the centre of design decisions, kept focus on always benefitting users.
 
-The full section of this work is under NDA, please get in touch to understand more.
 
 design offsite - major student breakthrough. student profile. NDA
 
@@ -36,13 +51,7 @@ The users feedback then being shown to that virtual student to teach the main co
 
 I've lead two offsite design retreats to address the problems with the product. In both we've addressed core conceptual debt, and created new ways
 
-{% include modules/article_image.html url="/assets/projects/aelp/workspace-old-1.jpg" type="wide" %}
 
-{% include modules/article_image.html url="/assets/projects/aelp/classes-4.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/icons-1.jpg" type="wide" %}
-
-
-{% include modules/image-grid.html url1="/assets/projects/aelp/graph-1.jpg" url2="/assets/projects/aelp/graph-2.jpg" url3="/assets/projects/aelp/graph-3.jpg" url4="/assets/projects/aelp/graph-4.jpg" %}
 
 {% include modules/article_image.html url="/assets/projects/aelp/kb-1.jpg" type="wide" %}
 
@@ -67,13 +76,11 @@ At this stage of the product, there was no error validation on these rules. If I
 {% include modules/article_image.html url="/assets/projects/aelp/reports-2.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/aelp/reports-1.jpg" type="wide" %}
 
-## Resources for users
+## Designing the next generation
 
-At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
+After addressing the easier wins in the product, we started rethinking our approach. We didn't want to just iterate on what we had, and end up with something derivative. We wanted to try and rethink the product, see what we would do if we started over. I lead 2 product offiste retreats, to prototype and test new out new ideas with users. We tested with 50 users over 5 weeks to iterate fast and learn. We moved from a product that was focussed on screens and rules, to students and what they needed. Putting them at the centre of design decisions, kept focus on always benefitting users.
 
-{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/site-new-1.jpg" type="wide" %}
+The full section of this work is under NDA, please get in touch to understand more.
 
-At this stage of the product, there was no error validation on these rules. If I created a rule about a specific input, and then deleted the input, we weren't giving any feedback to the user. We collected every current use case for reported errors, and prioritised the critical ones. Errors that make users feel like they can't recover from, and churn.
 
 {% include modules/article_image.html url="/assets/projects/aelp/storyboard-2.jpg" type="wide" %}

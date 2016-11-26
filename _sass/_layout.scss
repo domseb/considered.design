@@ -958,7 +958,7 @@
 
       .copy {
         font-size: 15px;
-        color: rgba($brand-secondary,1);
+        color: rgba($text-color,.6);
         line-height: 1.3;
         margin-bottom: 5px;
 
@@ -990,7 +990,7 @@
 // SITE FOOTER
 
 .dark {
-  .blend { background-color: $brand-secondary; }
+  .blend { background-color: $brand-black; }
   .site-footer { color: rgba(white,.5); }
 }
 

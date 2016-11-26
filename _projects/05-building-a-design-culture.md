@@ -36,6 +36,9 @@ Design OKRs
 
 {% include modules/image-grid.html url1="/assets/projects/culture/offsite-1.jpg" url2="/assets/projects/culture/offsite-2.jpg" url3="/assets/projects/culture/offsite-3.jpg" url4="/assets/projects/culture/offsite-4.jpg" %}
 
+{% include modules/article_image.html url="/assets/projects/aelp/icons-1.jpg" type="wide" %}
+
+
 {% include modules/image-grid.html url1="/assets/projects/culture/offsite-1.jpg" url2="/assets/projects/culture/offsite-2.jpg" url3="/assets/projects/culture/offsite-6.jpg" url4="/assets/projects/culture/offsite-5.jpg" %}
 
 two offsites with bi weekly brainstorming and feedback sessions
