@@ -17,7 +17,7 @@ description: I mainly write about design, film, and observations in between. I m
     <h1 class="outro">I also like writing about design, process <span class="joiner">and</span> film.</h1>
     <!-- <h2 class="explainer">These are the best reflection of my writing style. The rest you can find below thie section.</h2> -->
     <div class="tiles">
-      {% for post in site.posts | limit: 6 %}
+      {% for post in site.posts | limit: 3 %}
       <div class="tile">
         <h3>{{ post.date | date_to_long_string }} •
           {% assign words = post.content | number_of_words %}

@@ -1,35 +1,13 @@
 ---
 layout: post
-title: How much is yours worth?
-permalink: /how-much-is-your-attention-worth/
+title: No connection
+permalink: /no-connection/
+description: It’s just after 5am as I land in Beijing for a 4 hour stopover to London. I open my laptop to connect to the free wifi, and I need to provide a phone number. The only way it can verify me – a tourist at an airport – is to provide a local phone number. Hmmwhat?
 ---
 
-300 words a day, every day
-Art, artist and audience.
-What role do i think design has
-What role do I think designers have
-What role does the audience have
+That's alright I guess, maybe iMessage will dave the day. Thats a thing right? Nope.
 
-Individual, community, global.
-
-Individual - I’m at an airport with no wifi
-Community - my professional community, social community
-Global - Scott belsky, connect to the moment. Kill distractions and you’ll be happier for it.
-
-The role I have in this - designer of experiences. Design solutions to problems.
-The role design has in this - there should be ethics around games like candy crush saga.
-The role the audience has in this - switch off, and look around. There’s more to see than you think.
-
-Seth Godin, instead of focussing on places you can escape to, focus on creating a life you don’t need to escape from.
-
-**Your full, and undivided attention**
-*We should stop designing moments and start designing journeys*?
-
-(the where and what - the context of the article, something they can relate to)
-
-It’s just after 5am as I land in Beijing, the waking sun a welcoming image for the stopover before London. First thing I do when I enter the airport, is to connect to the free wifi, but it infuriatingly can only verify users by sending a text to their phone, so I’m stuck in limbo—I have nothing to *spend* my time on, I’m going to have to do actually do something with it instead, and it’s an uncomfortable thought.
-
-(why)
+There's only so much eating I can do in the airport in 4 hours. so I’m stuck in limbo—I have nothing to *spend* my time on, I’m going to have to do actually do something with it instead, and it’s an uncomfortable thought.
 
 Frustrated I start queuing to go through to international transfers, which is where the phrase herding cats must have been coined. Anyone who has been to this corner of the world knows how chaotic it is. It’s taken living in a few different countries for me to realise just how british I really am, although you wouldn’t guess by looking at my passport. I always clam up when I pass through the security gates—if I was the on the other side of the process I wouldn’t let me through. My passport looks 50 years old, the seal worn off completely. It’s been in the washing machine, and has bits of sand underneath the plastic from where I ran into Ipanema sea with it in my back pocket. On my way into Australia, the officer quipped “Looks like you made this on the way in love”, and I’m certain if it wasn’t chipped I would never get through these gates on the first try. But I realise on approaching the security gate, that this is a novel situation where it has my full, and completely undivided attention.
 
