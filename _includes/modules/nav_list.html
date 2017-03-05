@@ -1,15 +1,3 @@
-<!-- {% for node in nav_list %}
-  {% if group == null or group == node.group %}
-    {% if page.url == node.url %}
-      <li><a href="{{node.url}}" class="active">{{node.title}}</a></li>
-    {% else %}
-      <li><a href="{{node.url}}">{{node.title}}</a></li>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-{% assign nav_list = nil %}
-{% assign group = nil %} -->
-
 <ul id="nav">
     <li{% if page.url == '/about' %} class="active"{% endif %}>
     <a href="/about">About</a>

@@ -10,6 +10,10 @@ I've been using [One Month](https://onemonth.com/), [Udemy](https://www.udemy.co
 
 progress bars in elearning
 
+in person issues. guidance. dilemma of online
+
+100 day projects. learner context
+
 ##
 
 Getting something right isn't the same as understanding something.

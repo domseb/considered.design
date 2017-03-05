@@ -3,6 +3,12 @@
 {% else %}
 <figure class="image">
 {% endif %}
-  <img class="border" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
+  {% if include.style == "multiply" %}
+  <img class="multiply" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
   {% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
 </figure>
+{% else %}
+<img class="border" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
+{% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
+</figure>
+{% endif %}

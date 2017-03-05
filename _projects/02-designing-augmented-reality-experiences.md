@@ -20,7 +20,7 @@ link3name: Digicave on Vimeo
 
 Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I've learnt to my time there. A studio truly ahead of it's time. Below are some of my favourite projects I designed whilst I was there.
 
-{% include modules/image-grid.html url1="/assets/projects/digicave/printed-1.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
+{% include modules/image-grid.html url1="/assets/projects/digicave/cal.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
 
 ## The process
 
