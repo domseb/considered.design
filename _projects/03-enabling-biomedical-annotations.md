@@ -31,7 +31,7 @@ Our first move was to bring together all the good intentions in the starting dei
 
 {% include modules/article_image.html url="/assets/projects/slice/onboard-1.jpg" type="wide" %}
 {% include modules/article_image.html url="/assets/projects/slice/Slice-Master-03.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/slice/Slice-4.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/slice/slice-4.jpg" type="wide" %}
 
 ## Testing with partnering Institutions
 After initial testing and taxonomy development with the management committee who operate the BEST Network, we wanted to observe how they would use the feature in a real teaching setting. We were lucky yo get the chance to go and observe at the University of New South Wales, in a group pathology lab session. We managed to catch a few early issues, mostly low hanging fruits to do with user authentication and sharing, and the remainder of the session allowed us to see the gaps in how teachers were able to use it in practice.
@@ -46,4 +46,4 @@ One of the concerns during observation was around anonymity in annotations. Teac
 ## Understanding teaching contexts.
 Our largest concern when observing, was teachers expectation about how to use the feature. While collaborative annotations was one of the most popular feature launches for Slice to date, teachers didn't have a clear path of how to use it in class. We focussed our remaining work on how to ease feature adoption. We wanted it to reflect how they would naturally teach, and after speaking with teachers we divided the feature into three separate contexts – present in class, share as a resource, and creating an activity.
 
-{% include modules/image-grid.html url1="/assets/projects/slice/Slice-7.jpg" url2="/assets/projects/slice/prod-b.jpg" url3="/assets/projects/slice/prod-a.jpg" url4="/assets/projects/slice/prod-d.jpg" %}
+{% include modules/image-grid.html url1="/assets/projects/slice/slice-7.jpg" url2="/assets/projects/slice/prod-b.jpg" url3="/assets/projects/slice/prod-a.jpg" url4="/assets/projects/slice/prod-d.jpg" %}
