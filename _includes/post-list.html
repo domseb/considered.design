@@ -17,7 +17,7 @@
                   {{ words | divided_by:180 }} min read
                 {% endif %}
               </h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <h2 class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h2>
               <p class="post-desc">{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue -></a></p>
             </li>
          {% if forloop.last %}</ul>{% endif %}

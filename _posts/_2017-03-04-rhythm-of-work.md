@@ -2,7 +2,9 @@
 layout: post
 title: The Rhythm of Work
 permalink: /rhythm-of-work/
+tag: review
 description: This post started 2 years ago during a fortnight break in London after a particularly stressful time at work, and has been simmering in the background since. Design and my role within it has changed, and the parts I really enjoy happen less and less. The nagging question remains - what is keeping me doing this?
+refID: brown
 ---
 
 I was about 7 or 8 when I first found out what a designer was, and it blew my mind. . I watched Big, and found I entered design with a nice clear focus on the area I wanted to be in. The bigger the design system you operate within though, and the more points of friction there are that keep you in that area. These points of friction are normally in the process.

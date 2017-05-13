@@ -2,8 +2,10 @@
 layout: post
 title: Keeping a clean palette
 permalink: /keeping-a-clean-palette/
+tag: review
 description: I had this domain for over a year before my site went live, delayed by countless redesigns. What I wanted it to be and what I wanted it to say, changed almost weekly. It felt I started designing with such a clear intention, how had it all become so diffused?
-featured: true 
+featured: true
+refID: brown
 ---
 
 Designing your own site is a painful process. Every aspect added and everything removed is centered around one gnawing question – what does this to say about me as a designer? Is this font expressive enough for the hero? Are these colours complimenting each other? How does the layout guide the eye? My design would start to take shape, and before it could solidify, I'd see some beautifully designed site - and I'd want to click and drag everything into the bin and start over again. The whole process looks something like this:

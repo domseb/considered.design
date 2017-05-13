@@ -426,11 +426,12 @@
   }
 }
 
-// TILES
+// LIGHT TILES
 
 .grey {
   background-color: $brand-secondary;
   padding-top: (2 * $spacing-unit);
+  margin-top: (2 * $spacing-unit);
   padding-bottom: (3 * $spacing-unit);
 
   &.start {
@@ -512,7 +513,7 @@
     }
   }
 
-  h1,h2,h3 {
+  h1,h2,h3,p {
     color: white;
   }
 
@@ -525,6 +526,11 @@
     opacity: .85;
     margin-bottom: 5px;
   }
+
+  p {
+    font-size: 18px;
+    opacity: 0.8;
+   }
 
   a {
     color: white;
@@ -706,8 +712,9 @@
       }
   }
   .post-link {
-      font-size: 22px;
+      // font-size: 22px;
       margin-top: 5px;
+      margin-bottom: 5px;
       color: $brand-black;
       font-family: $base-font-bold;
       letter-spacing: -1px;
@@ -877,6 +884,70 @@
 .wide {
   @include outer-container;
   margin-top: 60px;
+
+  .gexplainer {
+    @include span-columns(6);
+    @include shift(3);
+    text-align: center;
+    font-family: $base-font;
+    color: rgba(white,.7);
+    margin-top: 0px;
+    margin-bottom: (3 * $spacing-unit);
+
+    @include media-query($on-laptop) {
+      @include span-columns(6);
+      @include shift(1);
+    }
+    @include media-query($on-palm) {
+      @include span-columns(10);
+      @include shift(1);
+    }
+
+    a {
+      color: rgba(white,.7);
+      border-bottom: 3px solid rgba(white,0.2);
+      @include transition( all $default-transition);
+
+      &:hover {
+          color: white;
+          background-color: rgba(white,0.2);
+          border-bottom: 3px solid rgba($brand-primary,0);
+          @include transition( all $default-transition);
+      }
+    }
+  }
+
+  .cexplainer {
+    @include span-columns(6);
+    @include shift(3);
+    font-family: $base-font;
+    text-align: center;
+    color: $brand-secondary;
+    margin-top: 0px;
+    margin-bottom: (3 * $spacing-unit);
+
+    @include media-query($on-laptop) {
+      @include span-columns(6);
+      @include shift(1);
+    }
+    @include media-query($on-palm) {
+      @include span-columns(10);
+      @include shift(1);
+    }
+
+    a {
+      color: $brand-secondary;
+      border-bottom: 3px solid rgba($brand-primary,0.2);
+      @include transition( all $default-transition);
+
+      &:hover {
+          color: $brand-primary;
+          background-color: rgba($brand-primary,0.2);
+          border-bottom: 3px solid rgba($brand-primary,0);
+          @include transition( all $default-transition);
+      }
+    }
+  }
 
   .project-header {
     @include span-columns(5);
@@ -1074,6 +1145,11 @@
 // SITE FOOTER
 
 .dark {
+  .blend { background-color: $brand-secondary; }
+  .site-footer { color: rgba(white,.5); }
+}
+
+.brown {
   .blend { background-color: $brand-secondary; }
   .site-footer { color: rgba(white,.5); }
 }

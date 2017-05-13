@@ -2,7 +2,9 @@
 layout: post
 title: No connection
 permalink: /no-connection/
+tag: review
 description: It’s just after 5am as I land in Beijing for a 4 hour stopover to London. I open my laptop to connect to the free wifi, and I need to provide a phone number. The only way it can verify me – a tourist at an airport – is to provide a local phone number. Hmmwhat?
+refID: brown
 ---
 
 That's alright I guess, maybe iMessage will dave the day. Thats a thing right? Nope.
