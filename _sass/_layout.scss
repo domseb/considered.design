@@ -177,14 +177,6 @@
         svg { @include size(rem(24) rem(24)); }
       }
 
-      .email-link {
-        display: inline-flex;
-        color: white;
-        list-style: none;
-        @include media-query($on-palm) {
-          display: none;
-        }
-      }
 }
 
 .border {
