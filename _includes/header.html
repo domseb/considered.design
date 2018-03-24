@@ -1,13 +1,12 @@
 <div class="nav">
   <nav class="navbar">
   <!-- Left side -->
-  <div class="logo">
-    <a href="{{ site.baseurl }}/">
-      {% include svg/cd-logo.svg %}
-    </a>
-  </div>
-  <!-- Right side -->
   <ul class="nav-links">
+    <a class="logo" href="{{ site.baseurl }}/">
+      {% include svg/cd-logo.svg %}
+      <p class="logotype">Considered Design</p>
+    </a>
+      <!-- <p class="logotype">Considered Design</p> -->
     <li{% if page.url == '/work/' %} class="active"{% endif %}>
     <a class="page-link" href="/work/">Work</a>
     </li>
@@ -17,7 +16,11 @@
     <li{% if page.url == '/profile/' %} class="active"{% endif %}>
     <a class="page-link" href="/profile/">Profile</a>
     </li>
-    <a class="twitter" href="https://twitter.com/dominosebastian">{% include svg/Twitter.svg %}</a>
+  </ul>
+  <!-- Right side -->
+  <ul class="cta">
+    <a class="email" href="https://twitter.com/dominosebastian">{% include svg/icon-email.svg %}</a>
+    <li class="page-link">Get in touch</a>
   </ul>
 </nav>
 </div>
