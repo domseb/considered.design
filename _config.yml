@@ -1,6 +1,6 @@
 # Site settings
 title: Considered Design
-email: dominic@smartsparrow.com
+email: dominic@considered.design
 description: > # this means to ignore newlines until "baseurl:"
   I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney.
 baseurl: "" # the subpath of your site, e.g. /blog/
