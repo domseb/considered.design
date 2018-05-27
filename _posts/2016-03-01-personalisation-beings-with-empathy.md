@@ -4,6 +4,8 @@ title: Personalisation starts with empathy
 tag: process
 permalink: /start-with-empathy/
 refID: brown
+image: /assets/blog/sinclair.jpg
+date: 2015-10-29 01:34:51 -0400
 ---
 
 In my first year studying Industrial Design at University, we were given a cautionary tale about the cost of not understanding who we were designing for. Meet the [“biggest disaster in innovation”](http://www.telegraph.co.uk/technology/news/9951876/Sinclair-C5-voted-biggest-innovation-disaster.html), the Sinclair C5:

@@ -4,25 +4,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  {% if page.title == "index.html" %}
+  <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:locale" content="en_AU" />
+  <meta name="twitter:site" content="@chronotope" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
+  {% if page.title %}
+    <!-- Article specific OG data -->
+  	<meta property="og:type" content="article" />
+  	<meta property="article:published_time" content="{{page.date}}" />
+  	<meta name="twitter:card" content="summary_large_image" />
+  	<meta name="twitter:creator" content="@dominosebastian" />
+  	<meta name="twitter:title" content="{{page.title}}" />
+  	{% if page.image %}
+    	<meta property="og:image" content="{{page.image}}" />
+    	<meta name="twitter:image" content="{{page.image}}" />
+    {% else %}
+  		<meta property="og:image" content="http://considered.design/assets/site/site-hero.jpg" />
+  		<meta name="twitter:image" content="http://considered.design/assets/site/site-hero.jpg" />
+    {% endif %}
 
   {% else %}
-  <figure>
+    <!-- Facebook OG data for homepage -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://considered.design" />
+    <meta property="og:image" content="http://considered.design/assets/site/site-hero.jpg" />
+    <!-- Twitter OG data for homepage -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" value="Considered Design" />
+    <meta name="twitter:description" value="I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney." />
+    <meta name="twitter:image" content="http://considered.design/assets/site/site-hero.jpg" />
+    <meta name="twitter:url" value="http://considered.design" />
   {% endif %}
-  <!-- Facebook OG data for homepage -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://considered.design" />
-  <meta property="og:image" content="http://considered.design/assets/site/opengraph.jpg" />
-
-  <!-- Twitter OG data for homepage -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:domain" value="considered.design" />
-  <meta name="twitter:title" value="Considered Design" />
-  <meta name="twitter:description" value="I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney." />
-  <meta name="twitter:image" content="http://considered.design/assets/site/opengraph.jpg" />
-  <meta name="twitter:url" value="http://considered.design" />
 
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}">
