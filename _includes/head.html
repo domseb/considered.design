@@ -11,12 +11,19 @@
   {% else %}
   <figure>
   {% endif %}
-  <!-- OG data for homepage -->
-  <meta property="og:image" content="http://considered.design/assets/site/opengraph.jpg" />
+  <!-- Facebook OG data for homepage -->
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{site.title}}" />
+  <meta property="og:url" content="http://considered.design" />
+  <meta property="og:image" content="http://considered.design/assets/site/opengraph.jpg" />
+
+  <!-- Twitter OG data for homepage -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="considered.design" />
+  <meta name="twitter:title" value="Considered Design" />
+  <meta name="twitter:description" value="I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney." />
   <meta name="twitter:image" content="http://considered.design/assets/site/opengraph.jpg" />
+  <meta name="twitter:url" value="http://considered.design" />
+
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
