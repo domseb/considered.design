@@ -1,6 +1,0 @@
-<!-- OG data for homepage -->
-<meta property="og:image" content="http://127.0.0.1:4000/assets/site/opengraph.jpg" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{{site.title}}" />
-<meta name="twitter:image" content="http://127.0.0.1:4000/assets/site/opengraph.jpg" />

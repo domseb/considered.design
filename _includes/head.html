@@ -11,7 +11,12 @@
   {% else %}
   <figure>
   {% endif %}
-  {% include opengraph.html  %}
+  <!-- OG data for homepage -->
+  <meta property="og:image" content="/assets/site/profile-bw.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{site.title}}" />
+  <meta name="twitter:image" content="/assets/site/opengraph.jpg" />
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
