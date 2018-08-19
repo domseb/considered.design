@@ -2,15 +2,13 @@
 layout: default
 refID: dark
 ---
-<section class="black">
+<!-- <section class="black"> -->
   <div class="hero">
     <div class="welcome">
-      <h1>I like solving interesting problems <span class="joiner">for</span> things that matter.</h1>
-      <!-- <h2>Here are some of my favourites. The rest are over in my <a href="test">work section.</a></h2> -->
-      <h2>To me this is where design is most meaningful. Find out more about me in my <a href="/profile">profile.</a></h2>
+      <h1>I help mature design direction in products, to create systems of repeatable and lasting value.</h1>
     </div>
   </div>
-</section>
+<!-- </section> -->
 
 <section class="wide">
    <div class="projects">
@@ -18,35 +16,11 @@ refID: dark
     <a class="card" href="{{ project.url }}">
       <div class="context">
         <h3>{{ project.context }}</h3>
-        <p class="numero">0{{ project.numero }}</p>
       </div>
-      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
+      <h2>{{ project.problem }} for {{ project.matter }}</h2>
        <h4>view solution</h4>
     </a>
     {% endfor %}
   </div>
   <h2 class="explainer">These are some of my favourite pieces of work. The rest are over in my <a href="/work">work section.</a></h2>
  </section>
-
-<section class="grey">
-  <div class="wide">
-    <h1 class="outro">I also like writing about design, process and <span class="joiner">sometimes</span> film.</h1>
-    <h2 class="explainer">Below is the best reflection of my writing style. The rest you can find in my <a href="/blog">blog.</a></h2>
-    <div class="tiles">
-      {% for post in site.posts | limit: 3 %}
-      <div class="tile">
-        <h3>{{ post.date | date_to_long_string }} •
-          {% assign words = post.content | number_of_words %}
-          {% if words < 360 %}
-            1 min read
-          {% else %}
-            {{ words | divided_by:180 }} min read
-          {% endif %}
-        </h3>
-        <h2><a href="{{ post.url }}" >{{ post.title }}</a></h2>
-        <!-- <p class="project-excerpt">{{ post.content | strip_html | truncatewords:20}}</p> -->
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>

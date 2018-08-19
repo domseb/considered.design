@@ -4,8 +4,9 @@ refID: project
 
 numero: 01
 context: product
-problem: Creating a user centered narrative
-matter: an engaging learning platform.
+timeline: 2014 — 2017
+company: Smart smartsparrow
+description: Creating a user centered narrative an engaging learning platform.
 
 image: /assets/projects/aelp/flow-1.jpg
 role: Design Lead, responsible for concept iteration through to testing. Lead product offsites, and some but not all final pixels.

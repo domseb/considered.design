@@ -6,7 +6,7 @@ refID: work
 <div class="wide">
     <div class="project-header extra">
       <!-- <h3>{{ page.context }}</h3> -->
-      <h1>{{ page.problem }} <span class="joiner">for</span> {{ page.matter }}</h1>
+      <h1>{{ page.problem }} for {{ page.matter }}</h1>
     </div>
   <div class="hero-image"><img src="{{ site.baseUrl }}{{ page.image }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/></div>
   <div class="page-intro">
@@ -46,7 +46,7 @@ refID: work
         <h3>{{ project.context }}</h3>
         <p class="numero">0{{ project.numero }}</p>
       </div>
-      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
+      <h2>{{ project.problem }} for {{ project.matter }}</h2>
        <h4>view solution</h4>
     </a>
     {% endif %}

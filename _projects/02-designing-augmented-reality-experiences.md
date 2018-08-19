@@ -4,8 +4,9 @@ refID: project
 
 numero: 02
 context: ios | android
-problem: Designing augmented reality experiences
-matter: pioneering arts projects.
+timeline: 2017
+company: Digicave
+description: Designing augmented reality experiences pioneering arts projects.
 
 image: /assets/projects/digicave/htc-1.jpg
 role: Designing all branded and digital products that came out of the studio. Covering all app and UX concepts to designing final pixels.
