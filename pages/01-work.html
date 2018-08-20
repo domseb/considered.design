@@ -10,18 +10,19 @@ permalink: /work/
 <section class="wide">
   <div class="projects">
     {% for project in site.projects %}
-    <a class="card" href="{{ project.url }}">
+    <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
-        <h3>{{ project.timeline }}</h3>
-        <h3>{{ project.context }}</h3>
+        <h3><b>{{ project.timeline }}</b></h3>
+        <h3 style="opacity:.75">{{ project.context }}</h3>
       </div>
       <div class="other">
         <h2>{{ project.company }}</h2>
         <p>{{ project.description }}</p>
-        <!-- <h4>view solution</h4> -->
       </div>
     </a>
     {% endfor %}
   </div>
 </section>
 </div>
+
+<!-- style="background-image: url({{ project.peek }})" -->

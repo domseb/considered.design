@@ -19,17 +19,17 @@
     margin-bottom: 1px;
       svg {
         @include size(rem(27) rem(27));
-        fill:rgba($brand-primary,1);
+        fill:rgba($primary,1);
         border-radius: 3px;
         // background-color: white;
-        box-shadow: 0px 0px 0px 0px rgba($brand-primary,.3);
+        box-shadow: 0px 0px 0px 0px rgba($primary,.3);
         @include transition( all $default-transition);
 
       }
       &:hover svg {
         border-radius: 3px;
-        // background-color: rgba($brand-primary,.3);
-        box-shadow: 0px 0px 0px 4px rgba($brand-primary,.3);
+        // background-color: rgba($primary,.3);
+        box-shadow: 0px 0px 0px 4px rgba($primary,.3);
         @include transition( all $default-transition);
       }
   }
@@ -37,10 +37,12 @@
     display: inline-flex;
     list-style: none;
     margin-left: 0px;
+    font-weight: 400;
   }
   .cta {
     display: inline-flex;
     list-style: none;
+    font-weight: 400;
   }
   .email-link {
     display: inline-flex;
@@ -69,7 +71,7 @@
   }
 
   .logotype {
-    color: rgba($brand-primary,1);
+    color: rgba($primary,1);
     font-size: 20px;
     margin-bottom: 5px;
     display: inline-flex;
@@ -135,7 +137,7 @@
       }
       &:hover svg {
         border-radius: 3px;
-        // background-color: rgba($brand-primary,.3);
+        // background-color: rgba($primary,.3);
         box-shadow: 0px 0px 0px 4px rgba(white,.3);
         @include transition( all $default-transition);
       }
@@ -358,27 +360,27 @@
   margin-bottom: (2 * $spacing-unit);
 
   h1 {
-    color: $brand-primary;
+    color: $primary;
     margin-bottom: (2 * $spacing-unit);
   }
 
   h2 {
-    color: rgba($brand-primary,.85);
+    color: rgba($primary,.85);
     font-family: $base-font;
     margin-bottom: (2 * $spacing-unit);
   }
 
   a {
     color: inherit;
-    border-bottom: 3px solid rgba($brand-primary,0.4);
+    border-bottom: 3px solid rgba($primary,0.4);
     @include transition( all $default-transition);
 
     &:hover, &:focus {
-      color: $brand-primary;
-      background-color: rgba($brand-primary,0.2);
-      border-bottom: 3px solid rgba($brand-primary,0);
+      color: $primary;
+      background-color: rgba($primary,0.2);
+      border-bottom: 3px solid rgba($primary,0);
       @include transition( all $default-transition);
-      // border-bottom: 2px solid rgba($brand-primary,1);
+      // border-bottom: 2px solid rgba($primary,1);
     }
   }
   @include media-query($on-laptop) {
@@ -501,10 +503,10 @@
   }
 
   .outro {
-    @include span-columns(5);
+    @include span-columns(8);
     @include shift(1);
     color: $white-color;
-    // color: $brand-primary;
+    // color: $primary;
     margin-bottom: (2 * $spacing-unit);
     margin-top: 0px;
 
@@ -543,7 +545,7 @@
       &:hover {
           color: white;
           background-color: rgba(white,0.2);
-          border-bottom: 3px solid rgba($brand-primary,0);
+          border-bottom: 3px solid rgba($primary,0);
           @include transition( all $default-transition);
       }
     }
@@ -622,13 +624,13 @@
   }
   a {
     color: $brand-secondary;
-    border-bottom: 3px solid rgba($brand-primary,0.2);
+    border-bottom: 3px solid rgba($primary,0.2);
     @include transition( all $default-transition);
 
     &:hover {
-        color: $brand-primary;
-        background-color: rgba($brand-primary,0.2);
-        border-bottom: 3px solid rgba($brand-primary,0);
+        color: $primary;
+        background-color: rgba($primary,0.2);
+        border-bottom: 3px solid rgba($primary,0);
         @include transition( all $default-transition);
     }
   }
@@ -647,18 +649,56 @@
 
   .card {
     @include span-columns(12);
-    @include omega(3n);
+    // @include omega(3n);
     margin-bottom: 50px;
     text-align: left;
-    padding: 25px;
-    height: 350px;
+    padding: 35px;
     display: inline-flex;
     flex-direction: row;
     background-color: rgba($white-color,0);
-    box-shadow:inset 0px -3px 0px 0px rgba($brand-primary,0);
     @include transition( all $default-transition);
+    height: 200px;
 
-    h2 { font-family: $base-font; }
+    &.qwilr {
+      // border: 5px solid black;
+        &:after {
+          content: url('/assets/projects/qwilr/qwilr-peek.png');
+          margin-left: 50px;
+          // margin-top: -120px;
+          transform:rotate(10deg) scale(.75,.75) translateY(-100px);
+          height: 200px;
+          opacity: 0;
+        }
+    }
+
+    &.unsw {
+      // border: 5px solid black;
+        &:after {
+          content: url('/assets/projects/unsw/unsw-peek.png');
+          margin-left: 50px;
+          // margin-top: -120px;
+          // transform:scale(.75,.75) translateY(0px);
+          transform:translateY(0px);
+          transform-origin: center;
+          height: 200px;
+          opacity: 0;
+        }
+    }
+
+    h3 {
+      color: $primary;
+      margin-bottom: 0px;
+    }
+
+    h2 {
+      font-family: $base-font;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
 
     // @include media-query($on-laptop) {
     //   @include omega-reset(3n);
@@ -688,37 +728,17 @@
       // margin-bottom: $spacing-unit;
     }
 
-    // .numero {
-    //   color: rgba($brand-secondary,.4);
-    //   letter-spacing: 1px;
-    //   font-size: 100px;
-    //   font-family: $base-font;
-    //   margin-top: -95px;
-    //   mix-blend-mode: multiply;
-    //   font-feature-settings: 'lnum';
-    //   -moz-font-feature-settings: "lnum" 1;
-    //   -ms-font-feature-settings: 'lnum';
-    //   -webkit-font-feature-settings: 'lnum';
-    //   -o-font-feature-settings: 'lnum';
-    //   @include transition( all $default-transition);
-    // }
-
     &:hover {
-      box-shadow:inset 0px -65px 0px 0px rgba($brand-primary,.3);
       background-color: rgba($white-color,1);
+      // background-position: 95% 10px; /* Center the image */
       @include transition( all $default-transition);
-    }
 
-    &:hover .numero {
-    color: $brand-primary;
-    @include transition( all $default-transition);
-
-    }
-
-    &:active {
-      box-shadow:inset 0px -65px 0px 0px rgba($brand-primary,.5);
-      text-decoration: none;
-      @include transition( all $default-transition);
+      &:after {
+        // margin-top: -80px;
+        transform:translateY(-75px);
+        opacity: 1;
+        @include transition( all $default-transition);
+      }
     }
   }
 }
@@ -765,11 +785,11 @@
 
       .link {
         color: inherit;
-        border-bottom: 3px solid rgba($brand-primary,0.2);
+        border-bottom: 3px solid rgba($primary,0.2);
         &:hover {
-            background-color: rgba($brand-primary,0.2);
-            color: $brand-primary;
-            border-bottom: 3px solid rgba($brand-primary,0);
+            background-color: rgba($primary,0.2);
+            color: $primary;
+            border-bottom: 3px solid rgba($primary,0);
             @include transition( all $default-transition);
         }
       }
@@ -834,7 +854,7 @@
       content : "";
       position: absolute;
       width: 50px;
-      border-bottom: 5px solid $brand-primary;
+      border-bottom: 5px solid $primary;
     }
 
     @include media-query($on-tablet) {
@@ -914,14 +934,14 @@
         margin-right: 5px;
         font-family: $base-font;
         color: rgba($brand-black,.7);
-        border-bottom: 3px solid rgba($brand-primary,0.2);
+        border-bottom: 3px solid rgba($primary,0.2);
         @include transition( all $default-transition);
 
 
         &:hover {
-            color: $brand-primary;
-            background-color: rgba($brand-primary,0.2);
-            border-bottom: 3px solid rgba($brand-primary,0);
+            color: $primary;
+            background-color: rgba($primary,0.2);
+            border-bottom: 3px solid rgba($primary,0);
             @include transition( all $default-transition);
         }
       }
@@ -931,15 +951,15 @@
   h3 { font-family: $base-font-bold; }
 
   a {
-    border-bottom: 3px solid rgba($brand-primary,0.2);
+    border-bottom: 3px solid rgba($primary,0.2);
     @include transition( all $default-transition);
 
     &:hover, &:focus {
-      color: $brand-primary;
-      background-color: rgba($brand-primary,0.2);
-      border-bottom: 3px solid rgba($brand-primary,0);
+      color: $primary;
+      background-color: rgba($primary,0.2);
+      border-bottom: 3px solid rgba($primary,0);
       @include transition( all $default-transition);
-      // border-bottom: 2px solid rgba($brand-primary,1);
+      // border-bottom: 2px solid rgba($primary,1);
     }
   }
 }
@@ -974,7 +994,7 @@
       &:hover {
           color: white;
           background-color: rgba(white,0.2);
-          border-bottom: 3px solid rgba($brand-primary,0);
+          border-bottom: 3px solid rgba($primary,0);
           @include transition( all $default-transition);
       }
     }
@@ -1000,20 +1020,20 @@
 
     a {
       color: $brand-secondary;
-      border-bottom: 3px solid rgba($brand-primary,0.2);
+      border-bottom: 3px solid rgba($primary,0.2);
       @include transition( all $default-transition);
 
       &:hover {
-          color: $brand-primary;
-          background-color: rgba($brand-primary,0.2);
-          border-bottom: 3px solid rgba($brand-primary,0);
+          color: $primary;
+          background-color: rgba($primary,0.2);
+          border-bottom: 3px solid rgba($primary,0);
           @include transition( all $default-transition);
       }
     }
   }
 
   .project-header {
-    @include span-columns(10);
+    @include span-columns(9);
     @include shift(1);
     @extend %clearfix;
     text-align: left;
@@ -1030,21 +1050,21 @@
       @include shift(1);
     }
 
-    &.extra {
-      @include span-columns(6);
-      @include media-query($on-laptop) {
-        @include span-columns(6);
-        @include shift(1);
-      }
-      @include media-query($on-tablet) {
-        @include span-columns(8);
-        @include shift(1);
-      }
-      @include media-query($on-palm) {
-        @include span-columns(10);
-        @include shift(1);
-      }
-    }
+    // &.extra {
+    //   @include span-columns(6);
+    //   @include media-query($on-laptop) {
+    //     @include span-columns(6);
+    //     @include shift(1);
+    //   }
+    //   @include media-query($on-tablet) {
+    //     @include span-columns(8);
+    //     @include shift(1);
+    //   }
+    //   @include media-query($on-palm) {
+    //     @include span-columns(10);
+    //     @include shift(1);
+    //   }
+    // }
   }
 
   .page-intro {
@@ -1068,7 +1088,7 @@
 
     .spotlight {
       @include span-columns(3);
-      @include omega(4n);
+      @include omega(3n);
       // padding-bottom: 30px;
       // background-color: blue;
       padding-left: 32px;
@@ -1078,14 +1098,14 @@
 
       &:first-child {
         border-left: none;
-        @include span-columns(1.5);
-        margin-left: -30px;
-        margin-right: 98px;
+        @include span-columns(4);
+        // margin-left: -30px;
+        // margin-right: 98px;
 
         @include media-query($on-tablet) {
-          margin-left: -40px;
-          margin-top: -30px;
-          margin-bottom: 50px;
+          // margin-left: -40px;
+          // margin-top: -30px;
+          // margin-bottom: 50px;
           @include span-columns(10);
           // margin-right: 0px;
         }
@@ -1093,21 +1113,24 @@
           @include span-columns(10);
         }
       }
+      // &:first-child {
+      //   border-left: none;
+      //   @include span-columns(1.5);
+      //   margin-left: -30px;
+      //   margin-right: 98px;
+      //   @include span-columns(3.5);
+      //
+      //   @include media-query($on-tablet) {
+      //     border-left: none;
+      //     @include span-columns(4.5);
+      //   }
+      //   @include media-query($on-palm) {
+      //     @include span-columns(10);
+      //     margin-bottom: 20px;
+      //   }
+      // }
       &:nth-child(2) {
-        // border-left: none;
-        @include span-columns(3.5);
-
-        @include media-query($on-tablet) {
-          border-left: none;
-          @include span-columns(4.5);
-        }
-        @include media-query($on-palm) {
-          @include span-columns(10);
-          margin-bottom: 20px;
-        }
-      }
-      &:nth-child(3) {
-        @include span-columns(3.5);
+        @include span-columns(4);
 
         @include media-query($on-tablet) {
           @include span-columns(4.5);
@@ -1118,7 +1141,7 @@
         }
       }
       &:last-child {
-        @include span-columns(2);
+        @include span-columns(4);
         // margin-left: -30px;
         // margin-left: 55px;
 
@@ -1137,7 +1160,7 @@
       }
 
       // .numero {
-      //   color: rgba($brand-primary,1);
+      //   color: rgba($primary,1);
       //   letter-spacing: 1px;
       //   font-size: 100px;
       //   font-family: $base-font;
@@ -1171,7 +1194,11 @@
       //
       // }
 
-      h5 { font-size: 18px; }
+      h5 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
 
       .copy {
         font-size: 18px;
@@ -1181,13 +1208,13 @@
 
         a {
           color: inherit;
-          border-bottom: 3px solid rgba($brand-primary,0.2);
+          border-bottom: 3px solid rgba($primary,0.2);
           @include transition( all $default-transition);
 
           &:hover {
-              color: $brand-primary;
-              background-color: rgba($brand-primary,0.2);
-              border-bottom: 3px solid rgba($brand-primary,0);
+              color: $primary;
+              background-color: rgba($primary,0.2);
+              border-bottom: 3px solid rgba($primary,0);
               @include transition( all $default-transition);
           }
         }
@@ -1234,9 +1261,9 @@
   padding-bottom: 35px;
   height: 113px;
   color: rgba($brand-black,0.3);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   text-align: right;
   // display: inline;
 

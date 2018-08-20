@@ -5,14 +5,11 @@ refID: work
 
 <div class="wide">
     <div class="project-header extra">
-      <!-- <h3>{{ page.context }}</h3> -->
-      <h1>{{ page.problem }} for {{ page.matter }}</h1>
+      <h3>{{ page.company }}</h3>
+      <h1>{{ page.description }}</h1>
     </div>
   <div class="hero-image"><img src="{{ site.baseUrl }}{{ page.image }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/></div>
   <div class="page-intro">
-    <div class="spotlight">
-      <h5 class="numero">0{{ page.numero }}</h5>
-    </div>
     <div class="spotlight">
       <h5>Responsibility</h5>
       <p class="copy">{{ page.role }}</p>

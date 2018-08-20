@@ -1,11 +1,10 @@
 ---
 layout: project
-refID: project
+refID: unsw
 
-numero: 02
-context: ios | android
+context: Internal Product
 timeline: 2017
-company: Digicave
+company: UNSW
 description: Designing augmented reality experiences pioneering arts projects.
 
 image: /assets/projects/digicave/htc-1.jpg

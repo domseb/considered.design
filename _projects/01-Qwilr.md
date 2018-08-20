@@ -1,13 +1,13 @@
 ---
 layout: project
-refID: project
+refID: qwilr
 
-numero: 01
-context: product
-timeline: 2014 — 2017
-company: Smart smartsparrow
+context: SaaS Product
+timeline: 2017 —
+company: Qwilr
 description: Creating a user centered narrative an engaging learning platform.
 
+peek: /assets/projects/qwilr/qwilr-peek.png
 image: /assets/projects/aelp/flow-1.jpg
 role: Design Lead, responsible for concept iteration through to testing. Lead product offsites, and some but not all final pixels.
 team: Working directly with Product Manager, senior product stakeholders, our UI designer and of course our users.

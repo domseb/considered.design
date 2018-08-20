@@ -7,7 +7,6 @@
 @import
 	"vendor/bourbon/bourbon",
 	"vendor/neat/neat",
-	"custom/_fonts.scss",
 	"_mixins.scss";
 
 	/* ---------------------------*/
@@ -33,11 +32,11 @@ $spacing-unit:     30px;
 
 $text-color:       #656D78;
 $background-color: #F9FBFC;
-$brand-primary:		 #6E69EE;
+$primary:		 #6E69EE;
 $brand-secondary:  #4d646f;
 $brand-black:			 #19272F;
-$brand-primary-light: lighten($brand-primary, 20%);
-$brand-primary-dark: darken($brand-primary, 10%);
+$primary-light: lighten($primary, 20%);
+$primary-dark: darken($primary, 10%);
 
 $white-color:      #ffffff;
 $grey-color:       #828282;
