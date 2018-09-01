@@ -1,61 +1,49 @@
 ---
 layout: project
-refID: unsw
+refID: secondary
 
-context: Internal Product
-timeline: 2017
 company: UNSW
-description: Designing augmented reality experiences pioneering arts projects.
+timeline: 2017
+role: Contract Design Lead
+description: Visualising the key priorities and budgets that are fundamental to the UNSW 2025 strategy 
 
-image: /assets/projects/digicave/htc-1.jpg
-role: Designing all branded and digital products that came out of the studio. Covering all app and UX concepts to designing final pixels.
-team: We were a small company of 10, and as the first designer I worked closely with the CEO, Creative, Sales and Technical Directors.
-link1url: https://www.wired.com/2012/04/top-gear-host-narrates-museum-exhibits-as-augmented-reality-avatar/
-link1name: Wired Feature
-link2url: https://twitter.com/digicave
-link2name: Digicave Twitter
-link3url: https://vimeo.com/digicave
-link3name: Digicave on Vimeo
+image: /assets/projects/qwilr/qwilr-hero.jpg
+
+link1url: https://www.smartsparrow.com/
+link1name: Smart Sparrow
 ---
 
-Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I've learnt to my time there. A studio truly ahead of it's time. Below are some of my favourite projects I designed whilst I was there.
+UNSW Sydney (the University of New South Wales), is one of Australia's leading research and teaching universities. Their [2025 Strategic Plan](https://www.2025.unsw.edu.au/) sets out the priorities and themes that will guide the institution over the next decade, to become 'Australia’s Global University'. To help manage this strategy, a dashboard needed to be created to convey the statuses of all programs under 2025, including their current completion status and budget spend.
 
-{% include modules/image-grid.html url1="/assets/projects/digicave/cal.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
+## The starting point
 
-## The process
+The team had already created a working product for the 2025 Dashboard, but it was tricky to navigate, didn’t have a way to follow up with a specific program’s leader, and was hard to understand it’s current status. A primary concern to the stakeholders, was also being able to drill down into key initiatives and programs, and understanding how they roll up into parent programs.
 
-Their proprietary 46 camera rig could capture and model an object using [photometry](https://en.wikipedia.org/wiki/Photometry_(optics)). Our leading edge was that we put capture quality first, with unbeatable industry knowledge. The level of detail was so good, we could capture pores on a models face, and individual strands of hair. I was hired as their first designer, responsible for all design work that came out of the studio.
+{% include modules/image-grid.html url1="/assets/projects/unsw/unsw-before-a.jpg" url2="/assets/projects/unsw/unsw-before-b.jpg" url3="/assets/projects/unsw/unsw-before-c.jpg" url4="/assets/projects/unsw/unsw-before-d.jpg" %}
 
-{% include modules/image-trio.html url1="/assets/projects/digicave/photo-3.jpg" url2="/assets/projects/digicave/photo-2.jpg" url3="/assets/projects/digicave/photo-1.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+## Designing for clarity
 
-## TEDx Houses of Parliament
+After getting shared understanding on the current product, we worked together to map out key goals, and the ideal flows the stakeholders wanted from the dashboard. Aside from clearer understanding when communicating status and budget allocation, they wanted everything to roll up to a big, exciting 2025 goal, so everyone can see how their projects fit into the larger initiative.
 
-Our work for TEDx focussed on putting users in control of the frame. Throughout the day the attendees could find custom TEDxHoP posters to scan with our app. Each frame had a unique AR scene we had built for them, which they could move around and find their perfect angle to capture, and share online with the world. [TEDx Houses of Parliament](https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes)
+{% include modules/article_image.html url="/assets/projects/unsw/unsw-all-ui.jpg" type="screen" %}
 
-{% include modules/article_image.html url="/assets/projects/digicave/frames-1.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
+Custom visualisation tools were designed to communicate 2025 in the clearest way possible, including how interactions and areas mapped to mobile viewing. With a constraint of using bootstrap and system fonts, we focussed on using colour for clear status indicators, and creating custom data visualisations components for budget spend and deadline progress.
 
-## HTC Specialist
+{% include modules/note.html title="Note" description="As this project uses sensitive budget information, only a segment of the designs are shown, with mock figures only." %}
 
-HTC needed a way to create a deeper product understanding of the HTC One for it's upcoming release, and wanted to move away from the expensive and ineffective print material they were using. Our solution was an augmente reality avatar, highlighting core value propositions of the device through interactive and visual storytelling. [HTC Specialist AR App](https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar)
+{% include modules/article_image.html url="/assets/projects/unsw/budget-cards-b.png" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
+
+{% include modules/article_image.html url="/assets/projects/unsw/kpi-heatmap-b.png" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
+
+{% include modules/article_image.html url="/assets/projects/unsw/status-cards-b.png" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
+
+{% include modules/article_image.html url="/assets/projects/unsw/trend-graphs-b.png" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
 
 
-{% include modules/article_image.html url="/assets/projects/digicave/htc-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/htc-1.jpg" type="wide" description="Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio" %}
+{% include modules/article_image.html url="/assets/projects/unsw/budget-cards.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
 
-## Hello Magazine
+{% include modules/article_image.html url="/assets/projects/unsw/kpi-heatmap.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
 
-​Hello! Magazine has a readership of reaches over [2 million adults in the UK every week](http://www.hellomagazine.com/marketing/marketing01.html). For the Queen's Diamond Jubilee, the magazine wanted something special for their readers. We captured Gary Barlow, the signer at the centre of the celebrations, to create the an interactive augmented reality cover. A worldwide publishing first.
+{% include modules/article_image.html url="/assets/projects/unsw/status-cards.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
 
-{% include modules/article_image.html url="/assets/projects/digicave/gary-barlow-1.jpg" type="wide" %}
-
-## James May Science Stories
-
-James May Science Stories was under development when I joined, and was designing by a contractor before I started. After initial design work was done though, there was a stream of changes and updates that had to be made, including design for additional marketing collateral during my time there. The combination of our high capture quality and storytelling talent meant AR avatars became a model of what we were known for – and they were very fun to work on. You can download and play with the app [here.](https://itunes.apple.com/pk/app/james-mays-science-stories/id517111167?mt=8)
-
-{% include modules/image-grid.html url1="/assets/projects/digicave/rig-1.jpg" url2="/assets/projects/digicave/rig-2.jpg" url3="/assets/projects/digicave/rig-3.jpg" url4="/assets/projects/digicave/rig-4.jpg" %}
-
-## We Love Pop
-
-We Love Pop was a precursor to the Hello! Magazine front cover, and what became a popular format for publishers to play with augmented reality experiences. Rather than creating high poly models of objects and people we'd captured in the rig, we could overlay someone's face onto a magazine cover, live. Watch an [example on Vimeo.](https://vimeo.com/84395127)
-
-{% include modules/article_image.html url="/assets/projects/digicave/pop-1.jpg" type="wide" %}
+{% include modules/article_image.html url="/assets/projects/unsw/trend-graphs.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}

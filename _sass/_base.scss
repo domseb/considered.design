@@ -63,7 +63,7 @@ h1 {
   line-height: 1.1;
   font-family: $base-font-bold;
   margin-bottom: 20px;
-  font-size: 65px;
+  font-size: 45px;
   letter-spacing: -1px;
   font-weight: 400;
   @include media-query($on-tablet) {
@@ -76,11 +76,11 @@ h2 {
   font-family: $base-font-bold;
   display: inline-block;
   font-weight: 500;
-  font-size: 27px;
+  font-size: 22px;
   line-height: 1.3;
-  letter-spacing: -1px;
   padding-bottom: 0px;
-  margin-bottom: 15px;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit/2 !important;
   @include media-query($on-tablet) {
     font-size: 25px;
   }
@@ -90,7 +90,7 @@ h3 {
   // text-transform: uppercase;
   color: $brand-secondary;
   font-size: 16px;
-  letter-spacing: 0.5px;
+  // letter-spacing: 0.5px;
   margin-bottom: 70px;
   display: block;
   padding-right: 5px;
@@ -119,6 +119,7 @@ h5 {
   -moz-font-feature-settings: "smcp";
   -webkit-font-feature-settings: "smcp";
   font-feature-settings: "smcp";
+  font-weight: bold;
 }
 
 // h5 {
@@ -177,7 +178,7 @@ h1, h2, h3, h6,
 p, blockquote, pre,
 ul, ol, dl,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit * 0.9;
+    margin-bottom: $spacing-unit;
 }
 
 

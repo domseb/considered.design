@@ -1,5 +1,7 @@
 {% if include.type == "wide" %}
 <figure class="wide-image">
+  {% elsif include.type == "screen" %}
+  <figure class="full-width-image">
 {% else %}
 <figure class="image">
 {% endif %}

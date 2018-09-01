@@ -1,51 +1,66 @@
 ---
 layout: project
-refID: qwilr
+refID: secondary
 
-context: SaaS Product
-timeline: 2017 —
 company: Qwilr
-description: Creating a user centered narrative an engaging learning platform.
+timeline: 2017 —
+role: Design Lead
+description: Leveraging the web to create beautiful, interactive and responsive sales documents
 
-peek: /assets/projects/qwilr/qwilr-peek.png
-image: /assets/projects/aelp/flow-1.jpg
-role: Design Lead, responsible for concept iteration through to testing. Lead product offsites, and some but not all final pixels.
-team: Working directly with Product Manager, senior product stakeholders, our UI designer and of course our users.
+image: /assets/projects/qwilr/qwilr-hero.jpg
+
 link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
 ---
 
-Smart Sparrow is a complete Learning Design platform, used by over 500 institutions globally to create high quality, personalised learning experiences. I joined after their Series B in 2014 to give a dedicated design and user experience focus across the company. For the past few years I’ve been the design lead across all product, brand and marketing projects.
+
+Research, product and UI design, feature development, design systems
+
+Qwilr is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile.
+
+I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
 
 ## The starting point
-The company's differentiator was it's tech – a powerful rule based engine that allowed teachers to create courseware that could adapt to any kind of student response. The problem with this is that the "tech" was front and centre in every part of the company. Everything from the marketing copy to the product was focussing on being feature first, not benefit first. Here was the product page when I started at the company:
 
-{% include modules/article_image.html url="/assets/projects/aelp/site-old-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/onboarding-3.jpg" type="wide" %}
+Qwilr’s CEO and design co-founder, Dylan Baskind, built the company from the outset to have design as a focus. The product was well designed and successful, but symptomatic of Dylan being CEO and sole designer for so long, design and it’s processes were time poor. Features wanted more time to be designed, and needed more time to be polished.
 
-## Fixing the narrative
-At the core of this problem, was communicating how the mental model of an adaptive lesson works, and the impact it has on students. The visuals that explain this are used in everything, from our website and brand to driving the product design. We needed to frame the benefits in a way anyone could understand and be excited by, and after many iterations, settled on using persona extremes of student understanding as our core narrative.
+{% include modules/image-grid.html url1="/assets/projects/qwilr/qwilr-before-a.jpg" url2="/assets/projects/qwilr/qwilr-before-b.jpg" url3="/assets/projects/qwilr/analytics.jpg" url4="/assets/projects/qwilr/qwilr-before-d.jpg" description="UI was custom but was inconsistent, space to grow/cramp" %}
 
-{% include modules/image-grid.html url1="/assets/projects/aelp/graph-1.jpg" url2="/assets/projects/aelp/graph-2.jpg" url3="/assets/projects/aelp/graph-3.jpg" url4="/assets/projects/aelp/graph-4.jpg" description="Iterations on how to explain the mental model of adaptive learning experiences" %}
+## Evolving the brand
 
-## Making the story interactive
-Once we settled on our product narrative, we needed to design it to reflect our philosophies – namely that the best learning is rich, interactive and adaptive. We focussed on small, bite size interactive lessons to show the power of the tool, each building on the adaptive lesson reacting to student personas. Creating them to be contextual to the stages of the users workflow, it focussed on giving them the best understanding of the tool's benefits, so they could create something more meaningful.
+As new features were released, and the design language of the product was evolving, the website was starting to become out of date. As a first experience of Qwilr, it was really important for this first step to be aligned to the product, and help cement Qwilr as a memorable (and better) alternative to other products on the market.
 
-{% include modules/article_image.html url="/assets/projects/aelp/onboarding-4.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/emails-1.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/aelp/onboarding-6.jpg" type="wide" %}
+{% include modules/image-grid.html url1="/assets/projects/qwilr/homepage-a.jpg" url2="/assets/projects/qwilr/homepage-b.jpg" url3="/assets/projects/qwilr/homepage-c.jpg" url4="/assets/projects/qwilr/homepage-d.jpg" description="UI was custom but was inconsistent, space to grow/cramp" %}
 
-## Surfacing it across the product
-For a long time, there was no way to actually manage a cohort of students in the product. Students could be enrolled on a lesson by lesson basis, and all analytics were tied to that lesson itself. We redesigned the management side of the product to be student centered, and it was such a big refocus it took nearly a year to be built. After this however, it allowed users to have a much better overview of their students, lesson status, and global student analytics all in one area. Saving them lots of time, and tedious repetitions that were present in the previous version.
+## Redesigning Custom Styles
 
-{% include modules/image-grid.html url1="/assets/projects/aelp/classes-1.jpg" url2="/assets/projects/aelp/classes-2.jpg" url3="/assets/projects/aelp/classes3.jpg" url4="/assets/projects/aelp/classes4.jpg" %}
+One of the core promises of the product is being able to create visually engaging and professional documents without a designer. The feature set that made this possible, called “Custom Styles”, had initially done a great job of this. Fast and easy to use controls grouped style concerns into compound actions, and users felt empowered. Over time though, needs evolved, and the guard rails that were put in place were under strain.
 
-## Using it to anchor training
-For this new student-centered narrative to hold, it was important for this to become the standard representation both internally for us, and externally for all our users. We now use it across our brand, product and most importantly for new users, in our knowledge base for explaining how the sample projects work.
+[annotated image showing what was wrong before]
 
-{% include modules/article_image.html url="/assets/projects/aelp/kb-1.jpg" type="wide" %}
+Initially, you had some presets to choose from, but you couldn’t actually change the font sizes, background or font colours, and every change had to be done through CSS—which was making changes challenging to maintain and support. Walking through designs and prototypes with users, we introduced a new style editor overlay, which provided more granularity, without it feeling overwhelming to users.
 
-## Folding this into the creation tool
-After addressing the easier wins in the product, we started rethinking our approach. We didn't want to just iterate on what we had, and end up with something derivative. We wanted to try and rethink the product, see what we would do if we started over. I lead 2 product offsite retreats, to prototype and test new out new ideas with users. We tested with 50 users over 5 weeks to iterate fast and learn. We moved from a product that was focussed on screens and rules, to students and what they needed. Putting them at the centre of design decisions, kept focus on always benefitting users. The full section of this work is under NDA, please [get in touch](mailto:dominic@considered.design?Subject=🕵️ I like the look of your secret work...) to understand more.
+[first custom styles 2.0 annotated, abstracted]
 
-{% include modules/article_image.html url="/assets/projects/aelp/storyboard-2.jpg" type="wide" %}
+This got us part of the way there, but editing wasn’t contextual and felt removed, some found the controls confusing or hard to manipulate, and we had issues with feature discovery. All in all, users just didn’t love it. Undeniable bestness being one of Qwilr’s principles, we decided to go back to square one on the feature. Something I wrote more about here.
+
+[first custom styles 2.0 annotated, abstracted]
+
+After a lot more research and user interviews, we approached the problem from a new perspective. Making editing contextual, simplified controls with thoughtful shortcuts, and allowed quick modifications without forcing users to save the style.
+
+[Technicolor Dreamcoat]
+
+
+## Designing the ideal editing experience
+
+As one of our core customer feedback loops, our NPS was highlighting a trend—the content editor felt “buggy”. Buggy is really a catchall for something not feeling right in use, but being really hard to be specific about. Could be clicking on a button and feeling a delayed reaction, the cursor behaving unexpectedly, and interactions not behaving consistently.
+
+We consulted with engineers and designers at Medium and Dropbox to learn how they’ve approached their ideal editing experiences. Learning from this, and as part of a large engineering rewrite project, we did a deep dive into all the invisible interactions that could be contributing to this bad NPS, whilst redesigning some that were known problems.
+
+Note style: This is an ongoing project, and more will be added here after the beta is finished.
+
+[New Editor designs (including ux documentation)]
+
+[New vs old selection on different backgrounds, UI]
+
+[annotated old tables vs new]

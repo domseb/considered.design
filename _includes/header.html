@@ -2,24 +2,26 @@
   <nav class="navbar">
   <!-- Left side -->
   <ul class="nav-links">
-    <a class="logo" href="{{ site.baseurl }}/">
-      {% include svg/cd-logo.svg %}
-      <p class="logotype">Considered Design</p>
-    </a>
+    <!-- <a class="logotype" href="{{ site.baseurl }}/">
+      <p>Considered Design</p>
+    </a> -->
       <!-- <p class="logotype">Considered Design</p> -->
+    <li{% if page.url == '/' %} class="active"{% endif %}>
+      <a class="logotype" href="/">Considered Design</a>
+    </li>
     <li{% if page.url == '/work/' %} class="active"{% endif %}>
-    <a class="page-link" href="/work/">Work</a>
+      <a class="page-link" href="/work/">Work</a>
     </li>
     <li{% if page.url == '/blog/' %} class="active"{% endif %}>
-    <a class="page-link" href="/blog/">Blog</a>
+      <a class="page-link" href="/blog/">Blog</a>
     </li>
     <li{% if page.url == '/profile/' %} class="active"{% endif %}>
-    <a class="page-link" href="/profile/">Profile</a>
+      <a class="page-link" href="/profile/">Profile</a>
     </li>
   </ul>
   <!-- Right side -->
   <ul class="cta">
-    <a class="email" href="https://twitter.com/dominosebastian">{% include svg/icon-email.svg %}</a>
+    <!-- <a class="email" href="https://twitter.com/dominosebastian">{% include svg/icon-email.svg %}</a> -->
     <li class="page-link">Get in touch</a>
   </ul>
 </nav>

@@ -1,61 +1,50 @@
 ---
 layout: project
-refID: project
+refID: secondary
 
-context: Android app
-timeline: 2017
 company: The George Institute
-description: Designing augmented reality experiences pioneering arts projects.
+timeline: 2017
+role: Contract Design Lead
+description: Redesigning an app to collect the nutritional value of all food products in India
 
-image: /assets/projects/digicave/htc-1.jpg
-role: Designing all branded and digital products that came out of the studio. Covering all app and UX concepts to designing final pixels.
-team: We were a small company of 10, and as the first designer I worked closely with the CEO, Creative, Sales and Technical Directors.
-link1url: https://www.wired.com/2012/04/top-gear-host-narrates-museum-exhibits-as-augmented-reality-avatar/
-link1name: Wired Feature
-link2url: https://twitter.com/digicave
-link2name: Digicave Twitter
-link3url: https://vimeo.com/digicave
-link3name: Digicave on Vimeo
+image: /assets/projects/qwilr/qwilr-hero-2.jpg
+
+link1url: https://www.smartsparrow.com/
+link1name: Smart Sparrow
 ---
 
-Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I've learnt to my time there. A studio truly ahead of it's time. Below are some of my favourite projects I designed whilst I was there.
+The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of it’s flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.
 
-{% include modules/image-grid.html url1="/assets/projects/digicave/cal.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
+Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After winning a grant from the Bill & Melinda Gates Foundation, The George Institute for Global Health had to design a new data collection app to expand into India.
 
-## The process
+## The starting point
 
-Their proprietary 46 camera rig could capture and model an object using [photometry](https://en.wikipedia.org/wiki/Photometry_(optics)). Our leading edge was that we put capture quality first, with unbeatable industry knowledge. The level of detail was so good, we could capture pores on a models face, and individual strands of hair. I was hired as their first designer, responsible for all design work that came out of the studio.
+The team had already created a data collector app, as a companion of their core Foodswitch app. Some usability and flow issues aside, the biggest issue was it couldn’t be sued to collect anything without a barcode, and relied on lots of heavy text English cues to understand how to use it.
 
-{% include modules/image-trio.html url1="/assets/projects/digicave/photo-3.jpg" url2="/assets/projects/digicave/photo-2.jpg" url3="/assets/projects/digicave/photo-1.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-trio.html url1="/assets/projects/george/collector-a.jpg" url2="/assets/projects/george/collector-b.jpg" url3="/assets/projects/george/collector-c.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
-## TEDx Houses of Parliament
+## Designing for context in India
 
-Our work for TEDx focussed on putting users in control of the frame. Throughout the day the attendees could find custom TEDxHoP posters to scan with our app. Each frame had a unique AR scene we had built for them, which they could move around and find their perfect angle to capture, and share online with the world. [TEDx Houses of Parliament](https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes)
+Potential language barriers aside, the physical context of data collection in India introduced lots of new design considerations. The normal process is to scan the product, take a picture, and confirm it’s details. However products in Indian markets could be stacked out of reach (requiring assistance to capture them), grouped in high volume containers (like rice or spices), or with lighting conditions too low to take good enough photos. Grouping these concerns allowed us to design for common paths, and start thinking about what defaults we could include to save them time, and remove the decision making process (and by association errors) from them into the app.
 
-{% include modules/article_image.html url="/assets/projects/digicave/frames-1.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
+{% include modules/article_image.html url="/assets/projects/george/market.jpg" %}
 
-## HTC Specialist
+## Balancing data quality & speed
 
-HTC needed a way to create a deeper product understanding of the HTC One for it's upcoming release, and wanted to move away from the expensive and ineffective print material they were using. Our solution was an augmente reality avatar, highlighting core value propositions of the device through interactive and visual storytelling. [HTC Specialist AR App](https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar)
+At the core of the project was trying to balancing the constraints of the highest quality data, collected in the shortest time possible. Skew too much towards fast collection, and what was collected would take longer to verify with more gaps to fill in. Skew too much towards data quality, and the data collectors in the field would take too long to collect all the food products, and they could miss a grant deadline.
 
+Internally they also wanted this to be quick to build, and easily maintainable across each country that used it. We decided early on, that as much native UI should be used as possible, only using custom if we felt it would significantly further our goal.
 
-{% include modules/article_image.html url="/assets/projects/digicave/htc-2.jpg" type="wide" %}
-{% include modules/article_image.html url="/assets/projects/digicave/htc-1.jpg" type="wide" description="Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio" %}
+{% include modules/article_image.html url="/assets/projects/george/dca-flow.jpg" type="screen" %}
 
-## Hello Magazine
+## End results
 
-​Hello! Magazine has a readership of reaches over [2 million adults in the UK every week](http://www.hellomagazine.com/marketing/marketing01.html). For the Queen's Diamond Jubilee, the magazine wanted something special for their readers. We captured Gary Barlow, the signer at the centre of the celebrations, to create the an interactive augmented reality cover. A worldwide publishing first.
+The result was an app that could be used with minimal on site training, clear markers for “completed” captured products, and easy paths to fill in the gaps after with the store owner if needed. We designed options to be remembered, so if you’re scanning in an aisle of barcoded products, you don’t need to keep switching it back to “scan”. We also included modes the user could define upfront, like “photos not possible” (say if lighting conditions were really poor), which would then bypass steps they knew wouldn’t be possible.
 
-{% include modules/article_image.html url="/assets/projects/digicave/gary-barlow-1.jpg" type="wide" %}
+{% include modules/image-trio.html url1="/assets/projects/george/dc-library.jpg" url2="/assets/projects/george/dc-scan.jpg" url3="/assets/projects/george/dc-mode.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
-## James May Science Stories
+{% include modules/image-trio.html url1="/assets/projects/george/dc-checklist.jpg" url2="/assets/projects/george/dc-weigh.jpg" url3="/assets/projects/george/dc-capture.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
-James May Science Stories was under development when I joined, and was designing by a contractor before I started. After initial design work was done though, there was a stream of changes and updates that had to be made, including design for additional marketing collateral during my time there. The combination of our high capture quality and storytelling talent meant AR avatars became a model of what we were known for – and they were very fun to work on. You can download and play with the app [here.](https://itunes.apple.com/pk/app/james-mays-science-stories/id517111167?mt=8)
+{% include modules/image-trio.html url1="/assets/projects/george/dc-summary.jpg" url2="/assets/projects/george/dc-warning.jpg" url3="/assets/projects/george/dc-comment.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
-{% include modules/image-grid.html url1="/assets/projects/digicave/rig-1.jpg" url2="/assets/projects/digicave/rig-2.jpg" url3="/assets/projects/digicave/rig-3.jpg" url4="/assets/projects/digicave/rig-4.jpg" %}
-
-## We Love Pop
-
-We Love Pop was a precursor to the Hello! Magazine front cover, and what became a popular format for publishers to play with augmented reality experiences. Rather than creating high poly models of objects and people we'd captured in the rig, we could overlay someone's face onto a magazine cover, live. Watch an [example on Vimeo.](https://vimeo.com/84395127)
-
-{% include modules/article_image.html url="/assets/projects/digicave/pop-1.jpg" type="wide" %}
+This product is current being used for data collection in India, and more details will be added to this project after the first grant deadline.

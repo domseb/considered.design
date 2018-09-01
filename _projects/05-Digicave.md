@@ -1,22 +1,24 @@
 ---
 layout: project
-refID: project
+refID: secondary
 
-context: AR apps
-timeline: 2011 — 2014
 company: Digicave
-description: Designing augmented reality experiences pioneering arts projects.
+timeline: 2011 — 2014
+role: Design Lead
+description: Pioneering visual arts projects through virtual and augmented reality experiences
 
 image: /assets/projects/digicave/htc-1.jpg
-role: Designing all branded and digital products that came out of the studio. Covering all app and UX concepts to designing final pixels.
-team: We were a small company of 10, and as the first designer I worked closely with the CEO, Creative, Sales and Technical Directors.
+
+link1url: https://www.smartsparrow.com/
+link1name: Smart Sparrow
+---
+
 link1url: https://www.wired.com/2012/04/top-gear-host-narrates-museum-exhibits-as-augmented-reality-avatar/
 link1name: Wired Feature
 link2url: https://twitter.com/digicave
 link2name: Digicave Twitter
 link3url: https://vimeo.com/digicave
 link3name: Digicave on Vimeo
----
 
 Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I've learnt to my time there. A studio truly ahead of it's time. Below are some of my favourite projects I designed whilst I was there.
 

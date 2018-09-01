@@ -1,15 +1,14 @@
 ---
 layout: project
-refID: project
+refID: secondary
 
-context: Enterprise Product
-timeline: 2014 — 2017
 company: Smart Sparrow
-description: Creating a user centered narrative an engaging learning platform.
+timeline: 2014 — 2017
+role: Head of Design
+description: Creating a user centered platform to create personalised online learning at scale
 
 image: /assets/projects/aelp/flow-1.jpg
-role: Design Lead, responsible for concept iteration through to testing. Lead product offsites, and some but not all final pixels.
-team: Working directly with Product Manager, senior product stakeholders, our UI designer and of course our users.
+
 link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
 ---
