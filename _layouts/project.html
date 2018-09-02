@@ -18,21 +18,23 @@ refID: secondary
 </section>
 
 <div class="post">
-  <article class="post-content">
+  <article class="post-content fade-in-up-3">
     <p class="intro">{{ page.intro }}</p>
     {{ content }}
   </article>
 </div>
 
 <section class="wide">
-   <h2 class="cexplainer">If you enjoyed reading this proejct, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
-   <div class="project-tiles">
-    {% for project in site.projects | limit: 4 %}
+   <h2 class="cexplainer">If you enjoyed reading this project, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
+   <div class="projects">
+    {% for project in site.projects | limit: 3 %}
     {% if page.title != project.title %}
-    <a class="tile" href="{{ project.url }}">
-      <h3>{{ project.company }}</h3>
-      <p>{{ project.timeline }}, {{ project.role }}</p>
-      <!-- <h2>{{ project.description }}</h2> -->
+    <a class="card {{ project.refID }}" href="{{ project.url }}">
+      <div class="context">
+        <h3>{{ project.company }}</h3>
+        <p>{{ project.role }}, {{ project.timeline }}</p>
+        <p class="description">{{ project.description }}</p>
+      </div>
     </a>
     {% endif %}
     {% endfor %}

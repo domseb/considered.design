@@ -6,11 +6,11 @@ refID: dark
 ---
 <div class="wide">
   <div class="project-header-2">
-    <h1>Here's my recent and relevant product design work.</h1>
+    <h1 class="fade-in-up">Here's some recent and relevant product design work</h1>
   </div>
 <section class="wide">
-  <div class="projects">
-    {% for project in site.projects %}
+  <div class="projects fade-in-up-3">
+    {% for project in site.projects reversed %}
     <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
         <h3>{{ project.company }}</h3>

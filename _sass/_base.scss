@@ -64,7 +64,7 @@ h1 {
   font-family: $base-font-bold;
   margin-bottom: 20px;
   font-size: 45px;
-  letter-spacing: -1px;
+  // letter-spacing: -1px;
   font-weight: 400;
   @include media-query($on-tablet) {
     font-size: 40px;
@@ -278,17 +278,20 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $primary;
-    font-family: $base-font-bold;
-    font-size: 35px;
-    line-height: 1.3;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    position: relative;
-    width: 70%;
-    float: left;
-    margin-right: 2.5rem;
-    margin-left: -10rem;
+    // color: $primary;
+    // font-family: $base-font-bold;
+    // font-size: 28px;
+    // line-height: 1.3;
+    // margin-top: 1.25rem;
+    // margin-bottom: 1.25rem;
+    // position: relative;
+    // width: 70%;
+    // float: left;
+    // margin-right: 2.5rem;
+    // margin-left: -10rem;
+    padding-left: 20px;
+    font-style: italic;
+    border-left: 2px solid $primary;
 
     > :last-child {
         margin-bottom: 0;
@@ -358,7 +361,7 @@ pre {
   cursor: pointer;
   box-sizing: border-box;
   border-bottom: 3px solid rgba($primary,0.2);
-  letter-spacing: -1px;
+  // letter-spacing: -1px;
 
   &:hover, &:focus {
     background-color: rgba($primary,0.2);
