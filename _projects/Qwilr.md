@@ -3,9 +3,11 @@ layout: project
 refID: secondary
 
 company: Qwilr
-timeline: 2017 —
+timeline: 2017 — present
 role: Design Lead
 description: Leveraging the web to create beautiful, interactive and responsive sales documents
+
+intro: Qwilr (pronounced quill-er) is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile. <br><br> I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
 
 image: /assets/projects/qwilr/qwilr-hero.jpg
 
@@ -15,10 +17,6 @@ link1name: Smart Sparrow
 
 
 Research, product and UI design, feature development, design systems
-
-Qwilr is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile.
-
-I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
 
 ## The starting point
 

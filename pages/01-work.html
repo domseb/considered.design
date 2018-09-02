@@ -5,25 +5,20 @@ permalink: /work/
 refID: dark
 ---
 <div class="wide">
-  <div class="project-header">
-    <h1>I help mature design direction in products, to create systems of repeatable and lasting value.</h1>
+  <div class="project-header-2">
+    <h1>Here's my recent and relevant product design work.</h1>
   </div>
 <section class="wide">
   <div class="projects">
     {% for project in site.projects %}
     <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
-        <h3><b>{{ project.timeline }}</b></h3>
-        <h3 style="opacity:.75">{{ project.context }}</h3>
-      </div>
-      <div class="other">
-        <!-- <h2>{{ project.company }}</h2> -->
-        <p>{{ project.description }}</p>
+        <h3>{{ project.company }}</h3>
+        <p>{{ project.role }}, {{ project.timeline }}</p>
+        <p class="description">{{ project.description }}</p>
       </div>
     </a>
     {% endfor %}
   </div>
 </section>
 </div>
-
-<!-- style="background-image: url({{ project.peek }})" -->

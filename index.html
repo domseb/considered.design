@@ -1,26 +1,11 @@
 ---
 layout: default
-refID: dark
+refID: bubbly
 ---
-<!-- <section class="black"> -->
-  <div class="hero">
-    <div class="welcome">
-      <h1>I help mature design direction in products, to create systems of repeatable and lasting value.</h1>
-    </div>
+<div class="hero">
+  <div class="welcome">
+    <h3>Hi there. My name's Dominic</h3>
+    <h1 class="fade-in-up">I help set and mature design direction in products looking to create longterm value.</h1>
+    <p>I care about creating clarity in my work, especially in projects where needs are fuzzy and unknown, through a thoughtful and considered design approach. I think this is the only way design can be truly accessible, and deliver people genuine value.</p>
   </div>
-<!-- </section> -->
-
-<section class="wide">
-   <div class="projects">
-    {% for project in site.projects | limit: 3 %}
-    <a class="card" href="{{ project.url }}">
-      <div class="context">
-        <h3>{{ project.context }}</h3>
-      </div>
-      <h2>{{ project.problem }} for {{ project.matter }}</h2>
-       <h4>view solution</h4>
-    </a>
-    {% endfor %}
-  </div>
-  <h2 class="explainer">These are some of my favourite pieces of work. The rest are over in my <a href="/work">work section.</a></h2>
- </section>
+</div>

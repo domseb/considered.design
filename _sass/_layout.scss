@@ -2,6 +2,87 @@
 
 // SCALE UP ANIMATION
 
+.fade-in-up-1 {
+  animation: fade-in-up-1;
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform-origin: 50%;
+}
+
+@-webkit-keyframes fade-in-up-1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-in-up-1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-up-2 {
+  animation: fade-in-up-2;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform-origin: 50%;
+}
+
+@-webkit-keyframes fade-in-up-2 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-in-up-2 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-up-3 {
+  animation: fade-in-up-3;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform-origin: 50%;
+}
+
+
+@-webkit-keyframes fade-in-up-3 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-in-up-3 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-up {
+  animation: fade-in-up;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform-origin: 50%;
+}
+
+@-webkit-keyframes fade-in-up {
+  0% {
+    transform: translate(0px,$spacing-unit);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
+}
+
+@keyframes fade-in-up {
+  0% {
+    transform: translate(0px,$spacing-unit);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
+}
+
 .fade-in-bottom {
   animation: fade-in-bottom;
   animation-duration: 1s;
@@ -125,6 +206,59 @@
 }
 
 // NAV VARIANTS
+
+.bubbly {
+
+  background-color: $brand-black;
+  background-image: url('/assets/site/circle-large.svg');
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+
+  h1 {
+    color: white !important;
+  }
+
+  .logotype {
+    color: rgba(white,1);
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    @include media-query($on-tablet) {
+      display: none;
+    }
+  }
+
+  .active .page-link {
+    color: white;
+  }
+
+  .page-link {
+    color: rgba(white,.5);
+    margin-bottom: 0px;
+    @include transition( all $default-transition);
+    &:hover {
+      color: rgba(white,1);
+      text-decoration: none;
+      @include transition( all $default-transition);
+    }
+  }
+
+  .twitter {
+    fill: rgba(white,.5);
+    @include transition( all $default-transition);
+    &:hover { fill:rgba(white,1);
+    @include transition( all $default-transition); }
+      svg { @include size(rem(30) rem(30)); }
+    }
+
+  .email {
+    fill: rgba(white,.5);
+    @include transition( all $default-transition);
+    &:hover { fill:rgba(white,1);
+    @include transition( all $default-transition); }
+      svg { @include size(rem(24) rem(24)); }
+    }
+}
 
 .dark {
 
@@ -431,7 +565,7 @@
 }
 
 .welcome {
-  @include span-columns(10);
+  @include span-columns(8);
   @include shift(0);
   margin-top: (2 * $spacing-unit);
   margin-bottom: (2 * $spacing-unit);
@@ -439,12 +573,27 @@
   h1 {
     color: $primary;
     margin-bottom: (2 * $spacing-unit);
+    font-size: 65px;
   }
 
   h2 {
     color: rgba($primary,.85);
     font-family: $base-font;
     margin-bottom: (2 * $spacing-unit);
+  }
+
+  h3 {
+    font-size: 18px;
+    color: $primary;
+    font-weight: bold;
+
+    &:after {
+      content: url('/assets/site/stroke-thin.svg');
+      display: inline-flex;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      vertical-align: middle;
+    }
   }
 
   a {
@@ -699,22 +848,42 @@
   }
 
   .outro {
-    @include span-columns(8);
-    @include shift(1);
+    @include span-columns(6);
+    @include shift(3);
+    @extend %clearfix;
     color: $white-color;
-    // color: $primary;
-    margin-bottom: (2 * $spacing-unit);
-    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 4*$spacing-unit;
 
     @include media-query($on-laptop) {
       @include span-columns(6);
-      @include shift(1);
+      @include shift(3);
     }
+
     @include media-query($on-palm) {
       @include span-columns(10);
       @include shift(1);
     }
   }
+
+  // .outro {
+  //   @include span-columns(8);
+  //   @include shift(1);
+  //   color: $white-color;
+  //   // color: $primary;
+  //   margin-bottom: (2 * $spacing-unit);
+  //   margin-top: 0px;
+  //
+  //   @include media-query($on-laptop) {
+  //     @include span-columns(6);
+  //     @include shift(1);
+  //   }
+  //   @include media-query($on-palm) {
+  //     @include span-columns(10);
+  //     @include shift(1);
+  //   }
+  // }
 
   .explainer {
     @include span-columns(5);
@@ -833,8 +1002,8 @@
 }
 
 .projects {
-  @include span-columns(10);
-  @include shift(1);
+  @include span-columns(12);
+  @include shift(0);
   margin-top: (2 * $spacing-unit);
   // margin-bottom: (3 * $spacing-unit);
 
@@ -844,60 +1013,40 @@
   }
 
   .card {
-    @include span-columns(12);
-    // @include omega(3n);
+    @include span-columns(4);
+    @include omega(3n);
     margin-bottom: 50px;
     text-align: left;
     padding: 35px;
-    display: inline-flex;
+    // display: inline-flex;
     flex-direction: row;
     background-color: rgba($white-color,0);
     box-shadow: 0px 0px 0px 0px rgba($white-color,0);
     @include transition( all $default-transition);
-    height: 150px;
-
-    h3 {
-      color: $primary;
-      margin-bottom: 0px;
-    }
+    // height: 150px;
 
     h2 {
       font-family: $base-font;
       margin-bottom: 10px;
     }
 
+    h3 {
+      text-transform: uppercase;
+      opacity: .5;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+      color: $primary;
+    }
+
     p {
+      font-size: 18px;
+      color: $primary;
+    }
+
+    .description {
       font-size: 22px;
-      margin-bottom: 15px;
-      margin-top: -5px;
-    }
-
-    // @include media-query($on-laptop) {
-    //   @include omega-reset(3n);
-    //   @include span-columns(6);
-    //   @include omega(2n);
-    //   @include shift(0);
-    //   display: flex;
-    //   flex-direction: column;
-    // }
-    //
-    // @include media-query($on-palm) {
-    //   @include span-columns(10);
-    //   @include shift(1);
-    //   display: flex;
-    //   flex-direction: column;
-    //   height: 300px;
-    // }
-
-    .context {
-      @include span-columns(2);
-      @include shift(0);
-    }
-
-    .other {
-      @include span-columns(6);
-      // @include shift(3);
-      // margin-bottom: $spacing-unit;
+      color: #656d78;
     }
 
     &:hover {
@@ -1114,6 +1263,29 @@
   @extend %clearfix;
   margin-top: 70px;
 
+  .intro {
+    border-bottom: 2px solid rgba($primary,.25);
+    padding-bottom: $spacing-unit;
+  }
+    p:first-child:first-letter {
+      color: white;
+      float: left;
+      font-family: Georgia;
+      font-size: 45px;
+      line-height: 35px;
+      padding: 20px;
+      background-color: #6E69EE;
+      margin-right: 10px;
+    }
+
+
+  &:after {
+    content : "";
+    position: absolute;
+    width: 50px;
+    border-bottom: 5px solid $primary;
+  }
+
   // @include media-query($on-laptop) {
   //   @include span-columns(7);
   //   @include shift(2.5);
@@ -1313,6 +1485,25 @@
           border-bottom: 3px solid rgba($primary,0);
           @include transition( all $default-transition);
       }
+    }
+  }
+
+  .project-header-2 {
+    @include span-columns(6);
+    @include shift(3);
+    @extend %clearfix;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    @include media-query($on-laptop) {
+      @include span-columns(6);
+      @include shift(3);
+    }
+
+    @include media-query($on-palm) {
+      @include span-columns(10);
+      @include shift(1);
     }
   }
 
@@ -1524,6 +1715,11 @@
   .site-footer { color: rgba(white,.5); }
 }
 
+.bubbly {
+  // .blend { background-color: $brand-secondary; }
+  .site-footer { color: rgba(white,.5); }
+}
+
 .brown {
   // .blend { background-color: $brand-secondary; }
   .site-footer { color: rgba(white,.5); }
@@ -1540,8 +1736,7 @@
 }
 
 .site-footer {
-  @include span-columns(10);
-  @include shift(1);
+  @include span-columns(12);
   padding-top: 50px;
   padding-bottom: 35px;
   height: 113px;
