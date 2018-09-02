@@ -2,21 +2,21 @@
 layout: default
 title: Work
 permalink: /work/
+refID: dark
 ---
 <div class="wide">
-  <div class="project-header">
-    <h1>I like solving interesting problems <span class="joiner">for</span> things that matter.</h1>
+  <div class="project-header-2">
+    <h1 class="fade-in-up">Here's some recent and relevant product design work</h1>
   </div>
 <section class="wide">
-  <div class="projects">
-    {% for project in site.projects %}
-    <a class="card" href="{{ project.url }}">
+  <div class="projects fade-in-up-3">
+    {% for project in site.projects reversed %}
+    <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
-        <h3>{{ project.context }}</h3>
-        <p class="numero">0{{ project.numero }}</p>
+        <h3>{{ project.company }}</h3>
+        <p>{{ project.role }}, {{ project.timeline }}</p>
+        <p class="description">{{ project.description }}</p>
       </div>
-      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
-      <h4>view solution</h4>
     </a>
     {% endfor %}
   </div>

@@ -1,53 +1,40 @@
 ---
 layout: default
-refID: work
+refID: secondary
 ---
-
-<div class="wide">
-    <div class="project-header extra">
-      <!-- <h3>{{ page.context }}</h3> -->
-      <h1>{{ page.problem }} <span class="joiner">for</span> {{ page.matter }}</h1>
-    </div>
-  <div class="hero-image"><img src="{{ site.baseUrl }}{{ page.image }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/></div>
-  <div class="page-intro">
-    <div class="spotlight">
-      <h5 class="numero">0{{ page.numero }}</h5>
-    </div>
-    <div class="spotlight">
-      <h5>Responsibility</h5>
-      <p class="copy">{{ page.role }}</p>
-    </div>
-    <div class="spotlight">
-      <h5>Team</h5>
-      <p class="copy">{{ page.team }}</p>
-    </div>
-    <div class="spotlight">
-      <h5>Links</h5>
-      <p class="copy"><a href="{{ page.link1url }}">{{ page.link1name }}</a><br>
-      <a href="{{ page.link2url }}">{{ page.link2name }}</a><br>
-      <a href="{{ page.link3url }}">{{ page.link3name }}</a></p>
-    </div>
+<section class="black start">
+<div class="widest">
+  <div class="project-header">
+  <div class="page-intro fade-in-bottom">
+    <h1>{{ page.description }}</h1>
+    <h3>{{ page.company }}</h3>
+    <p>{{ page.role }}, {{ page.timeline }}</p>
+  </div>
+  <div class="image-intro">
+    <img src="{{ site.baseUrl }}{{ page.image }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
   </div>
 </div>
+  </div>
+</section>
 
 <div class="post">
-  <article class="post-content">
+  <article class="post-content fade-in-up-3">
+    <!-- <p class="intro">{{ page.intro }}</p> -->
     {{ content }}
   </article>
 </div>
 
 <section class="wide">
-   <h2 class="cexplainer">If you enjoyed reading this proejct, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
+   <h2 class="cexplainer">If you enjoyed reading this project, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
    <div class="projects">
     {% for project in site.projects | limit: 4 %}
     {% if page.title != project.title %}
-    <a class="card" href="{{ project.url }}">
+    <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
-        <h3>{{ project.context }}</h3>
-        <p class="numero">0{{ project.numero }}</p>
+        <h3>{{ project.company }}</h3>
+        <p>{{ project.role }}, {{ project.timeline }}</p>
+        <p class="description">{{ project.description }}</p>
       </div>
-      <h2>{{ project.problem }} <span class="joiner">for</span> {{ project.matter }}</h2>
-       <h4>view solution</h4>
     </a>
     {% endif %}
     {% endfor %}
