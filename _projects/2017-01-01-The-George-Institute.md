@@ -7,7 +7,7 @@ timeline: 2017
 role: Contract Design Lead
 description: Redesigning an app to collect the nutritional value of all food products in India
 
-image: /assets/projects/qwilr/qwilr-hero-2.jpg
+image: /assets/projects/george/george-banner.jpg
 
 link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
@@ -21,7 +21,7 @@ Available in 8 countries, the service relies on the companies independent and co
 
 The team had already created a data collector app, as a companion of their core Foodswitch app. Some usability and flow issues aside, the biggest issue was it couldn’t be sued to collect anything without a barcode, and relied on lots of heavy text English cues to understand how to use it.
 
-{% include modules/image-trio.html url1="/assets/projects/george/collector-a.jpg" url2="/assets/projects/george/collector-b.jpg" url3="/assets/projects/george/collector-c.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-trio.html url1="/assets/projects/george/collector-a.jpg" url2="/assets/projects/george/collector-b.jpg" url3="/assets/projects/george/collector-c.jpg" description="Tutorials in the previous app were very text heavy, with no visual cues for how to progress to the next step" %}
 
 ## Designing for context in India
 
@@ -43,8 +43,8 @@ The result was an app that could be used with minimal on site training, clear ma
 
 {% include modules/note.html title="Note" description="This product is current being used for data collection in India, and more details will be added to this project after the first grant deadline." %}
 
-{% include modules/image-trio.html url1="/assets/projects/george/dc-library.jpg" url2="/assets/projects/george/dc-scan.jpg" url3="/assets/projects/george/dc-mode.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-trio.html url1="/assets/projects/george/dc-library.jpg" url2="/assets/projects/george/dc-scan.jpg" url3="/assets/projects/george/dc-mode.jpg" description="Visual cues were added to key steps, the UI was brought out to be more prominent, with contextual modes to expedite collection" %}
 
-{% include modules/image-trio.html url1="/assets/projects/george/dc-checklist.jpg" url2="/assets/projects/george/dc-weigh.jpg" url3="/assets/projects/george/dc-capture.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-trio.html url1="/assets/projects/george/dc-checklist.jpg" url2="/assets/projects/george/dc-weigh.jpg" url3="/assets/projects/george/dc-capture.jpg" description="Checklist selection determined the next screen, using large, faster to use inputs, and custom photo capture flow" %}
 
-{% include modules/image-trio.html url1="/assets/projects/george/dc-summary.jpg" url2="/assets/projects/george/dc-warning.jpg" url3="/assets/projects/george/dc-comment.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-trio.html url1="/assets/projects/george/dc-summary.jpg" url2="/assets/projects/george/dc-warning.jpg" url3="/assets/projects/george/dc-comment.jpg" description="Summary taught data collectors about completeness of their collections, and made it fast to find missing pieces when consulting shop keepers" %}
