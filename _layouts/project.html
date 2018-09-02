@@ -19,7 +19,7 @@ refID: secondary
 
 <div class="post">
   <article class="post-content fade-in-up-3">
-    <p class="intro">{{ page.intro }}</p>
+    {% if include.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
     {{ content }}
   </article>
 </div>
@@ -27,7 +27,7 @@ refID: secondary
 <section class="wide">
    <h2 class="cexplainer">If you enjoyed reading this project, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
    <div class="projects">
-    {% for project in site.projects | limit: 3 %}
+    {% for project in site.projects | limit: 4 %}
     {% if page.title != project.title %}
     <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">

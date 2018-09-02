@@ -4,7 +4,7 @@ title: Introducing our all-new Image Carousel
 permalink: /introducing-image-carousel/
 ---
 
-{% include modules/article_image.html url="/assets/blog/image-carousel.jpeg" type="hero" %}
+{% include modules/article_image.html url="/assets/blog/image-carousel-large.jpg" type="hero" %}
 
 At it’s core, [Qwilr](www.qwilr.com) is a communication design tool. Whilst we began as a way for people to create proposals as beautiful web pages, it’s grown to be used for case studies, landing pages, online brochures and much more. All things that rely on great imagery to be persuasive. The trouble was our image browsing experience hadn’t grown with these new use cases, and needed a lot of love and improvement.
 

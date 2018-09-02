@@ -5,7 +5,7 @@ permalink: /quest-for-undeniable-bestness/
 featured: true
 ---
 
-{% include modules/article_image.html url="/assets/blog/bestness-hero.jpeg" type="hero" %}
+{% include modules/article_image.html url="/assets/blog/quest-large.jpg" type="hero" %}
 
 To help frame this post, I want to begin by sharing a snippet from [Qwilr’s driving Principles](https://pages.qwilr.com/gTndRdDyT7mY), written by our Founder & CEO, Dylan:
 

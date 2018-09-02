@@ -41,10 +41,10 @@ Internally they also wanted this to be quick to build, and easily maintainable a
 
 The result was an app that could be used with minimal on site training, clear markers for “completed” captured products, and easy paths to fill in the gaps after with the store owner if needed. We designed options to be remembered, so if you’re scanning in an aisle of barcoded products, you don’t need to keep switching it back to “scan”. We also included modes the user could define upfront, like “photos not possible” (say if lighting conditions were really poor), which would then bypass steps they knew wouldn’t be possible.
 
+{% include modules/note.html title="Note" description="This product is current being used for data collection in India, and more details will be added to this project after the first grant deadline." %}
+
 {% include modules/image-trio.html url1="/assets/projects/george/dc-library.jpg" url2="/assets/projects/george/dc-scan.jpg" url3="/assets/projects/george/dc-mode.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
 {% include modules/image-trio.html url1="/assets/projects/george/dc-checklist.jpg" url2="/assets/projects/george/dc-weigh.jpg" url3="/assets/projects/george/dc-capture.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
 {% include modules/image-trio.html url1="/assets/projects/george/dc-summary.jpg" url2="/assets/projects/george/dc-warning.jpg" url3="/assets/projects/george/dc-comment.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
-
-This product is current being used for data collection in India, and more details will be added to this project after the first grant deadline.

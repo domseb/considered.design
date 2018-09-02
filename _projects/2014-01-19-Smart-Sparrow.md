@@ -7,13 +7,13 @@ timeline: 2014 — 2017
 role: Head of Design
 description: Creating a user centered platform to create personalised online learning at scale
 
+intro: Smart Sparrow is a complete Learning Design platform, used by over 500 institutions globally to create high quality, personalised learning experiences. I joined after their Series B in 2014 to give a dedicated design and user experience focus across the company. For the past few years I’ve been the design lead across all product, brand and marketing projects.
+
 image: /assets/projects/aelp/flow-1.jpg
 
 link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
 ---
-
-Smart Sparrow is a complete Learning Design platform, used by over 500 institutions globally to create high quality, personalised learning experiences. I joined after their Series B in 2014 to give a dedicated design and user experience focus across the company. For the past few years I’ve been the design lead across all product, brand and marketing projects.
 
 ## The starting point
 The company's differentiator was it's tech – a powerful rule based engine that allowed teachers to create courseware that could adapt to any kind of student response. The problem with this is that the "tech" was front and centre in every part of the company. Everything from the marketing copy to the product was focussing on being feature first, not benefit first. Here was the product page when I started at the company:
