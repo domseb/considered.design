@@ -937,8 +937,6 @@
     margin-bottom: 50px;
     text-align: left;
     padding: 35px;
-    display: inline-flex;
-    flex-direction: row;
     background-color: rgba($white-color,0);
     box-shadow: 0px 0px 0px 0px rgba($white-color,0);
     @include transition( all $default-transition);
@@ -958,34 +956,6 @@
       font-size: 22px;
       margin-bottom: 15px;
       margin-top: -5px;
-    }
-
-    // @include media-query($on-laptop) {
-    //   @include omega-reset(3n);
-    //   @include span-columns(6);
-    //   @include omega(2n);
-    //   @include shift(0);
-    //   display: flex;
-    //   flex-direction: column;
-    // }
-    //
-    // @include media-query($on-palm) {
-    //   @include span-columns(10);
-    //   @include shift(1);
-    //   display: flex;
-    //   flex-direction: column;
-    //   height: 300px;
-    // }
-
-    .context {
-      @include span-columns(2);
-      @include shift(0);
-    }
-
-    .other {
-      @include span-columns(6);
-      // @include shift(3);
-      // margin-bottom: $spacing-unit;
     }
 
     &:hover {

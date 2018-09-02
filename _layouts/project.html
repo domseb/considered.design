@@ -29,12 +29,9 @@ refID: secondary
     {% for project in site.projects | limit: 4 %}
     {% if page.title != project.title %}
     <a class="tile" href="{{ project.url }}">
-      <div class="context">
-        <h3>{{ project.context }}</h3>
-        <p class="numero">0{{ project.numero }}</p>
-      </div>
-      <h2>{{ project.problem }} for {{ project.matter }}</h2>
-       <h4>view solution</h4>
+      <h3>{{ project.company }}</h3>
+      <p>{{ project.timeline }}, {{ project.role }}</p>
+      <!-- <h2>{{ project.description }}</h2> -->
     </a>
     {% endif %}
     {% endfor %}
