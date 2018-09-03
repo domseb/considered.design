@@ -26,7 +26,7 @@ layout: default
   <div class="wide">
     <h2 class="gexplainer">If you enjoyed reading this post, you might enjoy these. The rest are over in my <a href="/blog">blog section.</a></h2>
     <div class="tiles">
-      {% for post in site.posts | limit: 4 %}
+      {% for post in site.posts limit: 4 %}
       {% if page.title != post.title %}
       <div class="tile">
         <h3>{{ post.date | date_to_long_string }} •

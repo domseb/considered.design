@@ -23,11 +23,11 @@ refID: secondary
     {{ content }}
   </article>
 </div>
- 
+
 <section class="wide">
    <h2 class="cexplainer">If you enjoyed reading this project, you might enjoy these. The rest are over in my <a href="/work">work section.</a></h2>
    <div class="projects">
-    {% for project in site.projects | limit: 4 %}
+    {% for project in site.projects limit: 4 %}
     {% if page.title != project.title %}
     <a class="card {{ project.refID }}" href="{{ project.url }}">
       <div class="context">
