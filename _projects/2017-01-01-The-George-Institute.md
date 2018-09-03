@@ -15,7 +15,7 @@ link1name: Smart Sparrow
 
 The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of it’s flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.
 
-Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After winning a grant from the Bill & Melinda Gates Foundation, The George Institute for Global Health had to design a new data collection app to expand into India.
+Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After successful a grant bid, The George Institute for Global Health had to design a new data collection app to expand into India.
 
 ## The starting point
 
@@ -35,7 +35,7 @@ At the core of the project was trying to balancing the constraints of the highes
 
 Internally they also wanted this to be quick to build, and easily maintainable across each country that used it. We decided early on, that as much native UI should be used as possible, only using custom if we felt it would significantly further our goal.
 
-{% include modules/article_image.html url="/assets/projects/george/dca-flow.jpg" type="screen" %}
+{% include modules/article_image.html url="/assets/projects/george/dca-flow-b.jpg" type="screen" description="Project user flow. Full details obfuscated whilst project is under NDA" %}
 
 ## End results
 
