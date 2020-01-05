@@ -24,7 +24,8 @@ layout: default
 
 <section class="grey">
   <div class="wide">
-    <h2 class="gexplainer">If you enjoyed reading this post, you might enjoy these. The rest are over in my <a href="/blog">blog section.</a></h2>
+    <h2 class="gexplainer">Signup to get new notes & posts like these into your inbox</h2>
+    {% include mailchimp-signup-form.html %}
     <div class="tiles">
       {% for post in site.posts limit: 4 %}
       {% if page.title != post.title %}
