@@ -28,11 +28,11 @@ Wearing big noise cancelling headphones is a good physical signal you’re doing
 4. Updates my Slack status, sets me away, and puts on DND
 5. Let’s me select a timer for how long I want to do focus work for
 
-{% include modules/image-trio.html url1="/assets/blog/focuswork-a.png" url2="/assets/blog/focuswork-b.png" url3="/assets/blog/focuswork-g.png" description="The steps to run the Focus work Shortcut, including the Slack api call for setting presence" %}
+{% include modules/image-trio.html url1="/assets/blog/focuswork-a.PNG" url2="/assets/blog/focuswork-b.PNG" url3="/assets/blog/focuswork-g.PNG" description="The steps to run the Focus work Shortcut, including the Slack api call for setting presence" %}
 
 To set my slack status was a little more complicated (for some reason I couldn't get it to work through the same url schemes as above), but found [this Shortcut from Jake Bathman really useful](https://routinehub.co/shortcut/2443) (he also has an [accompanying post here too](https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3)). His Shortcut let's you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my `SlackOAuthToken`.
 
-{% include modules/image-trio.html url1="/assets/blog/focuswork-d.png" url2="/assets/blog/focuswork-e.png" url3="/assets/blog/focuswork-f.png" description="Using variables and dictionary to set a specific slack status" %}
+{% include modules/image-trio.html url1="/assets/blog/focuswork-d.PNG" url2="/assets/blog/focuswork-e.PNG" url3="/assets/blog/focuswork-f.PNG" description="Using variables and dictionary to set a specific slack status" %}
 
 ## Adding to my Discovery playlist
 
@@ -44,7 +44,7 @@ My memory iiiiiis not great, and to help with that I’ve always had a habit of 
 3. I can select as many matches as I want
 4. Selected songs are added to my Discovery playlist
 
-{% include modules/article_image.html url="/assets/blog/discovery.png" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/article_image.html url="/assets/blog/discovery.PNG" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
 ## Facetime Roulette
 
@@ -56,7 +56,7 @@ Important background context on this one — I find staying in touch with people
 3. Limits the selection to one
 4. FaceTimes that lucky roulette winner
 
-{% include modules/article_image.html url="/assets/blog/facetime-roulette.png" %}
+{% include modules/article_image.html url="/assets/blog/facetime-roulette.PNG" %}
 
 ## Further play
 There's a few other Shortcuts I'm playing with at the moment, but haven't got quite right yet. All solving the big problems in life — fade out the nursery light and fade in white noise, triggering the office logo to do a rainbow loop on a launch — but I'll keep tinkering and share them when they're done. If you're interested in creating your own, the best places I found were the [Shortcuts subreddit](https://www.reddit.com/r/shortcuts/), and this [Shortcuts Gallery](https://shortcutsgallery.com). Both buzzing with hobbyist creators, and also very eager to answer questions — enjoy 🙂.
