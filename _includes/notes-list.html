@@ -3,10 +3,10 @@
    <ul class="note-list">
      {% for note in site.notes %}
      <!-- // TODO add conditional to loop for image type (image, video, twitter etc) -->
-       <a href="{{ note.link }}">
+       <a target="_blank" href="{{ note.link }}">
+         <h3>{{ note.credit }}, {{ note.found }}</h3>
          <img src="{{ site.baseUrl }}{{ note.image }}">
-         <h3>{{ note.date | date_to_long_string }}</h3>
-         <h2>{{ note.title }}, found {{ note.found }}</h2>
+         <h2>{{ note.title }}</h2>
          <p>{{ note.description }}</p>
        </a>
      {% endfor %}
