@@ -29,3 +29,5 @@ navigation:
     url: /about/
   - title: writing
     url: /writing/
+  - title: notes
+    url: /notes/
