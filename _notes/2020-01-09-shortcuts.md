@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Notes test
-permalink: /notes-test/
-featured: true
+permalink: /oranges/
+title: Hypernatural#37 by Astrid Kruse Jensen
+description: Nice piece of art I found recently.
+found: at Aarhus
+image: /assets/notes/hypernatural37.jpg
+link: https://twitter.com/chowcollection/status/1161403593724956672?s=12
 ---
-
-{% include modules/article_image.html url="/assets/projects/digicave/frames-1.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
-Nice piece of art I found recently.

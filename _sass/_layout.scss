@@ -1356,6 +1356,36 @@
   }
 }
 
+//Notes
+
+.note-list {
+  margin-left: 0px;
+  @include media-query($on-laptop) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+
+  ul {
+      margin-left: 0px;
+      margin-bottom: 0px;
+  }
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: $spacing-unit / 4 !important;
+  }
+
+  h3 {
+    margin-top: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  p {
+    margin-bottom: 3 * $spacing-unit;
+  }
+}
+
+
 // POSTS
 
 .post {
