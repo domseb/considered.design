@@ -24,6 +24,7 @@ collections:
 gems:
   - jekyll-assets
   - octopress-autoprefixer
+  - jekyll-twitter-plugin
 
 navigation:
   - title: work
