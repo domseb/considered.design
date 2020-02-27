@@ -1,0 +1,10 @@
+---
+layout: post
+permalink: /taste/
+title: On taste
+description: Brilliant take on taste, tastemakers, and their influence on art. From Thomas Hoving, former director of the Met Museum.
+found: on Twitter
+credit: Bo Ren / Stephen Chow
+type: tweet
+link: https://twitter.com/chowcollection/status/1161403593724956672?ref_src=twsrc%5Etfw
+---
