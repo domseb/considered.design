@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://considered.design" # the base hostname & protocol for your site
 twitter_username: dominosebastian
-twitter: dominosebastian
 github_username:  domseb
 
 
@@ -25,6 +24,10 @@ collections:
 gems:
   - jekyll-assets
   - octopress-autoprefixer
+  - jekyll-twitter-plugin
+
+plugins:
+  - jekyll-include-cache
   - jekyll-twitter-plugin
 
 navigation:
