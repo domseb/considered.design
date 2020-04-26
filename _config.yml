@@ -27,10 +27,6 @@ gems:
   - jekyll-twitter-plugin
   - jekyll-include-cache
 
-plugins:
-  - jekyll-include-cache
-  - jekyll-twitter-plugin
-
 navigation:
   - title: work
     url: /work/

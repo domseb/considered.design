@@ -5,11 +5,7 @@
      <!-- // TODO add conditional to loop for image type (image, video, twitter etc) -->
        <a target="_blank" href="{{ note.link }}">
          <!-- <h3>{{ note.credit }}, {{ note.found }}</h3> -->
-         {% if note.type == "tweet" %}
-           {% twitter note.link width=600 %}
-         {% else %}
          <img src="{{ site.baseUrl }}{{ note.image }}">
-         {% endif %}
          <h2>{{ note.title }}</h2>
          <p>{{ note.description }}</p>
        </a>
