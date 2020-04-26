@@ -25,6 +25,7 @@ gems:
   - jekyll-assets
   - octopress-autoprefixer
   - jekyll-twitter-plugin
+  - jekyll-include-cache
 
 plugins:
   - jekyll-include-cache
