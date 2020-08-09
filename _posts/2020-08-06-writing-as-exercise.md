@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The exercise of writing well
+title: The necessary exercise to write well
 permalink: /writing-as-exercise/
 ---
 
