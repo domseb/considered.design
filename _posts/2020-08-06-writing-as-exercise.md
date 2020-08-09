@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The necessary exercise in writing
-permalink: /writing-as-exercise/
+permalink: /necessary-exercise-in-writing/
 ---
 
 I was talking to a close friend recently, someone who I think is a very good writer, who helps edit my excessive use of commas in sentences (he didn’t have time for this post), when he said he’s started to think of writing like exercise. A process that feels arduous and unpleasant, but once it’s all done, you just feel better for having done it. Another run under your belt. Another post out in the world.
