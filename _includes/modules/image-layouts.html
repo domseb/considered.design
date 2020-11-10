@@ -1,0 +1,15 @@
+
+{% if include.type == "wide" %}
+<figure class="wide-image">
+    {% include modules/image-styles.html %}
+  {% elsif include.type == "screen" %}
+  <figure class="full-width-image">
+    {% include modules/image-styles.html %}
+  {% elsif include.type == "hero" %}
+  <figure class="full-width-hero">
+    {% include modules/image-styles.html %}
+{% else %}
+<figure class="image">
+  {% include modules/image-styles.html %}
+{% endif %}
+</figure>

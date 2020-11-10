@@ -44,7 +44,7 @@ My memory iiiiiis not great, and to help with that I’ve always had a habit of 
 3. I can select as many matches as I want
 4. Selected songs are added to my Discovery playlist
 
-{% include modules/article_image.html url="/assets/blog/discovery.PNG" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
+{% include modules/image-layouts.html url="/assets/blog/discovery.PNG" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
 ## Facetime Roulette
 
@@ -56,7 +56,7 @@ Important background context on this one — I find staying in touch with people
 3. Limits the selection to one
 4. FaceTimes that lucky roulette winner
 
-{% include modules/article_image.html url="/assets/blog/facetime-roulette.PNG" %}
+{% include modules/image-layouts.html url="/assets/blog/facetime-roulette.PNG" %}
 
 ## Further play
 There's a few other Shortcuts I'm playing with at the moment, but haven't got quite right yet. All solving the big problems in life — fade out the nursery light and fade in white noise, triggering the office logo to do a rainbow loop on a launch — but I'll keep tinkering and share them when they're done. If you're interested in creating your own, the best places I found were the [Shortcuts subreddit](https://www.reddit.com/r/shortcuts/), and this [Shortcuts Gallery](https://shortcutsgallery.com). Both buzzing with hobbyist creators, and also very eager to answer questions — enjoy 🙂.

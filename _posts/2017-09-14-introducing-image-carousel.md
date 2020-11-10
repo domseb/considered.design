@@ -4,7 +4,7 @@ title: Introducing our all-new Image Carousel
 permalink: /introducing-image-carousel/
 ---
 
-{% include modules/article_image.html url="/assets/blog/image-carousel-large.jpg" type="hero" %}
+{% include modules/image-layouts.html url="/assets/blog/image-carousel-large.jpg" type="hero" %}
 
 At it’s core, [Qwilr](www.qwilr.com) is a communication design tool. Whilst we began as a way for people to create proposals as beautiful web pages, it’s grown to be used for case studies, landing pages, online brochures and much more. All things that rely on great imagery to be persuasive. The trouble was our image browsing experience hadn’t grown with these new use cases, and needed a lot of love and improvement.
 
@@ -15,23 +15,23 @@ Well, after wrapping up testing with our fan-tastic beta group, I’m very excit
 ## How we used to handle images
 Before, when you needed to add in an image to your project, you’d be presented with an overlay, where you could select one of the images we had in our collection, or upload your own. It looked like this:
 
-{% include modules/article_image.html url="/assets/blog/image-browser-old.png" type="wide" %}
+{% include modules/image-layouts.html url="/assets/blog/image-browser-old.png" type="wide" %}
 
 There were a handful of issues with this design. A few were well understood functional gaps, like not being able to search the library, or view images you’d recently used or uploaded. This can really affect repeated use, because each time you wanted to use an image in your project, it felt like you were starting from scratch again.
 
 These well understood issues aside, there was also a much larger and harder to define issue remaining; exploring the library and playing around with different image options felt like a long, burdened decision process. In any creative work, the longer the design decision takes, the more doubt will start to creep in over the outcome—and that’s the last thing we wanted. We want Qwilr to help facilitate fast, empowered design decisions that users love and are excited to share. As soon as we realised this, choosing great images with speed became the core focus in our design process. Below are a few key parts I’m very proud to share of the new design.
 
-{% include modules/article_image.html url="/assets/blog/image-carousel-b.jpeg" type="wide" %}
+{% include modules/image-layouts.html url="/assets/blog/image-carousel-b.jpeg" type="wide" %}
 
 ## Collections in context
 After exploring a few different directions, we found the fastest way to find great imagery was to never leave the project itself. Instead, we could bring up the image library in context, exactly where you were working. With this we could present images grouped by a theme or collection, so trying alternatives is easier. We could cut finding an image down to two clicks, rather than the previous 5. Most importantly though — you could play with variations faster without losing momentum in your work.
 
-{% include modules/article_image.html url="/assets/blog/image-collections-context.jpeg" type="wide" %}
+{% include modules/image-layouts.html url="/assets/blog/image-collections-context.jpeg" type="wide" %}
 
 ## “Shuffle” to find something new
 Sometimes you don’t know what image will work until you see it, and getting momentum in that early discovery phase is important to get past creative block. With the “Shuffle” button, clicking it puts a new collection at random into the carousel, so you can cycle through different themes faster when you’re stuck on what would work best with your content.
 
-{% include modules/article_image.html url="/assets/blog/image-browser.jpeg" type="wide" %}
+{% include modules/image-layouts.html url="/assets/blog/image-browser.jpeg" type="wide" %}
 
 ## Fullscreen overlay for exploring themes
 Finally, we completely redesigned the fullscreen overlay experience, so it could house your recently used and uploaded images, and allow you to browse images and collections with a little more screen real estate. From here you can also add in any collection you find interesting to the carousel, to see how the images feel in the context of your project.

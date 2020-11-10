@@ -10,7 +10,7 @@ date: 2015-10-29 01:34:51 -0400
 
 In my first year studying Industrial Design at University, we were given a cautionary tale about the cost of not understanding who we were designing for. Meet the [“biggest disaster in innovation”](http://www.telegraph.co.uk/technology/news/9951876/Sinclair-C5-voted-biggest-innovation-disaster.html), the Sinclair C5:
 
-{% include modules/article_image.html url="/assets/blog/sinclair.jpg" %}
+{% include modules/image-layouts.html url="/assets/blog/sinclair.jpg" %}
 
 In 1988, the Sinclair C5 went from drawing board to prototype without any market research. Driven only by the founder’s endless optimism rather than by what the public needed, it sold only 5,000 of the 17,000 manufactured. The company went into receivership just few months after the launch.
 
@@ -22,7 +22,7 @@ The first practical tool for building empathy in the design process was [introdu
 
 They’ve gone through various iterations since then, but their purpose has remained consistent. With details such as names, ages, competencies, and brief back stories, personas act as a constant reference of the different types of people you are designing for. As an example, a traditional approach to a persona for a student might look something like this:
 
-{% include modules/article_image.html url="/assets/blog/persona.png" %}
+{% include modules/image-layouts.html url="/assets/blog/persona.png" %}
 
 While this traditional type of persona is great for creating surface-level empathy for someone, a persona needs to feel realistic in order to serve as a useful reference to the designer. It’s easy to include too much information without giving thought to the overarching structure. Personas are a great start, but to make them a more effective tool for creating empathy, we need to include more about the Learner’s context.
 
@@ -36,12 +36,12 @@ David Kelley, founder of the [Stanford Design School](https://dschool.stanford.e
 
 Even just spending a few minutes answering these questions will give us a clearer, more realistic picture of our Learner than we had with traditional personas. Applying these questions to our previous example might look something like this:
 
-{% include modules/article_image.html url="/assets/blog/map.png" %}
+{% include modules/image-layouts.html url="/assets/blog/map.png" %}
 
 ## Design for the extremes
 Of course you can’t create personas and empathy maps for everyone in the class, and you also don’t need to. Generally speaking, 3-5 will capture the majority of Learners, but you should be conscious of what’s best for your Learning Design project. Too few and you’re probably generalizing the traits too much and losing out on valuable details. Too many and you’re casting too wide a net, and you will lose the ability to produce an effective learning experience. Generally speaking, all Learners will fall somewhere on the spectrum between struggling to understand and struggling to stay engaged:
 
-{% include modules/article_image.html url="/assets/blog/spectrum.png" %}
+{% include modules/image-layouts.html url="/assets/blog/spectrum.png" %}
 
 ## Learner Spectrum
 By designing your learning experience to address these extremes, you’re able to focus on your most at-risk Learners. Although there is no ‘average’ student, creating a few empathy maps for the Learners that fall within these extremes will result in a better Learning Experience for everyone in the class.

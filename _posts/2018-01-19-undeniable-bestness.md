@@ -5,7 +5,7 @@ permalink: /quest-for-undeniable-bestness/
 featured: true
 ---
 
-{% include modules/article_image.html url="/assets/blog/quest-large.jpg" type="hero" %}
+{% include modules/image-layouts.html url="/assets/blog/quest-large.jpg" type="hero" %}
 
 To help frame this post, I want to begin by sharing a snippet from [Qwilr’s driving Principles](https://pages.qwilr.com/gTndRdDyT7mY), written by our Founder & CEO, Dylan:
 
@@ -16,7 +16,7 @@ In early June this year, my first project as Head of Design was to improve the w
 ## The starting point
 Before the redesign, every project you had on Qwilr came with a handful of preset styles to choose from. These presets managed the alignment and colour of that section, the available colours being whatever was set as the global brand colours on your account. What worked really well with this approach was being able to quickly browse styles to see which one was best suited to your content, with minimal decision tax. The main problem, though, was that anything you wanted to edit (either font size, individual item colour or alignment), all had to be done with CSS. It looked something like this:
 
-{% include modules/article_image.html url="/assets/blog/styles-before-a.png" type="wide" description="Menu for browsing style presets" %}
+{% include modules/image-layouts.html url="/assets/blog/styles-before-a.png" type="wide" style="border" description="Menu for browsing style presets" %}
 
 For a large group of our users, having just a few preset styles without needing to edit anything worked great — you choose Qwilr specifically because it helps to enable better design outcomes with minimal decision making. But for another growing group of Qwilr users, not being able to directly edit and customise styles is limiting. You want it to feel like a natural extension of their brand, and to do this you need better style controls. In this case, Qwilr is likely being used across a larger team, which also introduces the idea of design or brand owners, who want to create styles their team uses without being able to edit.
 
@@ -30,35 +30,35 @@ Starting this redesign was a good opportunity to understand the mindset users ha
 ## Rethinking the style editor
 Our guiding question in place, we started at the hardest area first — the editor used to create new styles. After speaking with a bunch of users, our initial design work focussed on having controls for every element in the block, to expand what could be controlled. This included controls for styling the heading, and separate controls the subheading etc. It made what should feel like a quick thing to change actually feel overwhelming with the choices available.
 
-{% include modules/article_image.html url="/assets/blog/style-editor-a.png" type="wide" description="Early UI designs for the style editor" %}
+{% include modules/image-layouts.html url="/assets/blog/style-editor-a.png" type="wide" style="border" description="Early UI designs for the style editor" %}
 
 ## Early UI designs for the style editor
 In some ways this was great, because it surfaced all the controls a user needed to edit style, really minimising the dependency on CSS. In other ways though, it was quite far removed from Qwilr’s design principles. For lack of better wording, it just didn’t feel right to use, and was overcomplicating the process. To help highlight this a bit better, here’s a little insight into our design process, for how we order our ideas when we create new features:
 
-{% include modules/article_image.html url="/assets/blog/design-principles.png" type="wide" %}
+{% include modules/image-layouts.html url="/assets/blog/design-principles.png" type="wide" style="border" %}
 
 Bearing this in mind, we thought about how we can reduce the number of UI controls, without loosing any style control. We started experimenting with how we could group multiple controls into one, so creating styles could be faster, and easier to get good design outcomes. This is quite close to how we as designers think about creating designs for documents and websites, and was a way to keep all the text as part of the same size relationship.
 
-{% include modules/article_image.html url="/assets/blog/style.gif" type="wide" description="Style controls manipulating text" %}
+{% include modules/image-layouts.html url="/assets/blog/style.gif" type="wide" style="border" description="Style controls manipulating text" %}
 
 After testing this round with users, it seemed like a good compromise between good outcomes without going overboard on controls. The feedback at this stage though made it clear we’d still need to expand on our style controls going forward, and being in the same view didn’t give it much room to grow over time. To tackle this, we moved everything into a style editor overlay, which gave the editing experience a little more focus, and gave us important space to grow the feature down the track as and when we needed.
 
-{% include modules/article_image.html url="/assets/blog/style-editor-b.png" type="wide" description="Style editor overlay" %}
+{% include modules/image-layouts.html url="/assets/blog/style-editor-b.png" type="wide" style="border" description="Style editor overlay" %}
 
 ## Upgrading the style browser
 A great (although not unexpected) side effect of being able to quickly create more expressive styles, was a need to improve how we preview those styles, so you can quickly find the one you’re looking for. The previous design had a small thumbnail about half the size of a stamp, which used little blocks to represent the colours and alignment of the heading, subheading and body text. The problem with our design ideas, was we were introducing new sizes for all the text, which made using this mini preview harder to distinguish between similar styles. Here’s an example to highlight the difficulty:
 
-{% include modules/article_image.html url="/assets/blog/style-tiles.png" type="wide" description="Although similar outcome, differentiating between styles at a glance is difficult" %}
+{% include modules/image-layouts.html url="/assets/blog/style-tiles.png" type="wide" style="border" description="Although similar outcome, differentiating between styles at a glance is difficult" %}
 
 After [releasing the new Image Carousel](https://medium.com/@dominosebastian/introducing-our-all-new-image-carousel-e428d5547849), we thought the carousel would also fit well to browse your styles. Initially we were using mini previews of the block, using demo text shrunken down so you could see how the style might be applied.
 
-{% include modules/article_image.html url="/assets/blog/carousel.png" type="wide" description="Earlier design iteration of the carousel with text" %}
+{% include modules/image-layouts.html url="/assets/blog/carousel.png" type="wide" style="border" description="Earlier design iteration of the carousel with text" %}
 
 While this was quite an effective preview, it actually looked really messy and overwhelming when it was open. It felt like a slow, burdened choice, and wasn’t particularly fun to use — it was ignoring our guiding principle of being empowering and fast to use.
 
 In the end, we settled on re-using the block visualisation, just at a bigger scale to see the differences, with their style names. While it feels visually simpler, and in theory should work well for our varied (and growing) block types, we still think we can do better. Creating a visual shorthand for blocks is challenging, especially when you don’t want to overwhelm with details and choice.
 
-{% include modules/article_image.html url="/assets/blog/carousel-b.png" type="wide" description="Latest working iteration of the carousel with blocks" %}
+{% include modules/image-layouts.html url="/assets/blog/carousel-b.png" type="wide" style="border" description="Latest working iteration of the carousel with blocks" %}
 
 ## Lessons learned
 The style editor is in a much better place than when we started this project, but along the way while grouping some of the actions, it’s lost a little of the directness users need. The part that’s really missing for it to be it’s Undeniable Best, is this should feel like a superior and faster editing experience, regardless of what users are familiar with. At the moment, it’s not there yet, and releasing this now would be a disservice to those that need it in their workflow.
