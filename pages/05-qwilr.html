@@ -1,0 +1,63 @@
+---
+layout: default
+title: Qwilr
+permalink: /qwilr/
+---
+
+<article>
+  <div class="header">
+    <h1>Qwilr, helping the business world go paperless</h1>
+    <div class="divider">
+      <p class="label">2017 to present</p>
+    </div>
+    <img src="/assets/projects/qwilr/style-shortcuts.jpg">
+  </div>
+  <div class="content">
+    <h3>Other projects</h3>
+    <p>I was talking to a close friend recently, someone who I think is a very good writer, who helps edit my excessive use of commas in sentences (he didn’t have time for this post), when he said he’s started to think of writing like exercise. Or to be completely honest I don’t think would be worth the time to write them up. them.</p>
+  </div>
+  <div class="article">
+    <div class="section">
+      {% for project in site.projects %}
+      {% if project.company == "Qwilr" %}
+      <a class="tile three card {{ project.refID }}" href="{{ project.url }}">
+        <p>{{ project.role }}, {{ project.timeline }}</p>
+        <p>{{ project.description }}</p>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <section class="content">
+    <h3>Other projects</h3>
+    <p>I was talking to a close friend recently, someone who I think is a very good writer, who helps edit my excessive use of commas in sentences (he didn’t have time for this post), when he said he’s started to think of writing like exercise. Or to be completely honest I don’t think would be worth the time to write them up. them.</p>
+    <div class="row">
+      <div>
+        {% include svg/instagram.svg %}
+        <p>Project test test test liner</p>
+      </div>
+      <p>Time</p>
+    </div>
+    <div class="row">
+      <div>
+        {% include svg/instagram.svg %}
+        <p>Project test test test liner</p>
+      </div>
+      <p>Time</p>
+    </div>
+    <div class="row">
+      <div>
+        {% include svg/instagram.svg %}
+        <p>Project test test test liner</p>
+      </div>
+      <p>Time</p>
+    </div>
+    <div class="row">
+      <div>
+        {% include svg/instagram.svg %}
+        <p>Project test test test liner</p>
+      </div>
+      <p>Time</p>
+    </div>
+  </section>
+</article>
