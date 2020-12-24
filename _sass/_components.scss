@@ -1,0 +1,62 @@
+.navbar {
+  @include spacing($space-m $space-l,auto);
+  @include border(bottom, 1px, $primary);
+  background-color: $secondary;
+  height: $navheight;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-query($on-laptop) {
+  }
+
+  @include media-query($on-palm) {
+  }
+
+  h1, h2, h3, h4, h5, p { @include spacing(0,0); }
+
+  .nav-links {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .active .page-link {
+    color: black;
+  }
+
+  .page-link {
+    @include spacing(0,0 $space-s 0 0);
+    color: rgba($primary,.5);
+    display: inline-flex;
+    @include transition( all $transition);
+
+    &:hover {
+      color: rgba($primary,1);
+      text-decoration: none;
+      @include transition( all $transition);
+    }
+  }
+
+  .logotype {
+    display: inline-flex;
+    @include media-query($on-tablet) {
+      display: none;
+    }
+  }
+}
+
+.footer {
+  @include spacing($space-m $space-l,auto);
+  display: flex;
+  width: 100%;
+  background-color: $primary;
+  justify-content: space-between;
+  align-items: center;
+
+  h1, h2, h3, h4, h5, a { @include spacing(0,0); color: white; }
+  p { @include font-style(regular, 1.5, rgba(white, .75), 1.5, 0,$space-xs 0 0 0); }
+}
