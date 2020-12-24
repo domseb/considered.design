@@ -45,6 +45,7 @@ body { font-family: sans-serif; }
   height: 100vh !important;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   /* flex-box, center image in cell */
   display: -webkit-box;
   display: -webkit-flex;
@@ -67,6 +68,7 @@ body { font-family: sans-serif; }
   font-size: 20px;
   width: 40%;
   text-align: center;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .carousel-cell img {
