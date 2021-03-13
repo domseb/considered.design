@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 
 <html>
+  {% include head.html %}
+  {% include header.html %}
   <body class="{{ page.refID }}">
-    {% include head.html %}
-    {% include header.html %}
-    {% include google_tag_manager.html %}
-    <div class="page-content">{{ content }}</div>
+    <div class="page">
+      {{ content }}
+    </div>
     {% include footer.html %}
   </body>
 </html>

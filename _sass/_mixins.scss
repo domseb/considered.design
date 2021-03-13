@@ -1,24 +1,17 @@
-// Mixins
-@mixin heading-context {
-	font-weight: 600;
-	font-size: rem(13);
-	text-transform: uppercase;
-	letter-spacing: rem(1);
-	text-align: center;
+@mixin split($gap) {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	gap: $gap;
 }
 
-@mixin chevron {
-	border-style: solid;
-	border-width: 2px 2px 0 0;
-	content: '';
-	display: inline-block;
-	@include position(relative, rem(10) null null rem(5));
-	@include size(rem(8));
-	@include transform(rotate(45deg));
-	vertical-align: top;
+@mixin thirds($gap) {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: $gap;
 }
 
-@mixin omega-reset($nth) {
-  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
-  &:nth-child(#{$nth}+1) { clear: none }
+@mixin aside($gap) {
+	display: inline-grid;
+	grid-template-columns: 3fr 1fr;
+	gap: $gap;
 }
