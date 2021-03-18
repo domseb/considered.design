@@ -15,3 +15,14 @@
 	grid-template-columns: 3fr 1fr;
 	gap: $gap;
 }
+
+@mixin spacing($margin, $padding) {
+	margin: $margin;
+	padding: $padding;
+}
+
+@mixin text($color) {
+	h1, h2, h3, h4, h5, h6, p {
+		color: $color;
+	}
+}

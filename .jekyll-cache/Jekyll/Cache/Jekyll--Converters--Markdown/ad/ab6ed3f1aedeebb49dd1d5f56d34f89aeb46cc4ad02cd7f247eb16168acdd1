@@ -1,4 +1,4 @@
-I"h<h2 id="my-first-startup-experience">My first startup experience</h2>
+I"�<h2 id="my-first-startup-experience">My first startup experience</h2>
 
 <p>It’s not exactly relevant or any indication of my design skills today, but this was a significant experience in my design career—my first true startup experience. Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I’ve learnt to my time there. A studio truly ahead of it’s time. Below are some of my favourite projects I designed whilst I was there.</p>
 
@@ -26,12 +26,10 @@
 <p>Our work for TEDx focussed on putting users in control of the frame. Throughout the day the attendees could find custom TEDxHoP posters to scan with our app. Each frame had a unique AR scene we had built for them, which they could move around and find their perfect angle to capture, and share online with the world. <a href="https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes">TEDx Houses of Parliament</a></p>
 
 <figure class="wide-image">
-    
-  <img src="/assets/projects/digicave/frames-1.jpg" alt="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" />
-
-<figcaption>Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners</figcaption>
-
   
+  
+<img class="border" src="/assets/projects/digicave/frames-1.jpg" alt="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" />
+<figcaption>Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners</figcaption>
 </figure>
 
 <h2 id="htc-specialist">HTC Specialist</h2>
@@ -39,21 +37,17 @@
 <p>HTC needed a way to create a deeper product understanding of the HTC One for it’s upcoming release, and wanted to move away from the expensive and ineffective print material they were using. Our solution was an augmente reality avatar, highlighting core value propositions of the device through interactive and visual storytelling. <a href="https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar">HTC Specialist AR App</a></p>
 
 <figure class="wide-image">
-    
-  <img src="/assets/projects/digicave/htc-2.jpg" alt="" />
-
-
-
   
+  
+<img class="border" src="/assets/projects/digicave/htc-2.jpg" alt="" />
+
 </figure>
 
 <figure class="wide-image">
-    
-  <img src="/assets/projects/digicave/htc-1.jpg" alt="Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio" />
-
-<figcaption>Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio</figcaption>
-
   
+  
+<img class="border" src="/assets/projects/digicave/htc-1.jpg" alt="Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio" />
+<figcaption>Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio</figcaption>
 </figure>
 
 <h2 id="hello-magazine">Hello Magazine</h2>
@@ -61,12 +55,10 @@
 <p>​Hello! Magazine has a readership of reaches over <a href="http://www.hellomagazine.com/marketing/marketing01.html">2 million adults in the UK every week</a>. For the Queen’s Diamond Jubilee, the magazine wanted something special for their readers. We captured Gary Barlow, the signer at the centre of the celebrations, to create the an interactive augmented reality cover. A worldwide publishing first.</p>
 
 <figure class="wide-image">
-    
-  <img src="/assets/projects/digicave/gary-barlow-1.jpg" alt="" />
-
-
-
   
+  
+<img class="border" src="/assets/projects/digicave/gary-barlow-1.jpg" alt="" />
+
 </figure>
 
 <h2 id="james-may-science-stories">James May Science Stories</h2>
@@ -86,12 +78,10 @@
 <p>We Love Pop was a precursor to the Hello! Magazine front cover, and what became a popular format for publishers to play with augmented reality experiences. Rather than creating high poly models of objects and people we’d captured in the rig, we could overlay someone’s face onto a magazine cover, live. Watch an <a href="https://vimeo.com/84395127">example on Vimeo.</a></p>
 
 <figure class="wide-image">
-    
-  <img src="/assets/projects/digicave/pop-1.jpg" alt="" />
-
-
-
   
+  
+<img class="border" src="/assets/projects/digicave/pop-1.jpg" alt="" />
+
 </figure>
 
 :ET

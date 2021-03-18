@@ -1,15 +1,90 @@
 // HEROS
-
-
 // LAYOUTS
 
 .tiles {
   @include thirds(40px);
 }
 
-.page {
-  width: clamp(300px, 50%, 1200px);
-  margin: 300px auto;
+.split {
+  @include split(40px);
+  align-items: center;
+}
+
+.space-reset {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @include spacing(0 !important, 0 !important);
+  }
+}
+
+// .page {
+//   width: clamp(300px, 50%, 1200px);
+//   margin: 300px auto;
+
+//   &.indigo {
+//     background: #2E008A;
+//     color: var(--text-color);
+//   }
+// }
+
+.indigo {
+  // needs to be added to the page level for nav to know it exists
+  // --background: #2e008a;
+  // --background: {{ page.color }};
+  --text-color: white;
+}
+
+// this should be default section
+section {
+  display: grid;
+  width: clamp(500px, 50vw, 1200px);
+  margin: 100px auto;
+
+  p {
+    font-size: 27px;
+  }
+}
+
+.impact {
+  display: grid;
+  // @include aside(40px);
+  height: 90vh;
+  place-items: center;
+  background: var(--boog);
+
+  > div {
+    width: 90vw;
+    align-self: end;
+    // margin: 300px auto;
+  }
+
+  &.indigo {
+    // needs to be added to the page level for nav to know it exists
+    // background: #2e008a;
+    :root {
+      --boog: red;
+    }
+    --text-color: white;
+
+    // Add to base styles for text
+
+    p {
+      min-height: 0vw;
+      font-size: clamp(6px, 2vw, 16px);
+    }
+
+    h1 {
+      min-height: 0vw;
+      font-size: clamp(16px, 12vw, 300px);
+    }
+
+    // @include text(var(--text-color));
+  }
 }
 
 .chute {
@@ -26,13 +101,15 @@ article {
   width: 100%;
 
   .label {
-    
   }
 }
 
+.hero {
+  // --herobg: {{ page.refID }};
+  // background: var(--herobg);
+}
 
 //TODO
-
 
 .listings {
   @include span-columns(6);
@@ -64,68 +141,68 @@ article {
   }
 
   ul {
-      margin-left: 0px;
-      margin-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
 
   li {
-      list-style-type: none;
-      margin-left: 0px;
-      margin-bottom: 5px;
-      // padding-left: 5px;
-      border-bottom: 1px solid rgba(#81A2B2,0.2);
-      padding-top: 25px;
-      padding-bottom: 5px;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    // padding-left: 5px;
+    border-bottom: 1px solid rgba(#81a2b2, 0.2);
+    padding-top: 25px;
+    padding-bottom: 5px;
 
-      .link {
-        color: inherit;
-        border-bottom: 3px solid rgba($primary,0.2);
-        &:hover {
-            background-color: rgba($primary,0.2);
-            color: $primary;
-            border-bottom: 3px solid rgba($primary,0);
-            @include transition( all $default-transition);
-        }
+    .link {
+      color: inherit;
+      border-bottom: 3px solid rgba($primary, 0.2);
+      &:hover {
+        background-color: rgba($primary, 0.2);
+        color: $primary;
+        border-bottom: 3px solid rgba($primary, 0);
+        @include transition(all $default-transition);
       }
+    }
   }
   .post-link {
-      font-size: 22px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: $brand-black;
-      // letter-spacing: -1px;
-      text-decoration: none;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: $brand-black;
+    // letter-spacing: -1px;
+    text-decoration: none;
   }
 
   .post-desc {
-      margin-right: 60px;
-      margin-top: 15px;
-      color: rgba(74, 74, 74, 0.85);
-      font-size: 19px;
-      margin-top: 10px;
+    margin-right: 60px;
+    margin-top: 15px;
+    color: rgba(74, 74, 74, 0.85);
+    font-size: 19px;
+    margin-top: 10px;
 
-      @include media-query($on-laptop) {
-        margin-right: 0px;
-      }
+    @include media-query($on-laptop) {
+      margin-right: 0px;
+    }
 
-      @include media-query($on-palm) {
-        margin-right: 0px;
-      }
+    @include media-query($on-palm) {
+      margin-right: 0px;
+    }
   }
 
   .ordinal {
-      @include span-columns(1);
-      @include shift(0);
-      margin-left: - 200px;
-      font-size: 18px;
-      margin-top: 25px;
-      color: $primary;
+    @include span-columns(1);
+    @include shift(0);
+    margin-left: -200px;
+    font-size: 18px;
+    margin-top: 25px;
+    color: $primary;
 
-      @include media-query($on-palm) {
-        @include span-columns(12);
-        @include shift(0);
-        margin-left: 0px;
-      }
+    @include media-query($on-palm) {
+      @include span-columns(12);
+      @include shift(0);
+      margin-left: 0px;
+    }
   }
 }
 

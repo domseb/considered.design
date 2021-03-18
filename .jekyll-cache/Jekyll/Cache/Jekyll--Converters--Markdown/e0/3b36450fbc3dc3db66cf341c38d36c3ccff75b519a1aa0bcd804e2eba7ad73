@@ -1,4 +1,4 @@
-I"ë<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of its flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
+I"ÿ<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of its flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
 
 <p>Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After winning a grant from the Bill &amp; Melinda Gates Foundation, The George Institute for Global Health had to design a new data collection app to expand into India.</p>
 
@@ -18,11 +18,9 @@
 <p>Potential language barriers aside, the physical context of data collection in India introduced lots of new design considerations. The normal process is to scan the product, take a picture, and confirm itâ€™s details. However products in Indian markets could be stacked out of reach (requiring assistance to capture them), grouped in high volume containers (like rice or spices), or with lighting conditions too low to take good enough photos. Grouping these concerns allowed us to design for common paths, and start thinking about what defaults we could include to save them time, and remove the decision making process (and by association errors) from them into the app.</p>
 
 <figure class="image">
+
   
-  <img src="/assets/projects/george/market.jpg" alt="" />
-
-
-
+<img class="border" src="/assets/projects/george/market.jpg" alt="" />
 
 </figure>
 
@@ -33,12 +31,10 @@
 <p>Internally they also wanted this to be quick to build, and easily maintainable across each country that used it. We decided early on, that as much native UI should be used as possible, only using custom if we felt it would significantly further our goal.</p>
 
 <figure class="full-width-image">
-    
-  <img src="/assets/projects/george/dca-flow.jpg" alt="" />
-
-
-
   
+  
+<img class="border" src="/assets/projects/george/dca-flow.jpg" alt="" />
+
 </figure>
 
 <h2 id="end-results">End results</h2>
