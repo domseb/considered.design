@@ -87,13 +87,9 @@ section {
   }
 }
 
-.chute {
-  display: grid;
-  place-items: center;
-}
-
 article {
-  width: clamp(23ch, 50%, 46ch);
+  width: clamp(25ch, 85%, 55ch);
+  margin: 0 auto;
 }
 
 .divider {
@@ -107,6 +103,15 @@ article {
 .hero {
   // --herobg: {{ page.refID }};
   // background: var(--herobg);
+}
+
+.label {
+  transform: translateY(0.65em);
+  text-transform: uppercase;
+  background: white;
+  display: inline-flex;
+  padding-right: 0.5em;
+  margin: 0;
 }
 
 //TODO
