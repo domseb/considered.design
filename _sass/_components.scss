@@ -3,13 +3,15 @@ nav {
   // @include border(bottom, 1px, $primary);
   // background-color: $secondary;
   height: $navheight;
-  width: 100%;
+  width: 100vw;
   position: fixed;
+  place-items: center;
   // z-index: 99;
   // top: 0;
   display: flex;
   justify-content: space-between;
   // align-items: center;
+  padding: 5vw;
 
   // @include media-query($on-laptop) {
   // }
@@ -26,6 +28,11 @@ nav {
     @include spacing(0, 0);
   }
 
+  .logo {
+    font-family: "Degular Bold" !important;
+    margin: 0 !important;
+  }
+
   .nav-links {
     display: inline-flex;
     align-items: center;
@@ -33,12 +40,14 @@ nav {
   }
 
   .active .page-link {
-    color: var(--boog);
+    // color: var(--text-color);
+    color: rgba($primary, 1);
   }
 
   .page-link {
     // @include spacing(0,0 $space-s 0 0);
-    color: rgba($primary, 0.5);
+    font-family: "Degular Regular";
+    color: rgba($primary, 1);
     display: inline-flex;
     margin-left: 16px;
     @include transition(all $transition);

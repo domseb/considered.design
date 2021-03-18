@@ -22,45 +22,47 @@ figure {
 }
 
 @include font-face(
-    "Degular Light",
-    "../assets/fonts/Degular_Display-Light",
-    ("woff2", "woff")
-  )
-  @include font-face
-  (
-    "Degular Light Italic",
-    "../assets/fonts/Degular_Display-Light_Italic",
-    ("woff2", "woff")
-  )
-  @include font-face
-  (
-    "Degular Regular",
-    "../assets/fonts/Degular_Display-Regular",
-    ("woff2", "woff")
-  )
-  @include font-face
-  (
-    "Degular Italic",
-    "../assets/fonts/Degular_Display-Italic",
-    ("woff2", "woff")
-  )
-  @include font-face
-  ("Degular Bold", "../assets/fonts/Degular_Display-Bold", ("woff2", "woff"))
-  @include font-face
-  (
-    "Degular Bold Italic",
-    "../assets/fonts/Degular_Display-Bold_Italic",
-    ("woff2", "woff")
-  )
-  @include font-face
-  ("Degular Black", "../assets/fonts/Degular_Display-Black", ("woff2", "woff"))
-  @include font-face
-  (
-    "Degular Black Italic",
-    "../assets/fonts/Degular_Display-Black_Italic",
-    ("woff2", "woff")
-  )
-  body {
+  "Degular Light",
+  "../assets/fonts/Degular_Display-Light",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Light Italic",
+  "../assets/fonts/Degular_Display-Light_Italic",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Regular",
+  "../assets/fonts/Degular_Display-Regular",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Italic",
+  "../assets/fonts/Degular_Display-Italic",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Bold",
+  "../assets/fonts/Degular_Display-Bold",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Bold Italic",
+  "../assets/fonts/Degular_Display-Bold_Italic",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Black",
+  "../assets/fonts/Degular_Display-Black",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Black Italic",
+  "../assets/fonts/Degular_Display-Black_Italic",
+  ("woff2", "woff")
+);
+
+body {
   font-family: "Degular Regular";
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -88,13 +90,12 @@ h2 {
   font-family: "Degular Bold";
   font-size: 80px;
   color: $brand-black;
-  font-family: "Degular Black";
   display: inline-block;
   font-weight: 500;
   // font-size: 80px;
   min-height: 0vw;
   font-size: clamp(25px, 10vw, 80px);
-  line-height: 1.3;
+  line-height: 1;
   padding-bottom: 0px;
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit/2 !important;

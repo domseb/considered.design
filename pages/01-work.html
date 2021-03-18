@@ -2,13 +2,17 @@
 layout: default
 title: Work
 permalink: /work/
-refID: dark
+description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
 ---
-<div class="wide">
-  <div class="project-header-2">
-    <h1 class="fade-in-up">Here's some recent and relevant product design work</h1>
+
+<div class="impact">
+  <div>
+    <h1>Chapters of creative work.</h1>
+    <p class="label">Blah blah blah</p>
+    <hr />
   </div>
-<section class="wide">
+</div>
+<section>
   <div class="projects fade-in-up-3">
     {% for project in site.projects reversed %}
     <a class="card {{ project.refID }}" href="{{ project.url }}">
@@ -21,4 +25,3 @@ refID: dark
     {% endfor %}
   </div>
 </section>
-</div>

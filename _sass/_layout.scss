@@ -22,27 +22,22 @@
   }
 }
 
-// .page {
-//   width: clamp(300px, 50%, 1200px);
-//   margin: 300px auto;
-
-//   &.indigo {
-//     background: #2E008A;
-//     color: var(--text-color);
-//   }
-// }
+// THEMES
 
 .indigo {
-  // needs to be added to the page level for nav to know it exists
-  // --background: #2e008a;
-  // --background: {{ page.color }};
+  --background: #2e008a;
   --text-color: white;
 }
+.test {
+  --background: blue;
+  --text-color: red;
+}
 
-// this should be default section
+// LAYOUTS
+
 section {
   display: grid;
-  width: clamp(500px, 50vw, 1200px);
+  width: clamp(500px, 80vw, 1200px);
   margin: 100px auto;
 
   p {
@@ -55,54 +50,27 @@ section {
   // @include aside(40px);
   height: 90vh;
   place-items: center;
-  background: var(--boog);
+  background: var(--background);
 
   > div {
     width: 90vw;
     align-self: end;
     // margin: 300px auto;
   }
+  p {
+    min-height: 0vw;
+    font-size: clamp(6px, 2vw, 16px);
+  }
 
-  &.indigo {
-    // needs to be added to the page level for nav to know it exists
-    // background: #2e008a;
-    :root {
-      --boog: red;
-    }
-    --text-color: white;
-
-    // Add to base styles for text
-
-    p {
-      min-height: 0vw;
-      font-size: clamp(6px, 2vw, 16px);
-    }
-
-    h1 {
-      min-height: 0vw;
-      font-size: clamp(16px, 12vw, 300px);
-    }
-
-    // @include text(var(--text-color));
+  h1 {
+    min-height: 0vw;
+    font-size: clamp(16px, 12vw, 300px);
   }
 }
 
 article {
   width: clamp(25ch, 85%, 55ch);
   margin: 0 auto;
-}
-
-.divider {
-  border-borrom: 1px solid black;
-  width: 100%;
-
-  .label {
-  }
-}
-
-.hero {
-  // --herobg: {{ page.refID }};
-  // background: var(--herobg);
 }
 
 .label {
