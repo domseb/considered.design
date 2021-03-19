@@ -10,10 +10,11 @@
          {% endif %}
             <li>
               <a href="{{ post.url | prepend: site.baseurl }}">
-              <h3>{{ post.date | date_to_long_string }} — {% assign words = post.content | number_of_words %}{% if words < 360 %}1 min read{% else %}{{ words | divided_by:180 }} min read{% endif %}
-              </h3>
-              <h2 class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h2>
-              <p class="post-desc">{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue reading →</a></p>
+              <h5 class="label">{{ post.date | date_to_long_string }} — {% assign words = post.content | number_of_words %}{% if words < 360 %}1 min read{% else %}{{ words | divided_by:180 }} min read{% endif %}
+              </h5>
+            <hr />
+              <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+              <p>{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue reading →</a></p>
             </a>
             </li>
          {% if forloop.last %}</ul>{% endif %}

@@ -1,17 +1,11 @@
 nav {
-  // @include spacing($space-m $space-l,auto);
-  // @include border(bottom, 1px, $primary);
-  // background-color: $secondary;
   height: $navheight;
   width: 100vw;
   position: fixed;
   place-items: center;
-  // z-index: 99;
-  // top: 0;
   display: flex;
   justify-content: space-between;
-  // align-items: center;
-  padding: 5vw;
+  padding: 0 5vw 0 5vw;
 
   // @include media-query($on-laptop) {
   // }
@@ -58,23 +52,34 @@ nav {
       @include transition(all $transition);
     }
   }
-
-  // .logotype {
-  //   display: inline-flex;
-  //   @include media-query($on-tablet) {
-  //     display: none;
-  //   }
-  // }
 }
 
 .footer {
-  // @include spacing($space-m $space-l,auto);
-  display: flex;
-  width: 100%;
-  background-color: $primary;
-  justify-content: space-between;
+  background-color: #00022e;
+  font-family: "Degular Regular";
+  color: var(--text-color);
   align-items: center;
+  width: 100vw;
+  // position: fixed;
+  place-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 5vw 2vw 5vw;
+  position: absolute;
 
-  // h1, h2, h3, h4, h5, a { @include spacing(0,0); color: white; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  a {
+    @include spacing(0, 0);
+    color: var(--text-color);
+  }
+
+  p {
+    color: var(--text-color);
+    opacity: 0.5;
+  }
   // p { @include font-style(regular, 1.5, rgba(white, .75), 1.5, 0,$space-xs 0 0 0); }
 }

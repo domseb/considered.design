@@ -67,4 +67,5 @@ $on-palm: 480px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "carousel", "syntax-highlighting", "components";
+@import "base", "layout", "carousel", "syntax-highlighting", "components",
+  "images";

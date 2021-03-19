@@ -34,3 +34,67 @@ theme: indigo
     </p>
   </div>
 </section>
+<section class="chapters">
+  <h1>Chapters.</h1>
+  <div class="posters">
+    <img src="/assets/projects/poster-test.jpg" />
+    <img src="/assets/projects/poster-test.jpg" />
+    <img src="/assets/projects/poster-test.jpg" />
+  </div>
+</section>
+<section>
+  <div class="aside space-reset">
+    <h2>Less mindless screens, more learning to see.</h2>
+    <p>➌ ★★★★ "He needs to use less commas and more clarity"</p>
+  </div>
+  <div>
+    <p class="label">Recent posts</p>
+    <hr />
+  </div>
+  <div class="tiles">
+    {% for post in site.posts | limit: 3 %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {% endfor %}
+  </div>
+  <hr />
+</section>
+<section>
+  <div class="photo-grid">
+    <div class="grid-text">
+      <h2>Learning to see.</h2>
+      <p>
+        2020 has been a complete shit show, for all the obvious reasons and a
+        few very personal ones. Next year I want to be better, and put all of
+        this behind me with progress.
+      </p>
+    </div>
+    <div
+      class="grid-image"
+      style="background-image: url(/assets/site/smoke.jpg)"
+    ></div>
+    <div
+      class="grid-image-2"
+      style="background-image: url(/assets/site/dom-profile.jpg)"
+    ></div>
+    <div
+      class="grid-image-3"
+      style="background-image: url(/assets/site/dom-profile.jpg)"
+    ></div>
+  </div>
+</section>
+<div style="position: relative">
+  <div class="dom-face"></div>
+  <div class="photo-bomb">
+    <div class="split space-reset">
+      <div>
+        <h2>Less perfectionist, more creative play.</h2>
+        <p>
+          2020 has been a complete shit show, for all the obvious reasons and a
+          few very personal ones. Next year I want to be better, and put all of
+          this behind me with progress.
+        </p>
+      </div>
+      <img src="/assets/site/dom-profile.jpg" />
+    </div>
+  </div>
+</div>
