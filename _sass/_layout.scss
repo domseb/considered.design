@@ -1,6 +1,18 @@
 // HEROS
 // LAYOUTS
 
+body {
+  // --hue: 260;
+  --lightness: 25%;
+  --background: hsl(var(--hue), 100%, 25%);
+  --dark: hsl(var(--hue), 100%, 15%);
+  --accent: hsl(var(--hue, 260), 100%, 65%);
+  --accent-more: hsl(var(--hue), 100%, 75%);
+  --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
+  --text-headings: hsl(var(--hue), 0%, alc(var(--lightness) + 50%));
+  --text-body: hsl(var(--hue), 0%, alc(var(--lightness) + 50%));
+}
+
 .tiles {
   @include thirds(40px);
   margin: 20px 0 20px 0;
@@ -25,6 +37,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
+    color: white;
     left: 50%;
     z-index: 99;
   }
@@ -95,16 +108,19 @@ hr {
 // THEMES
 
 .indigo {
-  --background: #2e008a;
-  --text-color: white;
+  --hue: 260;
 }
 .test {
-  --background: blue;
-  --text-color: red;
+  --hue: 260;
+}
+
+.work {
+  --hue: 340;
+  // --lightness: 100%;
 }
 
 // LAYOUTS
-
+// Needs a minimum height in px to avoid clipping. Maybe a max too?
 .dom-face {
   background-image: url(/assets/site/dom-profile.jpg);
   filter: blur(60px);
@@ -151,9 +167,11 @@ section {
   p {
     min-height: 0vw;
     font-size: clamp(6px, 2vw, 16px);
+    color: var(--accent-more);
   }
 
   h1 {
+    color: var(--text-headline);
     min-height: 0vw;
     font-size: clamp(16px, 12vw, 300px);
   }

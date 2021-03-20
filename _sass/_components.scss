@@ -1,11 +1,17 @@
 nav {
+  // @include spacing($space-m $space-l,auto);
+  // @include border(bottom, 1px, $primary);
+  // background-color: $secondary;
   height: $navheight;
   width: 100vw;
   position: fixed;
   place-items: center;
+  // z-index: 99;
+  // top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0 5vw 0 5vw;
+  // align-items: center;
+  padding: 5vw;
 
   // @include media-query($on-laptop) {
   // }
@@ -34,14 +40,15 @@ nav {
   }
 
   .active .page-link {
-    // color: var(--text-color);
-    color: rgba($primary, 1);
+    // color: var(--accent);
+    // color: rgba($primary, 1);
   }
 
   .page-link {
     // @include spacing(0,0 $space-s 0 0);
     font-family: "Degular Regular";
-    color: rgba($primary, 1);
+    // color: rgba($primary, 1);
+    color: var(--accent);
     display: inline-flex;
     margin-left: 16px;
     @include transition(all $transition);
@@ -52,34 +59,26 @@ nav {
       @include transition(all $transition);
     }
   }
+
+  // .logotype {
+  //   display: inline-flex;
+  //   @include media-query($on-tablet) {
+  //     display: none;
+  //   }
+  // }
 }
 
 .footer {
-  background-color: #00022e;
-  font-family: "Degular Regular";
-  color: var(--text-color);
-  align-items: center;
-  width: 100vw;
-  // position: fixed;
-  place-items: center;
+  // @include spacing($space-m $space-l,auto);
   display: flex;
+  width: 100%;
+  background: var(--dark);
   justify-content: space-between;
-  padding: 2vw 5vw 2vw 5vw;
+  align-items: center;
   position: absolute;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  a {
-    @include spacing(0, 0);
-    color: var(--text-color);
-  }
-
-  p {
-    color: var(--text-color);
-    opacity: 0.5;
-  }
+  z-index: 99;
+  color: white;
+  padding: 2vw 5vw 2vw 5vw;
+  // h1, h2, h3, h4, h5, a { @include spacing(0,0); color: white; }
   // p { @include font-style(regular, 1.5, rgba(white, .75), 1.5, 0,$space-xs 0 0 0); }
 }
