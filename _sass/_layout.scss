@@ -6,6 +6,7 @@ body {
   --lightness: 25%;
   --background: hsl(var(--hue), 100%, 25%);
   --dark: hsl(var(--hue), 100%, 15%);
+  --darkest: hsl(var(--hue), 100%, 5%);
   --accent: hsl(var(--hue, 260), 100%, 65%);
   --accent-more: hsl(var(--hue), 100%, 75%);
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
@@ -21,6 +22,8 @@ body {
 .posters {
   @include thirds(8px);
   margin: 20px 0 20px 0;
+  // cursor: move;
+  cursor: url("/assets/site/Twitter.svg"), move;
 
   :first-child {
     transform: translateY(-5%);
@@ -89,8 +92,18 @@ body {
   align-items: center;
 }
 
+.aside-test {
+  @include aside-test(40px);
+  align-items: center;
+}
+
 hr {
   margin: 20px 0 20px 0;
+  border: 1px solid var(--dark, grey);
+}
+
+.nudge {
+  transform: translateY(40px);
 }
 
 .space-reset {
@@ -112,6 +125,10 @@ hr {
 }
 .test {
   --hue: 260;
+}
+
+.jub {
+  --hue: 100;
 }
 
 .work {
@@ -167,7 +184,11 @@ section {
   p {
     min-height: 0vw;
     font-size: clamp(6px, 2vw, 16px);
-    color: var(--accent-more);
+    color: var(--dark);
+  }
+
+  h5 {
+    color: var(--dark);
   }
 
   h1 {

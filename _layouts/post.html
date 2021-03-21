@@ -5,7 +5,7 @@ layout: default
 <div class="impact">
   <div>
     <h1>{{ page.title }}</h1>
-    <p class="label">{{ page.date | date_to_long_string }}</p>
+    <p class="label">{{ page.date | date_to_string }}</p>
     <hr />
   </div>
 </div>
@@ -17,7 +17,7 @@ layout: default
     {% for post in site.posts | limit: 3 %}
     <div>
       <h5 class="label">
-        {{ post.date | date_to_long_string }} • {% assign words = post.content |
+        {{ post.date | date_to_string }} • {% assign words = post.content |
         number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
         divided_by:180 }} min read {% endif %}
       </h5>

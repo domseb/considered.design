@@ -1,7 +1,8 @@
 ---
 layout: project
 refID: secondary
-
+theme: jub
+project: Technicolour Dreamcoat
 collection: true
 company: Qwilr
 timeline: 2017 to present
@@ -57,7 +58,6 @@ After a lot more research and user interviews, we approached the problem from a 
 {% include modules/article_image.html url="/assets/projects/qwilr/style-shortcuts.jpg" type="wide" %}
 
 {% include modules/image-grid.html url1="/assets/projects/qwilr/Quote Block.png" url2="/assets/projects/qwilr/Quote Block-1.png" url3="/assets/projects/qwilr/Quote Block-2.png " url4="/assets/projects/qwilr/Quote Block-3.png" %}
-
 
 ### Designing the ideal editing experience
 

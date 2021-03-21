@@ -1,28 +1,40 @@
 @mixin split($gap) {
-	display: inline-grid;
-	grid-template-columns: 1fr 1fr;
-	gap: $gap;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $gap;
 }
 
 @mixin thirds($gap) {
-	display: inline-grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: $gap;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: $gap;
 }
 
 @mixin aside($gap) {
-	display: inline-grid;
-	grid-template-columns: 3fr 1fr;
-	gap: $gap;
+  display: inline-grid;
+  grid-template-columns: 3fr 1fr;
+  gap: $gap;
+}
+
+@mixin aside-test($gap) {
+  display: inline-grid;
+  grid-template-columns: auto 25%;
+  gap: $gap;
 }
 
 @mixin spacing($margin, $padding) {
-	margin: $margin;
-	padding: $padding;
+  margin: $margin;
+  padding: $padding;
 }
 
 @mixin text($color) {
-	h1, h2, h3, h4, h5, h6, p {
-		color: $color;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: $color;
+  }
 }
