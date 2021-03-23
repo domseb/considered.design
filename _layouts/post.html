@@ -5,7 +5,11 @@ layout: default
 <div class="impact">
   <div>
     <h1>{{ page.title }}</h1>
-    <p class="label">{{ page.date | date_to_string }}</p>
+    <h5 class="label">
+      {{ page.date | date_to_string }} • {% assign words = page.content |
+      number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
+      divided_by:180 }} min read {% endif %}
+    </h5>
     <hr />
   </div>
 </div>

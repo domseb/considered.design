@@ -200,7 +200,10 @@ section {
 
 article {
   width: clamp(25ch, 85%, 55ch);
-  margin: 0 auto;
+  @include margin-top(3);
+  @include margin-bottom(5);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .label {
