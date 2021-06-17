@@ -8,6 +8,7 @@
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
+  border-radius: 20px;
 }
 
 .full-width-hero {
@@ -17,8 +18,9 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  // margin-top: 100px;
+  margin-top: -94px;
   margin-bottom: 100px;
+  z-index: -1;
 }
 
 .full-width-image {
@@ -30,6 +32,10 @@
   margin-right: -50vw;
   margin-top: 100px;
   margin-bottom: 100px;
+
+  img {
+    border: 1px solid rgba(77, 100, 111, 0.15);
+  }
 }
 
 .wide-image {
@@ -37,9 +43,24 @@
   margin-left: -32%;
   margin-top: 100px;
   margin-bottom: 100px;
-  border: 1px solid rgba($secondary, 0.1);
   border-radius: 3px;
-  box-shadow: 0px 15px 35px rgba($secondary, 0.1);
+
+  img {
+    box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(77, 100, 111, 0.15);
+  }
+
+  .device {
+    border: 20px solid black;
+    border-radius: 40px;
+  }
+
+  .borderless {
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+  }
 
   @include media-query($on-tablet) {
     width: 100%;
@@ -60,17 +81,17 @@
 }
 
 .callout {
-  background-color: rgba($primary, 0.25);
+  // background-color: rgba($primary, 0.25);
   padding: 20px;
 
   h3 {
-    color: $primary;
+    color: var(--background);
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
   }
   p {
-    color: $primary;
+    color: var(--background);
     margin-bottom: 0px;
   }
 }
@@ -100,9 +121,9 @@
   .item {
     @include span-columns(6);
     @include omega(2n);
-    border: 1px solid rgba($secondary, 0.1);
-    border-radius: 3px;
-    box-shadow: 0px 15px 35px rgba($secondary, 0.1);
+    border-radius: 10px;
+    border: 2px solid rgba(77, 100, 111, 0.15);
+    box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
 
     &:nth-child(3) {
       margin-top: 25px;
@@ -166,9 +187,10 @@
   .item {
     @include span-columns(4);
     @include omega(3n);
-    border: 1px solid rgba($secondary, 0.1);
-    border-radius: 3px;
-    box-shadow: 0px 15px 35px rgba($secondary, 0.1);
+    --opacity: 1;
+    border: 1px solid var(--smoke);
+    border-radius: 15px;
+    box-shadow: 0px 15px 35px var(--smoke);
 
     &:nth-child(3n) {
       margin-bottom: 20px;

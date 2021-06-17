@@ -1,0 +1,84 @@
+I") <p>Well everyone, I’ve finally done it. I’ve cemented Shortcuts in my life, and I’m happy to say I’m well on my way to automated bliss. I’ve attempted to find this bliss a few times — with IFTTT, with the previously named Workflow, with the rarely working smart bulbs — but after getting the Apple Watch last year, setting complex things like laundry timers was easier, and the need for Syndrome like power ebbed away.</p>
+
+<p>As 2020 rolled in though, I saw someone using a Shortcut to revert one of the most annoying behaviours in iOS (low battery mode being turned off after it hits 85%), and I started playing around with it again. Maybe in part because I can’t really code, but it’s both empowering and exciting to create Shortcuts, and there is a tinkering aspect to it which is deeply enjoyable. A feeling mirrored by Khoi Vin in <a href="https://www.subtraction.com/2019/12/04/shortcuts-and-screenshots-on-ios/">his recent post on Shortcuts</a> — it’s also easily possible to spend far more time on them that they could possibly ever save you.</p>
+
+<p>I’ve made a handful I’m using daily now, and think they’re at a place that others might find them useful now too. The music one below was even enough to make me switch from Spotify to Apple Music (currently not possible to automate or shortcut anything with Spotify), and having artwork again to browse through without being pushed to their own discovery sections, I’ve really enjoyed. Once I figure how to host these I’ll include the iCloud links so others can use them too.</p>
+
+<h2 id="focus-work--approachable-work">Focus work &amp; approachable work</h2>
+
+<p>Getting the right conditions to do focus work is really important to me, and it’s always boiled down to two things; removing as many distractions as I can, and and giving others the signals that I’m doing focus work so I won’t be disturbed. The more clear and repeatable the prompts and routine are for me, the more pavlovian my response is, and the easier I find it to get into that focus state.</p>
+
+<p>This sounds silly (maybe even sad knowing I come from London), but the best focus prompt I have is rain in noise cancelling headphones. Combining that with no notifications flying into my view, and I’m as distraction free as it’s possible to get (handled by 1-3 in this shortcut).</p>
+
+<p>Wearing big noise cancelling headphones is a good physical signal you’re doing focus work (although as we know, not aaaalways respected), but at Qwilr we also have distributed teams, so I wanted to be able to signal it clearly on Slack to everyone is most useful to me. I’ve tried this a few different ways before (using a combination of IFTTT &amp; Glitch), but it was really unreliable, and after a few maiden voyages just stopped working altogether. This new setup works perfectly, but to do the Slack shortcuts it runs you’ll need to <a href="https://api.slack.com/custom-integrations/legacy-tokens">create your personal Slack token</a> to replace mine, and <a href="https://api.slack.com/methods/users.profile.set/test">use their methods here</a> to spit out the url with your token.</p>
+
+<h4 id="shortcut-steps">Shortcut steps</h4>
+
+<ol>
+  <li>Select a playback device (useful if I’m wearing headphones or not)</li>
+  <li>Plays my Focus playlist (rain track)</li>
+  <li>Turns on do not disturb on all my devices</li>
+  <li>Updates my Slack status, sets me away, and puts on DND</li>
+  <li>Let’s me select a timer for how long I want to do focus work for</li>
+</ol>
+
+<figure class="image-trio">
+  <img class="item" src="/assets/blog/focuswork-a.PNG" />
+  <img class="item" src="/assets/blog/focuswork-b.PNG" />
+  <img class="item" src="/assets/blog/focuswork-g.PNG" />
+  <figcaption>The steps to run the Focus work Shortcut, including the Slack api call for setting presence</figcaption>
+</figure>
+
+<p>To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found <a href="https://routinehub.co/shortcut/2443">this Shortcut from Jake Bathman really useful</a> (he also has an <a href="https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3">accompanying post here too</a>). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my <code class="language-plaintext highlighter-rouge">SlackOAuthToken</code>.</p>
+
+<figure class="image-trio">
+  <img class="item" src="/assets/blog/focuswork-d.PNG" />
+  <img class="item" src="/assets/blog/focuswork-e.PNG" />
+  <img class="item" src="/assets/blog/focuswork-f.PNG" />
+  <figcaption>Using variables and dictionary to set a specific slack status</figcaption>
+</figure>
+
+<h2 id="adding-to-my-discovery-playlist">Adding to my Discovery playlist</h2>
+
+<p>My memory iiiiiis not great, and to help with that I’ve always had a habit of writing down songs I like as I hear them. A personal torture for me is waking up after being somewhere, remembering very clearly I heard a new/great/nostalgic song I liked, but having only maybe a melody of it I will never, ever be able to google and find. The problem before is I’d have this huge list of songs in Things, which I then had to look up in Spotify to play them. With this Shortcut, I’m able to bypass that list and add songs I hear directly to a Discovery playlist. I then have another Shortcut to play this playlist, ordering songs by oldest to newest, so I’m not just replaying the same songs.</p>
+
+<h4 id="shortcut-steps-1">Shortcut steps</h4>
+
+<ol>
+  <li>Let’s me enter a search query</li>
+  <li>Shows me a list of matching song results</li>
+  <li>I can select as many matches as I want</li>
+  <li>Selected songs are added to my Discovery playlist</li>
+</ol>
+
+<figure class="image">
+
+  
+<img class="border" src="/assets/blog/discovery.PNG" alt="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" />
+<figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+</figure>
+
+<h2 id="facetime-roulette">Facetime Roulette</h2>
+
+<p>Important background context on this one — I find staying in touch with people I don’t see regularly really challenging. I’ve never been great at it, but living in a timezone 11 hours ahead has made it much harder. Part of it is I detest anything that makes something that’s not work feel like work. So the idea of putting a call with a close friend in the calendar so we don’t forget to do it I avoid like the plague. Facetime Roulette is actually an idea for an app I had ages ago, and although it doesn’t have everything (ideally I’d want to bias the roulette to people I hadn’t called in ages etc), this shortcut gets me most of the way there. I’m going to use this for a few months, and if it hold the magical appeal I think having a roulette layer to staying in touch with friends will have, I’ll develop the concept out more into an app.</p>
+
+<h4 id="shortcut-steps-2">Shortcut steps</h4>
+
+<ol>
+  <li>Grabs a specific contact group</li>
+  <li>Orders it by random</li>
+  <li>Limits the selection to one</li>
+  <li>FaceTimes that lucky roulette winner</li>
+</ol>
+
+<figure class="image">
+
+  
+<img class="border" src="/assets/blog/facetime-roulette.PNG" alt="" />
+
+</figure>
+
+<h2 id="further-play">Further play</h2>
+
+<p>There’s a few other Shortcuts I’m playing with at the moment, but haven’t got quite right yet. All solving the big problems in life — fade out the nursery light and fade in white noise, triggering the office logo to do a rainbow loop on a launch — but I’ll keep tinkering and share them when they’re done. If you’re interested in creating your own, the best places I found were the <a href="https://www.reddit.com/r/shortcuts/">Shortcuts subreddit</a>, and this <a href="https://shortcutsgallery.com">Shortcuts Gallery</a>. Both buzzing with hobbyist creators, and also very eager to answer questions — enjoy 🙂.</p>
+:ET

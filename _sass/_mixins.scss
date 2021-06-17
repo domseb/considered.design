@@ -27,14 +27,33 @@
   padding: $padding;
 }
 
-@mixin text($color) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    color: $color;
+@mixin margin-bottom($number) {
+  margin-bottom: #{$number * $base-line-height + "rem"};
+}
+
+@mixin margin-top($number) {
+  margin-top: #{$number * $base-line-height + "rem"};
+}
+
+@mixin margin($top, $bottom) {
+  margin-top: #{$top * $base-line-height + "rem"};
+  margin-bottom: #{$bottom * $base-line-height + "rem"};
+}
+
+// @mixin line-height($number) {
+//   line-height: #{$number * $line-height};
+// }
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
   }
+}
+
+@mixin font-size($min, $max) {
+  font-size: clamp(
+    #{$min * $base-font-size + "px"},
+    #{$min * 2 + "vw"},
+    #{$max * $base-font-size + "px"}
+  );
 }

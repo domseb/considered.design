@@ -1,4 +1,4 @@
-I"@
+I"F
 <figure class="full-width-hero">
 
   
@@ -13,6 +13,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YRaBDsNjonU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
 <h2 id="how-we-used-to-handle-images">How we used to handle images</h2>
+
 <p>Before, when you needed to add in an image to your project, you’d be presented with an overlay, where you could select one of the images we had in our collection, or upload your own. It looked like this:</p>
 
 <figure class="wide-image">
@@ -34,6 +35,7 @@
 </figure>
 
 <h2 id="collections-in-context">Collections in context</h2>
+
 <p>After exploring a few different directions, we found the fastest way to find great imagery was to never leave the project itself. Instead, we could bring up the image library in context, exactly where you were working. With this we could present images grouped by a theme or collection, so trying alternatives is easier. We could cut finding an image down to two clicks, rather than the previous 5. Most importantly though — you could play with variations faster without losing momentum in your work.</p>
 
 <figure class="wide-image">
@@ -44,6 +46,7 @@
 </figure>
 
 <h2 id="shuffle-to-find-something-new">“Shuffle” to find something new</h2>
+
 <p>Sometimes you don’t know what image will work until you see it, and getting momentum in that early discovery phase is important to get past creative block. With the “Shuffle” button, clicking it puts a new collection at random into the carousel, so you can cycle through different themes faster when you’re stuck on what would work best with your content.</p>
 
 <figure class="wide-image">
@@ -54,9 +57,11 @@
 </figure>
 
 <h2 id="fullscreen-overlay-for-exploring-themes">Fullscreen overlay for exploring themes</h2>
+
 <p>Finally, we completely redesigned the fullscreen overlay experience, so it could house your recently used and uploaded images, and allow you to browse images and collections with a little more screen real estate. From here you can also add in any collection you find interesting to the carousel, to see how the images feel in the context of your project.</p>
 
 <h2 id="a-huge-huge-thanks-to-unsplash">A huge, huge thanks to Unsplash</h2>
+
 <p>The best part of this announcement is all these images are free, all thanks to our <a href="https://medium.com/@stephliverani/qwilr-unsplash-757bf110ce71">partnership with Unsplash</a>. In order to know how much this partnership means to us, I think it’s important to understand our mission as a company. The following is taken from <a href="http://blog.qwilr.com/why-qwilr/">Why Qwilr</a>, written by our Founder &amp; CEO, <a href="https://dylanbaskind.com/">Dylan Baskind</a>:</p>
 
 <blockquote>
@@ -66,6 +71,7 @@
 <p>For the above to happen, the question we constantly ask ourselves in design is how can users enjoy this speed without sacrificing quality? So far how we’ve achieved this at Qwilr is by starting with the best design defaults, and using simple but guided design controls to quickly achieve the desired outcome. Partnering with Unsplash is really a further commitment to giving our users the best design defaults we can, so they can create something better and faster than they thought possible.</p>
 
 <h2 id="whats-next">What’s next</h2>
+
 <p>Although this feature is now live for everyone, this doesn’t mean we are done with it. Through beta testing and early rounds of feedback, there’s a few things we are going to be improving over the coming months. And if you have any ideas or feedback around how we could make this better for you, you can email us here—we’d love to hear from you.</p>
 
 <p>Qwilr lets you create business documents as beautiful, mobile friendly websites, that are quick to create and impressive to receive. To find out more check out our website, and if you want to <a href="https://qwilr.com/">try Qwilr yourself</a>, you can <a href="https://qwilr.com/signup">signup here</a>.</p>

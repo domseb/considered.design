@@ -2,16 +2,22 @@
 // LAYOUTS
 
 body {
-  // --hue: 260;
+  // Colour variables
   --lightness: 25%;
+  --opacity: 1;
   --background: hsl(var(--hue), 100%, 25%);
   --dark: hsl(var(--hue), 100%, 15%);
   --darkest: hsl(var(--hue), 100%, 5%);
   --accent: hsl(var(--hue, 260), 100%, 65%);
   --accent-more: hsl(var(--hue), 100%, 75%);
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
-  --text-headings: hsl(var(--hue), 0%, alc(var(--lightness) + 50%));
-  --text-body: hsl(var(--hue), 0%, alc(var(--lightness) + 50%));
+  --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
+  --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
+  --smoke: hsla(var(--hue, 0), 0%, 60%, var(--opacity));
+  // spacing variables
+  --spacer: 20px;
+  --spacer-medium: 40px;
+  --spacer-large: 100px;
 }
 
 .tiles {
@@ -99,7 +105,7 @@ body {
 
 hr {
   margin: 20px 0 20px 0;
-  border: 1px solid var(--dark, grey);
+  border: 0.5px solid var(--dark, grey);
 }
 
 .nudge {
@@ -114,23 +120,23 @@ hr {
   h5,
   h6,
   p {
-    @include spacing(0 !important, 0 !important);
+    // @include spacing(0 !important, 0 !important);
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
 
 // THEMES
 
 .indigo {
-  --hue: 260;
+  --hue: 235;
 }
 .test {
-  --hue: 260;
+  --hue: 235;
 }
-
 .jub {
   --hue: 100;
 }
-
 .work {
   --hue: 340;
   // --lightness: 100%;
@@ -188,18 +194,12 @@ section {
   }
 
   h5 {
-    color: var(--dark);
-  }
-
-  h1 {
-    color: var(--text-headline);
-    min-height: 0vw;
-    font-size: clamp(16px, 12vw, 300px);
+    // color: var(--dark);
   }
 }
 
 article {
-  width: clamp(25ch, 85%, 55ch);
+  width: clamp(150px, 85vw, 650px);
   @include margin-top(3);
   @include margin-bottom(5);
   margin-left: auto;
@@ -207,14 +207,15 @@ article {
 }
 
 .label {
-  transform: translateY(1.4em);
+  transform: translateY(1.7em);
   text-transform: uppercase;
   background: white;
   display: inline-flex;
   padding-right: 0.5em;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1px;
   margin: 0;
+  font-family: "Degular Regular";
 }
 
 //TODO
@@ -260,11 +261,11 @@ article {
 
     .link {
       color: inherit;
-      border-bottom: 3px solid rgba($primary, 0.2);
+      border-bottom: 3px solid var(--accent);
       &:hover {
-        background-color: rgba($primary, 0.2);
-        color: $primary;
-        border-bottom: 3px solid rgba($primary, 0);
+        background-color: var(--accent);
+        color: var(--accent);
+        // border-bottom: 3px solid rgba($primary, 0);
         @include transition(all $default-transition);
       }
     }
@@ -273,7 +274,7 @@ article {
     font-size: 22px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: $brand-black;
+    // color: $brand-black;
     // letter-spacing: -1px;
     text-decoration: none;
   }
@@ -281,7 +282,7 @@ article {
   .post-desc {
     margin-right: 60px;
     margin-top: 15px;
-    color: rgba(74, 74, 74, 0.85);
+    color: var(--slate);
     font-size: 19px;
     margin-top: 10px;
 
@@ -293,14 +294,14 @@ article {
       margin-right: 0px;
     }
   }
-
+  //TODO check if this should be H1 and ghosted
   .ordinal {
     @include span-columns(1);
     @include shift(0);
     margin-left: -200px;
     font-size: 18px;
     margin-top: 25px;
-    color: $primary;
+    color: var(--accent);
 
     @include media-query($on-palm) {
       @include span-columns(12);

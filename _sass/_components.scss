@@ -2,7 +2,7 @@ nav {
   // @include spacing($space-m $space-l,auto);
   // @include border(bottom, 1px, $primary);
   // background-color: $secondary;
-  height: $navheight;
+  height: var(--space-large);
   width: 100vw;
   position: fixed;
   place-items: center;
@@ -54,7 +54,7 @@ nav {
     @include transition(all $transition);
 
     &:hover {
-      color: rgba($primary, 1);
+      // color: rgba($primary, 1);
       text-decoration: none;
       @include transition(all $transition);
     }
@@ -72,7 +72,7 @@ nav {
   // @include spacing($space-m $space-l,auto);
   display: flex;
   width: 100%;
-  background: var(--dark);
+  background: var(--accent);
   justify-content: space-between;
   align-items: center;
   position: absolute;
@@ -81,4 +81,8 @@ nav {
   padding: 2vw 5vw 2vw 5vw;
   // h1, h2, h3, h4, h5, a { @include spacing(0,0); color: white; }
   // p { @include font-style(regular, 1.5, rgba(white, .75), 1.5, 0,$space-xs 0 0 0); }
+
+  * {
+    color: white;
+  }
 }
