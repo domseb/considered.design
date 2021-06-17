@@ -42,7 +42,7 @@ body {
 .chapters {
   position: relative;
   h1 {
-    font-size: 230px;
+    @include font-size(5, 15);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -89,7 +89,7 @@ body {
 }
 
 .split {
-  @include split(40px);
+  @include split(var(--spacer-medium));
   align-items: center;
 }
 
@@ -171,7 +171,7 @@ section {
   margin: 20vh auto;
 
   p {
-    font-size: 27px;
+    @include font-size(1, 2);
   }
 }
 
@@ -189,7 +189,7 @@ section {
   }
   p {
     min-height: 0vw;
-    font-size: clamp(6px, 2vw, 16px);
+    @include font-size(1, 2);
     color: var(--dark);
   }
 
@@ -200,8 +200,7 @@ section {
 
 article {
   width: clamp(150px, 85vw, 650px);
-  @include margin-top(3);
-  @include margin-bottom(5);
+  @include margin(3, 5);
   margin-left: auto;
   margin-right: auto;
 }
@@ -212,7 +211,7 @@ article {
   background: white;
   display: inline-flex;
   padding-right: 0.5em;
-  font-size: 20px;
+  font-size: $base-font-size;
   letter-spacing: 1px;
   margin: 0;
   font-family: "Degular Regular";
@@ -271,7 +270,7 @@ article {
     }
   }
   .post-link {
-    font-size: 22px;
+    font-size: $base-font-size;
     margin-top: 5px;
     margin-bottom: 5px;
     // color: $brand-black;
@@ -283,7 +282,7 @@ article {
     margin-right: 60px;
     margin-top: 15px;
     color: var(--slate);
-    font-size: 19px;
+    font-size: $base-font-size;
     margin-top: 10px;
 
     @include media-query($on-laptop) {
@@ -299,7 +298,7 @@ article {
     @include span-columns(1);
     @include shift(0);
     margin-left: -200px;
-    font-size: 18px;
+    font-size: $base-font-size;
     margin-top: 25px;
     color: var(--accent);
 

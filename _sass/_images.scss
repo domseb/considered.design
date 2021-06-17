@@ -4,11 +4,15 @@
   mix-blend-mode: multiply;
 }
 
+.device {
+  border: 20px solid var(--onyx);
+  border-radius: 40px;
+}
+
 .image {
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border-radius: 20px;
+  // border-radius: 20px;
+  @include margin(3, 3);
 }
 
 .full-width-hero {
@@ -18,8 +22,7 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-top: -94px;
-  margin-bottom: 100px;
+  @include margin(-3, 3);
   z-index: -1;
 }
 
@@ -30,69 +33,23 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  @include margin(3, 3);
 
   img {
-    border: 1px solid rgba(77, 100, 111, 0.15);
+    border: 1px solid var(--smoke);
   }
 }
 
 .wide-image {
-  width: 170%;
-  margin-left: -32%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: clamp(100%, 125%, 170%);
+  margin-left: clamp(0, -15%, -32%);
   border-radius: 3px;
+  @include margin(3, 3);
 
   img {
-    box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
+    box-shadow: 0px 15px 35px var(--smoke);
     border-radius: 20px;
-    border: 1px solid rgba(77, 100, 111, 0.15);
-  }
-
-  .device {
-    border: 20px solid black;
-    border-radius: 40px;
-  }
-
-  .borderless {
-    box-shadow: none;
-    border-radius: none;
-    border: none;
-  }
-
-  @include media-query($on-tablet) {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  // @include media-query($on-laptop) {
-  //   width: 100%;
-  // }
-  @include media-query($on-palm) {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-}
-
-.callout {
-  // background-color: rgba($primary, 0.25);
-  padding: 20px;
-
-  h3 {
-    color: var(--background);
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  p {
-    color: var(--background);
-    margin-bottom: 0px;
+    border: 1px solid var(--smoke);
   }
 }
 
@@ -207,16 +164,5 @@
       // @include omega-reset(2n);
       @include omega(1n);
     }
-  }
-}
-
-.hero-image {
-  @include span-columns(10);
-  @include shift(1);
-  // margin-bottom: 50px;
-
-  @include media-query($on-palm) {
-    @include span-columns(12);
-    @include shift(0);
   }
 }

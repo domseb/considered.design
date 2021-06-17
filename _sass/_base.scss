@@ -102,32 +102,28 @@ h1 {
   line-height: 1;
   min-height: 0vw;
   @include font-size(5, 15);
-  @include margin-top(3);
-  @include margin-bottom(1);
+  @include margin(3, 1);
 }
 
 h2 {
   @include font-size(3, 5);
   min-height: 0vw;
   line-height: 1;
-  @include margin-top(3);
-  @include margin-bottom(1);
+  @include margin(3, 1);
 }
 
 h3 {
   // font-size: 46px;
   @include font-size(1.5, 2.5);
   line-height: 1.2;
-  @include margin-top(3);
-  @include margin-bottom(0.75);
+  @include margin(3, 0.75);
 }
 
 h4 {
   // font-size: 16px;
   @include font-size(1, 2);
   line-height: 1;
-  @include margin-top(1);
-  @include margin-bottom(0);
+  @include margin(1, 0);
 }
 
 h5 {
@@ -137,8 +133,7 @@ h5 {
   @include font-size(1, 1.5);
   letter-spacing: 1px;
   line-height: 1;
-  @include margin-top(1);
-  @include margin-bottom(0);
+  @include margin(1, 0);
 }
 
 h6 {
@@ -146,16 +141,14 @@ h6 {
   // font-size: 24px;
   @include font-size(1, 1.5);
   line-height: 1;
-  @include margin-top(1);
-  @include margin-bottom(0);
+  @include margin(1, 0);
 }
 
 p {
   font-family: "Degular Light";
   @include font-size(1, 1.2);
   color: var(--slate);
-  @include margin-top(0);
-  @include margin-bottom(1);
+  @include margin(0, 1);
 }
 
 .light {
@@ -179,7 +172,7 @@ ul,
 ol,
 dl,
 %vertical-rhythm {
-  @include margin-bottom(1);
+  @include margin(0, 1);
 }
 
 /**
@@ -265,7 +258,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  padding-left: 20px;
+  padding-left: var(--spacer);
   font-style: italic;
   border-left: 2px solid var(--background);
 
@@ -279,7 +272,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  @include font-size(1, 1.1);
   border: 1px solid grey;
   border-radius: 3px;
   background-color: var(--smoke);
@@ -305,8 +298,8 @@ pre {
   height: 45px;
   color: var(--background);
   text-align: center;
-  font-size: 27px;
-  line-height: 40px;
+  font-size: $base-font-size;
+  // line-height: 40px;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
