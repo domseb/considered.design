@@ -1,4 +1,4 @@
-I") <p>Well everyone, I’ve finally done it. I’ve cemented Shortcuts in my life, and I’m happy to say I’m well on my way to automated bliss. I’ve attempted to find this bliss a few times — with IFTTT, with the previously named Workflow, with the rarely working smart bulbs — but after getting the Apple Watch last year, setting complex things like laundry timers was easier, and the need for Syndrome like power ebbed away.</p>
+I"3!<p>Well everyone, I’ve finally done it. I’ve cemented Shortcuts in my life, and I’m happy to say I’m well on my way to automated bliss. I’ve attempted to find this bliss a few times — with IFTTT, with the previously named Workflow, with the rarely working smart bulbs — but after getting the Apple Watch last year, setting complex things like laundry timers was easier, and the need for Syndrome like power ebbed away.</p>
 
 <p>As 2020 rolled in though, I saw someone using a Shortcut to revert one of the most annoying behaviours in iOS (low battery mode being turned off after it hits 85%), and I started playing around with it again. Maybe in part because I can’t really code, but it’s both empowering and exciting to create Shortcuts, and there is a tinkering aspect to it which is deeply enjoyable. A feeling mirrored by Khoi Vin in <a href="https://www.subtraction.com/2019/12/04/shortcuts-and-screenshots-on-ios/">his recent post on Shortcuts</a> — it’s also easily possible to spend far more time on them that they could possibly ever save you.</p>
 
@@ -23,19 +23,27 @@
 </ol>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/blog/focuswork-a.PNG" />
-  <img class="item" src="/assets/blog/focuswork-b.PNG" />
-  <img class="item" src="/assets/blog/focuswork-g.PNG" />
+  <div class="items">
+    <img src="/assets/blog/focuswork-a.PNG" />
+    <img src="/assets/blog/focuswork-b.PNG" />
+    <img src="/assets/blog/focuswork-g.PNG" />
+  </div>
+  
   <figcaption>The steps to run the Focus work Shortcut, including the Slack api call for setting presence</figcaption>
+  
 </figure>
 
 <p>To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found <a href="https://routinehub.co/shortcut/2443">this Shortcut from Jake Bathman really useful</a> (he also has an <a href="https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3">accompanying post here too</a>). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my <code class="language-plaintext highlighter-rouge">SlackOAuthToken</code>.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/blog/focuswork-d.PNG" />
-  <img class="item" src="/assets/blog/focuswork-e.PNG" />
-  <img class="item" src="/assets/blog/focuswork-f.PNG" />
+  <div class="items">
+    <img src="/assets/blog/focuswork-d.PNG" />
+    <img src="/assets/blog/focuswork-e.PNG" />
+    <img src="/assets/blog/focuswork-f.PNG" />
+  </div>
+  
   <figcaption>Using variables and dictionary to set a specific slack status</figcaption>
+  
 </figure>
 
 <h2 id="adding-to-my-discovery-playlist">Adding to my Discovery playlist</h2>
@@ -50,6 +58,8 @@
   <li>I can select as many matches as I want</li>
   <li>Selected songs are added to my Discovery playlist</li>
 </ol>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="image">
 
@@ -70,6 +80,8 @@
   <li>Limits the selection to one</li>
   <li>FaceTimes that lucky roulette winner</li>
 </ol>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="image">
 

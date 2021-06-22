@@ -1,4 +1,4 @@
-I"5<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of it’s flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
+I"G<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of it’s flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
 
 <p>Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After winning a grant from the Bill &amp; Melinda Gates Foundation, The George Institute for Global Health had to design a new data collection app to expand into India.</p>
 
@@ -7,15 +7,21 @@
 <p>The team had already created a data collector app, as a companion of their core Foodswitch app. Some usability and flow issues aside, the biggest issue was it couldn’t be sued to collect anything without a barcode, and relied on lots of heavy text English cues to understand how to use it.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/collector-a.jpg" />
-  <img class="item" src="/assets/projects/george/collector-b.jpg" />
-  <img class="item" src="/assets/projects/george/collector-c.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/collector-a.jpg" />
+    <img src="/assets/projects/george/collector-b.jpg" />
+    <img src="/assets/projects/george/collector-c.jpg" />
+  </div>
+  
   <figcaption>Tutorials in the previous app were very text heavy, with no visual cues for how to progress to the next step</figcaption>
+  
 </figure>
 
 <h2 id="designing-for-context-in-india">Designing for context in India</h2>
 
 <p>Potential language barriers aside, the physical context of data collection in India introduced lots of new design considerations. The normal process is to scan the product, take a picture, and confirm it’s details. However products in Indian markets could be stacked out of reach (requiring assistance to capture them), grouped in high volume containers (like rice or spices), or with lighting conditions too low to take good enough photos. Grouping these concerns allowed us to design for common paths, and start thinking about what defaults we could include to save them time, and remove the decision making process (and by association errors) from them into the app.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="image">
 
@@ -29,6 +35,8 @@
 <p>At the core of the project was trying to balancing the constraints of the highest quality data, collected in the shortest time possible. Skew too much towards fast collection, and what was collected would take longer to verify with more gaps to fill in. Skew too much towards data quality, and the data collectors in the field would take too long to collect all the food products, and they could miss a grant deadline.</p>
 
 <p>Internally they also wanted this to be quick to build, and easily maintainable across each country that used it. We decided early on, that as much native UI should be used as possible, only using custom if we felt it would significantly further our goal.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="full-width-image">
   
@@ -47,24 +55,36 @@
 </div>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-library.jpg" />
-  <img class="item" src="/assets/projects/george/dc-scan.jpg" />
-  <img class="item" src="/assets/projects/george/dc-mode.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-library.jpg" />
+    <img src="/assets/projects/george/dc-scan.jpg" />
+    <img src="/assets/projects/george/dc-mode.jpg" />
+  </div>
+  
   <figcaption>Visual cues were added to key steps, the UI was brought out to be more prominent, with contextual modes to expedite collection</figcaption>
+  
 </figure>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-checklist.jpg" />
-  <img class="item" src="/assets/projects/george/dc-weigh.jpg" />
-  <img class="item" src="/assets/projects/george/dc-capture.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-checklist.jpg" />
+    <img src="/assets/projects/george/dc-weigh.jpg" />
+    <img src="/assets/projects/george/dc-capture.jpg" />
+  </div>
+  
   <figcaption>Checklist selection determined the next screen, using large, faster to use inputs, and custom photo capture flow</figcaption>
+  
 </figure>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-summary.jpg" />
-  <img class="item" src="/assets/projects/george/dc-warning.jpg" />
-  <img class="item" src="/assets/projects/george/dc-comment.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-summary.jpg" />
+    <img src="/assets/projects/george/dc-warning.jpg" />
+    <img src="/assets/projects/george/dc-comment.jpg" />
+  </div>
+  
   <figcaption>Summary taught data collectors about completeness of their collections, and made it fast to find missing pieces when consulting shop keepers</figcaption>
+  
 </figure>
 
 :ET

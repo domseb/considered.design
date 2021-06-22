@@ -1,20 +1,24 @@
-I"<p>UNSW Sydney (the University of New South Wales), is one of Australia’s leading research and teaching universities. Their <a href="https://www.2025.unsw.edu.au/">2025 Strategic Plan</a> sets out the priorities and themes that will guide the institution over the next decade, to become ‘Australia’s Global University’. To help manage this strategy, a dashboard needed to be created to convey the statuses of all programs under 2025, including their current completion status and budget spend.</p>
+I"�<p>UNSW Sydney (the University of New South Wales), is one of Australia’s leading research and teaching universities. Their <a href="https://www.2025.unsw.edu.au/">2025 Strategic Plan</a> sets out the priorities and themes that will guide the institution over the next decade, to become ‘Australia’s Global University’. To help manage this strategy, a dashboard needed to be created to convey the statuses of all programs under 2025, including their current completion status and budget spend.</p>
 
 <h2 id="the-starting-point">The starting point</h2>
 
 <p>The team had already created a working product for the 2025 Dashboard, but it was tricky to navigate, didn’t have a way to follow up with a specific program’s leader, and was hard to understand it’s current status. A primary concern to the stakeholders, was also being able to drill down into key initiatives and programs, and understanding how they roll up into parent programs.</p>
 
 <figure class="image-grid">
-  <img class="item" src="/assets/projects/unsw/unsw-before-a.jpg" />
-  <img class="item" src="/assets/projects/unsw/unsw-before-b.jpg" />
-  <img class="item" src="/assets/projects/unsw/unsw-before-c.jpg" />
-  <img class="item" src="/assets/projects/unsw/unsw-before-d.jpg" />
-  
+  <div class="items">
+    <img src="/assets/projects/unsw/unsw-before-a.jpg" />
+    <img src="/assets/projects/unsw/unsw-before-b.jpg" />
+    <img src="/assets/projects/unsw/unsw-before-c.jpg" />
+    <img src="/assets/projects/unsw/unsw-before-d.jpg" />
+    
+  </div>
 </figure>
 
 <h2 id="designing-for-clarity">Designing for clarity</h2>
 
 <p>After getting shared understanding on the current product, we worked together to map out key goals, and the ideal flows the stakeholders wanted from the dashboard. Aside from clearer understanding when communicating status and budget allocation, they wanted everything to roll up to a big, exciting 2025 goal, so everyone can see how their projects fit into the larger initiative.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="full-width-image">
   
@@ -30,12 +34,16 @@
   <p>As this project uses sensitive budget information, only a segment of the designs are shown, with mock figures only.</p>
 </div>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
 <img class="border" src="/assets/projects/unsw/budget-cards-b.png" alt="" />
 
 </figure>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -44,12 +52,16 @@
 
 </figure>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
 <img class="border" src="/assets/projects/unsw/status-cards-b.png" alt="" />
 
 </figure>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -58,12 +70,16 @@
 
 </figure>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
 <img class="border" src="/assets/projects/unsw/budget-cards.jpg" alt="" />
 
 </figure>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -72,12 +88,16 @@
 
 </figure>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
 <img class="border" src="/assets/projects/unsw/status-cards.jpg" alt="" />
 
 </figure>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   

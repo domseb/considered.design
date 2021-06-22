@@ -1,4 +1,5 @@
-I"F
+I"�<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="full-width-hero">
 
   
@@ -16,6 +17,8 @@
 
 <p>Before, when you needed to add in an image to your project, you’d be presented with an overlay, where you could select one of the images we had in our collection, or upload your own. It looked like this:</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -26,6 +29,8 @@
 <p>There were a handful of issues with this design. A few were well understood functional gaps, like not being able to search the library, or view images you’d recently used or uploaded. This can really affect repeated use, because each time you wanted to use an image in your project, it felt like you were starting from scratch again.</p>
 
 <p>These well understood issues aside, there was also a much larger and harder to define issue remaining; exploring the library and playing around with different image options felt like a long, burdened decision process. In any creative work, the longer the design decision takes, the more doubt will start to creep in over the outcome—and that’s the last thing we wanted. We want Qwilr to help facilitate fast, empowered design decisions that users love and are excited to share. As soon as we realised this, choosing great images with speed became the core focus in our design process. Below are a few key parts I’m very proud to share of the new design.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -38,6 +43,8 @@
 
 <p>After exploring a few different directions, we found the fastest way to find great imagery was to never leave the project itself. Instead, we could bring up the image library in context, exactly where you were working. With this we could present images grouped by a theme or collection, so trying alternatives is easier. We could cut finding an image down to two clicks, rather than the previous 5. Most importantly though — you could play with variations faster without losing momentum in your work.</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -48,6 +55,8 @@
 <h2 id="shuffle-to-find-something-new">“Shuffle” to find something new</h2>
 
 <p>Sometimes you don’t know what image will work until you see it, and getting momentum in that early discovery phase is important to get past creative block. With the “Shuffle” button, clicking it puts a new collection at random into the carousel, so you can cycle through different themes faster when you’re stuck on what would work best with your content.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   

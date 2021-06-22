@@ -1,13 +1,15 @@
-I"�<h2 id="my-first-startup-experience">My first startup experience</h2>
+I"<h2 id="my-first-startup-experience">My first startup experience</h2>
 
 <p>It’s not exactly relevant or any indication of my design skills today, but this was a significant experience in my design career—my first true startup experience. Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I’ve learnt to my time there. A studio truly ahead of it’s time. Below are some of my favourite projects I designed whilst I was there.</p>
 
 <figure class="image-grid">
-  <img class="item" src="/assets/projects/digicave/cal.jpg" />
-  <img class="item" src="/assets/projects/digicave/box-1.jpg" />
-  <img class="item" src="/assets/projects/digicave/htc-3.jpg" />
-  <img class="item" src="/assets/projects/digicave/museum-1.jpg" />
-  
+  <div class="items">
+    <img src="/assets/projects/digicave/cal.jpg" />
+    <img src="/assets/projects/digicave/box-1.jpg" />
+    <img src="/assets/projects/digicave/htc-3.jpg" />
+    <img src="/assets/projects/digicave/museum-1.jpg" />
+    
+  </div>
 </figure>
 
 <h2 id="the-process">The process</h2>
@@ -15,15 +17,21 @@
 <p>Their proprietary 46 camera rig could capture and model an object using <a href="https://en.wikipedia.org/wiki/Photometry_(optics)">photometry</a>. Our leading edge was that we put capture quality first, with unbeatable industry knowledge. The level of detail was so good, we could capture pores on a models face, and individual strands of hair. I was hired as their first designer, responsible for all design work that came out of the studio.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/digicave/photo-3.jpg" />
-  <img class="item" src="/assets/projects/digicave/photo-2.jpg" />
-  <img class="item" src="/assets/projects/digicave/photo-1.jpg" />
+  <div class="items">
+    <img src="/assets/projects/digicave/photo-3.jpg" />
+    <img src="/assets/projects/digicave/photo-2.jpg" />
+    <img src="/assets/projects/digicave/photo-1.jpg" />
+  </div>
+  
   <figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+  
 </figure>
 
 <h2 id="tedx-houses-of-parliament">TEDx Houses of Parliament</h2>
 
 <p>Our work for TEDx focussed on putting users in control of the frame. Throughout the day the attendees could find custom TEDxHoP posters to scan with our app. Each frame had a unique AR scene we had built for them, which they could move around and find their perfect angle to capture, and share online with the world. <a href="https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes">TEDx Houses of Parliament</a></p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -36,12 +44,16 @@
 
 <p>HTC needed a way to create a deeper product understanding of the HTC One for it’s upcoming release, and wanted to move away from the expensive and ineffective print material they were using. Our solution was an augmente reality avatar, highlighting core value propositions of the device through interactive and visual storytelling. <a href="https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar">HTC Specialist AR App</a></p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
 <img class="border" src="/assets/projects/digicave/htc-2.jpg" alt="" />
 
 </figure>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -53,6 +65,8 @@
 <h2 id="hello-magazine">Hello Magazine</h2>
 
 <p>​Hello! Magazine has a readership of reaches over <a href="http://www.hellomagazine.com/marketing/marketing01.html">2 million adults in the UK every week</a>. For the Queen’s Diamond Jubilee, the magazine wanted something special for their readers. We captured Gary Barlow, the signer at the centre of the celebrations, to create the an interactive augmented reality cover. A worldwide publishing first.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -66,16 +80,20 @@
 <p>James May Science Stories was under development when I joined, and was designing by a contractor before I started. After initial design work was done though, there was a stream of changes and updates that had to be made, including design for additional marketing collateral during my time there. The combination of our high capture quality and storytelling talent meant AR avatars became a model of what we were known for – and they were very fun to work on. You can download and play with the app <a href="https://itunes.apple.com/pk/app/james-mays-science-stories/id517111167?mt=8">here.</a></p>
 
 <figure class="image-grid">
-  <img class="item" src="/assets/projects/digicave/rig-1.jpg" />
-  <img class="item" src="/assets/projects/digicave/rig-2.jpg" />
-  <img class="item" src="/assets/projects/digicave/rig-3.jpg" />
-  <img class="item" src="/assets/projects/digicave/rig-4.jpg" />
-  
+  <div class="items">
+    <img src="/assets/projects/digicave/rig-1.jpg" />
+    <img src="/assets/projects/digicave/rig-2.jpg" />
+    <img src="/assets/projects/digicave/rig-3.jpg" />
+    <img src="/assets/projects/digicave/rig-4.jpg" />
+    
+  </div>
 </figure>
 
 <h2 id="we-love-pop">We Love Pop</h2>
 
 <p>We Love Pop was a precursor to the Hello! Magazine front cover, and what became a popular format for publishers to play with augmented reality experiences. Rather than creating high poly models of objects and people we’d captured in the rig, we could overlay someone’s face onto a magazine cover, live. Watch an <a href="https://vimeo.com/84395127">example on Vimeo.</a></p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   

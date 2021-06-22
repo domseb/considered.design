@@ -1,4 +1,5 @@
-I"=0
+I"�4<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="full-width-hero">
 
   
@@ -17,6 +18,8 @@
 <h2 id="the-starting-point">The starting point</h2>
 
 <p>Before the redesign, every project you had on Qwilr came with a handful of preset styles to choose from. These presets managed the alignment and colour of that section, the available colours being whatever was set as the global brand colours on your account. What worked really well with this approach was being able to quickly browse styles to see which one was best suited to your content, with minimal decision tax. The main problem, though, was that anything you wanted to edit (either font size, individual item colour or alignment), all had to be done with CSS. It looked something like this:</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -41,6 +44,8 @@
 
 <p>Our guiding question in place, we started at the hardest area first — the editor used to create new styles. After speaking with a bunch of users, our initial design work focussed on having controls for every element in the block, to expand what could be controlled. This included controls for styling the heading, and separate controls the subheading etc. It made what should feel like a quick thing to change actually feel overwhelming with the choices available.</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -52,6 +57,8 @@
 
 <p>In some ways this was great, because it surfaced all the controls a user needed to edit style, really minimising the dependency on CSS. In other ways though, it was quite far removed from Qwilr’s design principles. For lack of better wording, it just didn’t feel right to use, and was overcomplicating the process. To help highlight this a bit better, here’s a little insight into our design process, for how we order our ideas when we create new features:</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -61,6 +68,8 @@
 
 <p>Bearing this in mind, we thought about how we can reduce the number of UI controls, without loosing any style control. We started experimenting with how we could group multiple controls into one, so creating styles could be faster, and easier to get good design outcomes. This is quite close to how we as designers think about creating designs for documents and websites, and was a way to keep all the text as part of the same size relationship.</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -69,6 +78,8 @@
 </figure>
 
 <p>After testing this round with users, it seemed like a good compromise between good outcomes without going overboard on controls. The feedback at this stage though made it clear we’d still need to expand on our style controls going forward, and being in the same view didn’t give it much room to grow over time. To tackle this, we moved everything into a style editor overlay, which gave the editing experience a little more focus, and gave us important space to grow the feature down the track as and when we needed.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -81,6 +92,8 @@
 
 <p>A great (although not unexpected) side effect of being able to quickly create more expressive styles, was a need to improve how we preview those styles, so you can quickly find the one you’re looking for. The previous design had a small thumbnail about half the size of a stamp, which used little blocks to represent the colours and alignment of the heading, subheading and body text. The problem with our design ideas, was we were introducing new sizes for all the text, which made using this mini preview harder to distinguish between similar styles. Here’s an example to highlight the difficulty:</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="wide-image">
   
   
@@ -89,6 +102,8 @@
 </figure>
 
 <p>After <a href="https://medium.com/@dominosebastian/introducing-our-all-new-image-carousel-e428d5547849">releasing the new Image Carousel</a>, we thought the carousel would also fit well to browse your styles. Initially we were using mini previews of the block, using demo text shrunken down so you could see how the style might be applied.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   
@@ -100,6 +115,8 @@
 <p>While this was quite an effective preview, it actually looked really messy and overwhelming when it was open. It felt like a slow, burdened choice, and wasn’t particularly fun to use — it was ignoring our guiding principle of being empowering and fast to use.</p>
 
 <p>In the end, we settled on re-using the block visualisation, just at a bigger scale to see the differences, with their style names. While it feels visually simpler, and in theory should work well for our varied (and growing) block types, we still think we can do better. Creating a visual shorthand for blocks is challenging, especially when you don’t want to overwhelm with details and choice.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   

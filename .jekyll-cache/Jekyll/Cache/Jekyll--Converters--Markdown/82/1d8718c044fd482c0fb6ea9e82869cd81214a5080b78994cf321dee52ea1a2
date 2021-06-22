@@ -1,4 +1,4 @@
-I"�<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of its flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
+I"<p>The George Institute for Global Health is a health and medical research institute whose mission is to improve the health of millions of people worldwide. One of its flagship products, Foodswitch, lets people scan food products to better understand their nutritional content, and make more informed choices in their diet.</p>
 
 <p>Available in 8 countries, the service relies on the companies independent and comprehensive data set of every food product in the country, which also has a stream for crowdsourcing new data. After winning a grant from the Bill &amp; Melinda Gates Foundation, The George Institute for Global Health had to design a new data collection app to expand into India.</p>
 
@@ -7,15 +7,21 @@
 <p>The team had already created a data collector app, as a companion of their core Foodswitch app. Some usability and flow issues aside, the biggest issue was it couldn’t be sued to collect anything without a barcode, and relied on lots of heavy text English cues to understand how to use it.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/collector-a.jpg" />
-  <img class="item" src="/assets/projects/george/collector-b.jpg" />
-  <img class="item" src="/assets/projects/george/collector-c.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/collector-a.jpg" />
+    <img src="/assets/projects/george/collector-b.jpg" />
+    <img src="/assets/projects/george/collector-c.jpg" />
+  </div>
+  
   <figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+  
 </figure>
 
 <h2 id="designing-for-context-in-india">Designing for context in India</h2>
 
 <p>Potential language barriers aside, the physical context of data collection in India introduced lots of new design considerations. The normal process is to scan the product, take a picture, and confirm it’s details. However products in Indian markets could be stacked out of reach (requiring assistance to capture them), grouped in high volume containers (like rice or spices), or with lighting conditions too low to take good enough photos. Grouping these concerns allowed us to design for common paths, and start thinking about what defaults we could include to save them time, and remove the decision making process (and by association errors) from them into the app.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="image">
 
@@ -30,6 +36,8 @@
 
 <p>Internally they also wanted this to be quick to build, and easily maintainable across each country that used it. We decided early on, that as much native UI should be used as possible, only using custom if we felt it would significantly further our goal.</p>
 
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
 <figure class="full-width-image">
   
   
@@ -42,24 +50,36 @@
 <p>The result was an app that could be used with minimal on site training, clear markers for “completed” captured products, and easy paths to fill in the gaps after with the store owner if needed. We designed options to be remembered, so if you’re scanning in an aisle of barcoded products, you don’t need to keep switching it back to “scan”. We also included modes the user could define upfront, like “photos not possible” (say if lighting conditions were really poor), which would then bypass steps they knew wouldn’t be possible.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-library.jpg" />
-  <img class="item" src="/assets/projects/george/dc-scan.jpg" />
-  <img class="item" src="/assets/projects/george/dc-mode.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-library.jpg" />
+    <img src="/assets/projects/george/dc-scan.jpg" />
+    <img src="/assets/projects/george/dc-mode.jpg" />
+  </div>
+  
   <figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+  
 </figure>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-checklist.jpg" />
-  <img class="item" src="/assets/projects/george/dc-weigh.jpg" />
-  <img class="item" src="/assets/projects/george/dc-capture.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-checklist.jpg" />
+    <img src="/assets/projects/george/dc-weigh.jpg" />
+    <img src="/assets/projects/george/dc-capture.jpg" />
+  </div>
+  
   <figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+  
 </figure>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/projects/george/dc-summary.jpg" />
-  <img class="item" src="/assets/projects/george/dc-warning.jpg" />
-  <img class="item" src="/assets/projects/george/dc-comment.jpg" />
+  <div class="items">
+    <img src="/assets/projects/george/dc-summary.jpg" />
+    <img src="/assets/projects/george/dc-warning.jpg" />
+    <img src="/assets/projects/george/dc-comment.jpg" />
+  </div>
+  
   <figcaption>An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk</figcaption>
+  
 </figure>
 
 <p>This product is current being used for data collection in India, and more details will be added to this project after the first grant deadline.</p>

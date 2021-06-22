@@ -1,11 +1,13 @@
-I"�<p>To put it mildly, it’s been a weird time for everyone recently. I was due to fly home to London for a visit in April, but because my Mum is in a high risk category, I’d be in quarantine for as long as the trip was originally booked for, and we needed to cancel the trip. Even if we lived next door we wouldn’t be able to visit now, but not being allowed to see her in London, or my wife’s parents in New Zealand, it makes us all feel a little further than we are. Our saving grace in all this? Mia’s Moments, our family WhatsApp group.</p>
+I"5<p>To put it mildly, it’s been a weird time for everyone recently. I was due to fly home to London for a visit in April, but because my Mum is in a high risk category, I’d be in quarantine for as long as the trip was originally booked for, and we needed to cancel the trip. Even if we lived next door we wouldn’t be able to visit now, but not being allowed to see her in London, or my wife’s parents in New Zealand, it makes us all feel a little further than we are. Our saving grace in all this? Mia’s Moments, our family WhatsApp group.</p>
 
 <p>I’ve taken more pictures in my daughter’s first year than I have in the 5 parent free years before that. Every first and every fall is faithfully captured, and sent with a caption to Mia’s Moments. Her first day. Her first bath. Her first giggle. A steadily growing timeline of her life, which during this time of isolation, has been our fallback for family connection. With this group no one is missing out, and no group is closer than the other. In the best possible way, we’re all just at an arm’s length.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/blog/born.jpg" />
-  <img class="item" src="/assets/blog/mia-passport.jpg" />
-  <img class="item" src="/assets/blog/ball.jpg" />
+  <div class="items">
+    <img src="/assets/blog/born.jpg" />
+    <img src="/assets/blog/mia-passport.jpg" />
+    <img src="/assets/blog/ball.jpg" />
+  </div>
   
 </figure>
 
@@ -20,15 +22,21 @@
 <p>I think part of why we take so many pictures is there’s a tiny comfort in capturing a moment, even if it is an illusion of preserving it in memory. Colourful manhole covers in Japan, taken on a walk with friends in Hakuba. An ornate ferry token in New Zealand, during a trip for someone’s 30th. A picture of a pint from a trip home with a close mate in London — these are all moments I’d love to remember and relive, but have quickly faded from memory as soon as I’ve taken them and locked my phone.</p>
 
 <figure class="image-trio">
-  <img class="item" src="/assets/blog/hakuba.jpeg" />
-  <img class="item" src="/assets/blog/coffee.jpeg" />
-  <img class="item" src="/assets/blog/ferry.jpeg" />
+  <div class="items">
+    <img src="/assets/blog/hakuba.jpeg" />
+    <img src="/assets/blog/coffee.jpeg" />
+    <img src="/assets/blog/ferry.jpeg" />
+  </div>
+  
   <figcaption>Faded memories from Japan, Sydney and New Zealand</figcaption>
+  
 </figure>
 
 <p>While some I could print and frame somewhere, there is a finite amount of space in my home to put them. What I’d find more valuable is being able to surface pictures of certain people and moments in my photos when I want to, or when would be meaningful to be reminded of them. The problem with this is my iPhone is completely unaware of the emotional context of my pictures and the people in them. Is that an ex, or an old school friend? A reunion, or a Monday? My first picture with someone, or my last?</p>
 
 <p>I think there’s a small but meaningful change adding a “People” tab to the Photos app, and connecting it to other Apple services. My closest friends live in London and New York, and we’ve got an iMessage group that must be nearly 10 years old, and is still active almost daily. The People tab could easily group photos of us through that group (the same way it does on the newer share options). It could show me the photos and memories we have together, and be a way to surface those natively in iMessage, or a path to FaceTime them directly from a memory in Photos.</p>
+
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 <figure class="wide-image">
   

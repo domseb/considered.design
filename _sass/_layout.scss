@@ -13,11 +13,28 @@ body {
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
   --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
-  --smoke: hsla(var(--hue, 0), 0%, 60%, var(--opacity));
+  --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity));
+  --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity));
   // spacing variables
   --spacer: 20px;
   --spacer-medium: 40px;
   --spacer-large: 100px;
+}
+
+// THEMES
+
+.indigo {
+  --hue: 235;
+}
+.test {
+  --hue: 235;
+}
+.jub {
+  --hue: 100;
+}
+.work {
+  --hue: 340;
+  // --lightness: 100%;
 }
 
 .tiles {
@@ -126,22 +143,6 @@ hr {
   }
 }
 
-// THEMES
-
-.indigo {
-  --hue: 235;
-}
-.test {
-  --hue: 235;
-}
-.jub {
-  --hue: 100;
-}
-.work {
-  --hue: 340;
-  // --lightness: 100%;
-}
-
 // LAYOUTS
 // Needs a minimum height in px to avoid clipping. Maybe a max too?
 .dom-face {
@@ -199,10 +200,17 @@ section {
 }
 
 article {
-  width: clamp(150px, 85vw, 650px);
+  display: grid;
   @include margin(3, 5);
-  margin-left: auto;
-  margin-right: auto;
+  place-items: center;
+
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    width: clamp(150px, 85vw, 650px);
+  }
 }
 
 .label {
@@ -211,7 +219,7 @@ article {
   background: white;
   display: inline-flex;
   padding-right: 0.5em;
-  font-size: $base-font-size;
+  font-size: $base-font-size + px;
   letter-spacing: 1px;
   margin: 0;
   font-family: "Degular Regular";
