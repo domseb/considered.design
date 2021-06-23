@@ -1,25 +1,30 @@
 @mixin split($gap) {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: $gap;
 }
 
 @mixin thirds($gap) {
-  display: inline-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: $gap;
+}
+
+@mixin triplets($gap) {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: $gap;
 }
 
 @mixin aside($gap) {
-  display: inline-grid;
-  grid-template-columns: 3fr 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: $gap;
-}
 
-@mixin aside-test($gap) {
-  display: inline-grid;
-  grid-template-columns: auto 25%;
-  gap: $gap;
+  h2,
+  > div:first-child {
+    grid-column-end: span 3;
+  }
 }
 
 @mixin spacing($margin, $padding) {
