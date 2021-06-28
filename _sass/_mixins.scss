@@ -37,16 +37,6 @@
   margin-bottom: #{$bottom * $base-line-height + "rem"};
 }
 
-// @mixin line-height($number) {
-//   line-height: #{$number * $line-height};
-// }
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
-
 @mixin font-size($min, $max) {
   font-size: clamp(
     #{$min * $base-font-size + "px"},

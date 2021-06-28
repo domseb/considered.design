@@ -11,15 +11,9 @@
 $base-font-size: 20;
 $base-line-height: 1.5;
 
-// TODO deprecate for clamp
-$on-laptop: 1155px;
-$on-tablet: 768px;
-$on-palm: 480px;
-
 // Animation
 $transition: 0.3s ease;
 $default-transition: 0.3s ease;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "carousel", "syntax-highlighting", "components",
-  "images";
+@import "base", "layout", "syntax-highlighting", "components", "images";

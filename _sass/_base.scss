@@ -151,13 +151,13 @@ p {
 }
 
 .light {
-  font-family: "Degular Light";
+  font-family: "Degular Light" !important;
 }
 .regular {
-  font-family: "Degular Regular";
+  font-family: "Degular Regular" !important;
 }
 .bold {
-  font-family: "Degular Bold";
+  font-family: "Degular Bold" !important;
 }
 
 // h1,
@@ -290,6 +290,18 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.label {
+  transform: translateY(1.7em);
+  text-transform: uppercase;
+  background: white;
+  display: inline-flex;
+  padding-right: 0.5em;
+  font-size: $base-font-size + px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-family: "Degular Regular";
 }
 
 .button {

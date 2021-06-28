@@ -1,7 +1,4 @@
 nav {
-  // @include spacing($space-m $space-l,auto);
-  // @include border(bottom, 1px, $primary);
-  // background-color: $secondary;
   height: var(--space-large);
   width: 100vw;
   position: fixed;
@@ -19,33 +16,13 @@ nav {
   // @include media-query($on-palm) {
   // }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
-    @include spacing(0, 0);
-  }
-
-  .logo {
-    font-family: "Degular Bold" !important;
-    margin: 0 !important;
-  }
-
-  .nav-links {
-    display: inline-flex;
-    align-items: center;
-    font-size: $base-font-size;
-  }
-
-  .active .page-link {
+  .active {
     // color: var(--accent);
     // color: rgba($primary, 1);
   }
-
-  .page-link {
-    // @include spacing(0,0 $space-s 0 0);
+  p {
+    @include spacing(0, 0);
+    display: inline-grid;
     font-family: "Degular Regular";
     // color: rgba($primary, 1);
     color: var(--accent);
@@ -59,28 +36,17 @@ nav {
       @include transition(all $transition);
     }
   }
-
-  // .logotype {
-  //   display: inline-flex;
-  //   @include media-query($on-tablet) {
-  //     display: none;
-  //   }
-  // }
 }
 
 .footer {
-  // @include spacing($space-m $space-l,auto);
   display: flex;
-  width: 100%;
+  width: 100vw;
   background: var(--accent);
   justify-content: space-between;
   align-items: center;
   position: absolute;
   z-index: 99;
-  color: white;
   padding: 2vw 5vw 2vw 5vw;
-  // h1, h2, h3, h4, h5, a { @include spacing(0,0); color: white; }
-  // p { @include font-style(regular, 1.5, rgba(white, .75), 1.5, 0,$space-xs 0 0 0); }
 
   * {
     color: white;

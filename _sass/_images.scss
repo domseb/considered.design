@@ -16,14 +16,14 @@
 }
 
 .full-width-hero {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  @include margin(-3, 3);
+  margin-top: -93px;
+  margin-bottom: 4.5rem;
   z-index: -1;
+  border-radius: 0 !important;
+
+  img {
+    border-radius: 0;
+  }
 }
 
 .full-width-image {

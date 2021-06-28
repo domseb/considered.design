@@ -1,18 +1,16 @@
 <nav>
-  <div class="nav-links">
+  <div>
     <p {% if page.url == '/' %} class="active"{% endif %}>
-      <a class="page-link logo fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a>
+      <a class="bold fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a>
     </p>
     <p {% if page.url == '/work/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-1" href="/work/">Work</a>
+      <a class="fade-in-up-1" href="/work/">Work</a>
     </p>
     <p {% if page.url == '/blog/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-2" href="/blog/">Thoughts</a>
+      <a class="fade-in-up-2" href="/blog/">Thoughts</a>
     </p>
   </div>
-  <div class="nav-links">
-    <p {% if page.url == '/profile/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-3" href="/profile/">Created by Dominic Sebastian</a>
-    </p>
-  </div>
+  <p {% if page.url == '/profile/' %} class="active"{% endif %}>
+    <a class="fade-in-up-3" href="/profile/">Created by Dominic Sebastian</a>
+  </p>
 </nav>
