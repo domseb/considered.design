@@ -61,6 +61,11 @@ figure {
   "../assets/fonts/Degular_Display-Black_Italic",
   ("woff2", "woff")
 );
+@include font-face(
+  "Obviously",
+  "../assets/fonts/Obviously-Condensed",
+  ("woff2", "woff")
+);
 
 body {
   font-family: "Degular Regular";

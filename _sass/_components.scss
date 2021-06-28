@@ -22,13 +22,20 @@ nav {
   }
   p {
     @include spacing(0, 0);
+    @include font-size(1, 2);
     display: inline-grid;
-    font-family: "Degular Regular";
-    // color: rgba($primary, 1);
     color: var(--accent);
     display: inline-flex;
-    margin-left: 16px;
+    margin-left: var(--spacer);
     @include transition(all $transition);
+    font-family: "Obviously";
+    text-transform: uppercase;
+    font-feature-settings: normal;
+
+    span {
+      @include font-size(0.5, 1);
+      margin-right: var(--spacer);
+    }
 
     &:hover {
       // color: rgba($primary, 1);
@@ -39,7 +46,8 @@ nav {
 }
 
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100vw;
   background: var(--accent);
   justify-content: space-between;
@@ -50,5 +58,6 @@ nav {
 
   * {
     color: white;
+    @include spacing(0, 0);
   }
 }
