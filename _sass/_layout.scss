@@ -151,6 +151,13 @@ hr {
   place-items: center;
   background: var(--background);
 
+  .byline {
+    font-family: "Obviously";
+    text-transform: uppercase;
+    font-feature-settings: normal;
+    line-height: 1.2;
+  }
+
   > div {
     width: 90vw;
     align-self: end;
