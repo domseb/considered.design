@@ -1,0 +1,7 @@
+<div class="credits space-reset">
+  {% for collaborators in page.collaborators %}
+  <img src="/assets/projects/collaborators/{{ collaborators.name }}.jpg" />
+  <h5>{{ collaborators.name }}</h5>
+  <h5>{{ collaborators.role }}</h5>
+  {% endfor %}
+</div>

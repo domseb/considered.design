@@ -64,6 +64,22 @@ section {
   }
 }
 
+.credits {
+  width: clamp(150px, 85vw, 650px);
+  display: grid;
+  grid-template-columns: 60px auto auto;
+  align-items: center;
+  gap: var(--spacer);
+
+  h5 {
+    width: auto !important;
+  }
+
+  h5:nth-child(3n + 0) {
+    justify-self: end;
+  }
+}
+
 hr {
   margin: 20px 0 20px 0;
   border: 0.5px solid var(--dark, grey);
@@ -73,6 +89,12 @@ hr {
   transform: translateY(40px);
 }
 
+.ghost {
+  @include font-size(5, 25);
+  color: var(--smoke);
+  margin-bottom: -1em !important;
+}
+
 .space-reset {
   h1,
   h2,
@@ -80,7 +102,8 @@ hr {
   h4,
   h5,
   h6,
-  p {
+  p,
+  img {
     // @include spacing(0 !important, 0 !important);
     margin-top: 0 !important;
     margin-bottom: 0 !important;
@@ -128,6 +151,11 @@ hr {
   :last-child {
     transform: translateY(5%);
   }
+}
+
+.postcards {
+  @include fifths(8px);
+  margin: 20px 0 20px 0;
 }
 .chapters {
   position: relative;

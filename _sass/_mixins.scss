@@ -10,6 +10,12 @@
   gap: $gap;
 }
 
+@mixin fifths($gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  gap: $gap;
+}
+
 @mixin triplets($gap) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

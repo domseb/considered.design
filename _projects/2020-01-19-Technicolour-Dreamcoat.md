@@ -21,7 +21,23 @@ image: /assets/projects/qwilr/qwilr-banner.jpg
 
 link1url: https://www.smartsparrow.com/
 link1name: Smart Sparrow
+
+collaborators:
+  -
+    name: "Sarah"
+    role: "project lead"
+    start_date: "2016-02-01"
+  -
+    name: "Jane"
+    role: maintainer
+    start_date: "2018-03-15"
+  -
+    name: "Albert"
+    role: editor
+    start_date: "2017-12-01"
 ---
+
+{% include modules/credits.html %}
 
 Qwilr (pronounced quill-er) is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile. <br><br> I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
 
