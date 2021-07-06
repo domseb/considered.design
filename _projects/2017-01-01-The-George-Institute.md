@@ -1,6 +1,7 @@
 ---
 layout: project
 refID: secondary
+chapter: two
 
 company: The George Institute
 timeline: 2017

@@ -134,10 +134,12 @@ h5 {
   color: var(--dark);
   text-transform: uppercase;
   // font-size: 24px;
-  @include font-size(1, 1.5);
+  // @include font-size(1, 1.5);
   letter-spacing: 1px;
   line-height: 1;
-  @include margin(1, 0);
+  @include margin(1, 0.5);
+  font-size: $base-font-size + px;
+  font-family: "Degular Regular";
 }
 
 h6 {
@@ -299,14 +301,10 @@ pre {
 
 .label {
   transform: translateY(1.7em);
-  text-transform: uppercase;
   background: white;
   display: inline-flex;
   padding-right: 0.5em;
-  font-size: $base-font-size + px;
-  letter-spacing: 1px;
   margin: 0;
-  font-family: "Degular Regular";
 }
 
 .button {

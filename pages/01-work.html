@@ -36,8 +36,15 @@ description: I mainly write about design, film, and observations in between. I m
     </div>
   </div>
   <div class="postcards">
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
+    {% assign chapters = site.projects | where: "chapter","one" %} {% for
+    project in chapters %}
+    <a href="{{ project.url }}">
+      <div style="background-image: url(/assets/projects/poster-test.jpg">
+        <h3 class="byline">{{ project.title }}</h3>
+        <h3>{{ project.title }}</h3>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 <section>
@@ -60,10 +67,15 @@ description: I mainly write about design, film, and observations in between. I m
     </div>
   </div>
   <div class="postcards">
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
+    {% assign chapters = site.projects | where: "chapter","two" %} {% for
+    project in chapters %}
+    <a href="{{ project.url }}">
+      <div style="background-image: url(/assets/projects/poster-test.jpg">
+        <h3 class="byline">{{ project.title }}</h3>
+        <h3>{{ project.title }}</h3>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 <section>
@@ -86,10 +98,15 @@ description: I mainly write about design, film, and observations in between. I m
     </div>
   </div>
   <div class="postcards">
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
+    {% assign chapters = site.projects | where: "chapter","three" %} {% for
+    project in chapters %}
+    <a href="{{ project.url }}">
+      <div style="background-image: url(/assets/projects/poster-test.jpg">
+        <h3 class="byline">{{ project.title }}</h3>
+        <h3>{{ project.title }}</h3>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 <section>
@@ -102,7 +119,6 @@ description: I mainly write about design, film, and observations in between. I m
       <div class="awards">
         <img src="/assets/projects/cannes.svg" />
         <img src="/assets/projects/cannes.svg" />
-        <img src="/assets/projects/cannes.svg" />
       </div>
       <p>
         2020 has been a complete shit show, for all the obvious reasons and a
@@ -110,18 +126,5 @@ description: I mainly write about design, film, and observations in between. I m
         this behind me with progress.
       </p>
     </div>
-  </div>
-</section>
-<section>
-  <div class="projects fade-in-up-3">
-    {% for project in site.projects reversed %}
-    <a class="card {{ project.refID }}" href="{{ project.url }}">
-      <div class="context">
-        <h3>{{ project.project }}</h3>
-        <p>{{ project.role }}, {{ project.timeline }}</p>
-        <p class="description">{{ project.description }}</p>
-      </div>
-    </a>
-    {% endfor %}
   </div>
 </section>

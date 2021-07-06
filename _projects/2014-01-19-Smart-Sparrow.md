@@ -1,6 +1,7 @@
 ---
 layout: project
 refID: secondary
+chapter: two
 
 company: Smart Sparrow
 timeline: 2014 — 2017

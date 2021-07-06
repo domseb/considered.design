@@ -1,5 +1,6 @@
 ---
 layout: project
+chapter: three
 refID: secondary
 theme: jub
 project: Technicolour Dreamcoat
@@ -37,7 +38,13 @@ collaborators:
     start_date: "2017-12-01"
 ---
 
+### Collaborators
+
+Summarising the importance of collaborators, and what our actual responsibilities are beyond the titles.
+
 {% include modules/credits.html %}
+
+### The story begins...
 
 Qwilr (pronounced quill-er) is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile. <br><br> I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
 
