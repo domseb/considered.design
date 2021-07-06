@@ -47,7 +47,7 @@
 
   img {
     box-shadow: 0px 15px 35px var(--feather);
-    border-radius: 10px;
+    border-radius: var(--spacer-small);
     border: 1px solid var(--feather);
   }
 }
@@ -63,7 +63,7 @@
     gap: var(--spacer);
   }
   img {
-    border-radius: 10px;
+    border-radius: var(--spacer-small);
     border: 2px solid rgba(77, 100, 111, 0.15);
     box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
   }
@@ -81,7 +81,7 @@
   }
 
   img {
-    border-radius: 10px;
+    border-radius: var(--spacer-small);
     border: 2px solid rgba(77, 100, 111, 0.15);
     box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
   }
