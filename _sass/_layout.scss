@@ -34,7 +34,12 @@ body {
 }
 .work {
   --hue: 340;
-  // --lightness: 100%;
+}
+.onyx {
+  --background: var(--onyx);
+  img {
+    width: clamp(400px, 50vw, 1000px);
+  }
 }
 
 // CORE
@@ -183,8 +188,7 @@ hr {
 
 .impact {
   display: grid;
-  // @include aside(40px);
-  height: 90vh;
+  height: calc(100vh - var(--spacer-large));
   place-items: center;
   background: var(--background);
 
