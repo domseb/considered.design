@@ -1,5 +1,5 @@
 nav {
-  height: var(--space-large);
+  // height: var(--space-large);
   width: 100vw;
   position: fixed;
   place-items: center;
@@ -17,12 +17,76 @@ nav {
   // }
 
   .active {
-    // color: var(--accent);
-    // color: rgba($primary, 1);
+    &:after {
+      content: "";
+      width: 5em;
+      height: 2em;
+      // background-image: url(/assets/site/ring-a.svg);
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: 200px;
+      -webkit-mask: url(/assets/site/ring-a.svg) no-repeat center;
+      mask: url(/assets/site/ring-a.svg) no-repeat center;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      background: var(--accent);
+      position: absolute;
+    }
+  }
+  .active-b {
+    &:after {
+      content: "";
+      width: 3em;
+      height: 3em;
+      // background-image: url(/assets/site/ring-a.svg);
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: 200px;
+      -webkit-mask: url(/assets/site/line-a.svg) no-repeat center;
+      mask: url(/assets/site/line-a.svg) no-repeat center;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      background: var(--accent);
+      position: absolute;
+    }
+  }
+  .active-c {
+    &:after {
+      content: "";
+      width: 3em;
+      height: 4em;
+      // background-image: url(/assets/site/ring-a.svg);
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: 200px;
+      -webkit-mask: url(/assets/site/line-b.svg) no-repeat center;
+      mask: url(/assets/site/line-b.svg) no-repeat center;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      background: var(--accent);
+      position: absolute;
+    }
+  }
+  .active-d {
+    &:after {
+      content: "";
+      width: 8em;
+      height: 2em;
+      // background-image: url(/assets/site/ring-a.svg);
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: 200px;
+      -webkit-mask: url(/assets/site/ring-b.svg) no-repeat center;
+      mask: url(/assets/site/ring-b.svg) no-repeat center;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      background: var(--accent);
+      position: absolute;
+    }
   }
   p {
     @include spacing(0, 0);
-    @include font-size(1, 2);
+    @include font-size(1.2, 2);
     display: inline-grid;
     color: var(--accent);
     display: inline-flex;
@@ -55,7 +119,7 @@ nav {
   position: absolute;
   z-index: 99;
   padding: 2vw 5vw 2vw 5vw;
-  height: var(--spacer-large);
+  // height: var(--spacer-large);
 
   * {
     color: white;

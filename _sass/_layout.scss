@@ -176,8 +176,9 @@ hr {
   position: relative;
   h1 {
     @include font-size(5, 15);
+    @include margin(0, 0);
     position: absolute;
-    transform: translate(-50%, -140%);
+    transform: translate(-50%, -70%);
     top: 50%;
     color: white;
     left: 50%;
@@ -189,17 +190,20 @@ hr {
 
 .impact {
   display: grid;
-  height: calc(100vh - var(--spacer-large));
-  place-items: center;
+  height: 100vh;
+  padding-left: 5vw;
   background: var(--background);
 
   .byline {
     font-family: "Obviously";
     text-transform: uppercase;
     font-feature-settings: normal;
+    color: var(--darkest);
     line-height: 1.2;
+    @include margin(2, 2);
+    width: 80%;
   }
-
+  // This has to be a div, otherwise the background colour won't fill it
   > div {
     width: 90vw;
     align-self: end;
@@ -214,6 +218,40 @@ hr {
   h5 {
     color: var(--darkest);
     font-family: "Degular Bold";
+  }
+}
+
+.impact-2 {
+  display: grid;
+  height: 85vh;
+  place-items: center;
+  background: var(--background);
+  width: 90vw;
+  margin-left: 5vw;
+  align-content: end;
+}
+
+.nostalgia {
+  display: grid;
+  // height: 85vh;
+  place-items: center;
+
+  > div {
+    position: relative;
+    width: clamp(560px, 80vw, 1500px);
+    margin-top: 20vh;
+    // margin: 300px auto;
+  }
+  h1 {
+    @include margin(0, 0);
+    position: absolute;
+    transform: translate(-50%, -60%);
+    top: 50%;
+    color: white;
+    left: 50%;
+    z-index: 99;
+    line-height: 0.85;
+    text-align: center;
   }
 }
 
@@ -251,25 +289,25 @@ hr {
 }
 
 // Needs a minimum height in px to avoid clipping. Maybe a max too?
-.dom-face {
-  background-image: url(/assets/site/dom-profile.jpg);
-  filter: blur(60px);
-  // -webkit-filter: blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-}
+// .dom-face {
+//   background-image: url(/assets/site/dom-profile.jpg);
+//   filter: blur(60px);
+//   // -webkit-filter: blur(8px);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 50vh;
+// }
 
-.photo-bomb {
-  display: grid;
-  width: clamp(500px, 80vw, 1200px);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
+// .photo-bomb {
+//   display: grid;
+//   width: clamp(500px, 80vw, 1200px);
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   z-index: 2;
+// }
 
 //TODO
 

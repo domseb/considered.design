@@ -6,8 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://considered.design" # the base hostname & protocol for your site
 twitter_username: dominosebastian
-github_username:  domseb
-
+github_username: domseb
 
 # Build settings
 markdown: kramdown
@@ -23,8 +22,8 @@ gems:
   - octopress-autoprefixer
 
 navigation:
-  - title: work
-    url: /work/
+  - title: chapters
+    url: /chapters/
   - title: about
     url: /about/
   - title: writing
