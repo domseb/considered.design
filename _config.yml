@@ -4,7 +4,7 @@ email: dominic@considered.design
 description: > # this means to ignore newlines until "baseurl:"
   Designer • Strategist • Leader — I help products lead on quality.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://considered.design" # the base hostname & protocol for your site
+url: "https://considered.design" # the base hostname & protocol for your site
 twitter_username: dominosebastian
 github_username: domseb
 

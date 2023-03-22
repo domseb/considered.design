@@ -1,2 +1,3 @@
 # My project's README
-# poorly.considered.design
+
+# considered.design
