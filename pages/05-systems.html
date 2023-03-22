@@ -1,0 +1,36 @@
+---
+layout: default
+title: Systems
+permalink: /systems/
+description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
+---
+
+<div class="header-bold">
+    <h1>Structures for understanding.</h1>
+    <h5 class="label">Blah blah blah</h5>
+    <hr />
+</div>
+<div class="listings">
+  <ul>
+    {% for post in site.posts %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h1 class="ordinal" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+        <ul>
+        {% assign date = currentdate %}
+      {% endif %}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+            <h5 class="label">{{ post.date | date_to_string }} — {% assign words = post.content | number_of_words %}{% if words < 360 %}1 min read{% else %}{{ words | divided_by:180 }} min read{% endif %}
+            </h5>
+          <hr />
+            <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+            <p>{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue reading →</a></p>
+          </a>
+          </li>
+      {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+  </ul>
+</div>
+

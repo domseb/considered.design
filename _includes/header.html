@@ -1,30 +1,34 @@
-<div class="nav">
-  <nav class="navbar">
-  <!-- Left side -->
-  <ul class="nav-links">
-    <a href="{{ site.baseurl }}/">
-      <p class="logo">{% include svg/cd-logo.svg %}</a>
-      <p class="logotype">Considered Design</p>
-    </a>
-    <li{% if page.url == '/work/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-1" href="/work/">Work</a>
-    </li>
-    <li{% if page.url == '/blog/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-2" href="/blog/">Blog</a>
-    </li>
-    <li{% if page.url == '/notes/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-2" href="/notes/">Notes</a>
-    </li>
-    <li{% if page.url == '/profile/' %} class="active"{% endif %}>
-      <a class="page-link fade-in-up-3" href="/profile/">Profile</a>
-    </li>
-  </ul>
-  <!-- Right side -->
-  <ul class="cta">
-    <a class="email" href="https://twitter.com/dominosebastian">{% include svg/twitter.svg %}</a>
-    <a class="email2" href="https://dribbble.com/dominicsebastian">{% include svg/dribbble.svg %}</a>
-    <a class="email2" href="mailto:dominic@considered.design">{% include svg/icon-email.svg %}</a>
-    <!-- <li class="page-link">Get in touch</a> -->
-  </ul>
+<nav>
+  <div class="items">
+    <p {% if page.url == '/' %} class="active fade-in-4"{% endif %}>
+      <a class="fade-in-4 logo-a" href="{{ site.baseurl }}/">Considered Design</a>
+      <a class="fade-in-4 logo-b" href="{{ site.baseurl }}/">CD</a>
+    </p>
+    <!-- {% if page.url contains 'work/qwilr' %} 
+    <p class="active fade-in-4">
+      <a href="/work/">Work</a>{% include svg/chevron.svg %}<a href="/chapters/qwilr/">Qwilr</a>
+    </p>
+    {% else %} -->
+    <p {% if page.url == '/work/' %} class="active fade-in-4"{% endif %}>
+      <a class="fade-in-4" href="/work/">Work</a>
+    </p>
+    <!-- {% endif %} -->
+    <p {% if page.url == '/blog/' %} class="active fade-in-4"{% endif %}>
+      <a class="fade-in-4" href="/blog/">Writing</a>
+    </p>
+    <!-- <p {% if page.url == '/profile/' %} class="active fade-in-up-4"{% endif %}>
+      <a class="fade-in-up-4" href="/profile/">Profile</a>
+    </p> -->
+  </div>
+  <div class="cta fade-in-4">
+    {% include svg/dot.svg %}
+    <p>Available for new projects</p>
+    <p class="icon-button" onclick="location.href='mailto:dominic@considered.design'"
+    >{% include svg/Envelope.svg %}</p>
+    <!-- <div class="tooltip">
+      <h6>Email</h6>
+      <p>dominic@considered.design</p>
+      <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">Open in Mail</button>
+  </div>-->
+  </div>
 </nav>
-</div>

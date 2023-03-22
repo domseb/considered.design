@@ -1,0 +1,42 @@
+<svg width="1440" height="940" viewBox="0 0 1440 940" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .pinwheel {
+        animation: pinwheel 15s ease infinite;
+        filter: blur(1.5rem);
+    }
+    .blurred {
+        filter: url(#blur);
+    }
+    @keyframes pinwheel {
+        0% {
+            color: #ee7752;
+        fill: #ee7752;
+        }
+        50% {
+            color: #e73c7e;
+        fill: #e73c7e;
+
+        }
+        100% {
+            color: #23a6d5;
+        fill: #23a6d5;
+        }
+    100% {
+            color: #23d5ab;
+        fill: #23d5ab;
+        }
+    }
+</style>
+<defs>
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+    </filter>
+</defs>
+
+<g clip-path="url(#clip0_50_39437)"> 
+<rect opacity="0.1" width="1440" height="940" fill="black"/>
+<circle opacity="0.2" cx="1230" cy="819" r="586"  class="pinwheel blurred" fill="black"/>
+<circle opacity="0.5" cx="513.5" cy="940.5" r="206.5" class="pinwheel blurred" fill="black"/>
+<circle opacity="0.5" cx="67" cy="904" r="126" class="pinwheel blurred" fill="black"/>
+</g>
+</svg>

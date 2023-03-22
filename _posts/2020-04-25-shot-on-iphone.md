@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Shot on iPhone, forgotten forever
-permalink: /shot-on-iphone/
+permalink: /writing/shot-on-iphone/
+image: /assets/blog/iphone.jpg
 ---
 
 To put it mildly, it’s been a weird time for everyone recently. I was due to fly home to London for a visit in April, but because my Mum is in a high risk category, I’d be in quarantine for as long as the trip was originally booked for, and we needed to cancel the trip. Even if we lived next door we wouldn’t be able to visit now, but not being allowed to see her in London, or my wife’s parents in New Zealand, it makes us all feel a little further than we are. Our saving grace in all this? Mia’s Moments, our family WhatsApp group.
@@ -12,7 +13,7 @@ I’ve taken more pictures in my daughter’s first year than I have in the 5 pa
 
 In the chat we’ve talked about how lucky we are to capture and share moments like this so easily, and how different it was when we were kids. With film cameras, each picture had a mix of uncertainty and anticipation waiting for it to be developed. They had to be more selective about what moments were worth capturing, and having to pay to get them developed also created a sense of occasion. We used burst mode to capture Mia eating her first birthday cake. A disposable Kodak only had 27 chances to capture the entire day.
 
-Something I’ve always loved about film though; it has the useful physical prompt to make you more likely to do something with it. To frame it somewhere, stick it on the fridge, or slip into a laminated photo album with a shorthand for the memory — “Dom, 4 months old, with Uncle Joe. Marsh Green”.  Displayed in the hallway of your home, put on the mantelpiece, or on the dresser by your bed — you’re able to bring a memory into a place you want it to be remembered and relived, so it’s not forgotten.
+Something I’ve always loved about film though; it has the useful physical prompt to make you more likely to do something with it. To frame it somewhere, stick it on the fridge, or slip into a laminated photo album with a shorthand for the memory — “Dom, 4 months old, with Uncle Joe. Marsh Green”. Displayed in the hallway of your home, put on the mantelpiece, or on the dresser by your bed — you’re able to bring a memory into a place you want it to be remembered and relived, so it’s not forgotten.
 
 Mia’s Moments is the closest ritual we have for flicking through a photo album, but it’s more to dip in and out of than a way to cement them as memories, or to externalise them from our phones and into the home. What we all love about it, though, is that we can just scroll through it to feel close to each other. A shared family highlight reel. I find myself going through these images of Mia regularly, exhausted on the couch in front of something shit on Netflix, and often think about how nice a private curated stream would be for other groups of people and moments in my life.
 

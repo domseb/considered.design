@@ -1,12 +1,136 @@
 ---
 layout: default
-refID: bubbly
+theme: dark
 ---
-<div class="hero">
-  <div class="welcome">
-    <h3>Hi there. My name's Dominic</h3>
-    <h1 class="fade-in-up">I'm a design lead focussed on creating long term value in products & teams.</h1>
-    <!-- <p>I care about creating clarity in my work, especially in projects where needs are fuzzy and unknown, through a thoughtful and considered design approach. I think this is the only way design can be truly accessible, and deliver people genuine value.</p> -->
-    <p>Originally from London, I'm currently based in sunny Sydney, working as the Deisgn Lead for Qwilr. Read more about me <a href="/profile">here</a>, or check out my portfolio <a href="/work">here.</a></p>
+
+<div class="banner-image">
+  <section class="hero">
+    <div class="headline">
+      <h4 class="emdash fade-in-up-3"><span>Designer •</span><span>Strategist •</span><span>Leader</span></h4>
+      <h1 class="rhythmic fade-in-up-3"><span>I </span><span>help </span><span>products </span><span>lead </span><span>on </span><span>quality</span></h1>
+      <p class="description fade-in-up-4">
+        My name's Dominic Sebastian, and I'm a freelance Design Director with over 12 years experience leading product design at startups. I help product companies stand out from their competition with intuitive, empowering and well crafted products.
+      </p>
+    </div>
+  </section>
+</div>
+
+<section class="fade-in-up-5">
+  <h4 class="emdash">Expertise</h4>
+  <h2>Creating impact from first principles to final pixels</h2>
+  <div class="tiles">
+    <div>
+      <img  class="foil" src="/assets/site/strategy.svg" />
+      <h3>Strategy</h3>
+      <p>
+        I've developed strategies to help companies focus, and capitalise on
+        their strengths. Finding the most promising opportunities to explore
+        (and which to ignore) on the horizon.
+      </p>
+    </div>
+    <div>
+      <img  class="foil" src="/assets/site/execution.svg" />
+      <h3>Execution</h3>
+      <p>
+        From founding product to full platform redesigns, my expertise is
+        helping companies design and deliver intuitive, empowering and impactful
+        projects to their customers.
+      </p>
+    </div>
+    <div>
+      <img  class="foil" src="/assets/site/systems.svg" />
+      <h3>Systems</h3>
+      <p>
+        I've spent most of my career scaling startups, helping
+        create systems to streamline work across teams, refine
+        craft, and deliver their best work.
+      </p>
+    </div>
+    <div>
+      <img class="foil" src="/assets/site/futures.svg" />
+      <h3>Futures</h3>
+      <p>
+        I help companies explore what the future of their product could
+        look, feel and function like. Using offsites, prototypes, sprints and
+        more to visualise ambitious product strategies.
+      </p>
+    </div>
   </div>
+</section>
+
+<section>
+  <h4 class="emdash">Career</h4>
+  <h2>Experienced in AR to SaaS, and seed to series C</h2>
+  <ul class="link-stack">
+    {% for chapter in site.chapters %}
+    <li>
+      <div class="link-item {{ chapter.theme }}">
+        <div>
+          <h3>{{ chapter.role }}</h3>
+          <h3 class="foiled info">{{ chapter.timeframe }}</h3>
+        </div>
+        <!-- <div>
+          <h3 class="{{ chapter.theme }} arrow">→</h3>
+        </div> -->
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h4 class="emdash">Projects</h4>
+  <h2>Happiest solving complex, demanding problems</h2>
+  {% for project in site.projects %}
+  <a class="halo" href="{{ project.url }}">
+    <div class="vingette">
+      <img src="{{ project.image }}" />
+      <div class="details">
+        <div>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.lede }}</p>
+        </div>
+        <div class="tags">
+          {% for tag in project.tags %}
+          <p class="tag">{{ tag }}</p>
+          {% endfor %}
+          <h3 class="arrow">→</h3>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+
+<div class="banner">
+  <section class="nested">
+    <div>
+      <h4 class="emdash">Connect</h4>
+      <h2>Let's work together</h2>
+      <p>
+        I'm currently taking on new freelance and consultancy projects, but not looking for
+        full time roles. Particularly interested in working with early stage
+        products with purpose, underdogs in the market, and people helping other
+        people.
+      </p>
+      <button
+        class="blue"
+        onclick="location.href='mailto:dominic@considered.design'"
+      >
+        Get in touch
+      </button>
+    </div>
+    <div class="flexy">
+      <div class="face sixty"></div>
+      <div class="face seventy"></div>
+      <div class="seventy-b"></div>
+      <div class="face eighty"></div>
+      <div class="eighty-b"></div>
+      <div class="face ninety"></div>
+      <div class="ninety-b"></div>
+      <div class="face hunny"></div>
+      <div class="hunny-b"></div>
+      <div class="face hunnyy"></div>
+    </div>
+  </section>
 </div>

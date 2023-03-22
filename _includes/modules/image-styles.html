@@ -1,8 +1,0 @@
-{% if include.style == "multiply" %}
-  <img class="multiply" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
-{% elsif include.style == "border" %}
-  <img class="border" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
-{% else %}
-  <img src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
-{% endif %}
-{% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}

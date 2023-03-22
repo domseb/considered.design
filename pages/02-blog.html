@@ -1,20 +1,54 @@
 ---
 layout: default
-refID: secondary
-title: Blog — Considered Design Thoughts
+title: Blog
 permalink: /blog/
-description: I mainly write about design, film, and observations in between.
-image: /assets/site/blog-hero.jpg
+image: /assets/blog/writing-opengraph.jpg
+description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
 ---
 
-<section class="grey start">
-  <div class="wide">
-    <h1 class="outro fade-in-up">I write about design, process and occasionally film</h1>
-  </div>
+<section class="header">
+    <h1 class="rhythmic"><span>Infrequent </span><span>ideas </span><span>and </span><span>essays</span></h1>
+    <!-- <h5 class="label">Featured</h5> -->
+    <!-- <hr /> -->
+    <!-- <div class="tiles">
+        {% for post in site.posts | limit: 3 %}
+          <a href="{{ post.url | prepend: site.baseurl }}">
+              <div>
+                <img src="{{ post.featured-image }}">
+                <h5>{{ post.date | date_to_string }} • {% assign words = post.content |
+                  number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
+                  divided_by:180 }} min read {% endif %}</h5>
+                <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+              </div>
+            </a>
+        {% endfor %}
+    </div> -->
 </section>
 
-<div class="wide fade-in-up-3">
-  <div>
-  {% include post-list.html %}
-  </div>
+<div class="listings fade-in-up-3">
+  <ul>
+    {% for post in site.posts %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <!-- <h4 class="ordinal" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4> -->
+        <div>
+          <h5 class="label" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h5>
+          <hr />
+        </div>
+        <ul>
+        {% assign date = currentdate %}
+      {% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>
+            <!-- <h5>{{ post.date | date_to_string }} • {% assign words = post.content |
+                  number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
+                  divided_by:180 }} min read {% endif %}</h5> -->
+            <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+            <p>{{ post.content | strip_html | truncatewords:30 }}</p>
+          </li>
+        </a>
+      {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+  </ul>
 </div>

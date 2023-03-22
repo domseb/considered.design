@@ -1,7 +1,11 @@
 <figure class="image-grid">
-  <img class="item" src="{{ site.baseUrl }}{{ include.url1 }}"/>
-  <img class="item" src="{{ site.baseUrl }}{{ include.url2 }}"/>
-  <img class="item" src="{{ site.baseUrl }}{{ include.url3 }}"/>
-  <img class="item" src="{{ site.baseUrl }}{{ include.url4 }}"/>
-  {% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
+  <div class="items">
+    <img src="{{ site.baseUrl }}{{ include.url1 }}" />
+    <img src="{{ site.baseUrl }}{{ include.url2 }}" />
+    <img src="{{ site.baseUrl }}{{ include.url3 }}" />
+    <img src="{{ site.baseUrl }}{{ include.url4 }}" />
+    {% if include.description %}
+    <figcaption>{{ include.description }}</figcaption>
+    {% endif %}
+  </div>
 </figure>

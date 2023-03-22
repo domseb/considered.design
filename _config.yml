@@ -2,24 +2,24 @@
 title: Considered Design
 email: dominic@considered.design
 description: > # this means to ignore newlines until "baseurl:"
-  I help set and mature design direction in products looking to create longterm value.
+  Designer • Strategist • Leader — I help products lead on quality.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://considered.design" # the base hostname & protocol for your site
 twitter_username: dominosebastian
-github_username:  domseb
-
+github_username: domseb
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 # Collections
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
-  notes:
+    permalink: /work/:categories/:slug/
+  chapters:
     output: true
-    permalink: /notes/:path/
+    permalink: /chapters/:slug/
 
 gems:
   - jekyll-assets
@@ -28,9 +28,7 @@ gems:
 navigation:
   - title: work
     url: /work/
-  - title: about
-    url: /about/
+  - title: profile
+    url: /profile/
   - title: writing
     url: /writing/
-  - title: notes
-    url: /notes/

@@ -1,24 +1,22 @@
-// Mixins
-@mixin heading-context {
-	font-weight: 600;
-	font-size: rem(13);
-	text-transform: uppercase;
-	letter-spacing: rem(1);
-	text-align: center;
+@mixin spacing($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
 }
 
-@mixin chevron {
-	border-style: solid;
-	border-width: 2px 2px 0 0;
-	content: '';
-	display: inline-block;
-	@include position(relative, rem(10) null null rem(5));
-	@include size(rem(8));
-	@include transform(rotate(45deg));
-	vertical-align: top;
+@mixin margin($top, $bottom) {
+  margin-top: #{$top * $base-line-height + "rem"};
+  margin-bottom: #{$bottom * $base-line-height + "rem"};
 }
 
-@mixin omega-reset($nth) {
-  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
-  &:nth-child(#{$nth}+1) { clear: none }
+@mixin font-size($min, $max) {
+  font-size: clamp(
+    #{$min * $base-font-size + "px"},
+    #{$min * 2 + "vw"},
+    #{$max * $base-font-size + "px"}
+  );
 }
+
+// BREAKPOINTS
+$device-s: 450px;
+$device-m: 650px;
+$device-l: 768px;

@@ -1,15 +1,20 @@
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
 
 {% if include.type == "wide" %}
 <figure class="wide-image">
-    {% include modules/image-styles.html %}
   {% elsif include.type == "screen" %}
   <figure class="full-width-image">
-    {% include modules/image-styles.html %}
   {% elsif include.type == "hero" %}
   <figure class="full-width-hero">
-    {% include modules/image-styles.html %}
 {% else %}
 <figure class="image">
-  {% include modules/image-styles.html %}
 {% endif %}
+  {% if include.style == "multiply" %}
+  <img class="multiply" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
+  {% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
 </figure>
+{% else %}
+<img class="border" src="{{ site.baseUrl }}{{ include.url }}" alt="{% if include.title %}{{ include.title }}{% else if include.description != "" and include.description != null %}{{ include.description }}{% else %}An image related to this article{% endif %}"/>
+{% if include.description %}<figcaption>{{ include.description }}</figcaption>{% endif %}
+</figure>
+{% endif %}
