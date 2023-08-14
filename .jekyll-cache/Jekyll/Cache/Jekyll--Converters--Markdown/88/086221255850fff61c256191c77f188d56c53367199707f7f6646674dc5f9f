@@ -1,0 +1,45 @@
+I"F	<section class="bordered">
+    <div class="tiles center">
+        <div>
+            <h2>Creating a shared focus for the work</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Creative Director, leading workshops, disovery and explorations of early brand concepts.</p>
+        <button class="link-button dark" target="_blank" onclick="window.open('https://www.linkedin.com/in/dominicsebastian/','_blank')">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Chris.jpg" />
+    <div class="info">
+        <h6>Chris</h6>
+        <p>Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy.</p>
+        <button class="link-button dark" target="_blank" onclick="window.open('https://www.linkedin.com/in/christopherschreiber','_blank')">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
+        <button class="link-button dark" target="_blank" onclick="window.open('https://www.linkedin.com/in/taniaclarke/','_blank')">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Aaron.jpg" />
+    <div class="info">
+        <h6>Aaron</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" target="_blank" onclick="window.open('https://www.linkedin.com/in/aaronbeashel','_blank')">View profile</button>
+    </div>
+</div>
+            </div>
+        </div>
+        <div>
+            <p class="description">Qwilr’s headcount had grown, and with it brought more stakeholders, users and exciting use cases for the brand. To make this rebrand a success (both internally &amp; externally) I wanted to involve departments early in the process, so we could understand what we all needed, and create shared goals to align our efforts around.</p>
+        </div>
+    </div>
+</section>
+:ET

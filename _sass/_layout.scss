@@ -136,6 +136,16 @@ section {
   width: clamp(150px, 85vw, 1180px);
   margin: 6em auto;
 
+  &.top-bordered {
+    margin: 100px auto 0px auto !important;
+    padding: 80px 0 0px 0;
+    border-top: 1px solid var(--colour-white-15);
+
+    h4 {
+      width: auto;
+    }
+  } 
+
   &.bordered {
     margin: 100px auto !important;
     padding: 80px 0 80px 0;
