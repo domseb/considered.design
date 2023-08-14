@@ -81,7 +81,7 @@ theme: dark
 <section>
   <h4 class="emdash">Projects</h4>
   <h2>Happiest solving complex, demanding problems</h2>
-  {% for project in site.projects %}
+  {% for project in site.projects reversed %}
   <a class="halo" href="{{ project.url }}">
     <div class="vingette">
       <img src="{{ project.image }}" />
