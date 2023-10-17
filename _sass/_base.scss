@@ -102,11 +102,6 @@ body {
   hanging-punctuation: first;
 }
 
-blockquote p {
-  hanging-punctuation: first;
-  border-left: 2px solid var(--colour-base);
-}
-
 //TODO update all text to be clamp
 
 h1,
@@ -325,6 +320,12 @@ article {
     margin: 3 auto 3em auto;
     border: none;
     border-top: 1px solid var(--colour-darkest-dimmed);
+  }
+
+  blockquote p {
+    hanging-punctuation: first;
+    border-left: 2px solid var(--colour-darker);
+    padding-left: var(--space-m);
   }
   // p + p {
   //   text-indent: 1em;
