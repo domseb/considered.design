@@ -3,7 +3,7 @@ layout: post
 title: Writing north stars for the experience
 permalink: /writing/expereince-north-stars/
 image: /assets/blog/north-star-header.jpg
-description: Articulating a clear feeling, from the customer’s perspective, that can be used as a touchstone throughout the project.
+excerpt: Articulating a clear feeling, from the customer’s perspective, that can be used as a touchstone throughout the project.
 ---
 
 {% include modules/image-layouts.html type="wide" url="/assets/blog/north-star-header.jpg" %}
