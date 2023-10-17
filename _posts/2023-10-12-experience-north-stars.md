@@ -35,7 +35,7 @@ Creating compelling Experience North Stars starts with a deliberate practice of 
 
 During the work, Experience North Stars help provide framing context, when presenting concepts and in during demos, so people understand the broader ambition of the work. Also internally, as a gut check when you are playing with prototypes, or comparing paths forward. How close are we to our original intent? Do we need to revise it? Are we closer to delivering on this? Each checkin with the north star helps us hone what feels right, and improves the outcome for the work, the customer and the company.
 
-### Reflect and refine
+### Deliberate practice
 
 Once the experience is in the hands of customers, I’ve found it useful to reflect on what changed between our intentions, and what we delivered. Where was our biggest blindspot? What did we learn? What made it hardest to deliver on? Reflecting on questions like this helps close gaps in our thinking, identify blindspots, and ultimately sharpen our intuition.
 
