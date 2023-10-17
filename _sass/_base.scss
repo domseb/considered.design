@@ -104,6 +104,7 @@ body {
 
 blockquote p {
   hanging-punctuation: first;
+  border-left: 2px solid var(--colour-base);
 }
 
 //TODO update all text to be clamp
@@ -220,6 +221,7 @@ article {
   h5,
   p, 
   ol,
+  hr,
   ul {
     width: clamp(150px, 85vw, 550px);
   }
@@ -318,6 +320,12 @@ article {
       }
     }
   }
+
+  hr {
+    margin: 3 auto 3em auto;
+    border: none;
+    border-top: 1px solid var(--colour-darkest-dimmed);
+  }
   // p + p {
   //   text-indent: 1em;
   // }
@@ -400,7 +408,11 @@ a {
 blockquote {
   padding-left: var(--space-s);
   font-style: italic;
-  border-left: 2px solid var(--colour-base);
+
+  p {
+    border-left: 2px solid var(--colour-darker);
+    padding-left: var(--space-m);
+  }
 
   > :last-child {
     margin-bottom: 0;
