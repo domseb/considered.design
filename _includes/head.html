@@ -30,12 +30,12 @@
     <meta content="{{ site.title }}" property="og:title"/>
     <meta name="twitter:title" content="{{ site.title }}"/>
   {% endif %}
-  {% if page.description %}
-  <meta content="{{ page.description }}" property="og:description"/>
-  <meta name="twitter:description" content="{{ page.description }}"/>
-  {% else if post.description %}
-    <meta content="{{ post.description }}" property="og:description"/>
-    <meta name="twitter:description" content="{{ post.description }}"/>
+  {% if page.excerpt %}
+  <meta content="{{ page.excerpt }}" property="og:description"/>
+  <meta name="twitter:description" content="{{ page.excerpt }}"/>
+  {% else if post.excerpt %}
+    <meta content="{{ post.excerpt }}" property="og:description"/>
+    <meta name="twitter:description" content="{{ post.excerpt }}"/>
   {% else %}
   <meta content="{{ site.description }}" property="og:description"/>
   <meta name="twitter:description" content="{{ site.description }}"/>
