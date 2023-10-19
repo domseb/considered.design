@@ -23,9 +23,6 @@
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
-  {% else if post.title %}
-    <meta content="{{ post.title }}" property="og:title"/>
-    <meta name="twitter:title" content="{{ post.title }}"/>
   {% else %}
     <meta content="{{ site.title }}" property="og:title"/>
     <meta name="twitter:title" content="{{ site.title }}"/>
@@ -33,9 +30,6 @@
   {% if page.excerpt %}
   <meta content="{{ page.excerpt }}" property="og:description"/>
   <meta name="twitter:description" content="{{ page.excerpt }}"/>
-  {% else if post.excerpt %}
-    <meta content="{{ post.excerpt }}" property="og:description"/>
-    <meta name="twitter:description" content="{{ post.excerpt }}"/>
   {% else %}
   <meta content="{{ site.description }}" property="og:description"/>
   <meta name="twitter:description" content="{{ site.description }}"/>
@@ -45,9 +39,7 @@
   {% if page.image %}
     <meta content="{{ page.image }}" property="og:image"/>
     <meta name="twitter:image:src" content="{{ page.image }}">
-  {% else if post.image %}
-    <meta content="{{ post.image }}" property="og:image"/>
-    <meta name="twitter:image:src" content="{{ post.image }}">
+
   {% else %}
     <meta content="/assets/site/opengraph.jpg" property="og:image"/>
     <meta name="twitter:image:src" content="/assets/site/opengraph.jpg">
