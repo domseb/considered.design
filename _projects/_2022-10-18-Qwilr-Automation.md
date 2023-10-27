@@ -10,7 +10,7 @@ title: Droid
 lede: Enabling smart, intuitive automation at scale
 path: /automation
 
-description: Personalising a page to a prospect takes time, and compounds as sales teams get larger. Templates in Qwilr were a faster way to personalise pages, pulling in real data from their CRM. The feature initially was impossible to discover though, and when customers did it was brittle and extremely limited. This transformation project fixed that original automation workflow, extended it, and fleshed out a longer term vision for where we needed to go.
+excerpt: Personalising a page to a prospect takes time, and compounds as sales teams get larger. Templates in Qwilr were a faster way to personalise pages, pulling in real data from their CRM. The feature initially was impossible to discover though, and when customers did it was brittle and extremely limited. This transformation project fixed that original automation workflow, extended it, and fleshed out a longer term vision for where we needed to go.
 
 image: /assets/projects/automation/hero-automation.jpg
 ---
