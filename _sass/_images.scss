@@ -4,11 +4,6 @@
   mix-blend-mode: multiply;
 }
 
-.device {
-  border: 20px solid var(--onyx);
-  border-radius: 40px;
-}
-
 .image {
   width: clamp(150px, 85vw, 650px);
   margin: 4em auto;
@@ -32,7 +27,7 @@
   border-radius: 0 !important;
 
   img {
-    border: 1px solid var(--smoke);
+    border: 1px solid var(--indigo-15);
     border-radius: 0 !important;
   }
 }
@@ -58,7 +53,7 @@
 
   img {
     border-radius: var(--radius-m);
-    border: 1px solid var(--feather);
+    border: 1px solid var(--colour-indigo-15);
   }
 }
 
@@ -120,7 +115,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 190;
+  z-index: 95;
 }
 
 .seventy {
@@ -130,7 +125,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 180;
+  z-index: 90;
 }
 
 .seventy-b {
@@ -141,7 +136,7 @@
   bottom: 0;
   left: 0;
   background-color: var(--colour-darkest);
-  z-index: 170;
+  z-index: 80;
 }
 
 .eighty {
@@ -151,7 +146,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 160;
+  z-index: 70;
 }
 
 .eighty-b {
@@ -162,7 +157,7 @@
   bottom: 0;
   left: 0;
   background-color: var(--colour-darkest);
-  z-index: 150;
+  z-index: 60;
 }
 
 .ninety {
@@ -172,7 +167,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 140;
+  z-index: 50;
 }
 
 .ninety-b {
@@ -183,7 +178,7 @@
   bottom: 0;
   left: 0;
   background-color: var(--colour-darkest);
-  z-index: 130;
+  z-index: 40;
 }
 
 .hunny {
@@ -193,7 +188,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 120;
+  z-index: 30;
 }
 
 .hunny-b {
@@ -204,7 +199,7 @@
   bottom: 0;
   left: 0;
   background-color: var(--colour-darkest);
-  z-index: 110;
+  z-index: 20;
 }
 
 .hunnyy {
@@ -214,5 +209,5 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 100;
+  z-index: 10;
 }

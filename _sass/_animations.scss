@@ -1,5 +1,70 @@
 // SCALE UP ANIMATION
 
+.fade-in {
+  position:relative;
+  height: clamp(250px, 55vw, 720px);
+  // top:0px;
+  // left:50%;
+  // margin:auto;
+}
+
+.fade-in img {
+  position:absolute;
+  top:0;
+  -webkit-animation-name: fade-in;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 30s;
+  animation-name: fade-in;
+  animation-iteration-count: infinite;
+  animation-duration: 30s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {opacity: 1;}
+  10% {opacity: 1;}
+  13.3% {opacity: 0;}
+  97.5% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fade-in {
+  0% {opacity: 1;}
+  10% {opacity: 1;}
+  13.3% {opacity: 0;}
+  97.5% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#s1 {
+  -webkit-animation-delay: 0s;
+}
+#s2 {
+  -webkit-animation-delay: 3s;
+}
+#s3 {
+  -webkit-animation-delay: 6s;
+}
+#s4 {
+  -webkit-animation-delay: 9s;
+}
+#s5 {
+  -webkit-animation-delay: 12s;
+}
+#s6 {
+  -webkit-animation-delay: 15s;
+}
+#s7 {
+  -webkit-animation-delay: 18s;
+}
+#s8 {
+  -webkit-animation-delay: 21s;
+}
+#s9 {
+  -webkit-animation-delay: 24s;
+}
+#s10 {
+  -webkit-animation-delay: 27s;
+}
+
 .fade-in-up-1 {
   animation: fade-in-up-1;
   animation-duration: .5s;

@@ -125,7 +125,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(50px, 10vw, 110px);
+  font-size: clamp(50px, 10vw, 100px);
   min-height: 0vw;
   line-height: 0.9;
   letter-spacing: -1px;
@@ -283,21 +283,6 @@ article {
       }
     }
 
-
-    &.lined {
-      list-style: none;
-      border-top: 1px solid var(--colour-light-100);
-      border-bottom: 1px solid var(--colour-light-100);
-
-      li {
-        border-top: 1px solid var(--colour-light-50);
-        padding: 10px 0;
-
-        &:first-of-type {
-          border-top: none;
-        }
-      }
-    }
   }
 
   p {
@@ -366,7 +351,7 @@ figure > img {
 figcaption {
   font-size: clamp(15px, 4vw, 18px);
   text-align: center;
-  color: var(--slate);
+  color: var(--typography-secondary);
   margin: 20px;
 }
 
@@ -423,9 +408,9 @@ blockquote {
 pre,
 code {
   font-size: clamp(16px, 4vw, 20px);
-  border: 1px solid var(--smoke);
+  border: 1px solid var(--colour-indigo-10);
   border-radius: 3px;
-  background-color: var(--feather);
+  background-color: var(--colour-indigo-05);
   font-family: "Degular";
 }
 

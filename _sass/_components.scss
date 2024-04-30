@@ -7,7 +7,7 @@
   background-color: var(--colour-white-15);
   border-radius: 50px;
   display: inline-flex;
-  padding: 5px 10px 8px;
+  padding: 5px 16px 8px;
   font-size: clamp(16px, 4vw, 20px);
   letter-spacing: 1px;
   opacity: 1;
@@ -16,7 +16,7 @@
 button {
   display: inline-block;
   color: white;
-  background-color: var(--colour-white-10);
+  background-color: var(--colour-blue);
   text-align: center;
   font-size: 22px;
   padding: 5px 20px 10px;
@@ -35,8 +35,9 @@ button {
   &:hover {
     // box-shadow: 0 0 0 3px var(--colour-white-25);
     transform: translateY(3px);
-    background-color: var(--colour-white-05);
+    background-color: var(--colour-indigo-100);
     box-shadow: inset 0 1px 0 0 rgba(255,255,255,.01), 0 2px 20px 0 rgba(0,0,0,.05), 0 40px 80px -24px rgba(0,0,0,.10), 0 1px 5px 0 rgba(0,0,0,.05), 0 20px 50px -16px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 1px var(--colour-white-15);
     @include transition(all $default-transition);
   }
 }
@@ -44,7 +45,7 @@ button {
 .icon-button {
   // display: inline-block;
   color: var(--colour-100);
-  background-color: var(--colour-white-10);
+  background-color: var(--colour-blue);
   text-align: center;
   // font-size: inherit;
   // font-size: 22px;
@@ -134,7 +135,7 @@ button {
       padding: 25px 20px 20px 20px;
       visibility: hidden;
       position: absolute;
-      z-index: 99;
+      z-index: 98;
       transform: translateY(-20px);
       @include transition(all $default-transition);
       border-radius: var(--radius-m);
@@ -275,7 +276,7 @@ button {
   }
 
   .halo &:hover {
-    background-color: var(--colour-dark-100);
+    background-color: var(--colour-indigo-100);
     transform: translateY(5px);
     @include transition(all $default-transition);
 
@@ -305,7 +306,7 @@ button {
 
   .tags {
     display: inline-flex;
-    gap: var(--space-m);
+    gap: var(--space-s);
     transform: translateX(50px);
   }
 
@@ -384,11 +385,17 @@ button {
 nav {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
-  height: 150px;
+  padding: 32px 0;
+  background: var(--background);
+  border-bottom: 1px solid var(--border);
   place-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+
 
   .cta {
     display: flex;
