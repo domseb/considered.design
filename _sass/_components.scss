@@ -396,6 +396,11 @@ nav {
   top: 0px;
   z-index: 99;
 
+  .availability {
+    display: flex;
+    align-items: center;
+  }
+
 
   .cta {
     display: flex;
@@ -403,12 +408,13 @@ nav {
 
     p {
       margin-bottom: 3px;
-      margin-left: 10px;
+      margin-left: 5px;
+      margin-right: 20px;
     }
   }
 
   @media (max-width: $device-l) {
-    .cta {
+    .availability {
       display: none;
     }
   }
