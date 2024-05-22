@@ -214,11 +214,11 @@ article {
   h3,
   h4,
   h5,
-  p, 
+  p,
   ol,
   hr,
   ul {
-    width: clamp(150px, 85vw, 550px);
+    width: clamp(150px, 85vw, 600px);
   }
 
   h1 {
@@ -282,7 +282,6 @@ article {
         border-bottom: 1px solid var(--colour-white-25);
       }
     }
-
   }
 
   p {
@@ -476,7 +475,6 @@ pre {
       box-shadow: 0 0 0 8px var(--colour-light-dimmest);
       border-radius: var(--radius-xs);
       @include transition(all $default-transition);
-
     }
   }
 }
