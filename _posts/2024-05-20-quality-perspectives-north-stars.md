@@ -3,7 +3,7 @@ layout: post
 title: To increase quality quickly, bring in more perspectives
 permalink: /writing/bring-in-perspectives/
 image: /assets/blog/perspectives-header.jpg
-excerpt: Articulating a clear feeling, from the customer’s perspective, that can be used as a touchstone throughout the project.
+excerpt: Broader perspectives help to refine products quickly, and improve the long term cultures behind them.
 ---
 
 {% include modules/image-layouts.html type="wide" url="/assets/blog/perspectives-header.jpg" %}
