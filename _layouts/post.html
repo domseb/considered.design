@@ -14,23 +14,16 @@ layout: default
   <!-- </div> -->
 </section>
 
-<article class="fade-in-up-4">{{ content }}</article>
-
-<section>
-  <div class="tiles">
-    {% for post in site.posts | limit: 3 %}
-    <div>
-      <h5 class="label">
-        {{ post.date | date_to_string }} • {% assign words = post.content |
-        number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
-        divided_by:180 }} min read {% endif %}
-      </h5>
-      <hr />
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <!-- <p class="post-description">
-        {{ post.content | strip_html | truncatewords: 30 }}
-      </p> -->
-    </div>
+<article class="fade-in-up-4">
+  {{ content }}
+  <div class="blog-next">
+    <h5>Next post</h5>
+    {% assign posts = site.posts | where_exp:"post","post.url != page.url" %} {%
+    for post in posts limit:1 %}
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+      <!-- <img src="{{ post.image }}" /> -->
+    </a>
     {% endfor %}
   </div>
-</section>
+</article>
