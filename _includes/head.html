@@ -6,42 +6,53 @@
   <title>
     {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
   </title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+  <meta
+    name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
 
   <!-- OG data for homepage -->
   <meta property="og:type" content="website" />
   {% if page.url %}
-    <meta content="{{ page.url }}" property="og:url"/>
-    <meta name="twitter:url" value="{{ page.url }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
   {% else %}
-    <meta property="og:url" content="{{ site.url }}"/>
-    <meta name="twitter:url" value="{{ site.url }}"/>
-  {% endif %}
-  {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta name="twitter:url" content="{{ site.url }}" />
+  {% endif %} {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
   {% else %}
-    <meta content="{{ site.title }}" property="og:title"/>
-    <meta name="twitter:title" content="{{ site.title }}"/>
-  {% endif %}
-  {% if page.excerpt %}
-  <meta content="{{ page.excerpt }}" property="og:description"/>
-  <meta name="twitter:description" content="{{ page.excerpt }}"/>
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  {% endif %} {% if page.excerpt %}
+  <meta
+    property="og:description"
+    content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"
+  />
+  <meta
+    name="twitter:description"
+    content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"
+  />
   {% else %}
-  <meta content="{{ site.description }}" property="og:description"/>
-  <meta name="twitter:description" content="{{ site.description }}"/>
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
   {% endif %}
-  <meta content="{{ site.title }}" property="og:site_name"/>
+  <meta property="og:site_name" content="{{ site.title }}" />
   <meta name="twitter:card" content="summary_large_image" />
   {% if page.image %}
-    <meta content="{{ page.image }}" property="og:image"/>
-    <meta name="twitter:image:src" content="{{ page.image }}">
-
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}" />
   {% else %}
-    <meta content="/assets/site/opengraph.jpg" property="og:image"/>
-    <meta name="twitter:image:src" content="/assets/site/opengraph.jpg">
+  <meta
+    property="og:image"
+    content="{{ site.url }}/assets/site/opengraph.jpg"
+  />
+  <meta
+    name="twitter:image:src"
+    content="{{ site.url }}/assets/site/opengraph.jpg"
+  />
   {% endif %}
-
 
   <link rel="stylesheet" href="https://use.typekit.net/bgh8ugb.css" />
   {% include modules/favicons.html %} <link rel="stylesheet" href="{{
