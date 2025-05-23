@@ -13,36 +13,40 @@ $delay-step: 3s;         // delay between each image's fade-in
 $animation-duration: 114s;
 
 .fade-in img {
-  position:absolute;
-  top:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   -webkit-animation-name: fade-in;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 30s;
+  -webkit-animation-duration: $animation-duration;
   animation-name: fade-in;
   animation-iteration-count: infinite;
-  animation-duration: 30s;
+  animation-duration: $animation-duration;
 }
 
 @-webkit-keyframes fade-in {
-  0% {opacity: 1;}
-  10% {opacity: 1;}
-  13.3% {opacity: 0;}
-  97.5% {opacity: 0;}
-  100% {opacity: 1;}
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  13.3% { opacity: 0; }
+  97.5% { opacity: 0; }
+  100% { opacity: 1; }
 }
 @keyframes fade-in {
-  0% {opacity: 1;}
-  10% {opacity: 1;}
-  13.3% {opacity: 0;}
-  97.5% {opacity: 0;}
-  100% {opacity: 1;}
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  13.3% { opacity: 0; }
+  97.5% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 @for $i from 1 through $img-count {
   .fade-in img:nth-child(#{$i}) {
+    -webkit-animation-delay: $delay-step * ($i - 1);
     animation-delay: $delay-step * ($i - 1);
   }
 }
+
 
 // #s1 {
 //   -webkit-animation-delay: 0s;
