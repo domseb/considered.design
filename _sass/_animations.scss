@@ -13,24 +13,25 @@
   top:0;
   -webkit-animation-name: fade-in;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 114s;
+  -webkit-animation-duration: 30s;
   animation-name: fade-in;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 114s;
+  animation-duration: 30s;
 }
 
 @-webkit-keyframes fade-in {
-  0% { opacity: 0; }
-  2.5% { opacity: 1; }
-  97.5% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {opacity: 1;}
+  10% {opacity: 1;}
+  13.3% {opacity: 0;}
+  97.5% {opacity: 0;}
+  100% {opacity: 1;}
 }
 @keyframes fade-in {
-  0% { opacity: 0; }
-  2.5% { opacity: 1; }
-  97.5% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {opacity: 1;}
+  10% {opacity: 1;}
+  13.3% {opacity: 0;}
+  97.5% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 #s1 {
