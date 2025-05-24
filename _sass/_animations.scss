@@ -16,20 +16,22 @@
   -webkit-animation-duration: 114s;
   animation-name: fade-in;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
   animation-duration: 114s;
 }
 
 @-webkit-keyframes fade-in {
-  0% { opacity: 1; }
-  2.5% { opacity: 1; }
-  5% { opacity: 0; }
-  100% { opacity: 0; }
+  0%    { opacity: 1; }
+  2%    { opacity: 1; }
+  5%    { opacity: 0; }
+  100%  { opacity: 0; }
 }
+
 @keyframes fade-in {
-  0% { opacity: 1; }
-  2.5% { opacity: 1; }
-  5% { opacity: 0; }
-  100% { opacity: 0; }
+  0%    { opacity: 1; }
+  2%    { opacity: 1; }
+  5%    { opacity: 0; }
+  100%  { opacity: 0; }
 }
 
 #s1 {
