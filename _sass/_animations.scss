@@ -9,27 +9,23 @@
 }
 
 .fade-in img {
-  position:absolute;
-  top:0;
-  -webkit-animation-name: fade-in;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 114s;
-  animation-name: fade-in;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  animation-name: fade-in-out;
   animation-duration: 114s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes fade-in {
-  0%     { opacity: 1; }
-  85%    { opacity: 1; }
-  100%   { opacity: 0; }
-}
-
-@keyframes fade-in {
-  0%     { opacity: 1; }
-  85%    { opacity: 1; }
-  100%   { opacity: 0; }
+@-webkit-keyframes fade-in-out {
+  0%    { opacity: 0; }
+  2.63% { opacity: 1; } /* show */
+  2.90% { opacity: 0; } /* quickly hide */
+  100%  { opacity: 0; }
 }
 
 #s1 {
