@@ -21,18 +21,16 @@
 }
 
 @-webkit-keyframes fade-in {
-  0% {opacity: 1;}
-  10% {opacity: 1;}
-  13.3% {opacity: 0;}
-  97.5% {opacity: 0;}
-  100% {opacity: 1;}
+  0% { opacity: 1; }
+  5% { opacity: 1; }
+  10% { opacity: 0; }
+  100% { opacity: 0; }
 }
 @keyframes fade-in {
-  0% {opacity: 1;}
-  10% {opacity: 1;}
-  13.3% {opacity: 0;}
-  97.5% {opacity: 0;}
-  100% {opacity: 1;}
+  0% { opacity: 1; }
+  5% { opacity: 1; }
+  10% { opacity: 0; }
+  100% { opacity: 0; }
 }
 
 #s1 {
