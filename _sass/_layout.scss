@@ -296,6 +296,23 @@ section {
   }
 }
 
+
+
+.carousell {
+  border-radius: var(--radius-l);
+  border: 1px solid var(--colour-white-15);
+  border-style: inset;
+  overflow: hidden;
+
+  .hero-image {
+    border-radius: 0px !important;
+  }
+
+  img {
+    border-radius: 0px !important;
+  }
+}
+
 .hero-image {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
